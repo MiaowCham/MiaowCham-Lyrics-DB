@@ -1,6 +1,8 @@
 # MiaowCham Lyrics DB
 
-本目录中的歌词按 `歌手/曲目/` 归档。同一曲目的不同格式、版本和附加内容放在同一个曲目目录中，便于查找和对照。
+喵锵的个人歌词库
+
+本词库中的歌词按 `歌手/曲目/` 归档。同一曲目的不同格式、版本和附加内容放在同一个曲目目录中，便于查找和对照。
 
 ```text
 lyrics raw file/
@@ -18,11 +20,9 @@ lyrics raw file/
 └── README.md
 ```
 
-## 命名规则
+## Apple Syllable 文件命名规则
 
-### Apple Syllable
-
-Apple Syllable 文件使用命名空间风格：
+符合 Apple Syllable 结构的文件使用命名空间风格：
 
 ```text
 <类型>.<曲目>[-<扩展>].<格式>
