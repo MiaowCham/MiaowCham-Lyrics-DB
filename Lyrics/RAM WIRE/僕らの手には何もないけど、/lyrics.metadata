@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "path": "RAM WIRE/僕らの手には何もないけど、",
+  "tracks": {
+    "track": {
+      "title": "僕らの手には何もないけど、",
+      "artists": [
+        "RAM WIRE"
+      ],
+      "language": "jp",
+      "album": "僕らの手には何もないけど、",
+      "isrc": "JPU901501366",
+      "songwriters": [
+        "Us",
+        "Monch",
+        "Ryll"
+      ],
+      "platforms": {
+        "ncmMusicId": [
+          "32317208",
+          "33599551",
+          "1454584048",
+          "1454335751"
+        ],
+        "appleMusicId": [
+          "1535538100",
+          "1204764497",
+          "1538099816",
+          "1538099836",
+          "1538099870"
+        ],
+        "spotifyId": [
+          "58QjASyPi3VE4XpoPEityO",
+          "5EsGKF1JoqSRNNUbdPzaMK",
+          "1P4qzma5f3mzvkHLpJsPqn",
+          "5G7hx2PiaWKaaEjFlAhTiv"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "RAM WIRE - 僕らの手には何もないけど、.lrcn",
+      "format": "lrcn",
+      "metadataRef": "track"
+    },
+    {
+      "name": "RAM WIRE - 僕らの手には何もないけど、.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAM WIRE - 僕らの手には何もないけど、.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "jp"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "person",
+            "value": "v2"
+          },
+          {
+            "type": "group",
+            "value": "v1000"
+          },
+          {
+            "type": "other",
+            "value": "v2000"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ],
+        "Verse": [
+          true
+        ]
+      }
+    },
+    {
+      "file": "RAM WIRE - 僕らの手には何もないけど、.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "僕らの手には何もないけど、",
+        "artists": "RAM WIRE",
+        "album": "僕らの手には何もないけど、",
+        "ncmMusicId": [
+          "32317208",
+          "33599551",
+          "1454584048",
+          "1454335751"
+        ],
+        "ttmlAuthorGithub": [
+          "50747104",
+          "136059186"
+        ],
+        "ttmlAuthorGithubLogin": [
+          "Xionghaizi001",
+          "MiaowCham"
+        ],
+        "appleMusicId": [
+          "1535538100",
+          "1204764497",
+          "1538099816",
+          "1538099836",
+          "1538099870"
+        ],
+        "isrc": "JPU901501366",
+        "spotifyId": [
+          "58QjASyPi3VE4XpoPEityO",
+          "5EsGKF1JoqSRNNUbdPzaMK",
+          "1P4qzma5f3mzvkHLpJsPqn",
+          "5G7hx2PiaWKaaEjFlAhTiv"
+        ]
+      }
+    }
+  ]
+}

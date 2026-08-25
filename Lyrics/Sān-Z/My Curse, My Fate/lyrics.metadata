@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 2,
+  "path": "Sān-Z/My Curse, My Fate",
+  "tracks": {
+    "my-curse": {
+      "title": "My Curse",
+      "artists": [
+        "Sān-Z"
+      ],
+      "album": "My Curse",
+      "isrc": "FRX282507391",
+      "platforms": {
+        "qqMusicId": "000S4qDD3TfSdb",
+        "spotifyId": [
+          "2o0B9EF7TCLWfqwpa5qYuI",
+          "2HCTkliGqZjCQj4iTHT2oq",
+          "7i3p6qve9tXnoYJYI2ig1w",
+          "1dILJl0F4RUdwreYbI1DFP"
+        ],
+        "appleMusicId": [
+          "1813316853",
+          "1813571540",
+          "1813790987",
+          "1813790993",
+          "1813790977"
+        ],
+        "ncmMusicId": "2704988304"
+      }
+    },
+    "my-curse-my-fate": {
+      "title": "My Curse, My Fate",
+      "artists": [
+        "Sān-Z"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "lyric.ttml",
+      "format": "ttml",
+      "metadataRef": "my-curse-my-fate"
+    },
+    {
+      "name": "My Curse, My Fate.ass",
+      "format": "ass",
+      "metadataRef": "my-curse"
+    },
+    {
+      "name": "Sān-Z, HOYO-MiX - My Curse, My Fate (2).ttml",
+      "format": "ttml",
+      "metadataRef": "my-curse"
+    },
+    {
+      "name": "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml",
+      "format": "ttml",
+      "metadataRef": "my-curse"
+    },
+    {
+      "name": "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml.xml",
+      "format": "xml",
+      "metadataRef": "my-curse"
+    }
+  ],
+  "sources": [
+    {
+      "file": "lyric.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "My Curse, My Fate.ass",
+      "format": "ass"
+    },
+    {
+      "file": "Sān-Z, HOYO-MiX - My Curse, My Fate (2).ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": [
+          "My Curse, My Fate",
+          "My Curse, My Fate（Destin et malédiction）",
+          "Destin et malédiction"
+        ],
+        "artists": [
+          "Sān-Z",
+          "HOYO-MiX",
+          "三Z-STUDIO",
+          "宫阁"
+        ],
+        "album": [
+          "My Curse, My Fate",
+          "My Curse, My Fate - Single "
+        ],
+        "qqMusicId": "000S4qDD3TfSdb",
+        "spotifyId": [
+          "2o0B9EF7TCLWfqwpa5qYuI",
+          "2HCTkliGqZjCQj4iTHT2oq",
+          "7i3p6qve9tXnoYJYI2ig1w",
+          "1dILJl0F4RUdwreYbI1DFP"
+        ],
+        "appleMusicId": [
+          "1813316853",
+          "1813571540",
+          "1813790987",
+          "1813790993",
+          "1813790977"
+        ],
+        "isrc": "FRX282507391"
+      }
+    },
+    {
+      "file": "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": [
+          "My Curse, My Fate",
+          "My Curse, My Fate（Destin et malédiction）",
+          "Destin et malédiction"
+        ],
+        "artists": [
+          "Sān-Z",
+          "HOYO-MiX",
+          "三Z-STUDIO",
+          "宫阁"
+        ],
+        "album": [
+          "My Curse, My Fate",
+          "My Curse, My Fate - Single "
+        ],
+        "qqMusicId": "000S4qDD3TfSdb",
+        "spotifyId": [
+          "2o0B9EF7TCLWfqwpa5qYuI",
+          "2HCTkliGqZjCQj4iTHT2oq",
+          "7i3p6qve9tXnoYJYI2ig1w",
+          "1dILJl0F4RUdwreYbI1DFP"
+        ],
+        "appleMusicId": [
+          "1813316853",
+          "1813571540",
+          "1813790987",
+          "1813790993",
+          "1813790977"
+        ],
+        "isrc": "FRX282507391",
+        "ncmMusicId": "2704988304"
+      }
+    },
+    {
+      "file": "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml.xml",
+      "format": "xml"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "path": "La La Land Cast/Another Day of Sun",
+  "tracks": {
+    "another-day-of-sun": {
+      "title": "Another Day of Sun",
+      "artists": [
+        "La La Land Cast"
+      ],
+      "language": "en",
+      "songwriters": [
+        "Benj Pasek",
+        "Justin Hurwitz",
+        "Justin Noble Paul"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "La La Land Cast - Another Day of Sun.ttml",
+      "format": "ttml",
+      "metadataRef": "another-day-of-sun"
+    }
+  ],
+  "sources": [
+    {
+      "file": "La La Land Cast - Another Day of Sun.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

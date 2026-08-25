@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "path": "苏逸Suyi/Light in Abyss - Full ver",
+  "tracks": {
+    "light-in-abyss-full-ver": {
+      "title": "Light in Abyss - Full ver",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "platforms": {}
+    },
+    "light-in-abyss-full-ver-2": {
+      "title": "Light in Abyss - Full ver",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "language": "en",
+      "songwriters": [
+        "苏逸Suyi"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "amllttml.Light in Abyss - Full ver-Tutorial.ttml",
+      "format": "ttml",
+      "metadataRef": "light-in-abyss-full-ver"
+    },
+    {
+      "name": "applejson.Light in Abyss - Full ver.json",
+      "format": "json",
+      "metadataRef": "light-in-abyss-full-ver-2"
+    },
+    {
+      "name": "applettml.Light in Abyss - Full ver-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "light-in-abyss-full-ver-2"
+    },
+    {
+      "name": "applettml.Light in Abyss - Full ver-Tutorial-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "light-in-abyss-full-ver"
+    },
+    {
+      "name": "applettml.Light in Abyss - Full ver.ttml",
+      "format": "ttml",
+      "metadataRef": "light-in-abyss-full-ver-2"
+    }
+  ],
+  "sources": [
+    {
+      "file": "amllttml.Light in Abyss - Full ver-Tutorial.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applejson.Light in Abyss - Full ver.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.Light in Abyss - Full ver-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Light in Abyss - Full ver-Tutorial-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Light in Abyss - Full ver.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

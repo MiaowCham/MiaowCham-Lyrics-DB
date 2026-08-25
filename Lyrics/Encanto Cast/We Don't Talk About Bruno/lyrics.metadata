@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "path": "Encanto Cast/We Don't Talk About Bruno",
+  "tracks": {
+    "we-don-t-talk-about-bruno-from-encanto-soundtrack-version": {
+      "title": "We Don't Talk About Bruno (From \"Encanto\"/Soundtrack Version)",
+      "artists": [
+        "Encanto Cast"
+      ],
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "isrc": "USWD12112915",
+      "platforms": {
+        "ncmMusicId": "1896087128",
+        "qqMusicId": [
+          "003Dvq093FiP0F",
+          "000B4g5f4YbV45"
+        ],
+        "spotifyId": [
+          "52xJxFP6TqMuO4Yt0eOkMz",
+          "3fYwdlIVtJlYJTvHYrt7ev"
+        ],
+        "appleMusicId": [
+          "1594677760",
+          "1605202548"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "We Don't Talk About Bruno.ttml",
+      "format": "ttml",
+      "metadataRef": "we-don-t-talk-about-bruno-from-encanto-soundtrack-version"
+    }
+  ],
+  "sources": [
+    {
+      "file": "We Don't Talk About Bruno.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "1896087128",
+        "qqMusicId": [
+          "003Dvq093FiP0F",
+          "000B4g5f4YbV45"
+        ],
+        "spotifyId": [
+          "52xJxFP6TqMuO4Yt0eOkMz",
+          "3fYwdlIVtJlYJTvHYrt7ev"
+        ],
+        "appleMusicId": [
+          "1594677760",
+          "1605202548"
+        ],
+        "isrc": "USWD12112915",
+        "musicName": [
+          "We Don't Talk About Bruno (From \"Encanto\"/Soundtrack Version)",
+          "We Don't Talk About Bruno - From \"Encanto\"/Soundtrack Version",
+          "We Don't Talk About Bruno"
+        ],
+        "artists": [
+          "Carolina Gaitán",
+          "Mauro Castillo",
+          "Adassa",
+          "Rhenzy Feliz",
+          "Diane Guerrero",
+          "Stephanie Beatriz",
+          "Encanto - Cast",
+          "Carolina Gaitán - La Gaita"
+        ],
+        "album": [
+          "Encanto (Original Motion Picture Soundtrack)",
+          "We Don’t Talk About Bruno (From \"Encanto\")"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

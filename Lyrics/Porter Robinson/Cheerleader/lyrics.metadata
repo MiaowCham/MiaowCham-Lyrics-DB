@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "path": "Porter Robinson/Cheerleader",
+  "tracks": {
+    "cheerleader": {
+      "title": "Cheerleader",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "language": "en",
+      "platforms": {
+        "ncmMusicId": "2611319605"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Cheerleader.ttml",
+      "format": "ttml",
+      "metadataRef": "cheerleader"
+    },
+    {
+      "name": "Cheerleader_converted.ttml",
+      "format": "ttml",
+      "metadataRef": "cheerleader"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Cheerleader.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "2611319605"
+      }
+    },
+    {
+      "file": "Cheerleader_converted.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

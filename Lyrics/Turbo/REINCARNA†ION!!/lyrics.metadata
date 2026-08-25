@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "path": "Turbo/REINCARNA†ION!!",
+  "tracks": {
+    "reincarnaion": {
+      "title": "REINCARNA†ION!!",
+      "artists": [
+        "Turbo"
+      ],
+      "language": "en",
+      "album": "REINCARNA✝ION!!",
+      "songwriters": [
+        "Turbo"
+      ],
+      "platforms": {
+        "ncmMusicId": [
+          "3414238214",
+          "3413599651"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Turbo - REINCARNA†ION!! - 激进.ttml",
+      "format": "ttml",
+      "metadataRef": "reincarnaion"
+    },
+    {
+      "name": "Turbo - REINCARNA†ION!!.lrcn",
+      "format": "lrcn",
+      "metadataRef": "reincarnaion"
+    },
+    {
+      "name": "Turbo - REINCARNA†ION!!.ttml",
+      "format": "ttml",
+      "metadataRef": "reincarnaion"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Turbo - REINCARNA†ION!! - 激进.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "REINCARNA†ION!!",
+        "artists": [
+          "Turbo",
+          "Moon Jelly"
+        ],
+        "album": "REINCARNA✝ION!!",
+        "ncmMusicId": [
+          "3414238214",
+          "3413599651"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "Turbo - REINCARNA†ION!!.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Turbo - REINCARNA†ION!!.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": [
+          "Turbo",
+          "Moon Jelly"
+        ],
+        "album": "REINCARNA✝ION!!",
+        "ncmMusicId": [
+          "3414238214",
+          "3413599651"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

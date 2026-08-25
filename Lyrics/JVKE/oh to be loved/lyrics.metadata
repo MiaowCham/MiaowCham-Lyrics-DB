@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "path": "JVKE/oh to be loved",
+  "tracks": {
+    "oh-to-be-loved": {
+      "title": "oh to be loved",
+      "artists": [
+        "JVKE"
+      ],
+      "language": "en",
+      "album": "oh to be loved - Single",
+      "songwriters": [
+        "Jake Lawson",
+        "Zac Lawson"
+      ],
+      "isrc": "QMDA72563853",
+      "platforms": {
+        "appleMusicId": "1832550895"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "JVKE - oh to be loved.ttml",
+      "format": "ttml",
+      "metadataRef": "oh-to-be-loved"
+    }
+  ],
+  "sources": [
+    {
+      "file": "JVKE - oh to be loved.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "oh to be loved",
+        "artists": "JVKE",
+        "album": "oh to be loved - Single",
+        "appleMusicId": "1832550895",
+        "songwriter": [
+          "Jake Lawson",
+          "Zac Lawson"
+        ],
+        "isrc": "QMDA72563853",
+        "rootLanguage": "en",
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

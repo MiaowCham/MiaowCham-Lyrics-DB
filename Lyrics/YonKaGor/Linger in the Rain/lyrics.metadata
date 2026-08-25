@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/Linger in the Rain",
+  "tracks": {
+    "linger-in-the-rain": {
+      "title": "Linger in the Rain",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Linger in the Rain",
+      "isrc": "AUBEC2369012",
+      "platforms": {
+        "ncmMusicId": "2652556933",
+        "qqMusicId": "000V6jGM3AEsE8",
+        "spotifyId": "2ZdLhmKydlxXLXL1Hlo4Ex",
+        "appleMusicId": "1782943766"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "YonKaGor - Linger in the Rain.ttml",
+      "format": "ttml",
+      "metadataRef": "linger-in-the-rain"
+    }
+  ],
+  "sources": [
+    {
+      "file": "YonKaGor - Linger in the Rain.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "2652556933",
+        "qqMusicId": "000V6jGM3AEsE8",
+        "spotifyId": "2ZdLhmKydlxXLXL1Hlo4Ex",
+        "appleMusicId": "1782943766",
+        "isrc": "AUBEC2369012",
+        "musicName": "Linger in the Rain",
+        "artists": "YonKaGor",
+        "album": "Linger in the Rain",
+        "ttmlAuthorGithub": "136059186"
+      }
+    }
+  ]
+}

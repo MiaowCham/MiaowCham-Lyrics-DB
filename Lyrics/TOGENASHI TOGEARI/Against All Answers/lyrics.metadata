@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "path": "TOGENASHI TOGEARI/Against All Answers",
+  "tracks": {
+    "against-all-answers": {
+      "title": "Against All Answers",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "大濱健悟"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "TOGENASHI TOGEARI - Against All Answers.ttml",
+      "format": "ttml",
+      "metadataRef": "against-all-answers"
+    }
+  ],
+  "sources": [
+    {
+      "file": "TOGENASHI TOGEARI - Against All Answers.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

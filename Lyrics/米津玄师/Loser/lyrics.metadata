@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "path": "米津玄师/Loser",
+  "tracks": {
+    "loser": {
+      "title": "Loser",
+      "artists": [
+        "米津玄师"
+      ],
+      "language": "ja",
+      "album": "bootleg",
+      "isrc": "JPU901602597",
+      "songwriters": [
+        "Kenshi Yonezu"
+      ],
+      "platforms": {
+        "appleMusicId": [
+          "1538275659",
+          "1537279545"
+        ],
+        "spotifyId": [
+          "7AqUE5AY514dbzeOAfJRa0",
+          "0R4NxLV3QI7WSpbanQOhUS",
+          "23jMNv8wq1c7wsekYPNWQV"
+        ],
+        "ncmMusicId": [
+          "512359195",
+          "432509390"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Kenshi Yonezu - Loser.ttml",
+      "format": "ttml",
+      "metadataRef": "loser"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Kenshi Yonezu - Loser.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": "Kenshi Yonezu",
+        "album": "bootleg",
+        "appleMusicId": [
+          "1538275659",
+          "1537279545"
+        ],
+        "isrc": "JPU901602597",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "spotifyId": [
+          "7AqUE5AY514dbzeOAfJRa0",
+          "0R4NxLV3QI7WSpbanQOhUS",
+          "23jMNv8wq1c7wsekYPNWQV"
+        ],
+        "ncmMusicId": [
+          "512359195",
+          "432509390"
+        ]
+      }
+    }
+  ]
+}

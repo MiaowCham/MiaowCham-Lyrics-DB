@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "path": "Porter Robinson/Shelter",
+  "tracks": {
+    "shelter": {
+      "title": "Shelter",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "language": "en",
+      "album": "Shelter - Single",
+      "songwriters": [
+        "Porter Weston Robinson",
+        "Hugo Pierre Leclercq"
+      ],
+      "isrc": "QMUY41600040",
+      "platforms": {
+        "appleMusicId": "1701889813"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Porter Robinson & Madeon - Shelter.ttml",
+      "format": "ttml",
+      "metadataRef": "shelter"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Porter Robinson & Madeon - Shelter.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "Shelter",
+        "artists": "Porter Robinson & Madeon",
+        "album": "Shelter - Single",
+        "appleMusicId": "1701889813",
+        "songwriter": [
+          "Porter Weston Robinson",
+          "Hugo Pierre Leclercq"
+        ],
+        "isrc": "QMUY41600040",
+        "rootLanguage": "en",
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

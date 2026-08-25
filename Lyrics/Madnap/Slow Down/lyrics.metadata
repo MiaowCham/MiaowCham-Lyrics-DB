@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "path": "Madnap/Slow Down",
+  "tracks": {
+    "slow-down": {
+      "title": "Slow Down",
+      "artists": [
+        "Madnap"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Slow Down (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "slow-down"
+    },
+    {
+      "name": "Slow Down (2).lys",
+      "format": "lys",
+      "metadataRef": "slow-down"
+    },
+    {
+      "name": "Slow Down-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "slow-down"
+    },
+    {
+      "name": "Slow Down.lys",
+      "format": "lys",
+      "metadataRef": "slow-down"
+    },
+    {
+      "name": "SlowDown.ttml",
+      "format": "ttml",
+      "metadataRef": "slow-down"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Slow Down (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Slow Down (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "Slow Down-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Slow Down.lys",
+      "format": "lys"
+    },
+    {
+      "file": "SlowDown.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

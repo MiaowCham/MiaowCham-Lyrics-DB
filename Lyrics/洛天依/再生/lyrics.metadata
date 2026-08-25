@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "path": "洛天依/再生",
+  "tracks": {
+    "feat-hyper-slash": {
+      "title": "心空 feat. HYPER SLASH超级斩",
+      "artists": [
+        "洛天依"
+      ],
+      "language": "zh-Hans",
+      "album": "再生",
+      "songwriters": [
+        "Hyper Slash"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "洛天依 - 心空 feat. HYPER SLASH超级斩.lrcn",
+      "format": "lrcn",
+      "metadataRef": "feat-hyper-slash"
+    },
+    {
+      "name": "洛天依 - 心空 feat. HYPER SLASH超级斩.ttml",
+      "format": "ttml",
+      "metadataRef": "feat-hyper-slash"
+    }
+  ],
+  "sources": [
+    {
+      "file": "洛天依 - 心空 feat. HYPER SLASH超级斩.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "zh-Hans"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "洛天依 - 心空 feat. HYPER SLASH超级斩.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham",
+        "artists": [
+          "洛天依Official",
+          "Hyper Slash"
+        ],
+        "album": "再生"
+      }
+    }
+  ]
+}

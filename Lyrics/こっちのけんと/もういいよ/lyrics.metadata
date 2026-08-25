@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "path": "こっちのけんと/もういいよ",
+  "tracks": {
+    "track": {
+      "title": "もういいよ",
+      "artists": [
+        "こっちのけんと"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "もういいよ (2).lys",
+      "format": "lys",
+      "metadataRef": "track"
+    },
+    {
+      "name": "もういいよ.lys",
+      "format": "lys",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "もういいよ (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "もういいよ.lys",
+      "format": "lys"
+    }
+  ]
+}

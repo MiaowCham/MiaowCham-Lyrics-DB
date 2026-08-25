@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "path": "临风/【中文】音之怪Otonoke",
+  "tracks": {
+    "otonoke": {
+      "title": "【中文】音之怪Otonoke",
+      "artists": [
+        "临风"
+      ],
+      "language": "en",
+      "album": "オトノケ/Otonoke 胆大党/超自然武装当哒当OP中文翻唱",
+      "platforms": {
+        "ncmMusicId": "2645276002"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "临风 - 【中文】音之怪Otonoke.lrcn",
+      "format": "lrcn",
+      "metadataRef": "otonoke"
+    },
+    {
+      "name": "临风 - 【中文】音之怪Otonoke.ttml",
+      "format": "ttml",
+      "metadataRef": "otonoke"
+    }
+  ],
+  "sources": [
+    {
+      "file": "临风 - 【中文】音之怪Otonoke.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "临风 - 【中文】音之怪Otonoke.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "【中文】音之怪Otonoke",
+        "artists": [
+          "临风",
+          "槃蓝莓"
+        ],
+        "album": "オトノケ/Otonoke 胆大党/超自然武装当哒当OP中文翻唱",
+        "ncmMusicId": "2645276002",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

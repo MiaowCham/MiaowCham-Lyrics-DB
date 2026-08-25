@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/Fallacy",
+  "tracks": {
+    "fallacy": {
+      "title": "Fallacy",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Fallacy",
+      "isrc": "AUBEC2229865",
+      "platforms": {
+        "ncmMusicId": "1993424659",
+        "qqMusicId": "004V37Dc0HTlf1",
+        "spotifyId": "6MfjWLBkGRCybOT4mxU67y"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "YonKaGor - Fallacy.ttml",
+      "format": "ttml",
+      "metadataRef": "fallacy"
+    }
+  ],
+  "sources": [
+    {
+      "file": "YonKaGor - Fallacy.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "1993424659",
+        "qqMusicId": "004V37Dc0HTlf1",
+        "spotifyId": "6MfjWLBkGRCybOT4mxU67y",
+        "isrc": "AUBEC2229865",
+        "musicName": "Fallacy",
+        "artists": "YonKaGor",
+        "album": "Fallacy",
+        "ttmlAuthorGithub": "136059186"
+      }
+    }
+  ]
+}

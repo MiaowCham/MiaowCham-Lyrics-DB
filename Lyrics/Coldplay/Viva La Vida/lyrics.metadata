@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "path": "Coldplay/Viva La Vida",
+  "tracks": {
+    "viva-la-vida": {
+      "title": "Viva La Vida",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Viva La Vida or Death and All His Friends",
+      "isrc": "GBAYE0800265",
+      "platforms": {
+        "ncmMusicId": "3986017",
+        "qqMusicId": "000B2dCe3JJpi6",
+        "spotifyId": "1mea3bSkSGXuIRvnydlB5b",
+        "appleMusicId": "1122773680"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Coldplay - Viva La Vida.ttml",
+      "format": "ttml",
+      "metadataRef": "viva-la-vida"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Coldplay - Viva La Vida.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "3986017",
+        "qqMusicId": "000B2dCe3JJpi6",
+        "spotifyId": "1mea3bSkSGXuIRvnydlB5b",
+        "appleMusicId": "1122773680",
+        "isrc": "GBAYE0800265",
+        "musicName": [
+          "Viva La Vida",
+          "生命万岁"
+        ],
+        "artists": "Coldplay",
+        "album": "Viva La Vida or Death and All His Friends",
+        "ttmlAuthorGithub": "136059186"
+      }
+    }
+  ]
+}

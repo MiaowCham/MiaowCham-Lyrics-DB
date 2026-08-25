@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "path": "Sān-Z/制服·剪刀·鲨鱼尾",
+  "tracks": {
+    "track": {
+      "title": "制服·剪刀·鲨鱼尾",
+      "artists": [
+        "Sān-Z"
+      ],
+      "language": "en",
+      "songwriters": [
+        "HOYO-MiX",
+        "杨武韬",
+        "Peter Sierzput",
+        "宋培彦"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "applejson.制服·剪刀·鲨鱼尾.json",
+      "format": "json",
+      "metadataRef": "track"
+    },
+    {
+      "name": "applettml.制服·剪刀·鲨鱼尾-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
+      "name": "applettml.制服·剪刀·鲨鱼尾.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applejson.制服·剪刀·鲨鱼尾.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.制服·剪刀·鲨鱼尾-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.制服·剪刀·鲨鱼尾.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

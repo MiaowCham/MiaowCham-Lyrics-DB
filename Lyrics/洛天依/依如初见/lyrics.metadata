@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 2,
+  "path": "洛天依/依如初见",
+  "tracks": {
+    "i-love-u": {
+      "title": "I LOVE U",
+      "artists": [
+        "洛天依"
+      ],
+      "language": "zh-Hans",
+      "album": "依如初见",
+      "isrc": "TWAE32204249",
+      "platforms": {
+        "ncmMusicId": "1979009858",
+        "qqMusicId": "002lWTZR2zfSFX",
+        "spotifyId": "5LTAXf1HvRCbQJ8wIoKXfs"
+      }
+    },
+    "light-and-shadow": {
+      "title": "Light and Shadow",
+      "artists": [
+        "洛天依"
+      ],
+      "language": "zh-Hans",
+      "album": "Light and Shadow - Single",
+      "isrc": "TWAE32203781",
+      "songwriters": [
+        "COP"
+      ],
+      "platforms": {
+        "appleMusicId": [
+          "1635119677",
+          "1645248076"
+        ]
+      }
+    },
+    "summer-insects": {
+      "title": "Summer Insects",
+      "artists": [
+        "洛天依"
+      ],
+      "language": "zh-Hans",
+      "album": "Like the First Time",
+      "isrc": "TWAE32204250",
+      "songwriters": [
+        "LS",
+        "果汁凉菜"
+      ],
+      "platforms": {
+        "appleMusicId": "1645247864"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "洛天依 - I LOVE U.lrcn",
+      "format": "lrcn",
+      "metadataRef": "i-love-u"
+    },
+    {
+      "name": "洛天依 - I LOVE U.ttml",
+      "format": "ttml",
+      "metadataRef": "i-love-u"
+    },
+    {
+      "name": "洛天依 - 光与影的对白.lrcn",
+      "format": "lrcn",
+      "metadataRef": "light-and-shadow"
+    },
+    {
+      "name": "洛天依 - 光与影的对白.ttml",
+      "format": "ttml",
+      "metadataRef": "light-and-shadow"
+    },
+    {
+      "name": "洛天依 - 夏虫.lrcn",
+      "format": "lrcn",
+      "metadataRef": "summer-insects"
+    },
+    {
+      "name": "洛天依 - 夏虫.ttml",
+      "format": "ttml",
+      "metadataRef": "summer-insects"
+    }
+  ],
+  "sources": [
+    {
+      "file": "洛天依 - I LOVE U.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "line"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "other",
+            "value": "v2"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "洛天依 - I LOVE U.ttml",
+      "format": "ttml",
+      "metadata": {
+        "album": "依如初见",
+        "artists": "洛天依",
+        "isrc": "TWAE32204249",
+        "ncmMusicId": "1979009858",
+        "qqMusicId": "002lWTZR2zfSFX",
+        "spotifyId": "5LTAXf1HvRCbQJ8wIoKXfs",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham"
+      }
+    },
+    {
+      "file": "洛天依 - 光与影的对白.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "zh-Hans"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "洛天依 - 光与影的对白.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": "Luotianyi",
+        "album": "Light and Shadow - Single",
+        "appleMusicId": [
+          "1635119677",
+          "1645248076"
+        ],
+        "isrc": "TWAE32203781",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham"
+      }
+    },
+    {
+      "file": "洛天依 - 夏虫.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "zh-Hans"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "洛天依 - 夏虫.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": "Luotianyi",
+        "album": "Like the First Time",
+        "appleMusicId": "1645247864",
+        "isrc": "TWAE32204250",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham"
+      }
+    }
+  ]
+}

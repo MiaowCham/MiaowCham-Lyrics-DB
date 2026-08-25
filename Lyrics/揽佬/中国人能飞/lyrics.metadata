@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "path": "揽佬/中国人能飞",
+  "tracks": {
+    "track": {
+      "title": "中国人会飞",
+      "artists": [
+        "揽佬"
+      ],
+      "language": "zh-CN",
+      "album": "BALDNESS",
+      "songwriters": [
+        "Chalky Wong",
+        "揽佬SKAI ISYOURGOD"
+      ],
+      "platforms": {
+        "ncmMusicId": "3416788740"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "揽佬 - 中国人能飞.lrcn",
+      "format": "lrcn",
+      "metadataRef": "track"
+    },
+    {
+      "name": "揽佬 - 中国人能飞.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "揽佬 - 中国人能飞.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "zh-CN"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "揽佬 - 中国人能飞.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ncmMusicId": "3416788740",
+        "artists": [
+          "Chalky Wong",
+          "揽佬SKAI ISYOURGOD"
+        ],
+        "album": "BALDNESS"
+      }
+    }
+  ]
+}

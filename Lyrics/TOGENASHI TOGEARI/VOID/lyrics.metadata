@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "path": "TOGENASHI TOGEARI/VOID",
+  "tracks": {
+    "void-nina-iseri-momoka-kawaragi": {
+      "title": "VOID (Nina Iseri, Momoka Kawaragi)",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "松原さらり"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "TOGENASHI TOGEARI - VOID (Nina Iseri, Momoka Kawaragi).ttml",
+      "format": "ttml",
+      "metadataRef": "void-nina-iseri-momoka-kawaragi"
+    }
+  ],
+  "sources": [
+    {
+      "file": "TOGENASHI TOGEARI - VOID (Nina Iseri, Momoka Kawaragi).ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "path": "星尘/理想主义患者",
+  "tracks": {
+    "track": {
+      "title": "理想主义患者",
+      "artists": [
+        "星尘"
+      ],
+      "language": "zh-CN",
+      "album": "理想主义患者",
+      "songwriters": [
+        "北极星Polaris_D"
+      ],
+      "platforms": {
+        "ncmMusicId": "2713838054"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "理想主义患者.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "理想主义患者.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "2713838054",
+        "album": "理想主义患者",
+        "artists": "北极星Polaris_D"
+      }
+    }
+  ]
+}

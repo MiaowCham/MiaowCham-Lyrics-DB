@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "path": "米津玄师/灰色と青",
+  "tracks": {
+    "haiirotoao": {
+      "title": "Haiirotoao",
+      "artists": [
+        "米津玄师"
+      ],
+      "language": "ja",
+      "album": "bootleg",
+      "isrc": "JPU901702924",
+      "songwriters": [
+        "米津玄師"
+      ],
+      "platforms": {
+        "appleMusicId": "1538275671"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Kenshi Yonezu - Haiirotoao.ttml",
+      "format": "ttml",
+      "metadataRef": "haiirotoao"
+    },
+    {
+      "name": "米津玄师 & 菅田将晖 - 灰色と青 ( + 菅田将暉 ).ttml",
+      "format": "ttml",
+      "metadataRef": "haiirotoao"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Kenshi Yonezu - Haiirotoao.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": [
+          "Kenshi Yonezu",
+          "Masaki Suda"
+        ],
+        "album": "bootleg",
+        "appleMusicId": "1538275671",
+        "isrc": "JPU901702924"
+      }
+    },
+    {
+      "file": "米津玄师 & 菅田将晖 - 灰色と青 ( + 菅田将暉 ).ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "灰色と青 ( + 菅田将暉 )",
+        "artists": "米津玄师 & 菅田将晖",
+        "album": "BOOTLEG",
+        "songwriter": "米津玄師",
+        "isrc": "JPU901702924",
+        "appleMusicId": "1538275671",
+        "rootLanguage": "ja",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "path": "Billie Eilish/lovely",
+  "tracks": {
+    "lovely": {
+      "title": "lovely",
+      "artists": [
+        "Billie Eilish"
+      ],
+      "language": "en",
+      "album": "lovely - Single",
+      "songwriters": [
+        "Billie Eilish O’Connell",
+        "Finneas Baird O'Connell",
+        "Khalid Donnel Robinson"
+      ],
+      "isrc": "USUM71804190",
+      "platforms": {
+        "appleMusicId": "1369380479"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Billie Eilish & Khalid - lovely.ttml",
+      "format": "ttml",
+      "metadataRef": "lovely"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Billie Eilish & Khalid - lovely.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "lovely",
+        "artists": "Billie Eilish & Khalid",
+        "album": "lovely - Single",
+        "appleMusicId": "1369380479",
+        "songwriter": [
+          "Billie Eilish O’Connell",
+          "Finneas Baird O'Connell",
+          "Khalid Donnel Robinson"
+        ],
+        "isrc": "USUM71804190",
+        "rootLanguage": "en",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+  "tracks": {
+    "ode-of-resurrection-recapitulation": {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    },
+    "ode-of-resurrection-recapitulation-2": {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    },
+    "ode-of-resurrection-recapitulation-3": {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-lyricify.ass",
+      "format": "ass",
+      "metadataRef": "ode-of-resurrection-recapitulation"
+    },
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "ode-of-resurrection-recapitulation-2"
+    },
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2).lys",
+      "format": "lys",
+      "metadataRef": "ode-of-resurrection-recapitulation-2"
+    },
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-lyricify.ass",
+      "format": "ass",
+      "metadataRef": "ode-of-resurrection-recapitulation-3"
+    },
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "ode-of-resurrection-recapitulation-2"
+    },
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.ass",
+      "format": "ass",
+      "metadataRef": "ode-of-resurrection-recapitulation-2"
+    },
+    {
+      "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.lys",
+      "format": "lys",
+      "metadataRef": "ode-of-resurrection-recapitulation-2"
+    }
+  ],
+  "sources": [
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-lyricify.ass",
+      "format": "ass"
+    },
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-lyricify.ass",
+      "format": "ass"
+    },
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.ass",
+      "format": "ass"
+    },
+    {
+      "file": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.lys",
+      "format": "lys"
+    }
+  ]
+}

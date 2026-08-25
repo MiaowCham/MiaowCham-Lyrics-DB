@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "path": "Wonderful★opportunity!/にっこり^^調査隊のテーマ",
+  "tracks": {
+    "feat": {
+      "title": "にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン)",
+      "artists": [
+        "Wonderful★opportunity!"
+      ],
+      "language": "ja-JP",
+      "album": "にっこり^^調査隊のテーマ",
+      "isrc": "JP92Q2200001",
+      "songwriters": [
+        "JESUS-P",
+        "Wonderful opportunity!"
+      ],
+      "platforms": {
+        "ncmMusicId": "1918884502",
+        "appleMusicId": "1607417027"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Wonderful★opportunity! - にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン).ttml",
+      "format": "ttml",
+      "metadataRef": "feat"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Wonderful★opportunity! - にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン).ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ncmMusicId": "1918884502",
+        "appleMusicId": "1607417027",
+        "artists": [
+          "Wonderful opportunity!",
+          "鏡音リン",
+          "鏡音レン"
+        ],
+        "album": "にっこり^^調査隊のテーマ",
+        "isrc": "JP92Q2200001"
+      }
+    }
+  ]
+}

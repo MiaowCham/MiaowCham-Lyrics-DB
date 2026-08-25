@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "path": "TOGENASHI TOGEARI/Wrong World",
+  "tracks": {
+    "wrong-world": {
+      "title": "Wrong World",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "language": "ja",
+      "album": "Wrong World - Single",
+      "isrc": "JPPO02400704",
+      "songwriters": [
+        "大濱健悟"
+      ],
+      "platforms": {
+        "appleMusicId": [
+          "1737842246",
+          "1763003782",
+          "1813911822",
+          "1781751322",
+          "1814689416"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "TOGENASHI TOGEARI - Wrong World.ttml",
+      "format": "ttml",
+      "metadataRef": "wrong-world"
+    }
+  ],
+  "sources": [
+    {
+      "file": "TOGENASHI TOGEARI - Wrong World.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": "TOGENASHI TOGEARI",
+        "album": "Wrong World - Single",
+        "appleMusicId": [
+          "1737842246",
+          "1763003782",
+          "1813911822",
+          "1781751322",
+          "1814689416"
+        ],
+        "isrc": "JPPO02400704",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

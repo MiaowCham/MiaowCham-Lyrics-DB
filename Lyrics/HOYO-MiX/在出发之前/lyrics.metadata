@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/在出发之前",
+  "tracks": {
+    "before-setting-out": {
+      "title": "Before Setting Out",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "Before Setting Out (Honkai Impact 3rd Original Game Soundtrack)",
+      "isrc": "FR59R2406307",
+      "platforms": {
+        "ncmMusicId": "2124643510",
+        "qqMusicId": "002U7gud10KtaN",
+        "spotifyId": "74LGFGQ4SSPaumBvqT37JQ",
+        "appleMusicId": "1730019737"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "在出发之前.ttml",
+      "format": "ttml",
+      "metadataRef": "before-setting-out"
+    }
+  ],
+  "sources": [
+    {
+      "file": "在出发之前.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": [
+          "Before Setting Out",
+          "在出发之前"
+        ],
+        "artists": [
+          "陶典",
+          "hanser",
+          "爆裂菊是也",
+          "HOYO-MiX"
+        ],
+        "album": [
+          "Before Setting Out (Honkai Impact 3rd Original Game Soundtrack)",
+          "崩坏3「旅途危机！圣芙蕾雅号特别事件」Original Soundtrack"
+        ],
+        "ncmMusicId": "2124643510",
+        "qqMusicId": "002U7gud10KtaN",
+        "spotifyId": "74LGFGQ4SSPaumBvqT37JQ",
+        "appleMusicId": "1730019737",
+        "isrc": "FR59R2406307"
+      }
+    }
+  ]
+}

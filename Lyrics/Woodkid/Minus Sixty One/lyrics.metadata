@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "path": "Woodkid/Minus Sixty One",
+  "tracks": {
+    "minus-sixty-one": {
+      "title": "Minus Sixty One",
+      "artists": [
+        "Woodkid"
+      ],
+      "language": "en",
+      "songwriters": [
+        "Allyson Ezell",
+        "Woodkid"
+      ],
+      "album": "WOODKID FOR DEATH STRANDING 2: ON THE BEACH",
+      "isrc": "FRUM72000673",
+      "platforms": {
+        "appleMusicId": "1818147352"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Woodkid - Minus Sixty One - A8e.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
+      "name": "Woodkid - Minus Sixty One - Ultra.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
+      "name": "Woodkid - Minus Sixty One.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
+      "name": "Woodkid - Minus Sixty One1.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Woodkid - Minus Sixty One - A8e.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "Woodkid - Minus Sixty One - Ultra.ttml",
+      "format": "ttml",
+      "metadata": {
+        "rootLanguage": "en",
+        "musicName": "Minus Sixty One",
+        "songwriter": [
+          "Allyson Ezell",
+          "Woodkid"
+        ],
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham"
+      }
+    },
+    {
+      "file": "Woodkid - Minus Sixty One.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "Woodkid - Minus Sixty One1.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "Minus Sixty One",
+        "artists": "Woodkid",
+        "album": "WOODKID FOR DEATH STRANDING 2: ON THE BEACH",
+        "appleMusicId": "1818147352",
+        "songwriter": [
+          "Allyson Ezell",
+          "Woodkid"
+        ],
+        "isrc": "FRUM72000673",
+        "rootLanguage": "en",
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "path": "Daichi Miura/Polytope",
+  "tracks": {
+    "polytope": {
+      "title": "Polytope",
+      "artists": [
+        "Daichi Miura"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "Nao'ymt"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Daichi Miura - Polytope.ttml",
+      "format": "ttml",
+      "metadataRef": "polytope"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Daichi Miura - Polytope.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

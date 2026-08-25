@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "path": "マサラダ/ちっちゃな私 (Tiny Me)",
+  "tracks": {
+    "tiny-me": {
+      "title": "Tiny Me",
+      "artists": [
+        "マサラダ"
+      ],
+      "language": "en",
+      "album": "Tiny Me - Single",
+      "songwriters": [
+        "マサラダ"
+      ],
+      "isrc": "JPA652307105",
+      "platforms": {
+        "appleMusicId": "1705677736"
+      }
+    },
+    "tiny-me-2": {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "language": "en-US",
+      "songwriters": [
+        "マサラダ"
+      ],
+      "platforms": {}
+    },
+    "tiny-me-3": {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "language": "en-US",
+      "songwriters": [
+        "マサラダ"
+      ],
+      "platforms": {}
+    },
+    "tiny-me-4": {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "language": "en-US",
+      "songwriters": [
+        "マサラダ"
+      ],
+      "platforms": {}
+    },
+    "tiny-me-5": {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "language": "en-US",
+      "songwriters": [
+        "マサラダ"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "masarada - Tiny Me.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me"
+    },
+    {
+      "name": "masarada - Tiny Me_lys.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me"
+    },
+    {
+      "name": "masarada - Tiny Me_noRuby.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me"
+    },
+    {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-2"
+    },
+    {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-3"
+    },
+    {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-4"
+    },
+    {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-5"
+    }
+  ],
+  "sources": [
+    {
+      "file": "masarada - Tiny Me.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "Tiny Me",
+        "artists": "マサラダ",
+        "album": "Tiny Me - Single",
+        "appleMusicId": "1705677736",
+        "songwriter": "マサラダ",
+        "isrc": "JPA652307105",
+        "rootLanguage": "en",
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "masarada - Tiny Me_lys.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "masarada - Tiny Me_noRuby.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "マサラダ - ちっちゃな私 - ちっちゃな私.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

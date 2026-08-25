@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/INFAMOUS",
+  "tracks": {
+    "infamous": {
+      "title": "INFAMOUS",
+      "artists": [
+        "YonKaGor"
+      ],
+      "language": "en",
+      "album": "INFAMOUS - Single",
+      "isrc": "QT4K32507314",
+      "songwriters": [
+        "Vivian Graves"
+      ],
+      "platforms": {
+        "appleMusicId": "1811058440"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "YonKaGor - INFAMOUS.lrcn",
+      "format": "lrcn",
+      "metadataRef": "infamous"
+    },
+    {
+      "name": "YonKaGor - INFAMOUS.ttml",
+      "format": "ttml",
+      "metadataRef": "infamous"
+    }
+  ],
+  "sources": [
+    {
+      "file": "YonKaGor - INFAMOUS.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "person",
+            "value": "v2"
+          },
+          {
+            "type": "person",
+            "value": "v3"
+          },
+          {
+            "type": "group",
+            "value": "v1000"
+          },
+          {
+            "type": "other",
+            "value": "v2000"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "YonKaGor - INFAMOUS.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": [
+          "ivycomb",
+          "YonKaGor",
+          "Stephanafro"
+        ],
+        "album": "INFAMOUS - Single",
+        "appleMusicId": "1811058440",
+        "isrc": "QT4K32507314",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

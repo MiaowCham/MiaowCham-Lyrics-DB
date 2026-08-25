@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/Side Quest King (English Ver.)",
+  "tracks": {
+    "side-quest-king-english-ver": {
+      "title": "Side Quest King (English Ver.)",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "language": "en",
+      "album": "Side Quest King (Honkai: Star Rail Third Anniversary Theme Song) - EP",
+      "isrc": "FR59R2687808",
+      "songwriters": [
+        "王可鑫",
+        "TSAR",
+        "Mes",
+        "0mono"
+      ],
+      "platforms": {
+        "ncmMusicId": "3370641225",
+        "appleMusicId": "1891254310"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "side quest king.ttml",
+      "format": "ttml",
+      "metadataRef": "side-quest-king-english-ver"
+    }
+  ],
+  "sources": [
+    {
+      "file": "side quest king.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "3370641225",
+        "appleMusicId": "1891254310",
+        "artists": [
+          "HOYO-MiX",
+          "VÆB"
+        ],
+        "album": "Side Quest King (Honkai: Star Rail Third Anniversary Theme Song) - EP",
+        "isrc": "FR59R2687808"
+      }
+    }
+  ]
+}

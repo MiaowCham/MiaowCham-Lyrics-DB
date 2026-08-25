@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "path": "Panic! At The Disco/High Hopes",
+  "tracks": {
+    "high-hopes": {
+      "title": "High Hopes",
+      "artists": [
+        "Panic! At The Disco"
+      ],
+      "album": "Pray for the Wicked",
+      "isrc": "USAT21801174",
+      "platforms": {
+        "ncmMusicId": "562181972",
+        "qqMusicId": "0034ASsG3ErxnK",
+        "spotifyId": "1rqqCSm0Qe4I9rUvWncaom",
+        "appleMusicId": "1361152303"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Panic! At The Disco - High Hopes.ttml",
+      "format": "ttml",
+      "metadataRef": "high-hopes"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Panic! At The Disco - High Hopes.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "562181972",
+        "qqMusicId": "0034ASsG3ErxnK",
+        "spotifyId": "1rqqCSm0Qe4I9rUvWncaom",
+        "appleMusicId": "1361152303",
+        "isrc": "USAT21801174",
+        "musicName": "High Hopes",
+        "artists": "Panic! At The Disco",
+        "album": "Pray for the Wicked",
+        "ttmlAuthorGithub": "MiaowCham"
+      }
+    }
+  ]
+}

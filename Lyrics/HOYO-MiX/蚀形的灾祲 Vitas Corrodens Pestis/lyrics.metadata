@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis",
+  "tracks": {
+    "vitas-corrodens-pestis": {
+      "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    },
+    "vitas-corrodens-pestis-2": {
+      "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    },
+    "vitas-corrodens-pestis-3": {
+      "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis (2)-lyricify.ass",
+      "format": "ass",
+      "metadataRef": "vitas-corrodens-pestis"
+    },
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "vitas-corrodens-pestis-2"
+    },
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis (2).lys",
+      "format": "lys",
+      "metadataRef": "vitas-corrodens-pestis-2"
+    },
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis-lyricify.ass",
+      "format": "ass",
+      "metadataRef": "vitas-corrodens-pestis-3"
+    },
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "vitas-corrodens-pestis-2"
+    },
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis.ass",
+      "format": "ass",
+      "metadataRef": "vitas-corrodens-pestis-2"
+    },
+    {
+      "name": "蚀形的灾祲 Vitas Corrodens Pestis.lys",
+      "format": "lys",
+      "metadataRef": "vitas-corrodens-pestis-2"
+    }
+  ],
+  "sources": [
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis (2)-lyricify.ass",
+      "format": "ass"
+    },
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis-lyricify.ass",
+      "format": "ass"
+    },
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis.ass",
+      "format": "ass"
+    },
+    {
+      "file": "蚀形的灾祲 Vitas Corrodens Pestis.lys",
+      "format": "lys"
+    }
+  ]
+}

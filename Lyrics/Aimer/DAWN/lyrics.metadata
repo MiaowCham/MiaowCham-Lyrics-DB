@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 2,
+  "path": "Aimer/DAWN",
+  "tracks": {
+    "brave-shine": {
+      "title": "Brave Shine",
+      "artists": [
+        "Aimer"
+      ],
+      "language": "ja",
+      "album": "DAWN",
+      "songwriters": [
+        "aimerrhythm"
+      ],
+      "platforms": {}
+    },
+    "last-stardust": {
+      "title": "LAST STARDUST",
+      "artists": [
+        "Aimer"
+      ],
+      "language": "jp",
+      "album": "DAWN",
+      "isrc": "JPU901501854",
+      "songwriters": [
+        "aimerrhythm",
+        "MASAHIRO TOBINAI",
+        "Kenji Tamai"
+      ],
+      "platforms": {
+        "appleMusicId": [
+          "1536130473",
+          "1538259850"
+        ],
+        "ncmMusicId": [
+          "33418857",
+          "476081885",
+          "1415124898"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Aimer - Brave Shine.lrcn",
+      "format": "lrcn",
+      "metadataRef": "brave-shine"
+    },
+    {
+      "name": "Aimer - Brave Shine.ttml",
+      "format": "ttml",
+      "metadataRef": "brave-shine"
+    },
+    {
+      "name": "Aimer - LAST STARDUST.lrcn",
+      "format": "lrcn",
+      "metadataRef": "last-stardust"
+    },
+    {
+      "name": "Aimer - LAST STARDUST.ttml",
+      "format": "ttml",
+      "metadataRef": "last-stardust"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Aimer - Brave Shine.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "ja"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Aimer - Brave Shine.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "Aimer",
+        "album": "DAWN"
+      }
+    },
+    {
+      "file": "Aimer - LAST STARDUST.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "jp"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "other",
+            "value": "v2000"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Aimer - LAST STARDUST.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "appleMusicId": [
+          "1536130473",
+          "1538259850"
+        ],
+        "artists": "Aimer",
+        "album": "DAWN",
+        "ncmMusicId": [
+          "33418857",
+          "476081885",
+          "1415124898"
+        ],
+        "isrc": "JPU901501854"
+      }
+    }
+  ]
+}

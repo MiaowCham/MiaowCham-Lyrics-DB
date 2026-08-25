@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "path": "東京真中/ブレインロット",
+  "tracks": {
+    "brain-rot": {
+      "title": "Brain Rot",
+      "artists": [
+        "東京真中"
+      ],
+      "language": "ja",
+      "album": "Brain Rot - Single",
+      "isrc": "JPG102600245",
+      "songwriters": [
+        "Tokyo Manaka"
+      ],
+      "platforms": {
+        "appleMusicId": "1875880766",
+        "ncmMusicId": "3348197008"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "applejson.ブレインロット.json",
+      "format": "json",
+      "metadataRef": "brain-rot"
+    },
+    {
+      "name": "applettml.ブレインロット-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "brain-rot"
+    },
+    {
+      "name": "applettml.ブレインロット.ttml",
+      "format": "ttml",
+      "metadataRef": "brain-rot"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applejson.ブレインロット.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.ブレインロット-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.ブレインロット.ttml",
+      "format": "ttml",
+      "metadata": {
+        "appleMusicId": "1875880766",
+        "artists": "Tokyo Manaka",
+        "album": "Brain Rot - Single",
+        "isrc": "JPG102600245",
+        "ncmMusicId": "3348197008"
+      }
+    }
+  ]
+}

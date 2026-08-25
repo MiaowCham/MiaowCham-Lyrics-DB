@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "path": "Noah Floersch/The Bird Song (with Em Beihold)",
+  "tracks": {
+    "the-bird-song-with-em-beihold": {
+      "title": "The Bird Song (with Em Beihold)",
+      "artists": [
+        "Noah Floersch"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "the bird song.ttml",
+      "format": "ttml",
+      "metadataRef": "the-bird-song-with-em-beihold"
+    }
+  ],
+  "sources": [
+    {
+      "file": "the bird song.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithubLogin": "喵锵"
+      }
+    }
+  ]
+}

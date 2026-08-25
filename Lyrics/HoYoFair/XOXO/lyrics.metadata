@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "path": "HoYoFair/XOXO",
+  "tracks": {
+    "xoxo": {
+      "title": "XOXO",
+      "artists": [
+        "HoYoFair"
+      ],
+      "album": "HoYoFair 2023 (Genshin Impact Fan Art Project)",
+      "isrc": "DGA092395205",
+      "platforms": {
+        "ncmMusicId": "2093298047",
+        "qqMusicId": "002WrfQg2s9KTL",
+        "spotifyId": "36DHuzTdHq7PEussyOVQtT"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "HoYoFair - XOXO (2).ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "HoYoFair - XOXO.ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "HoYoFair, Marcus Perkins Bejarano, Kim Jinhyoung - XOXO.ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "XOXO (2).lrc",
+      "format": "lrc",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "XOXO-lys.qrc",
+      "format": "qrc",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "XOXO.lrc",
+      "format": "lrc",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "XOXO.lys",
+      "format": "lys",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "XOXO.ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    }
+  ],
+  "sources": [
+    {
+      "file": "HoYoFair - XOXO (2).ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": [
+          "XOXO",
+          "神的休息日 XOXO"
+        ],
+        "artists": [
+          "HoYoFair",
+          "Marcus Perkins Bejarano",
+          "Kim Jinhyoung",
+          "Cailen Fu",
+          "Kevin Schuering",
+          "MinJi Kim",
+          "Ashley_Chiu"
+        ],
+        "album": [
+          "HoYoFair 2023 (Genshin Impact Fan Art Project)",
+          "HoYoFair2023 原神同人特别节目"
+        ],
+        "ncmMusicId": "2093298047",
+        "qqMusicId": "002WrfQg2s9KTL",
+        "spotifyId": "36DHuzTdHq7PEussyOVQtT",
+        "isrc": "DGA092395205",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "HoYoFair - XOXO.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": [
+          "XOXO",
+          "神的休息日 XOXO"
+        ],
+        "artists": [
+          "HoYoFair",
+          "Marcus Perkins Bejarano",
+          "Kim Jinhyoung",
+          "Cailen Fu",
+          "Kevin Schuering",
+          "MinJi Kim",
+          "Ashley_Chiu"
+        ],
+        "album": [
+          "HoYoFair 2023 (Genshin Impact Fan Art Project)",
+          "HoYoFair2023 原神同人特别节目"
+        ],
+        "ncmMusicId": "2093298047",
+        "qqMusicId": "002WrfQg2s9KTL",
+        "spotifyId": "36DHuzTdHq7PEussyOVQtT",
+        "isrc": "DGA092395205",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "HoYoFair, Marcus Perkins Bejarano, Kim Jinhyoung - XOXO.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "XOXO (2).lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "XOXO-lys.qrc",
+      "format": "qrc"
+    },
+    {
+      "file": "XOXO.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "XOXO.lys",
+      "format": "lys"
+    },
+    {
+      "file": "XOXO.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

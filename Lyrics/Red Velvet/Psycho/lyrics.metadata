@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "path": "Red Velvet/Psycho",
+  "tracks": {
+    "psycho": {
+      "title": "Psycho",
+      "artists": [
+        "Red Velvet"
+      ],
+      "language": "ko",
+      "songwriters": [
+        "Andrew Scott",
+        "Cazzi Opeia",
+        "EJAE",
+        "Kenzie"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "applettml.Psycho-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "psycho"
+    },
+    {
+      "name": "applettml.Psycho.ttml",
+      "format": "ttml",
+      "metadataRef": "psycho"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applettml.Psycho-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Psycho.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

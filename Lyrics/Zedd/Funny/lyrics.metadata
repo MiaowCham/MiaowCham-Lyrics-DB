@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "path": "Zedd/Funny",
+  "tracks": {
+    "funny": {
+      "title": "Funny",
+      "artists": [
+        "Zedd"
+      ],
+      "album": "Funny",
+      "isrc": "USAT22003344",
+      "platforms": {
+        "ncmMusicId": "1462389947",
+        "qqMusicId": "004IEY5L3hxal9",
+        "spotifyId": "4FYbo4yQzu3hGkj2Ix4ucW",
+        "appleMusicId": "1742838162"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Funny.ass",
+      "format": "ass",
+      "metadataRef": "funny"
+    },
+    {
+      "name": "Zedd,Jasmine Thompson - Funny (2).ttml",
+      "format": "ttml",
+      "metadataRef": "funny"
+    },
+    {
+      "name": "Zedd,Jasmine Thompson - Funny.ttml",
+      "format": "ttml",
+      "metadataRef": "funny"
+    },
+    {
+      "name": "Zedd,Jasmine Thompson - Funny.txt",
+      "format": "txt",
+      "metadataRef": "funny"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Funny.ass",
+      "format": "ass"
+    },
+    {
+      "file": "Zedd,Jasmine Thompson - Funny (2).ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "Zedd,Jasmine Thompson - Funny.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": "Funny",
+        "artists": [
+          "Zedd",
+          "Jasmine Thompson"
+        ],
+        "album": "Funny",
+        "ncmMusicId": "1462389947",
+        "qqMusicId": "004IEY5L3hxal9",
+        "spotifyId": "4FYbo4yQzu3hGkj2Ix4ucW",
+        "appleMusicId": "1742838162",
+        "isrc": "USAT22003344"
+      }
+    },
+    {
+      "file": "Zedd,Jasmine Thompson - Funny.txt",
+      "format": "txt"
+    }
+  ]
+}

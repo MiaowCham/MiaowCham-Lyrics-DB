@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "path": "Sān-Z/Prophecy",
+  "tracks": {
+    "prophecy": {
+      "title": "预言 Prophecy",
+      "artists": [
+        "Sān-Z"
+      ],
+      "language": "en",
+      "album": "绝区零-预言 Prophecy",
+      "isrc": "FRX282654167",
+      "songwriters": [
+        "雷雨心",
+        "雷声",
+        "王铭基",
+        "张星"
+      ],
+      "platforms": {
+        "appleMusicId": "6786666554",
+        "ncmMusicId": "3402223603"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Sān-Z - Prophecy (feat. Gin Wigmore).lqe",
+      "format": "lqe",
+      "metadataRef": "prophecy"
+    },
+    {
+      "name": "Sān-Z - Prophecy (feat. Gin Wigmore).lrcn",
+      "format": "lrcn",
+      "metadataRef": "prophecy"
+    },
+    {
+      "name": "Sān-Z - Prophecy (feat. Gin Wigmore).ttml",
+      "format": "ttml",
+      "metadataRef": "prophecy"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Sān-Z - Prophecy (feat. Gin Wigmore).lqe",
+      "format": "lqe"
+    },
+    {
+      "file": "Sān-Z - Prophecy (feat. Gin Wigmore).lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "person",
+            "value": "v2"
+          },
+          {
+            "type": "other",
+            "value": "v2000"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Sān-Z - Prophecy (feat. Gin Wigmore).ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": [
+          "Sān-Z",
+          "HOYO-MiX",
+          "三Z-STUDIO",
+          "Gin Wigmore"
+        ],
+        "album": "绝区零-预言 Prophecy",
+        "appleMusicId": "6786666554",
+        "isrc": "FRX282654167",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham",
+        "ncmMusicId": "3402223603"
+      }
+    }
+  ]
+}

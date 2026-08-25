@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "path": "三浦大知/Horizon Dreamer",
+  "tracks": {
+    "horizon-dreamer": {
+      "title": "Horizon Dreamer",
+      "artists": [
+        "三浦大知"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "三浦大知",
+        "Nao'ymt"
+      ],
+      "platforms": {
+        "ncmMusicId": [
+          "2630258193",
+          "2716877107"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "applejson.Horizon Dreamer.json",
+      "format": "json",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer-LbVer.ttml",
+      "format": "ttml",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer-noEnPron-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer-noEnPron.ttml",
+      "format": "ttml",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer.lrc",
+      "format": "lrc",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer.lrcn",
+      "format": "lrcn",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "applettml.Horizon Dreamer.ttml",
+      "format": "ttml",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "Horizon Dreamer-participles.lys",
+      "format": "lys",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "Horizon Dreamer-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
+      "name": "Horizon Dreamer.lys",
+      "format": "lys",
+      "metadataRef": "horizon-dreamer"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applejson.Horizon Dreamer.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.Horizon Dreamer-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Horizon Dreamer-LbVer.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Horizon Dreamer-noEnPron-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Horizon Dreamer-noEnPron.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Horizon Dreamer.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "applettml.Horizon Dreamer.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.0"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "ja"
+        ],
+        "agent.v1": [
+          "person"
+        ],
+        "agent.v2": [
+          "other"
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ],
+        "Intro": [
+          true
+        ]
+      }
+    },
+    {
+      "file": "applettml.Horizon Dreamer.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": [
+          "2630258193",
+          "2716877107"
+        ]
+      }
+    },
+    {
+      "file": "Horizon Dreamer-participles.lys",
+      "format": "lys"
+    },
+    {
+      "file": "Horizon Dreamer-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Horizon Dreamer.lys",
+      "format": "lys"
+    }
+  ]
+}

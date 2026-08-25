@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "path": "Sān-Z/Stars Align",
+  "tracks": {
+    "stars-align": {
+      "title": "Stars Align",
+      "artists": [
+        "Sān-Z"
+      ],
+      "language": "en",
+      "album": "Stars Align (feat. Astra Yao) - Single",
+      "isrc": "FR2X42551676",
+      "songwriters": [
+        "雷声",
+        "Yuxin Lei"
+      ],
+      "platforms": {
+        "appleMusicId": "1796149669",
+        "spotifyId": "62OmUhX3LOCp1mpyDCgnbb",
+        "ncmMusicId": "2675131838"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Stars Align (2).lys",
+      "format": "lys",
+      "metadataRef": "stars-align"
+    },
+    {
+      "name": "Stars Align.lys",
+      "format": "lys",
+      "metadataRef": "stars-align"
+    },
+    {
+      "name": "Stars Align.ttml",
+      "format": "ttml",
+      "metadataRef": "stars-align"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Stars Align (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "Stars Align.lys",
+      "format": "lys"
+    },
+    {
+      "file": "Stars Align.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorLyricify": [
+          "MiaowCham",
+          "ITMan_CHINA"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "San-Z",
+        "appleMusicId": "1796149669",
+        "album": "Stars Align (feat. Astra Yao) - Single",
+        "isrc": "FR2X42551676",
+        "spotifyId": "62OmUhX3LOCp1mpyDCgnbb",
+        "ncmMusicId": "2675131838"
+      }
+    }
+  ]
+}

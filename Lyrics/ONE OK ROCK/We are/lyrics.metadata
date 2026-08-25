@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "path": "ONE OK ROCK/We are",
+  "tracks": {
+    "we-are-japanese-version": {
+      "title": "We are (Japanese Version)",
+      "artists": [
+        "ONE OK ROCK"
+      ],
+      "album": "Ambitions (日本盤)",
+      "isrc": "JPJ221600947",
+      "platforms": {
+        "qqMusicId": "002BGBQw2nw7cl",
+        "spotifyId": "4QL5DKkPZwBXkph4fW2Y0Z",
+        "appleMusicId": "1173406694"
+      }
+    },
+    "we-are": {
+      "title": "We are",
+      "artists": [
+        "ONE OK ROCK"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "We are ( JP Edition ).ttml",
+      "format": "ttml",
+      "metadataRef": "we-are-japanese-version"
+    },
+    {
+      "name": "We are ( JP Edition with not offset).ttml",
+      "format": "ttml",
+      "metadataRef": "we-are-japanese-version"
+    },
+    {
+      "name": "We Are.ttml",
+      "format": "ttml",
+      "metadataRef": "we-are"
+    }
+  ],
+  "sources": [
+    {
+      "file": "We are ( JP Edition ).ttml",
+      "format": "ttml",
+      "metadata": {
+        "qqMusicId": "002BGBQw2nw7cl",
+        "spotifyId": "4QL5DKkPZwBXkph4fW2Y0Z",
+        "appleMusicId": "1173406694",
+        "isrc": "JPJ221600947",
+        "musicName": [
+          "We are (Japanese Version)",
+          "We are"
+        ],
+        "artists": [
+          "ONE OK ROCK (ワンオクロック)",
+          "ONE OK ROCK",
+          "ワンオクロック"
+        ],
+        "album": [
+          "Ambitions (日本盤)",
+          "Ambitions"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "We are ( JP Edition with not offset).ttml",
+      "format": "ttml",
+      "metadata": {
+        "qqMusicId": "002BGBQw2nw7cl",
+        "spotifyId": "4QL5DKkPZwBXkph4fW2Y0Z",
+        "appleMusicId": "1173406694",
+        "isrc": "JPJ221600947",
+        "musicName": [
+          "We are (Japanese Version)",
+          "We are"
+        ],
+        "artists": [
+          "ONE OK ROCK (ワンオクロック)",
+          "ONE OK ROCK",
+          "ワンオクロック"
+        ],
+        "album": [
+          "Ambitions (日本盤)",
+          "Ambitions"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "We Are.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithubLogin": "MiaowCham&Lucian"
+      }
+    }
+  ]
+}

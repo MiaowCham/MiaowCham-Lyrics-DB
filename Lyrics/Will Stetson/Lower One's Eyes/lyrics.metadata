@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "path": "Will Stetson/Lower One's Eyes",
+  "tracks": {
+    "lower-one-s-eyes": {
+      "title": "Lower One's Eyes",
+      "artists": [
+        "Will Stetson"
+      ],
+      "language": "en",
+      "album": "Lower One's Eyes - Single",
+      "songwriters": [
+        "ぬゆり"
+      ],
+      "isrc": "QZK6M2248459",
+      "platforms": {
+        "appleMusicId": "1629613507"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Lower One's Eyes (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "lower-one-s-eyes"
+    },
+    {
+      "name": "Lower One's Eyes (2).lys",
+      "format": "lys",
+      "metadataRef": "lower-one-s-eyes"
+    },
+    {
+      "name": "Lower One's Eyes-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "lower-one-s-eyes"
+    },
+    {
+      "name": "Lower One's Eyes.lys",
+      "format": "lys",
+      "metadataRef": "lower-one-s-eyes"
+    },
+    {
+      "name": "Will Stetson - Lower One's Eyes.ttml",
+      "format": "ttml",
+      "metadataRef": "lower-one-s-eyes"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Lower One's Eyes (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Lower One's Eyes (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "Lower One's Eyes-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Lower One's Eyes.lys",
+      "format": "lys"
+    },
+    {
+      "file": "Will Stetson - Lower One's Eyes.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "Lower One's Eyes",
+        "artists": "Will Stetson",
+        "album": "Lower One's Eyes - Single",
+        "appleMusicId": "1629613507",
+        "songwriter": "ぬゆり",
+        "isrc": "QZK6M2248459",
+        "rootLanguage": "en",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}
