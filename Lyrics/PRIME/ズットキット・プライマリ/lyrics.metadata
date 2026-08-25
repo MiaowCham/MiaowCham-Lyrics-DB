@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "path": "PRIME/ズットキット・プライマリ",
+  "tracks": {
+    "track": {
+      "title": "ズットキット・プライマリ",
+      "artists": [
+        "PRIME"
+      ],
+      "language": "en",
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "PRIME.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "PRIME.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

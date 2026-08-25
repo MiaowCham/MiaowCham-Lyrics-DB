@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "path": "Kocchi No Kento/Mouiiyo",
+  "tracks": {
+    "track": {
+      "title": "もういいよ",
+      "artists": [
+        "Kocchi No Kento"
+      ],
+      "language": "jp",
+      "album": "もういいよ",
+      "isrc": "TCJPB2497470",
+      "songwriters": [
+        "こっちのけんと"
+      ],
+      "platforms": {
+        "appleMusicId": "1771376408",
+        "spotifyId": "4TSjU0UG6ZKbQhOJ4Ma7vE",
+        "ncmMusicId": "2632151480"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Kocchi No Kento - Mouiiyo.lrcn",
+      "format": "lrcn",
+      "metadataRef": "track"
+    },
+    {
+      "name": "Kocchi No Kento - Mouiiyo.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Kocchi No Kento - Mouiiyo.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "jp"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "other",
+            "value": "v2000"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Kocchi No Kento - Mouiiyo.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "こっちのけんと",
+        "album": "もういいよ",
+        "appleMusicId": "1771376408",
+        "isrc": "TCJPB2497470",
+        "spotifyId": "4TSjU0UG6ZKbQhOJ4Ma7vE",
+        "ncmMusicId": "2632151480"
+      }
+    }
+  ]
+}

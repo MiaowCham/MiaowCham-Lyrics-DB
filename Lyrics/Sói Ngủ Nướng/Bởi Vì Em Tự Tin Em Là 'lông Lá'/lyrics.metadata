@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 2,
+  "path": "Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+  "tracks": {
+    "boi-vi-em-tu-tin-em-la-long-la": {
+      "title": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "artists": [
+        "Sói Ngủ Nướng"
+      ],
+      "language": "vi",
+      "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "isrc": "QT6662602095",
+      "songwriters": [
+        "Nguyễn Lê Minh Nguyên"
+      ],
+      "platforms": {
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "ncmMusicId": "3392989926"
+      }
+    },
+    "boi-vi-em-tu-tin-em-la-long-la-2": {
+      "title": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "artists": [
+        "Sói Ngủ Nướng"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "[VERSE].txt",
+      "format": "txt",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la-2"
+    },
+    {
+      "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá' - 激进修复.ttml",
+      "format": "ttml",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la"
+    },
+    {
+      "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'.ttml",
+      "format": "ttml",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la"
+    },
+    {
+      "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.lrcn",
+      "format": "lrcn",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la"
+    },
+    {
+      "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.ttml",
+      "format": "ttml",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la"
+    },
+    {
+      "name": "无音译.ttml",
+      "format": "ttml",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la"
+    }
+  ],
+  "sources": [
+    {
+      "file": "[VERSE].txt",
+      "format": "txt"
+    },
+    {
+      "file": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá' - 激进修复.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "Sói Ngủ Nướng",
+        "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "isrc": "QT6662602095",
+        "ncmMusicId": "3392989926",
+        "musicName": "Bởi Vì Em Tự Tin Em Là 'lông Lá'"
+      }
+    },
+    {
+      "file": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "Sói Ngủ Nướng",
+        "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "isrc": "QT6662602095",
+        "ncmMusicId": "3392989926",
+        "musicName": "Bởi Vì Em Tự Tin Em Là 'lông Lá'"
+      }
+    },
+    {
+      "file": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "vi"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "Sói Ngủ Nướng",
+        "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "isrc": "QT6662602095",
+        "ncmMusicId": "3392989926"
+      }
+    },
+    {
+      "file": "无音译.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": "Sói Ngủ Nướng",
+        "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "isrc": "QT6662602095",
+        "ncmMusicId": "3392989926"
+      }
+    }
+  ]
+}

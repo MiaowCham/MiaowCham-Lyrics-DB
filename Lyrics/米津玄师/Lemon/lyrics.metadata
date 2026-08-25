@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "path": "米津玄师/Lemon",
+  "tracks": {
+    "lemon": {
+      "title": "Lemon",
+      "artists": [
+        "米津玄师"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "米津玄師"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "applettml.Lemon-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "lemon"
+    },
+    {
+      "name": "applettml.Lemon.ttml",
+      "format": "ttml",
+      "metadataRef": "lemon"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applettml.Lemon-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.Lemon.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

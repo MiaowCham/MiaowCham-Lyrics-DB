@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/尘间星旅 Star Odyssey",
+  "tracks": {
+    "star-odyssey": {
+      "title": "尘间星旅 Star Odyssey",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "language": "en",
+      "songwriters": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    },
+    "star-odyssey-2": {
+      "title": "尘间星旅 Star Odyssey",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "applejson.尘间星旅 Star Odyssey.json",
+      "format": "json",
+      "metadataRef": "star-odyssey"
+    },
+    {
+      "name": "applettml.尘间星旅 Star Odyssey-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "star-odyssey"
+    },
+    {
+      "name": "applettml.尘间星旅 Star Odyssey.ttml",
+      "format": "ttml",
+      "metadataRef": "star-odyssey"
+    },
+    {
+      "name": "HOYO-MiX, 铃木爱理 - 尘间星旅 Star Odyssey (正式版本 v1).ttml",
+      "format": "ttml",
+      "metadataRef": "star-odyssey-2"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applejson.尘间星旅 Star Odyssey.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.尘间星旅 Star Odyssey-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.尘间星旅 Star Odyssey.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "HOYO-MiX, 铃木爱理 - 尘间星旅 Star Odyssey (正式版本 v1).ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

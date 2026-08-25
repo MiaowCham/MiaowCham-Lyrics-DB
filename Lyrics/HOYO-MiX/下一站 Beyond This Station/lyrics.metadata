@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/下一站 Beyond This Station",
+  "tracks": {
+    "beyond-this-station": {
+      "title": "Beyond This Station",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "language": "en",
+      "album": "Honkai: Star Rail - Let There Be Laughter (Part 2) [Original Game Soundtrack]",
+      "isrc": "FRX282673018",
+      "songwriters": [
+        "林一凡",
+        "Ruby Qu",
+        "黑金雨",
+        "王可鑫"
+      ],
+      "platforms": {
+        "ncmMusicId": "3409349905",
+        "appleMusicId": "6790171993"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "HOYO-MiX - 下一站 Beyond This Station.ttml",
+      "format": "ttml",
+      "metadataRef": "beyond-this-station"
+    }
+  ],
+  "sources": [
+    {
+      "file": "HOYO-MiX - 下一站 Beyond This Station.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ttmlAuthorLyricify": "MiaowCham",
+        "ncmMusicId": "3409349905",
+        "artists": "HOYO-MiX",
+        "appleMusicId": "6790171993",
+        "album": "Honkai: Star Rail - Let There Be Laughter (Part 2) [Original Game Soundtrack]",
+        "isrc": "FRX282673018"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "path": "苏逸Suyi/别忘记查收关心！",
+  "tracks": {
+    "track": {
+      "title": "别忘记查收关心！",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "language": "zh-Hans",
+      "songwriters": [
+        "苏逸Suyi",
+        "Yagi"
+      ],
+      "platforms": {}
+    },
+    "track-2": {
+      "title": "别忘记查收关心！",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "language": "zh-Hans",
+      "songwriters": [
+        "苏逸Suyi",
+        "Yagi"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "applejson.别忘记查收关心！.json",
+      "format": "json",
+      "metadataRef": "track"
+    },
+    {
+      "name": "applettml.别忘记查收关心！-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
+      "name": "applettml.别忘记查收关心！-LbVer.ttml",
+      "format": "ttml",
+      "metadataRef": "track-2"
+    },
+    {
+      "name": "applettml.别忘记查收关心！.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
+      "name": "别忘记查收关心！.ass",
+      "format": "ass",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applejson.别忘记查收关心！.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.别忘记查收关心！-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.别忘记查收关心！-LbVer.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.别忘记查收关心！.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "别忘记查收关心！.ass",
+      "format": "ass"
+    }
+  ]
+}

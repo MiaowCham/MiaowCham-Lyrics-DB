@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "path": "周深/我是明星 (I'm A Star)",
+  "tracks": {
+    "i-m-a-star": {
+      "title": "我是明星 (I'm A Star)",
+      "artists": [
+        "周深"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "I'm A Star.ttml",
+      "format": "ttml",
+      "metadataRef": "i-m-a-star"
+    }
+  ],
+  "sources": [
+    {
+      "file": "I'm A Star.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "path": "Josh Garrels/A Long Way",
+  "tracks": {
+    "a-long-way": {
+      "title": "A Long Way",
+      "artists": [
+        "Josh Garrels"
+      ],
+      "language": "en",
+      "album": "Home",
+      "songwriters": [
+        "Joshua Michael Garrels"
+      ],
+      "isrc": "QMEU31501105",
+      "platforms": {
+        "appleMusicId": "973223438"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Josh Garrels - A Long Way.ttml",
+      "format": "ttml",
+      "metadataRef": "a-long-way"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Josh Garrels - A Long Way.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "A Long Way",
+        "artists": "Josh Garrels",
+        "album": "Home",
+        "appleMusicId": "973223438",
+        "songwriter": "Joshua Michael Garrels",
+        "isrc": "QMEU31501105",
+        "rootLanguage": "en",
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

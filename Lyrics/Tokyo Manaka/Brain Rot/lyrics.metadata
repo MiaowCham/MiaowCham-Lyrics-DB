@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "path": "Tokyo Manaka/Brain Rot",
+  "tracks": {
+    "brain-rot": {
+      "title": "Brain Rot",
+      "artists": [
+        "Tokyo Manaka"
+      ],
+      "language": "ja",
+      "album": "Brain Rot - Single",
+      "songwriters": [
+        "Tokyo Manaka"
+      ],
+      "isrc": "JPG102600245",
+      "platforms": {
+        "appleMusicId": "1875880766"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Tokyo Manaka - Brain Rot.ttml",
+      "format": "ttml",
+      "metadataRef": "brain-rot"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Tokyo Manaka - Brain Rot.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "Brain Rot",
+        "artists": "Tokyo Manaka",
+        "album": "Brain Rot - Single",
+        "songwriter": "Tokyo Manaka",
+        "isrc": "JPG102600245",
+        "appleMusicId": "1875880766",
+        "rootLanguage": "ja",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

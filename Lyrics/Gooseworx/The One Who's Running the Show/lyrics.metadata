@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "path": "Gooseworx/The One Who's Running the Show",
+  "tracks": {
+    "the-one-who-s-running-the-show": {
+      "title": "The One Who's Running the Show",
+      "artists": [
+        "Gooseworx"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "The One Who's Running the Show.ttml",
+      "format": "ttml",
+      "metadataRef": "the-one-who-s-running-the-show"
+    }
+  ],
+  "sources": [
+    {
+      "file": "The One Who's Running the Show.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

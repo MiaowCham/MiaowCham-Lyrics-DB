@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/未行之路",
+  "tracks": {
+    "the-road-not-taken": {
+      "title": "未行之路 The Road Not Taken",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "原神-「未行之路 The Road Not Taken」游戏原声EP专辑",
+      "isrc": "FRX872425065",
+      "platforms": {
+        "ncmMusicId": "2160850755",
+        "qqMusicId": "002aHh3Z2bofvM",
+        "spotifyId": [
+          "6yoIGOKFAGZ0rHSxqRuwt2",
+          "13ZiVkjad58eXSASbOFqwB",
+          "0YhGUbMQBJHe0Ude8MlcQf",
+          "5fw4spyGdAkwSkcBHNC7Ir"
+        ],
+        "appleMusicId": [
+          "1747464382",
+          "1747464879",
+          "1747442244",
+          "1747470185",
+          "1747459411"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "HOYO-MiX - 未行之路.ttml",
+      "format": "ttml",
+      "metadataRef": "the-road-not-taken"
+    }
+  ],
+  "sources": [
+    {
+      "file": "HOYO-MiX - 未行之路.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": [
+          "未行之路 The Road Not Taken",
+          "未行之路 (原神动画短片「未行之路」插曲)",
+          "未行之路 (《原神》動畫短片「未行之路」插曲)",
+          "The Road Not Taken (Genshin Impact Animated Short \"The Road Not Taken\" Original Soundtrack)",
+          "いつかその道へ (原神ショートアニメ「いつかその道へ」挿入歌)",
+          "가지 않은 길 (원신 단편 애니메이션 「가지 않은 길」 삽입곡)",
+          "未行之路 - 《原神》動畫短片「未行之路」插曲",
+          "The Road Not Taken - Genshin Impact Animated Short \"The Road Not Taken\" Original Soundtrack",
+          "いつかその道へ - 原神ショートアニメ「いつかその道へ」挿入歌",
+          "가지 않은 길 - 원신 단편 애니메이션 「가지 않은 길」 삽입곡"
+        ],
+        "artists": [
+          "HOYO-MiX",
+          "Aimer"
+        ],
+        "album": [
+          "原神-「未行之路 The Road Not Taken」游戏原声EP专辑",
+          "原神-未行之路 (游戏《原神》原声音乐) - Single",
+          "原神-未行之路 (遊戲《原神》原聲音樂) - Single",
+          "Genshin Impact - The Road Not Taken (Original Game Soundtrack) - Single",
+          "原神-いつかその道へ (Original Game Soundtrack) - Single",
+          "원신-가지 않은 길 (Original Game Soundtrack) - Single",
+          "原神-未行之路 (遊戲《原神》原聲音樂)",
+          "Genshin Impact - The Road Not Taken (Original Game Soundtrack)",
+          "原神-いつかその道へ (Original Game Soundtrack)",
+          "원신-가지 않은 길 (Original Game Soundtrack)"
+        ],
+        "ncmMusicId": "2160850755",
+        "qqMusicId": "002aHh3Z2bofvM",
+        "spotifyId": [
+          "6yoIGOKFAGZ0rHSxqRuwt2",
+          "13ZiVkjad58eXSASbOFqwB",
+          "0YhGUbMQBJHe0Ude8MlcQf",
+          "5fw4spyGdAkwSkcBHNC7Ir"
+        ],
+        "appleMusicId": [
+          "1747464382",
+          "1747464879",
+          "1747442244",
+          "1747470185",
+          "1747459411"
+        ],
+        "isrc": [
+          "FRX872425065",
+          "FRX872425063",
+          "FRX872425085",
+          "FRX872425075",
+          "FRX872425073"
+        ],
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

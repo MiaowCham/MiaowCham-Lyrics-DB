@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "path": "Jay Chou/Six Degrees (New Ver)",
+  "tracks": {
+    "six-degrees-new-ver": {
+      "title": "Six Degrees (New Ver)",
+      "artists": [
+        "Jay Chou"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Six Degrees (New Ver) (2).lys",
+      "format": "lys",
+      "metadataRef": "six-degrees-new-ver"
+    },
+    {
+      "name": "Six Degrees (New Ver).lys",
+      "format": "lys",
+      "metadataRef": "six-degrees-new-ver"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Six Degrees (New Ver) (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "Six Degrees (New Ver).lys",
+      "format": "lys"
+    }
+  ]
+}

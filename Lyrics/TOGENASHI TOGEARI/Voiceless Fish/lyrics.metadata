@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "path": "TOGENASHI TOGEARI/Voiceless Fish",
+  "tracks": {
+    "voiceless-fish-shin-kawasaki-temporary": {
+      "title": "Voiceless Fish (Shin Kawasaki (Temporary))",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "Shogo Ohnishi",
+        "カイザー恵理菜"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary)).ttml",
+      "format": "ttml",
+      "metadataRef": "voiceless-fish-shin-kawasaki-temporary"
+    }
+  ],
+  "sources": [
+    {
+      "file": "TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary)).ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

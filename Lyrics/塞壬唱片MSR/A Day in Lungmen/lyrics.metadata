@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "path": "塞壬唱片MSR/A Day in Lungmen",
+  "tracks": {
+    "a-day-in-lungmen": {
+      "title": "A Day in Lungmen",
+      "artists": [
+        "塞壬唱片MSR"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "A Day in Lungmen (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "a-day-in-lungmen"
+    },
+    {
+      "name": "A Day in Lungmen (2).lys",
+      "format": "lys",
+      "metadataRef": "a-day-in-lungmen"
+    },
+    {
+      "name": "A Day in Lungmen-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "a-day-in-lungmen"
+    },
+    {
+      "name": "A Day in Lungmen.lys",
+      "format": "lys",
+      "metadataRef": "a-day-in-lungmen"
+    }
+  ],
+  "sources": [
+    {
+      "file": "A Day in Lungmen (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "A Day in Lungmen (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "A Day in Lungmen-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "A Day in Lungmen.lys",
+      "format": "lys"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/You're Just Like Pop Music",
+  "tracks": {
+    "you-re-just-like-pop-music": {
+      "title": "You're Just Like Pop Music",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "You're Just Like Pop Music",
+      "isrc": "AUBEC2156965",
+      "platforms": {
+        "ncmMusicId": "1880256280",
+        "qqMusicId": "0000wcn9098WVg",
+        "spotifyId": "0UYnMDFZuXUpsiWGMq1EVk"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "YonKaGor - You're Just Like Pop Music.ttml",
+      "format": "ttml",
+      "metadataRef": "you-re-just-like-pop-music"
+    }
+  ],
+  "sources": [
+    {
+      "file": "YonKaGor - You're Just Like Pop Music.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": "You're Just Like Pop Music",
+        "artists": "YonKaGor",
+        "album": "You're Just Like Pop Music",
+        "ncmMusicId": "1880256280",
+        "qqMusicId": "0000wcn9098WVg",
+        "spotifyId": "0UYnMDFZuXUpsiWGMq1EVk",
+        "isrc": "AUBEC2156965"
+      }
+    }
+  ]
+}

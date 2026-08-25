@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "path": "Jack Wall/Cold War",
+  "tracks": {
+    "cold-war": {
+      "title": "Cold War",
+      "artists": [
+        "Jack Wall"
+      ],
+      "language": "en",
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Jack Wall - Cold War - 音译.lrcn",
+      "format": "lrcn",
+      "metadataRef": "cold-war"
+    },
+    {
+      "name": "Jack Wall - Cold War - 音译.ttml",
+      "format": "ttml",
+      "metadataRef": "cold-war"
+    },
+    {
+      "name": "Jack Wall - Cold War.ttml",
+      "format": "ttml",
+      "metadataRef": "cold-war"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Jack Wall - Cold War - 音译.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Jack Wall - Cold War - 音译.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    },
+    {
+      "file": "Jack Wall - Cold War.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

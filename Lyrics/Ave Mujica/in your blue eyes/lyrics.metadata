@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "path": "Ave Mujica/in your blue eyes",
+  "tracks": {
+    "in-your-blue-eyes": {
+      "title": "in your blue eyes",
+      "artists": [
+        "Ave Mujica"
+      ],
+      "language": "en",
+      "album": "in your blue eyes",
+      "isrc": "JPR562500271",
+      "platforms": {
+        "appleMusicId": "1837094184",
+        "ncmMusicId": "2742468679",
+        "spotifyId": "4UQmtceQpVzfSgwW7EWfwf",
+        "qqMusicId": "601120802"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Ave Mujica - in your blue eyes.ttml",
+      "format": "ttml",
+      "metadataRef": "in-your-blue-eyes"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Ave Mujica - in your blue eyes.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": [
+          "Ave Mujica",
+          "塞壬唱片-MSR"
+        ],
+        "album": [
+          "in your blue eyes",
+          "碧い瞳の中に"
+        ],
+        "isrc": "JPR562500271",
+        "appleMusicId": "1837094184",
+        "ncmMusicId": "2742468679",
+        "spotifyId": "4UQmtceQpVzfSgwW7EWfwf",
+        "qqMusicId": "601120802",
+        "ttmlAuthorGithub": [
+          "174598250",
+          "136059186"
+        ],
+        "ttmlAuthorGithubLogin": [
+          "ASyunagi",
+          "MiaowCham"
+        ]
+      }
+    }
+  ]
+}

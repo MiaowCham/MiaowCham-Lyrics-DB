@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "path": "Porter Robinson/Musician",
+  "tracks": {
+    "musician": {
+      "title": "Musician",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "language": "en",
+      "songwriters": [
+        "Gus Lobban",
+        "Porter Robinson",
+        "Sarah Perry"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Porter Robinson - Musician.ttml",
+      "format": "ttml",
+      "metadataRef": "musician"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Porter Robinson - Musician.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

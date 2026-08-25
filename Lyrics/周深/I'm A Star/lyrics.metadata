@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "path": "周深/I'm A Star",
+  "tracks": {
+    "i-m-a-star": {
+      "title": "I'm A Star",
+      "artists": [
+        "周深"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "I'm A Star.lrc",
+      "format": "lrc",
+      "metadataRef": "i-m-a-star"
+    },
+    {
+      "name": "I'm A Star.lys",
+      "format": "lys",
+      "metadataRef": "i-m-a-star"
+    }
+  ],
+  "sources": [
+    {
+      "file": "I'm A Star.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "I'm A Star.lys",
+      "format": "lys"
+    }
+  ]
+}

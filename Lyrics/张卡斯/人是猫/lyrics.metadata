@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "path": "张卡斯/人是猫",
+  "tracks": {
+    "track": {
+      "title": "人是猫",
+      "artists": [
+        "张卡斯"
+      ],
+      "language": "zh-Hans-CN",
+      "album": "人是猫",
+      "songwriters": [
+        "张卡斯"
+      ],
+      "platforms": {
+        "ncmMusicId": "3395708493"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "张卡斯, 洛天依 - 人是猫.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "张卡斯, 洛天依 - 人是猫.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "ncmMusicId": "3395708493",
+        "album": "人是猫",
+        "artists": "张卡斯"
+      }
+    }
+  ]
+}

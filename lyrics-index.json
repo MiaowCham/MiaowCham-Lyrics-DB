@@ -1,0 +1,2338 @@
+{
+  "schemaVersion": 2,
+  "tracks": [
+    {
+      "path": "Aimer/DAWN",
+      "metadataRef": "brave-shine",
+      "track": {
+        "title": "Brave Shine",
+        "artists": [
+          "Aimer"
+        ],
+        "language": "ja",
+        "album": "DAWN",
+        "songwriters": [
+          "aimerrhythm"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Aimer - Brave Shine.lrcn",
+        "Aimer - Brave Shine.ttml"
+      ]
+    },
+    {
+      "path": "Aimer/DAWN",
+      "metadataRef": "last-stardust",
+      "track": {
+        "title": "LAST STARDUST",
+        "artists": [
+          "Aimer"
+        ],
+        "language": "jp",
+        "album": "DAWN",
+        "isrc": "JPU901501854",
+        "songwriters": [
+          "aimerrhythm",
+          "MASAHIRO TOBINAI",
+          "Kenji Tamai"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1536130473",
+          "1538259850"
+        ],
+        "ncmMusicId": [
+          "33418857",
+          "476081885",
+          "1415124898"
+        ]
+      },
+      "files": [
+        "Aimer - LAST STARDUST.lrcn",
+        "Aimer - LAST STARDUST.ttml"
+      ]
+    },
+    {
+      "path": "Ave Mujica/in your blue eyes",
+      "metadataRef": "in-your-blue-eyes",
+      "track": {
+        "title": "in your blue eyes",
+        "artists": [
+          "Ave Mujica"
+        ],
+        "language": "en",
+        "album": "in your blue eyes",
+        "isrc": "JPR562500271"
+      },
+      "platforms": {
+        "appleMusicId": "1837094184",
+        "ncmMusicId": "2742468679",
+        "spotifyId": "4UQmtceQpVzfSgwW7EWfwf",
+        "qqMusicId": "601120802"
+      },
+      "files": [
+        "Ave Mujica - in your blue eyes.ttml"
+      ]
+    },
+    {
+      "path": "Ave Mujica/Symbol I：△",
+      "metadataRef": "symbol-i",
+      "track": {
+        "title": "Symbol I : △",
+        "artists": [
+          "Ave Mujica"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "Diggy-MO'",
+          "長谷川大介"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Ave Mujica - Symbol I _ △.ttml"
+      ]
+    },
+    {
+      "path": "BaishaJAWS/Dive Back In Time(动画《时光代理人》片头曲)",
+      "metadataRef": "dive-back-in-time",
+      "track": {
+        "title": "Dive Back In Time(动画《时光代理人》片头曲)",
+        "artists": [
+          "BaishaJAWS"
+        ],
+        "language": "en",
+        "album": "时光代理人(动画《时光代理人》原声带)",
+        "isrc": "FRX282279597",
+        "songwriters": [
+          "Michael Yu"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1865122636",
+          "1865381833"
+        ],
+        "spotifyId": [
+          "3PlvpQjHSMYPtodc2Ldl8M",
+          "7GcZYZD9N2gGGnnupzuh7f"
+        ],
+        "ncmMusicId": "1842817284"
+      },
+      "files": [
+        "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).lrcn",
+        "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).ttml"
+      ]
+    },
+    {
+      "path": "Billie Eilish/lovely",
+      "metadataRef": "lovely",
+      "track": {
+        "title": "lovely",
+        "artists": [
+          "Billie Eilish"
+        ],
+        "language": "en",
+        "album": "lovely - Single",
+        "songwriters": [
+          "Billie Eilish O’Connell",
+          "Finneas Baird O'Connell",
+          "Khalid Donnel Robinson"
+        ],
+        "isrc": "USUM71804190"
+      },
+      "platforms": {
+        "appleMusicId": "1369380479"
+      },
+      "files": [
+        "Billie Eilish & Khalid - lovely.ttml"
+      ]
+    },
+    {
+      "path": "Coldplay/Viva La Vida",
+      "metadataRef": "viva-la-vida",
+      "track": {
+        "title": "Viva La Vida",
+        "artists": [
+          "Coldplay"
+        ],
+        "album": "Viva La Vida or Death and All His Friends",
+        "isrc": "GBAYE0800265"
+      },
+      "platforms": {
+        "ncmMusicId": "3986017",
+        "qqMusicId": "000B2dCe3JJpi6",
+        "spotifyId": "1mea3bSkSGXuIRvnydlB5b",
+        "appleMusicId": "1122773680"
+      },
+      "files": [
+        "Coldplay - Viva La Vida.ttml"
+      ]
+    },
+    {
+      "path": "Daichi Miura/Polytope",
+      "metadataRef": "polytope",
+      "track": {
+        "title": "Polytope",
+        "artists": [
+          "Daichi Miura"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "Nao'ymt"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Daichi Miura - Polytope.ttml"
+      ]
+    },
+    {
+      "path": "Dogg1eB/大石测胸口",
+      "metadataRef": "track",
+      "track": {
+        "title": "大石测胸口",
+        "artists": [
+          "Dogg1eB"
+        ],
+        "album": "他的前半生"
+      },
+      "platforms": {
+        "ncmMusicId": "2671391615"
+      },
+      "files": [
+        "Dogg1eB,丁斯塔科维奇 - 大石测胸口.ttml"
+      ]
+    },
+    {
+      "path": "Encanto Cast/We Don't Talk About Bruno",
+      "metadataRef": "we-don-t-talk-about-bruno-from-encanto-soundtrack-version",
+      "track": {
+        "title": "We Don't Talk About Bruno (From \"Encanto\"/Soundtrack Version)",
+        "artists": [
+          "Encanto Cast"
+        ],
+        "album": "Encanto (Original Motion Picture Soundtrack)",
+        "isrc": "USWD12112915"
+      },
+      "platforms": {
+        "ncmMusicId": "1896087128",
+        "qqMusicId": [
+          "003Dvq093FiP0F",
+          "000B4g5f4YbV45"
+        ],
+        "spotifyId": [
+          "52xJxFP6TqMuO4Yt0eOkMz",
+          "3fYwdlIVtJlYJTvHYrt7ev"
+        ],
+        "appleMusicId": [
+          "1594677760",
+          "1605202548"
+        ]
+      },
+      "files": [
+        "We Don't Talk About Bruno.ttml"
+      ]
+    },
+    {
+      "path": "Gooseworx/The One Who's Running the Show",
+      "metadataRef": "the-one-who-s-running-the-show",
+      "track": {
+        "title": "The One Who's Running the Show",
+        "artists": [
+          "Gooseworx"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "The One Who's Running the Show.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/Before Setting Out",
+      "metadataRef": "before-setting-out",
+      "track": {
+        "title": "Before Setting Out",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Before Setting Out (2).lys",
+        "Before Setting Out.lys"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/Side Quest King (English Ver.)",
+      "metadataRef": "side-quest-king-english-ver",
+      "track": {
+        "title": "Side Quest King (English Ver.)",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "language": "en",
+        "album": "Side Quest King (Honkai: Star Rail Third Anniversary Theme Song) - EP",
+        "isrc": "FR59R2687808",
+        "songwriters": [
+          "王可鑫",
+          "TSAR",
+          "Mes",
+          "0mono"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": "3370641225",
+        "appleMusicId": "1891254310"
+      },
+      "files": [
+        "side quest king.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/下一站 Beyond This Station",
+      "metadataRef": "beyond-this-station",
+      "track": {
+        "title": "Beyond This Station",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "language": "en",
+        "album": "Honkai: Star Rail - Let There Be Laughter (Part 2) [Original Game Soundtrack]",
+        "isrc": "FRX282673018",
+        "songwriters": [
+          "林一凡",
+          "Ruby Qu",
+          "黑金雨",
+          "王可鑫"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": "3409349905",
+        "appleMusicId": "6790171993"
+      },
+      "files": [
+        "HOYO-MiX - 下一站 Beyond This Station.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/不虚此行 On the Journey",
+      "metadataRef": "on-the-journey",
+      "track": {
+        "title": "On the Journey",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "On the Journey (Honkai: Star Rail Two-Year Anniversary Commemoration Song)",
+        "isrc": "QM6P42521710"
+      },
+      "platforms": {
+        "qqMusicId": "0049lelQ3EY4jN",
+        "spotifyId": [
+          "0HqjLk8hVH78mkgY6Z2eX6",
+          "0URHPsGbVUzFPGy0s03Rzb",
+          "142gEhGxh2oc62PKi5YPlL"
+        ],
+        "appleMusicId": [
+          "1809715075",
+          "1809714865",
+          "1809715122",
+          "1809714969"
+        ]
+      },
+      "files": [
+        "HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/在出发之前",
+      "metadataRef": "before-setting-out",
+      "track": {
+        "title": "Before Setting Out",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "Before Setting Out (Honkai Impact 3rd Original Game Soundtrack)",
+        "isrc": "FR59R2406307"
+      },
+      "platforms": {
+        "ncmMusicId": "2124643510",
+        "qqMusicId": "002U7gud10KtaN",
+        "spotifyId": "74LGFGQ4SSPaumBvqT37JQ",
+        "appleMusicId": "1730019737"
+      },
+      "files": [
+        "在出发之前.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/尘间星旅 Star Odyssey",
+      "metadataRef": "star-odyssey",
+      "track": {
+        "title": "尘间星旅 Star Odyssey",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "language": "en",
+        "songwriters": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applejson.尘间星旅 Star Odyssey.json",
+        "applettml.尘间星旅 Star Odyssey-Format.ttml",
+        "applettml.尘间星旅 Star Odyssey.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/尘间星旅 Star Odyssey",
+      "metadataRef": "star-odyssey-2",
+      "track": {
+        "title": "尘间星旅 Star Odyssey",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "HOYO-MiX, 铃木爱理 - 尘间星旅 Star Odyssey (正式版本 v1).ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/拂晓 Proi Proi",
+      "metadataRef": "track",
+      "track": {
+        "title": "拂晓",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "拂晓"
+      },
+      "platforms": {},
+      "files": [
+        "HOYO-MiX - 拂晓.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/拂晓 Proi Proi",
+      "metadataRef": "proi-proi",
+      "track": {
+        "title": "拂晓 Proi Proi",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "崩坏星穹铁道-洞穴寓言（中篇）Allegory of the Cave (Part 2)",
+        "isrc": "QM7282548906"
+      },
+      "platforms": {
+        "qqMusicId": "000J0KtD2auL4h",
+        "spotifyId": [
+          "5qaiPcNQUIUTEtZIiScf9w",
+          "3FWZFYHVediME9wwdsiYas",
+          "2fywHvZ0GP5CWdycMGYJ34",
+          "6snyNT6w27QFkdyTO3vOEM"
+        ],
+        "appleMusicId": [
+          "1815472401",
+          "1815476365",
+          "1815467273",
+          "1815471107",
+          "1815480448"
+        ],
+        "ncmMusicId": "2709812973"
+      },
+      "files": [
+        "HOYO-MiX, NIDA - 拂晓 Proi Proi (2).ttml",
+        "HOYO-MiX, NIDA - 拂晓 Proi Proi.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/拂晓 Proi Proi",
+      "metadataRef": "proi-proi-2",
+      "track": {
+        "title": "拂晓 Proi Proi",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "拂晓 Proi Proi.ass"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/未行之路",
+      "metadataRef": "the-road-not-taken",
+      "track": {
+        "title": "未行之路 The Road Not Taken",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "原神-「未行之路 The Road Not Taken」游戏原声EP专辑",
+        "isrc": "FRX872425065"
+      },
+      "platforms": {
+        "ncmMusicId": "2160850755",
+        "qqMusicId": "002aHh3Z2bofvM",
+        "spotifyId": [
+          "6yoIGOKFAGZ0rHSxqRuwt2",
+          "13ZiVkjad58eXSASbOFqwB",
+          "0YhGUbMQBJHe0Ude8MlcQf",
+          "5fw4spyGdAkwSkcBHNC7Ir"
+        ],
+        "appleMusicId": [
+          "1747464382",
+          "1747464879",
+          "1747442244",
+          "1747470185",
+          "1747459411"
+        ]
+      },
+      "files": [
+        "HOYO-MiX - 未行之路.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/炽烈的还魂诗·再现",
+      "metadataRef": "ode-of-resurrection-recapitulation",
+      "track": {
+        "title": "炽烈的还魂诗·再现 Ode of Resurrection: Recapitulation",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "原神-竟夜有辉之燎 Radiance Aflame",
+        "isrc": "FRX202558721"
+      },
+      "platforms": {
+        "qqMusicId": "001UwWZY39qaYT",
+        "spotifyId": [
+          "07PUHSNiwqFhvTRvN7ideF",
+          "2veCqqvR69JbR1gWNV8ieC",
+          "3wXzkWWQU3vNgRfiVXGycv",
+          "1ceu36FwqXn8Po656vnOxV"
+        ],
+        "appleMusicId": [
+          "1810694226",
+          "1810682874",
+          "1810704688",
+          "1810684625",
+          "1810689430"
+        ],
+        "ncmMusicId": "2699953016"
+      },
+      "files": [
+        "HOYO-MiX - 炽烈的还魂诗·再现 (2).ttml",
+        "HOYO-MiX - 炽烈的还魂诗·再现.lrc",
+        "HOYO-MiX - 炽烈的还魂诗·再现.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "metadataRef": "ode-of-resurrection-recapitulation",
+      "track": {
+        "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-lyricify.ass"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "metadataRef": "ode-of-resurrection-recapitulation-2",
+      "track": {
+        "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-trans.lrc",
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2).lys",
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-trans.lrc",
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.ass",
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.lys"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "metadataRef": "ode-of-resurrection-recapitulation-3",
+      "track": {
+        "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-lyricify.ass"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/蚀形的灾祲",
+      "metadataRef": "vitas-corrodens-pestis",
+      "track": {
+        "title": "Vitas Corrodens Pestis",
+        "artists": [
+          "HOYO-MiX"
+        ],
+        "album": "Genshin Impact - Radiance Aflame (Original Game Soundtrack)",
+        "isrc": "FRX202558804"
+      },
+      "platforms": {
+        "qqMusicId": "003lnrCc0HL7pM",
+        "spotifyId": [
+          "41ULvYL5zrXI3NSKTxm3wA",
+          "4ZWZH6IoABI331E1FRMSpx",
+          "4hMqRDgNjCqqtTGhllpHtd",
+          "3I81DTTElZ3c6dvU1VPDOS"
+        ],
+        "appleMusicId": [
+          "1810684611",
+          "1810682872",
+          "1810704404",
+          "1810689428",
+          "1810694220"
+        ],
+        "ncmMusicId": "2699953015"
+      },
+      "files": [
+        "HOYO-MiX - 蚀形的灾祲 (2).ttml",
+        "HOYO-MiX - 蚀形的灾祲.ttml"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis",
+      "metadataRef": "vitas-corrodens-pestis",
+      "track": {
+        "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "蚀形的灾祲 Vitas Corrodens Pestis (2)-lyricify.ass"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis",
+      "metadataRef": "vitas-corrodens-pestis-2",
+      "track": {
+        "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "蚀形的灾祲 Vitas Corrodens Pestis (2)-trans.lrc",
+        "蚀形的灾祲 Vitas Corrodens Pestis (2).lys",
+        "蚀形的灾祲 Vitas Corrodens Pestis-trans.lrc",
+        "蚀形的灾祲 Vitas Corrodens Pestis.ass",
+        "蚀形的灾祲 Vitas Corrodens Pestis.lys"
+      ]
+    },
+    {
+      "path": "HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis",
+      "metadataRef": "vitas-corrodens-pestis-3",
+      "track": {
+        "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+        "artists": [
+          "HOYO-MiX"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "蚀形的灾祲 Vitas Corrodens Pestis-lyricify.ass"
+      ]
+    },
+    {
+      "path": "HoYoFair/XOXO",
+      "metadataRef": "xoxo",
+      "track": {
+        "title": "XOXO",
+        "artists": [
+          "HoYoFair"
+        ],
+        "album": "HoYoFair 2023 (Genshin Impact Fan Art Project)",
+        "isrc": "DGA092395205"
+      },
+      "platforms": {
+        "ncmMusicId": "2093298047",
+        "qqMusicId": "002WrfQg2s9KTL",
+        "spotifyId": "36DHuzTdHq7PEussyOVQtT"
+      },
+      "files": [
+        "HoYoFair - XOXO (2).ttml",
+        "HoYoFair - XOXO.ttml",
+        "HoYoFair, Marcus Perkins Bejarano, Kim Jinhyoung - XOXO.ttml",
+        "XOXO (2).lrc",
+        "XOXO-lys.qrc",
+        "XOXO.lrc",
+        "XOXO.lys",
+        "XOXO.ttml"
+      ]
+    },
+    {
+      "path": "Jack Wall/Cold War",
+      "metadataRef": "cold-war",
+      "track": {
+        "title": "Cold War",
+        "artists": [
+          "Jack Wall"
+        ],
+        "language": "en"
+      },
+      "platforms": {},
+      "files": [
+        "Jack Wall - Cold War - 音译.lrcn",
+        "Jack Wall - Cold War - 音译.ttml",
+        "Jack Wall - Cold War.ttml"
+      ]
+    },
+    {
+      "path": "Jay Chou/Six Degrees (New Ver)",
+      "metadataRef": "six-degrees-new-ver",
+      "track": {
+        "title": "Six Degrees (New Ver)",
+        "artists": [
+          "Jay Chou"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Six Degrees (New Ver) (2).lys",
+        "Six Degrees (New Ver).lys"
+      ]
+    },
+    {
+      "path": "Josh Garrels/A Long Way",
+      "metadataRef": "a-long-way",
+      "track": {
+        "title": "A Long Way",
+        "artists": [
+          "Josh Garrels"
+        ],
+        "language": "en",
+        "album": "Home",
+        "songwriters": [
+          "Joshua Michael Garrels"
+        ],
+        "isrc": "QMEU31501105"
+      },
+      "platforms": {
+        "appleMusicId": "973223438"
+      },
+      "files": [
+        "Josh Garrels - A Long Way.ttml"
+      ]
+    },
+    {
+      "path": "JVKE/oh to be loved",
+      "metadataRef": "oh-to-be-loved",
+      "track": {
+        "title": "oh to be loved",
+        "artists": [
+          "JVKE"
+        ],
+        "language": "en",
+        "album": "oh to be loved - Single",
+        "songwriters": [
+          "Jake Lawson",
+          "Zac Lawson"
+        ],
+        "isrc": "QMDA72563853"
+      },
+      "platforms": {
+        "appleMusicId": "1832550895"
+      },
+      "files": [
+        "JVKE - oh to be loved.ttml"
+      ]
+    },
+    {
+      "path": "Kocchi No Kento/Mouiiyo",
+      "metadataRef": "track",
+      "track": {
+        "title": "もういいよ",
+        "artists": [
+          "Kocchi No Kento"
+        ],
+        "language": "jp",
+        "album": "もういいよ",
+        "isrc": "TCJPB2497470",
+        "songwriters": [
+          "こっちのけんと"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "1771376408",
+        "spotifyId": "4TSjU0UG6ZKbQhOJ4Ma7vE",
+        "ncmMusicId": "2632151480"
+      },
+      "files": [
+        "Kocchi No Kento - Mouiiyo.lrcn",
+        "Kocchi No Kento - Mouiiyo.ttml"
+      ]
+    },
+    {
+      "path": "La La Land Cast/Another Day of Sun",
+      "metadataRef": "another-day-of-sun",
+      "track": {
+        "title": "Another Day of Sun",
+        "artists": [
+          "La La Land Cast"
+        ],
+        "language": "en",
+        "songwriters": [
+          "Benj Pasek",
+          "Justin Hurwitz",
+          "Justin Noble Paul"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "La La Land Cast - Another Day of Sun.ttml"
+      ]
+    },
+    {
+      "path": "Madnap/Slow Down",
+      "metadataRef": "slow-down",
+      "track": {
+        "title": "Slow Down",
+        "artists": [
+          "Madnap"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Slow Down (2)-trans.lrc",
+        "Slow Down (2).lys",
+        "Slow Down-trans.lrc",
+        "Slow Down.lys",
+        "SlowDown.ttml"
+      ]
+    },
+    {
+      "path": "masarada/Tiny Me",
+      "metadataRef": "tiny-me",
+      "track": {
+        "title": "Tiny Me",
+        "artists": [
+          "masarada"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Tiny Me-trans.lrc",
+        "Tiny Me.lys"
+      ]
+    },
+    {
+      "path": "Noah Floersch/The Bird Song (with Em Beihold)",
+      "metadataRef": "the-bird-song-with-em-beihold",
+      "track": {
+        "title": "The Bird Song (with Em Beihold)",
+        "artists": [
+          "Noah Floersch"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "the bird song.ttml"
+      ]
+    },
+    {
+      "path": "ONE OK ROCK/We are",
+      "metadataRef": "we-are-japanese-version",
+      "track": {
+        "title": "We are (Japanese Version)",
+        "artists": [
+          "ONE OK ROCK"
+        ],
+        "album": "Ambitions (日本盤)",
+        "isrc": "JPJ221600947"
+      },
+      "platforms": {
+        "qqMusicId": "002BGBQw2nw7cl",
+        "spotifyId": "4QL5DKkPZwBXkph4fW2Y0Z",
+        "appleMusicId": "1173406694"
+      },
+      "files": [
+        "We are ( JP Edition ).ttml",
+        "We are ( JP Edition with not offset).ttml"
+      ]
+    },
+    {
+      "path": "ONE OK ROCK/We are",
+      "metadataRef": "we-are",
+      "track": {
+        "title": "We are",
+        "artists": [
+          "ONE OK ROCK"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "We Are.ttml"
+      ]
+    },
+    {
+      "path": "Panic! At The Disco/High Hopes",
+      "metadataRef": "high-hopes",
+      "track": {
+        "title": "High Hopes",
+        "artists": [
+          "Panic! At The Disco"
+        ],
+        "album": "Pray for the Wicked",
+        "isrc": "USAT21801174"
+      },
+      "platforms": {
+        "ncmMusicId": "562181972",
+        "qqMusicId": "0034ASsG3ErxnK",
+        "spotifyId": "1rqqCSm0Qe4I9rUvWncaom",
+        "appleMusicId": "1361152303"
+      },
+      "files": [
+        "Panic! At The Disco - High Hopes.ttml"
+      ]
+    },
+    {
+      "path": "Porter Robinson/Cheerleader",
+      "metadataRef": "cheerleader",
+      "track": {
+        "title": "Cheerleader",
+        "artists": [
+          "Porter Robinson"
+        ],
+        "language": "en"
+      },
+      "platforms": {
+        "ncmMusicId": "2611319605"
+      },
+      "files": [
+        "Cheerleader.ttml",
+        "Cheerleader_converted.ttml"
+      ]
+    },
+    {
+      "path": "Porter Robinson/fullmoon lullaby",
+      "metadataRef": "fullmoon-lullaby",
+      "track": {
+        "title": "fullmoon lullaby",
+        "artists": [
+          "Porter Robinson"
+        ],
+        "songwriters": [
+          "Porter Robinson",
+          "水曜日のカンパネラ"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applejson.fullmoon lullaby.json",
+        "applettml.fullmoon lullaby-Format.ttml",
+        "applettml.fullmoon lullaby.lrcn",
+        "applettml.fullmoon lullaby.ttml"
+      ]
+    },
+    {
+      "path": "Porter Robinson/Get Your Wish",
+      "metadataRef": "get-your-wish",
+      "track": {
+        "title": "Get Your Wish",
+        "artists": [
+          "Porter Robinson"
+        ],
+        "songwriters": [
+          "Porter Robinson"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Get Your Wish.ttml",
+        "Get Your Wish_converted.ttml"
+      ]
+    },
+    {
+      "path": "Porter Robinson/Musician",
+      "metadataRef": "musician",
+      "track": {
+        "title": "Musician",
+        "artists": [
+          "Porter Robinson"
+        ],
+        "language": "en",
+        "songwriters": [
+          "Gus Lobban",
+          "Porter Robinson",
+          "Sarah Perry"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "Porter Robinson - Musician.ttml"
+      ]
+    },
+    {
+      "path": "Porter Robinson/Shelter",
+      "metadataRef": "shelter",
+      "track": {
+        "title": "Shelter",
+        "artists": [
+          "Porter Robinson"
+        ],
+        "language": "en",
+        "album": "Shelter - Single",
+        "songwriters": [
+          "Porter Weston Robinson",
+          "Hugo Pierre Leclercq"
+        ],
+        "isrc": "QMUY41600040"
+      },
+      "platforms": {
+        "appleMusicId": "1701889813"
+      },
+      "files": [
+        "Porter Robinson & Madeon - Shelter.ttml"
+      ]
+    },
+    {
+      "path": "Porter Robinson/Trying to Feel Alive",
+      "metadataRef": "trying-to-feel-alive",
+      "track": {
+        "title": "Trying to Feel Alive",
+        "artists": [
+          "Porter Robinson"
+        ],
+        "language": "en",
+        "album": "Nurture",
+        "songwriters": [
+          "Porter Robinson"
+        ],
+        "isrc": "USQE92000202"
+      },
+      "platforms": {
+        "appleMusicId": "1550626772"
+      },
+      "files": [
+        "Porter Robinson - Trying to Feel Alive.ttml"
+      ]
+    },
+    {
+      "path": "PRIME/ZUTTO KITTO PRIMARY",
+      "metadataRef": "zutto-kitto-primary",
+      "track": {
+        "title": "ZUTTO KITTO PRIMARY",
+        "artists": [
+          "PRIME"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "ZUTTO KITTO PRIMARY (2)-trans.lrc",
+        "ZUTTO KITTO PRIMARY (2).lys",
+        "ZUTTO KITTO PRIMARY-trans.lrc",
+        "ZUTTO KITTO PRIMARY.lys"
+      ]
+    },
+    {
+      "path": "PRIME/ズットキット・プライマリ",
+      "metadataRef": "track",
+      "track": {
+        "title": "ズットキット・プライマリ",
+        "artists": [
+          "PRIME"
+        ],
+        "language": "en"
+      },
+      "platforms": {},
+      "files": [
+        "PRIME.ttml"
+      ]
+    },
+    {
+      "path": "RAM WIRE/僕らの手には何もないけど、",
+      "metadataRef": "track",
+      "track": {
+        "title": "僕らの手には何もないけど、",
+        "artists": [
+          "RAM WIRE"
+        ],
+        "language": "jp",
+        "album": "僕らの手には何もないけど、",
+        "isrc": "JPU901501366",
+        "songwriters": [
+          "Us",
+          "Monch",
+          "Ryll"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": [
+          "32317208",
+          "33599551",
+          "1454584048",
+          "1454335751"
+        ],
+        "appleMusicId": [
+          "1535538100",
+          "1204764497",
+          "1538099816",
+          "1538099836",
+          "1538099870"
+        ],
+        "spotifyId": [
+          "58QjASyPi3VE4XpoPEityO",
+          "5EsGKF1JoqSRNNUbdPzaMK",
+          "1P4qzma5f3mzvkHLpJsPqn",
+          "5G7hx2PiaWKaaEjFlAhTiv"
+        ]
+      },
+      "files": [
+        "RAM WIRE - 僕らの手には何もないけど、.lrcn",
+        "RAM WIRE - 僕らの手には何もないけど、.ttml"
+      ]
+    },
+    {
+      "path": "Red Velvet/Psycho",
+      "metadataRef": "psycho",
+      "track": {
+        "title": "Psycho",
+        "artists": [
+          "Red Velvet"
+        ],
+        "language": "ko",
+        "songwriters": [
+          "Andrew Scott",
+          "Cazzi Opeia",
+          "EJAE",
+          "Kenzie"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applettml.Psycho-Format.ttml",
+        "applettml.Psycho.ttml"
+      ]
+    },
+    {
+      "path": "Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la",
+      "track": {
+        "title": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "artists": [
+          "Sói Ngủ Nướng"
+        ],
+        "language": "vi",
+        "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "isrc": "QT6662602095",
+        "songwriters": [
+          "Nguyễn Lê Minh Nguyên"
+        ]
+      },
+      "platforms": {
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "ncmMusicId": "3392989926"
+      },
+      "files": [
+        "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá' - 激进修复.ttml",
+        "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'.ttml",
+        "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.lrcn",
+        "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.ttml",
+        "无音译.ttml"
+      ]
+    },
+    {
+      "path": "Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "metadataRef": "boi-vi-em-tu-tin-em-la-long-la-2",
+      "track": {
+        "title": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+        "artists": [
+          "Sói Ngủ Nướng"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "[VERSE].txt"
+      ]
+    },
+    {
+      "path": "Sān-Z/My Curse, My Fate",
+      "metadataRef": "my-curse",
+      "track": {
+        "title": "My Curse",
+        "artists": [
+          "Sān-Z"
+        ],
+        "album": "My Curse",
+        "isrc": "FRX282507391"
+      },
+      "platforms": {
+        "qqMusicId": "000S4qDD3TfSdb",
+        "spotifyId": [
+          "2o0B9EF7TCLWfqwpa5qYuI",
+          "2HCTkliGqZjCQj4iTHT2oq",
+          "7i3p6qve9tXnoYJYI2ig1w",
+          "1dILJl0F4RUdwreYbI1DFP"
+        ],
+        "appleMusicId": [
+          "1813316853",
+          "1813571540",
+          "1813790987",
+          "1813790993",
+          "1813790977"
+        ],
+        "ncmMusicId": "2704988304"
+      },
+      "files": [
+        "My Curse, My Fate.ass",
+        "Sān-Z, HOYO-MiX - My Curse, My Fate (2).ttml",
+        "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml",
+        "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml.xml"
+      ]
+    },
+    {
+      "path": "Sān-Z/My Curse, My Fate",
+      "metadataRef": "my-curse-my-fate",
+      "track": {
+        "title": "My Curse, My Fate",
+        "artists": [
+          "Sān-Z"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "lyric.ttml"
+      ]
+    },
+    {
+      "path": "Sān-Z/Prophecy",
+      "metadataRef": "prophecy",
+      "track": {
+        "title": "预言 Prophecy",
+        "artists": [
+          "Sān-Z"
+        ],
+        "language": "en",
+        "album": "绝区零-预言 Prophecy",
+        "isrc": "FRX282654167",
+        "songwriters": [
+          "雷雨心",
+          "雷声",
+          "王铭基",
+          "张星"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "6786666554",
+        "ncmMusicId": "3402223603"
+      },
+      "files": [
+        "Sān-Z - Prophecy (feat. Gin Wigmore).lqe",
+        "Sān-Z - Prophecy (feat. Gin Wigmore).lrcn",
+        "Sān-Z - Prophecy (feat. Gin Wigmore).ttml"
+      ]
+    },
+    {
+      "path": "Sān-Z/Stars Align",
+      "metadataRef": "stars-align",
+      "track": {
+        "title": "Stars Align",
+        "artists": [
+          "Sān-Z"
+        ],
+        "language": "en",
+        "album": "Stars Align (feat. Astra Yao) - Single",
+        "isrc": "FR2X42551676",
+        "songwriters": [
+          "雷声",
+          "Yuxin Lei"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "1796149669",
+        "spotifyId": "62OmUhX3LOCp1mpyDCgnbb",
+        "ncmMusicId": "2675131838"
+      },
+      "files": [
+        "Stars Align (2).lys",
+        "Stars Align.lys",
+        "Stars Align.ttml"
+      ]
+    },
+    {
+      "path": "Sān-Z/制服·剪刀·鲨鱼尾",
+      "metadataRef": "track",
+      "track": {
+        "title": "制服·剪刀·鲨鱼尾",
+        "artists": [
+          "Sān-Z"
+        ],
+        "language": "en",
+        "songwriters": [
+          "HOYO-MiX",
+          "杨武韬",
+          "Peter Sierzput",
+          "宋培彦"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applejson.制服·剪刀·鲨鱼尾.json",
+        "applettml.制服·剪刀·鲨鱼尾-Format.ttml",
+        "applettml.制服·剪刀·鲨鱼尾.ttml"
+      ]
+    },
+    {
+      "path": "TOGENASHI TOGEARI/Against All Answers",
+      "metadataRef": "against-all-answers",
+      "track": {
+        "title": "Against All Answers",
+        "artists": [
+          "TOGENASHI TOGEARI"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "大濱健悟"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "TOGENASHI TOGEARI - Against All Answers.ttml"
+      ]
+    },
+    {
+      "path": "TOGENASHI TOGEARI/Voiceless Fish",
+      "metadataRef": "voiceless-fish-shin-kawasaki-temporary",
+      "track": {
+        "title": "Voiceless Fish (Shin Kawasaki (Temporary))",
+        "artists": [
+          "TOGENASHI TOGEARI"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "Shogo Ohnishi",
+          "カイザー恵理菜"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary)).ttml"
+      ]
+    },
+    {
+      "path": "TOGENASHI TOGEARI/VOID",
+      "metadataRef": "void-nina-iseri-momoka-kawaragi",
+      "track": {
+        "title": "VOID (Nina Iseri, Momoka Kawaragi)",
+        "artists": [
+          "TOGENASHI TOGEARI"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "松原さらり"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "TOGENASHI TOGEARI - VOID (Nina Iseri, Momoka Kawaragi).ttml"
+      ]
+    },
+    {
+      "path": "TOGENASHI TOGEARI/Wrong World",
+      "metadataRef": "wrong-world",
+      "track": {
+        "title": "Wrong World",
+        "artists": [
+          "TOGENASHI TOGEARI"
+        ],
+        "language": "ja",
+        "album": "Wrong World - Single",
+        "isrc": "JPPO02400704",
+        "songwriters": [
+          "大濱健悟"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1737842246",
+          "1763003782",
+          "1813911822",
+          "1781751322",
+          "1814689416"
+        ]
+      },
+      "files": [
+        "TOGENASHI TOGEARI - Wrong World.ttml"
+      ]
+    },
+    {
+      "path": "Tokyo Manaka/Brain Rot",
+      "metadataRef": "brain-rot",
+      "track": {
+        "title": "Brain Rot",
+        "artists": [
+          "Tokyo Manaka"
+        ],
+        "language": "ja",
+        "album": "Brain Rot - Single",
+        "songwriters": [
+          "Tokyo Manaka"
+        ],
+        "isrc": "JPG102600245"
+      },
+      "platforms": {
+        "appleMusicId": "1875880766"
+      },
+      "files": [
+        "Tokyo Manaka - Brain Rot.ttml"
+      ]
+    },
+    {
+      "path": "Turbo/REINCARNA†ION!!",
+      "metadataRef": "reincarnaion",
+      "track": {
+        "title": "REINCARNA†ION!!",
+        "artists": [
+          "Turbo"
+        ],
+        "language": "en",
+        "album": "REINCARNA✝ION!!",
+        "songwriters": [
+          "Turbo"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": [
+          "3414238214",
+          "3413599651"
+        ]
+      },
+      "files": [
+        "Turbo - REINCARNA†ION!! - 激进.ttml",
+        "Turbo - REINCARNA†ION!!.lrcn",
+        "Turbo - REINCARNA†ION!!.ttml"
+      ]
+    },
+    {
+      "path": "Will Stetson/Lower One's Eyes",
+      "metadataRef": "lower-one-s-eyes",
+      "track": {
+        "title": "Lower One's Eyes",
+        "artists": [
+          "Will Stetson"
+        ],
+        "language": "en",
+        "album": "Lower One's Eyes - Single",
+        "songwriters": [
+          "ぬゆり"
+        ],
+        "isrc": "QZK6M2248459"
+      },
+      "platforms": {
+        "appleMusicId": "1629613507"
+      },
+      "files": [
+        "Lower One's Eyes (2)-trans.lrc",
+        "Lower One's Eyes (2).lys",
+        "Lower One's Eyes-trans.lrc",
+        "Lower One's Eyes.lys",
+        "Will Stetson - Lower One's Eyes.ttml"
+      ]
+    },
+    {
+      "path": "Wonderful★opportunity!/にっこり^^調査隊のテーマ",
+      "metadataRef": "feat",
+      "track": {
+        "title": "にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン)",
+        "artists": [
+          "Wonderful★opportunity!"
+        ],
+        "language": "ja-JP",
+        "album": "にっこり^^調査隊のテーマ",
+        "isrc": "JP92Q2200001",
+        "songwriters": [
+          "JESUS-P",
+          "Wonderful opportunity!"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": "1918884502",
+        "appleMusicId": "1607417027"
+      },
+      "files": [
+        "Wonderful★opportunity! - にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン).ttml"
+      ]
+    },
+    {
+      "path": "Woodkid/Minus Sixty One",
+      "metadataRef": "minus-sixty-one",
+      "track": {
+        "title": "Minus Sixty One",
+        "artists": [
+          "Woodkid"
+        ],
+        "language": "en",
+        "songwriters": [
+          "Allyson Ezell",
+          "Woodkid"
+        ],
+        "album": "WOODKID FOR DEATH STRANDING 2: ON THE BEACH",
+        "isrc": "FRUM72000673"
+      },
+      "platforms": {
+        "appleMusicId": "1818147352"
+      },
+      "files": [
+        "Woodkid - Minus Sixty One - A8e.ttml",
+        "Woodkid - Minus Sixty One - Ultra.ttml",
+        "Woodkid - Minus Sixty One.ttml",
+        "Woodkid - Minus Sixty One1.ttml"
+      ]
+    },
+    {
+      "path": "yama/color",
+      "metadataRef": "color",
+      "track": {
+        "title": "color",
+        "artists": [
+          "yama"
+        ],
+        "language": "ja",
+        "album": "color - Single",
+        "isrc": "JPU902203295",
+        "songwriters": [
+          "くじら"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1644816114",
+          "1651594378",
+          "1723301930"
+        ]
+      },
+      "files": [
+        "yama - color.lrcn",
+        "yama - color.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/Fallacy",
+      "metadataRef": "fallacy",
+      "track": {
+        "title": "Fallacy",
+        "artists": [
+          "YonKaGor"
+        ],
+        "album": "Fallacy",
+        "isrc": "AUBEC2229865"
+      },
+      "platforms": {
+        "ncmMusicId": "1993424659",
+        "qqMusicId": "004V37Dc0HTlf1",
+        "spotifyId": "6MfjWLBkGRCybOT4mxU67y"
+      },
+      "files": [
+        "YonKaGor - Fallacy.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/INFAMOUS",
+      "metadataRef": "infamous",
+      "track": {
+        "title": "INFAMOUS",
+        "artists": [
+          "YonKaGor"
+        ],
+        "language": "en",
+        "album": "INFAMOUS - Single",
+        "isrc": "QT4K32507314",
+        "songwriters": [
+          "Vivian Graves"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "1811058440"
+      },
+      "files": [
+        "YonKaGor - INFAMOUS.lrcn",
+        "YonKaGor - INFAMOUS.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/It's Normal",
+      "metadataRef": "it-s-normal",
+      "track": {
+        "title": "It's Normal",
+        "artists": [
+          "YonKaGor"
+        ],
+        "album": "It's Normal",
+        "isrc": "AUBEC2322248"
+      },
+      "platforms": {
+        "ncmMusicId": "2050055192",
+        "qqMusicId": "0041NYj90S6gd3",
+        "spotifyId": "51Fh6eKnXxxfavzeI4Ejrg"
+      },
+      "files": [
+        "YonKaGor - It's Normal.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/Linger in the Rain",
+      "metadataRef": "linger-in-the-rain",
+      "track": {
+        "title": "Linger in the Rain",
+        "artists": [
+          "YonKaGor"
+        ],
+        "album": "Linger in the Rain",
+        "isrc": "AUBEC2369012"
+      },
+      "platforms": {
+        "ncmMusicId": "2652556933",
+        "qqMusicId": "000V6jGM3AEsE8",
+        "spotifyId": "2ZdLhmKydlxXLXL1Hlo4Ex",
+        "appleMusicId": "1782943766"
+      },
+      "files": [
+        "YonKaGor - Linger in the Rain.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/Memory Merge",
+      "metadataRef": "memory-merge",
+      "track": {
+        "title": "Memory Merge",
+        "artists": [
+          "YonKaGor"
+        ],
+        "album": "Memory Merge",
+        "isrc": "AUBEC2441993"
+      },
+      "platforms": {
+        "ncmMusicId": "2157280456",
+        "qqMusicId": "0009x4CZ2ZVCvR",
+        "spotifyId": "5usdxPXJmVeqwheEYreUoo"
+      },
+      "files": [
+        "YonKaGor - Memory Merge.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/Mr. Sunfish",
+      "metadataRef": "mr-sunfish",
+      "track": {
+        "title": "Mr. Sunfish",
+        "artists": [
+          "YonKaGor"
+        ],
+        "album": "Mr. Sunfish",
+        "isrc": "AUBEC2127260"
+      },
+      "platforms": {
+        "ncmMusicId": "1844306051",
+        "qqMusicId": "00442N4R0y4Veo",
+        "spotifyId": "0YjFF1QQ3L3dNMkXHjEXFy"
+      },
+      "files": [
+        "Mr. Sunfish (2)-trans.lrc",
+        "Mr. Sunfish (2).lys",
+        "Mr. Sunfish-trans.lrc",
+        "Mr. Sunfish.lys",
+        "Mr.Sunfish.ttml",
+        "YonKaGor - Mr. Sunfish.ttml"
+      ]
+    },
+    {
+      "path": "YonKaGor/You're Just Like Pop Music",
+      "metadataRef": "you-re-just-like-pop-music",
+      "track": {
+        "title": "You're Just Like Pop Music",
+        "artists": [
+          "YonKaGor"
+        ],
+        "album": "You're Just Like Pop Music",
+        "isrc": "AUBEC2156965"
+      },
+      "platforms": {
+        "ncmMusicId": "1880256280",
+        "qqMusicId": "0000wcn9098WVg",
+        "spotifyId": "0UYnMDFZuXUpsiWGMq1EVk"
+      },
+      "files": [
+        "YonKaGor - You're Just Like Pop Music.ttml"
+      ]
+    },
+    {
+      "path": "Zedd/Funny",
+      "metadataRef": "funny",
+      "track": {
+        "title": "Funny",
+        "artists": [
+          "Zedd"
+        ],
+        "album": "Funny",
+        "isrc": "USAT22003344"
+      },
+      "platforms": {
+        "ncmMusicId": "1462389947",
+        "qqMusicId": "004IEY5L3hxal9",
+        "spotifyId": "4FYbo4yQzu3hGkj2Ix4ucW",
+        "appleMusicId": "1742838162"
+      },
+      "files": [
+        "Funny.ass",
+        "Zedd,Jasmine Thompson - Funny (2).ttml",
+        "Zedd,Jasmine Thompson - Funny.ttml",
+        "Zedd,Jasmine Thompson - Funny.txt"
+      ]
+    },
+    {
+      "path": "かめりあ/Heart of Android Even If It's Only By Mechanism",
+      "metadataRef": "heart-of-android-even-if-it-s-only-by-mechanism",
+      "track": {
+        "title": "Heart of Android : Even If It's Only by Mechanism",
+        "artists": [
+          "かめりあ"
+        ],
+        "language": "en",
+        "album": "Heart of Android",
+        "isrc": "TCJPI1943117"
+      },
+      "platforms": {
+        "appleMusicId": "1448847165",
+        "spotifyId": "4vNy81lS5OT788KnIQmyOR",
+        "ncmMusicId": "1336656391"
+      },
+      "files": [
+        "かめりあ - Heart of Android Even If It's Only By Mechanism.lrcn",
+        "かめりあ - Heart of Android Even If It's Only By Mechanism.ttml"
+      ]
+    },
+    {
+      "path": "こっちのけんと/もういいよ",
+      "metadataRef": "track",
+      "track": {
+        "title": "もういいよ",
+        "artists": [
+          "こっちのけんと"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "もういいよ (2).lys",
+        "もういいよ.lys"
+      ]
+    },
+    {
+      "path": "マサラダ/ちっちゃな私 (Tiny Me)",
+      "metadataRef": "tiny-me",
+      "track": {
+        "title": "Tiny Me",
+        "artists": [
+          "マサラダ"
+        ],
+        "language": "en",
+        "album": "Tiny Me - Single",
+        "songwriters": [
+          "マサラダ"
+        ],
+        "isrc": "JPA652307105"
+      },
+      "platforms": {
+        "appleMusicId": "1705677736"
+      },
+      "files": [
+        "masarada - Tiny Me.ttml",
+        "masarada - Tiny Me_lys.ttml",
+        "masarada - Tiny Me_noRuby.ttml"
+      ]
+    },
+    {
+      "path": "マサラダ/ちっちゃな私 (Tiny Me)",
+      "metadataRef": "tiny-me-2",
+      "track": {
+        "title": "ちっちゃな私 (Tiny Me)",
+        "artists": [
+          "マサラダ"
+        ],
+        "language": "en-US",
+        "songwriters": [
+          "マサラダ"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml"
+      ]
+    },
+    {
+      "path": "マサラダ/ちっちゃな私 (Tiny Me)",
+      "metadataRef": "tiny-me-3",
+      "track": {
+        "title": "ちっちゃな私 (Tiny Me)",
+        "artists": [
+          "マサラダ"
+        ],
+        "language": "en-US",
+        "songwriters": [
+          "マサラダ"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml"
+      ]
+    },
+    {
+      "path": "マサラダ/ちっちゃな私 (Tiny Me)",
+      "metadataRef": "tiny-me-4",
+      "track": {
+        "title": "ちっちゃな私 (Tiny Me)",
+        "artists": [
+          "マサラダ"
+        ],
+        "language": "en-US",
+        "songwriters": [
+          "マサラダ"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml"
+      ]
+    },
+    {
+      "path": "マサラダ/ちっちゃな私 (Tiny Me)",
+      "metadataRef": "tiny-me-5",
+      "track": {
+        "title": "ちっちゃな私 (Tiny Me)",
+        "artists": [
+          "マサラダ"
+        ],
+        "language": "en-US",
+        "songwriters": [
+          "マサラダ"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "マサラダ - ちっちゃな私 - ちっちゃな私.ttml"
+      ]
+    },
+    {
+      "path": "ルシノ/ループザルーム (feat. 初音ミク)",
+      "metadataRef": "feat",
+      "track": {
+        "title": "ループザルーム (feat. 初音ミク)",
+        "artists": [
+          "ルシノ"
+        ],
+        "language": "en",
+        "album": "ループザルーム / ランベントアリア"
+      },
+      "platforms": {},
+      "files": [
+        "ルシノ - ループザルーム (feat. 初音ミク).ttml"
+      ]
+    },
+    {
+      "path": "三浦大知/Horizon Dreamer",
+      "metadataRef": "horizon-dreamer",
+      "track": {
+        "title": "Horizon Dreamer",
+        "artists": [
+          "三浦大知"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "三浦大知",
+          "Nao'ymt"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": [
+          "2630258193",
+          "2716877107"
+        ]
+      },
+      "files": [
+        "applejson.Horizon Dreamer.json",
+        "applettml.Horizon Dreamer-Format.ttml",
+        "applettml.Horizon Dreamer-LbVer.ttml",
+        "applettml.Horizon Dreamer-noEnPron-Format.ttml",
+        "applettml.Horizon Dreamer-noEnPron.ttml",
+        "applettml.Horizon Dreamer.lrc",
+        "applettml.Horizon Dreamer.lrcn",
+        "applettml.Horizon Dreamer.ttml",
+        "Horizon Dreamer-participles.lys",
+        "Horizon Dreamer-trans.lrc",
+        "Horizon Dreamer.lys"
+      ]
+    },
+    {
+      "path": "临风/【中文】音之怪Otonoke",
+      "metadataRef": "otonoke",
+      "track": {
+        "title": "【中文】音之怪Otonoke",
+        "artists": [
+          "临风"
+        ],
+        "language": "en",
+        "album": "オトノケ/Otonoke 胆大党/超自然武装当哒当OP中文翻唱"
+      },
+      "platforms": {
+        "ncmMusicId": "2645276002"
+      },
+      "files": [
+        "临风 - 【中文】音之怪Otonoke.lrcn",
+        "临风 - 【中文】音之怪Otonoke.ttml"
+      ]
+    },
+    {
+      "path": "周深/I'm A Star",
+      "metadataRef": "i-m-a-star",
+      "track": {
+        "title": "I'm A Star",
+        "artists": [
+          "周深"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "I'm A Star.lrc",
+        "I'm A Star.lys"
+      ]
+    },
+    {
+      "path": "周深/我是明星 (I'm A Star)",
+      "metadataRef": "i-m-a-star",
+      "track": {
+        "title": "我是明星 (I'm A Star)",
+        "artists": [
+          "周深"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "I'm A Star.ttml"
+      ]
+    },
+    {
+      "path": "塞壬唱片MSR/A Day in Lungmen",
+      "metadataRef": "a-day-in-lungmen",
+      "track": {
+        "title": "A Day in Lungmen",
+        "artists": [
+          "塞壬唱片MSR"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "A Day in Lungmen (2)-trans.lrc",
+        "A Day in Lungmen (2).lys",
+        "A Day in Lungmen-trans.lrc",
+        "A Day in Lungmen.lys"
+      ]
+    },
+    {
+      "path": "张卡斯/人是猫",
+      "metadataRef": "track",
+      "track": {
+        "title": "人是猫",
+        "artists": [
+          "张卡斯"
+        ],
+        "language": "zh-Hans-CN",
+        "album": "人是猫",
+        "songwriters": [
+          "张卡斯"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": "3395708493"
+      },
+      "files": [
+        "张卡斯, 洛天依 - 人是猫.ttml"
+      ]
+    },
+    {
+      "path": "揽佬/中国人能飞",
+      "metadataRef": "track",
+      "track": {
+        "title": "中国人会飞",
+        "artists": [
+          "揽佬"
+        ],
+        "language": "zh-CN",
+        "album": "BALDNESS",
+        "songwriters": [
+          "Chalky Wong",
+          "揽佬SKAI ISYOURGOD"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": "3416788740"
+      },
+      "files": [
+        "揽佬 - 中国人能飞.lrcn",
+        "揽佬 - 中国人能飞.ttml"
+      ]
+    },
+    {
+      "path": "星尘/理想主义患者",
+      "metadataRef": "track",
+      "track": {
+        "title": "理想主义患者",
+        "artists": [
+          "星尘"
+        ],
+        "language": "zh-CN",
+        "album": "理想主义患者",
+        "songwriters": [
+          "北极星Polaris_D"
+        ]
+      },
+      "platforms": {
+        "ncmMusicId": "2713838054"
+      },
+      "files": [
+        "理想主义患者.ttml"
+      ]
+    },
+    {
+      "path": "東京真中/ブレインロット",
+      "metadataRef": "brain-rot",
+      "track": {
+        "title": "Brain Rot",
+        "artists": [
+          "東京真中"
+        ],
+        "language": "ja",
+        "album": "Brain Rot - Single",
+        "isrc": "JPG102600245",
+        "songwriters": [
+          "Tokyo Manaka"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "1875880766",
+        "ncmMusicId": "3348197008"
+      },
+      "files": [
+        "applejson.ブレインロット.json",
+        "applettml.ブレインロット-Format.ttml",
+        "applettml.ブレインロット.ttml"
+      ]
+    },
+    {
+      "path": "洛天依/依如初见",
+      "metadataRef": "i-love-u",
+      "track": {
+        "title": "I LOVE U",
+        "artists": [
+          "洛天依"
+        ],
+        "language": "zh-Hans",
+        "album": "依如初见",
+        "isrc": "TWAE32204249"
+      },
+      "platforms": {
+        "ncmMusicId": "1979009858",
+        "qqMusicId": "002lWTZR2zfSFX",
+        "spotifyId": "5LTAXf1HvRCbQJ8wIoKXfs"
+      },
+      "files": [
+        "洛天依 - I LOVE U.lrcn",
+        "洛天依 - I LOVE U.ttml"
+      ]
+    },
+    {
+      "path": "洛天依/依如初见",
+      "metadataRef": "light-and-shadow",
+      "track": {
+        "title": "Light and Shadow",
+        "artists": [
+          "洛天依"
+        ],
+        "language": "zh-Hans",
+        "album": "Light and Shadow - Single",
+        "isrc": "TWAE32203781",
+        "songwriters": [
+          "COP"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1635119677",
+          "1645248076"
+        ]
+      },
+      "files": [
+        "洛天依 - 光与影的对白.lrcn",
+        "洛天依 - 光与影的对白.ttml"
+      ]
+    },
+    {
+      "path": "洛天依/依如初见",
+      "metadataRef": "summer-insects",
+      "track": {
+        "title": "Summer Insects",
+        "artists": [
+          "洛天依"
+        ],
+        "language": "zh-Hans",
+        "album": "Like the First Time",
+        "isrc": "TWAE32204250",
+        "songwriters": [
+          "LS",
+          "果汁凉菜"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "1645247864"
+      },
+      "files": [
+        "洛天依 - 夏虫.lrcn",
+        "洛天依 - 夏虫.ttml"
+      ]
+    },
+    {
+      "path": "洛天依/再生",
+      "metadataRef": "feat-hyper-slash",
+      "track": {
+        "title": "心空 feat. HYPER SLASH超级斩",
+        "artists": [
+          "洛天依"
+        ],
+        "language": "zh-Hans",
+        "album": "再生",
+        "songwriters": [
+          "Hyper Slash"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "洛天依 - 心空 feat. HYPER SLASH超级斩.lrcn",
+        "洛天依 - 心空 feat. HYPER SLASH超级斩.ttml"
+      ]
+    },
+    {
+      "path": "米津玄师/LADY",
+      "metadataRef": "lady",
+      "track": {
+        "title": "LADY",
+        "artists": [
+          "米津玄师"
+        ],
+        "language": "ja",
+        "album": "LADY - Single",
+        "isrc": "JPU902300995",
+        "songwriters": [
+          "米津玄師"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1676871814",
+          "1759899370"
+        ],
+        "ncmMusicId": [
+          "2029895034",
+          "2614446838"
+        ],
+        "spotifyId": [
+          "7w6NWogvAAFdEhD9MA2uvv",
+          "6zOrkNaQjL3PE6HzwSwZUW"
+        ]
+      },
+      "files": [
+        "Kenshi Yonezu - LADY.ttml"
+      ]
+    },
+    {
+      "path": "米津玄师/Lemon",
+      "metadataRef": "lemon",
+      "track": {
+        "title": "Lemon",
+        "artists": [
+          "米津玄师"
+        ],
+        "language": "ja",
+        "songwriters": [
+          "米津玄師"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applettml.Lemon-Format.ttml",
+        "applettml.Lemon.ttml"
+      ]
+    },
+    {
+      "path": "米津玄师/Loser",
+      "metadataRef": "loser",
+      "track": {
+        "title": "Loser",
+        "artists": [
+          "米津玄师"
+        ],
+        "language": "ja",
+        "album": "bootleg",
+        "isrc": "JPU901602597",
+        "songwriters": [
+          "Kenshi Yonezu"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": [
+          "1538275659",
+          "1537279545"
+        ],
+        "spotifyId": [
+          "7AqUE5AY514dbzeOAfJRa0",
+          "0R4NxLV3QI7WSpbanQOhUS",
+          "23jMNv8wq1c7wsekYPNWQV"
+        ],
+        "ncmMusicId": [
+          "512359195",
+          "432509390"
+        ]
+      },
+      "files": [
+        "Kenshi Yonezu - Loser.ttml"
+      ]
+    },
+    {
+      "path": "米津玄师/灰色と青",
+      "metadataRef": "haiirotoao",
+      "track": {
+        "title": "Haiirotoao",
+        "artists": [
+          "米津玄师"
+        ],
+        "language": "ja",
+        "album": "bootleg",
+        "isrc": "JPU901702924",
+        "songwriters": [
+          "米津玄師"
+        ]
+      },
+      "platforms": {
+        "appleMusicId": "1538275671"
+      },
+      "files": [
+        "Kenshi Yonezu - Haiirotoao.ttml",
+        "米津玄师 & 菅田将晖 - 灰色と青 ( + 菅田将暉 ).ttml"
+      ]
+    },
+    {
+      "path": "苏逸Suyi/Light in Abyss - Full ver",
+      "metadataRef": "light-in-abyss-full-ver",
+      "track": {
+        "title": "Light in Abyss - Full ver",
+        "artists": [
+          "苏逸Suyi"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "amllttml.Light in Abyss - Full ver-Tutorial.ttml",
+        "applettml.Light in Abyss - Full ver-Tutorial-Format.ttml"
+      ]
+    },
+    {
+      "path": "苏逸Suyi/Light in Abyss - Full ver",
+      "metadataRef": "light-in-abyss-full-ver-2",
+      "track": {
+        "title": "Light in Abyss - Full ver",
+        "artists": [
+          "苏逸Suyi"
+        ],
+        "language": "en",
+        "songwriters": [
+          "苏逸Suyi"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applejson.Light in Abyss - Full ver.json",
+        "applettml.Light in Abyss - Full ver-Format.ttml",
+        "applettml.Light in Abyss - Full ver.ttml"
+      ]
+    },
+    {
+      "path": "苏逸Suyi/别忘记查收关心！",
+      "metadataRef": "track",
+      "track": {
+        "title": "别忘记查收关心！",
+        "artists": [
+          "苏逸Suyi"
+        ],
+        "language": "zh-Hans",
+        "songwriters": [
+          "苏逸Suyi",
+          "Yagi"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applejson.别忘记查收关心！.json",
+        "applettml.别忘记查收关心！-Format.ttml",
+        "applettml.别忘记查收关心！.ttml",
+        "别忘记查收关心！.ass"
+      ]
+    },
+    {
+      "path": "苏逸Suyi/别忘记查收关心！",
+      "metadataRef": "track-2",
+      "track": {
+        "title": "别忘记查收关心！",
+        "artists": [
+          "苏逸Suyi"
+        ],
+        "language": "zh-Hans",
+        "songwriters": [
+          "苏逸Suyi",
+          "Yagi"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "applettml.别忘记查收关心！-LbVer.ttml"
+      ]
+    },
+    {
+      "path": "草东没有派对/勇敢的人",
+      "metadataRef": "the-reluctant",
+      "track": {
+        "title": "The Reluctant",
+        "artists": [
+          "草东没有派对"
+        ],
+        "language": "zh-Hant",
+        "songwriters": [
+          "草東沒有派對"
+        ]
+      },
+      "platforms": {},
+      "files": [
+        "草东没有派对 - 勇敢的人.ttml"
+      ]
+    }
+  ]
+}

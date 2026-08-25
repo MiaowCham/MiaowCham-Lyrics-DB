@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/Mr. Sunfish",
+  "tracks": {
+    "mr-sunfish": {
+      "title": "Mr. Sunfish",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Mr. Sunfish",
+      "isrc": "AUBEC2127260",
+      "platforms": {
+        "ncmMusicId": "1844306051",
+        "qqMusicId": "00442N4R0y4Veo",
+        "spotifyId": "0YjFF1QQ3L3dNMkXHjEXFy"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Mr. Sunfish (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "mr-sunfish"
+    },
+    {
+      "name": "Mr. Sunfish (2).lys",
+      "format": "lys",
+      "metadataRef": "mr-sunfish"
+    },
+    {
+      "name": "Mr. Sunfish-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "mr-sunfish"
+    },
+    {
+      "name": "Mr. Sunfish.lys",
+      "format": "lys",
+      "metadataRef": "mr-sunfish"
+    },
+    {
+      "name": "Mr.Sunfish.ttml",
+      "format": "ttml",
+      "metadataRef": "mr-sunfish"
+    },
+    {
+      "name": "YonKaGor - Mr. Sunfish.ttml",
+      "format": "ttml",
+      "metadataRef": "mr-sunfish"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Mr. Sunfish (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Mr. Sunfish (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "Mr. Sunfish-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Mr. Sunfish.lys",
+      "format": "lys"
+    },
+    {
+      "file": "Mr.Sunfish.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "YonKaGor - Mr. Sunfish.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": "Mr. Sunfish",
+        "artists": "YonKaGor",
+        "album": "Mr. Sunfish",
+        "ncmMusicId": "1844306051",
+        "qqMusicId": "00442N4R0y4Veo",
+        "spotifyId": "0YjFF1QQ3L3dNMkXHjEXFy",
+        "isrc": "AUBEC2127260"
+      }
+    }
+  ]
+}

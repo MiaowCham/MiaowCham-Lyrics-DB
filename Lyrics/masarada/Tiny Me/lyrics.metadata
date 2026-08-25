@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "path": "masarada/Tiny Me",
+  "tracks": {
+    "tiny-me": {
+      "title": "Tiny Me",
+      "artists": [
+        "masarada"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Tiny Me-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "tiny-me"
+    },
+    {
+      "name": "Tiny Me.lys",
+      "format": "lys",
+      "metadataRef": "tiny-me"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Tiny Me-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "Tiny Me.lys",
+      "format": "lys"
+    }
+  ]
+}

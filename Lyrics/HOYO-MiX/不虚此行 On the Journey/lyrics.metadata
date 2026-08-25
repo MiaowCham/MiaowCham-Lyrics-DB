@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "path": "HOYO-MiX/不虚此行 On the Journey",
+  "tracks": {
+    "on-the-journey": {
+      "title": "On the Journey",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "On the Journey (Honkai: Star Rail Two-Year Anniversary Commemoration Song)",
+      "isrc": "QM6P42521710",
+      "platforms": {
+        "qqMusicId": "0049lelQ3EY4jN",
+        "spotifyId": [
+          "0HqjLk8hVH78mkgY6Z2eX6",
+          "0URHPsGbVUzFPGy0s03Rzb",
+          "142gEhGxh2oc62PKi5YPlL"
+        ],
+        "appleMusicId": [
+          "1809715075",
+          "1809714865",
+          "1809715122",
+          "1809714969"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey.ttml",
+      "format": "ttml",
+      "metadataRef": "on-the-journey"
+    }
+  ],
+  "sources": [
+    {
+      "file": "HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": [
+          "On the Journey",
+          "不虚此行",
+          "不虚此行 On the Journey",
+          "旅の途中で",
+          "不虛此行"
+        ],
+        "artists": [
+          "HOYO-MiX",
+          "魏晨",
+          "Nea",
+          "Vision Wei"
+        ],
+        "album": [
+          "On the Journey (Honkai: Star Rail Two-Year Anniversary Commemoration Song)",
+          "崩坏星穹铁道-不虚此行 On the Journey",
+          "不虚此行 (《崩坏:星穹铁道》二周年纪念曲) - Single ",
+          "不虚此行 (《崩坏:星穹铁道》二周年纪念曲)",
+          "不虚此行",
+          "On the Journey (Honkai: Star Rail Two-Year Anniversary Commemoration Song) - Single",
+          "旅の途中で (『崩壊:スターレイル』2周年記念曲) - Single",
+          "旅の途中で (『崩壊：スターレイル』2周年記念曲)",
+          "不虛此行 (《崩壞：星穹鐵道》兩週年紀念曲)",
+          "不虛此行 (《崩壞:星穹鐵道》兩週年紀念曲) - Single"
+        ],
+        "qqMusicId": "0049lelQ3EY4jN",
+        "spotifyId": [
+          "0HqjLk8hVH78mkgY6Z2eX6",
+          "0URHPsGbVUzFPGy0s03Rzb",
+          "142gEhGxh2oc62PKi5YPlL"
+        ],
+        "appleMusicId": [
+          "1809715075",
+          "1809714865",
+          "1809715122",
+          "1809714969"
+        ],
+        "isrc": [
+          "QM6P42521710",
+          "QM6P42521740",
+          "QM6P42521689"
+        ]
+      }
+    }
+  ]
+}

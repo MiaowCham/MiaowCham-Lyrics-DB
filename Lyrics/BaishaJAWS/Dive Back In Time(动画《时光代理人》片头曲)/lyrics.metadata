@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "path": "BaishaJAWS/Dive Back In Time(动画《时光代理人》片头曲)",
+  "tracks": {
+    "dive-back-in-time": {
+      "title": "Dive Back In Time(动画《时光代理人》片头曲)",
+      "artists": [
+        "BaishaJAWS"
+      ],
+      "language": "en",
+      "album": "时光代理人(动画《时光代理人》原声带)",
+      "isrc": "FRX282279597",
+      "songwriters": [
+        "Michael Yu"
+      ],
+      "platforms": {
+        "appleMusicId": [
+          "1865122636",
+          "1865381833"
+        ],
+        "spotifyId": [
+          "3PlvpQjHSMYPtodc2Ldl8M",
+          "7GcZYZD9N2gGGnnupzuh7f"
+        ],
+        "ncmMusicId": "1842817284"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).lrcn",
+      "format": "lrcn",
+      "metadataRef": "dive-back-in-time"
+    },
+    {
+      "name": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).ttml",
+      "format": "ttml",
+      "metadataRef": "dive-back-in-time"
+    }
+  ],
+  "sources": [
+    {
+      "file": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "appleMusicId": [
+          "1865122636",
+          "1865381833"
+        ],
+        "musicName": "Dive Back In Time(动画《时光代理人》片头曲)",
+        "artists": "BaishaJAWS",
+        "album": "时光代理人(动画《时光代理人》原声带)",
+        "isrc": "FRX282279597",
+        "spotifyId": [
+          "3PlvpQjHSMYPtodc2Ldl8M",
+          "7GcZYZD9N2gGGnnupzuh7f"
+        ],
+        "ncmMusicId": "1842817284"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "path": "Ave Mujica/Symbol I：△",
+  "tracks": {
+    "symbol-i": {
+      "title": "Symbol I : △",
+      "artists": [
+        "Ave Mujica"
+      ],
+      "language": "ja",
+      "songwriters": [
+        "Diggy-MO'",
+        "長谷川大介"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Ave Mujica - Symbol I _ △.ttml",
+      "format": "ttml",
+      "metadataRef": "symbol-i"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Ave Mujica - Symbol I _ △.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

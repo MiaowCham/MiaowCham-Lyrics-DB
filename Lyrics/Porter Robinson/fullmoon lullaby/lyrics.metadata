@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "path": "Porter Robinson/fullmoon lullaby",
+  "tracks": {
+    "fullmoon-lullaby": {
+      "title": "fullmoon lullaby",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "songwriters": [
+        "Porter Robinson",
+        "水曜日のカンパネラ"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "applejson.fullmoon lullaby.json",
+      "format": "json",
+      "metadataRef": "fullmoon-lullaby"
+    },
+    {
+      "name": "applettml.fullmoon lullaby-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "fullmoon-lullaby"
+    },
+    {
+      "name": "applettml.fullmoon lullaby.lrcn",
+      "format": "lrcn",
+      "metadataRef": "fullmoon-lullaby"
+    },
+    {
+      "name": "applettml.fullmoon lullaby.ttml",
+      "format": "ttml",
+      "metadataRef": "fullmoon-lullaby"
+    }
+  ],
+  "sources": [
+    {
+      "file": "applejson.fullmoon lullaby.json",
+      "format": "json"
+    },
+    {
+      "file": "applettml.fullmoon lullaby-Format.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "applettml.fullmoon lullaby.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          },
+          {
+            "type": "person",
+            "value": "v2"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ],
+        "Intro": [
+          true
+        ]
+      }
+    },
+    {
+      "file": "applettml.fullmoon lullaby.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "path": "Dogg1eB/大石测胸口",
+  "tracks": {
+    "track": {
+      "title": "大石测胸口",
+      "artists": [
+        "Dogg1eB"
+      ],
+      "album": "他的前半生",
+      "platforms": {
+        "ncmMusicId": "2671391615"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Dogg1eB,丁斯塔科维奇 - 大石测胸口.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Dogg1eB,丁斯塔科维奇 - 大石测胸口.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ncmMusicId": "2671391615",
+        "musicName": "大石测胸口",
+        "artists": [
+          "Dogg1eB",
+          "丁斯塔科维奇"
+        ],
+        "album": "他的前半生",
+        "ttmlAuthorGithub": "MiaowCham"
+      }
+    }
+  ]
+}

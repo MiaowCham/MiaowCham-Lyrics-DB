@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/Memory Merge",
+  "tracks": {
+    "memory-merge": {
+      "title": "Memory Merge",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Memory Merge",
+      "isrc": "AUBEC2441993",
+      "platforms": {
+        "ncmMusicId": "2157280456",
+        "qqMusicId": "0009x4CZ2ZVCvR",
+        "spotifyId": "5usdxPXJmVeqwheEYreUoo"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "YonKaGor - Memory Merge.ttml",
+      "format": "ttml",
+      "metadataRef": "memory-merge"
+    }
+  ],
+  "sources": [
+    {
+      "file": "YonKaGor - Memory Merge.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "musicName": "Memory Merge",
+        "artists": "YonKaGor",
+        "album": "Memory Merge",
+        "ncmMusicId": "2157280456",
+        "qqMusicId": "0009x4CZ2ZVCvR",
+        "spotifyId": "5usdxPXJmVeqwheEYreUoo",
+        "isrc": "AUBEC2441993"
+      }
+    }
+  ]
+}

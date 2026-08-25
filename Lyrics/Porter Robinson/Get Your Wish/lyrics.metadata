@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "path": "Porter Robinson/Get Your Wish",
+  "tracks": {
+    "get-your-wish": {
+      "title": "Get Your Wish",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "songwriters": [
+        "Porter Robinson"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "Get Your Wish.ttml",
+      "format": "ttml",
+      "metadataRef": "get-your-wish"
+    },
+    {
+      "name": "Get Your Wish_converted.ttml",
+      "format": "ttml",
+      "metadataRef": "get-your-wish"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Get Your Wish.ttml",
+      "format": "ttml",
+      "metadata": {}
+    },
+    {
+      "file": "Get Your Wish_converted.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}

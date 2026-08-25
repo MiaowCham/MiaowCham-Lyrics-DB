@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "path": "PRIME/ZUTTO KITTO PRIMARY",
+  "tracks": {
+    "zutto-kitto-primary": {
+      "title": "ZUTTO KITTO PRIMARY",
+      "artists": [
+        "PRIME"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "ZUTTO KITTO PRIMARY (2)-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "zutto-kitto-primary"
+    },
+    {
+      "name": "ZUTTO KITTO PRIMARY (2).lys",
+      "format": "lys",
+      "metadataRef": "zutto-kitto-primary"
+    },
+    {
+      "name": "ZUTTO KITTO PRIMARY-trans.lrc",
+      "format": "lrc",
+      "metadataRef": "zutto-kitto-primary"
+    },
+    {
+      "name": "ZUTTO KITTO PRIMARY.lys",
+      "format": "lys",
+      "metadataRef": "zutto-kitto-primary"
+    }
+  ],
+  "sources": [
+    {
+      "file": "ZUTTO KITTO PRIMARY (2)-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "ZUTTO KITTO PRIMARY (2).lys",
+      "format": "lys"
+    },
+    {
+      "file": "ZUTTO KITTO PRIMARY-trans.lrc",
+      "format": "lrc"
+    },
+    {
+      "file": "ZUTTO KITTO PRIMARY.lys",
+      "format": "lys"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "path": "YonKaGor/It's Normal",
+  "tracks": {
+    "it-s-normal": {
+      "title": "It's Normal",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "It's Normal",
+      "isrc": "AUBEC2322248",
+      "platforms": {
+        "ncmMusicId": "2050055192",
+        "qqMusicId": "0041NYj90S6gd3",
+        "spotifyId": "51Fh6eKnXxxfavzeI4Ejrg"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "YonKaGor - It's Normal.ttml",
+      "format": "ttml",
+      "metadataRef": "it-s-normal"
+    }
+  ],
+  "sources": [
+    {
+      "file": "YonKaGor - It's Normal.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "It's Normal",
+        "artists": "YonKaGor",
+        "album": "It's Normal",
+        "ncmMusicId": "2050055192",
+        "qqMusicId": "0041NYj90S6gd3",
+        "spotifyId": "51Fh6eKnXxxfavzeI4Ejrg",
+        "isrc": "AUBEC2322248",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "path": "yama/color",
+  "tracks": {
+    "color": {
+      "title": "color",
+      "artists": [
+        "yama"
+      ],
+      "language": "ja",
+      "album": "color - Single",
+      "isrc": "JPU902203295",
+      "songwriters": [
+        "くじら"
+      ],
+      "platforms": {
+        "appleMusicId": [
+          "1644816114",
+          "1651594378",
+          "1723301930"
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "yama - color.lrcn",
+      "format": "lrcn",
+      "metadataRef": "color"
+    },
+    {
+      "name": "yama - color.ttml",
+      "format": "ttml",
+      "metadataRef": "color"
+    }
+  ],
+  "sources": [
+    {
+      "file": "yama - color.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "ja"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "offset": [
+          "500"
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "yama - color.ttml",
+      "format": "ttml",
+      "metadata": {
+        "artists": "yama",
+        "album": "color - Single",
+        "appleMusicId": [
+          "1644816114",
+          "1651594378",
+          "1723301930"
+        ],
+        "isrc": "JPU902203295",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

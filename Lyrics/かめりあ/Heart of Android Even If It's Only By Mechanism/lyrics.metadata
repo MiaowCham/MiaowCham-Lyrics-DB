@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "path": "かめりあ/Heart of Android Even If It's Only By Mechanism",
+  "tracks": {
+    "heart-of-android-even-if-it-s-only-by-mechanism": {
+      "title": "Heart of Android : Even If It's Only by Mechanism",
+      "artists": [
+        "かめりあ"
+      ],
+      "language": "en",
+      "album": "Heart of Android",
+      "isrc": "TCJPI1943117",
+      "platforms": {
+        "appleMusicId": "1448847165",
+        "spotifyId": "4vNy81lS5OT788KnIQmyOR",
+        "ncmMusicId": "1336656391"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "かめりあ - Heart of Android Even If It's Only By Mechanism.lrcn",
+      "format": "lrcn",
+      "metadataRef": "heart-of-android-even-if-it-s-only-by-mechanism"
+    },
+    {
+      "name": "かめりあ - Heart of Android Even If It's Only By Mechanism.ttml",
+      "format": "ttml",
+      "metadataRef": "heart-of-android-even-if-it-s-only-by-mechanism"
+    }
+  ],
+  "sources": [
+    {
+      "file": "かめりあ - Heart of Android Even If It's Only By Mechanism.lrcn",
+      "format": "lrcn",
+      "metadata": {
+        "Lyrics Next": [
+          true
+        ],
+        "version": [
+          "2.3"
+        ],
+        "timing": [
+          "word"
+        ],
+        "lang": [
+          "en"
+        ],
+        "agent": [
+          {
+            "type": "person",
+            "value": "v1"
+          }
+        ],
+        "lyrics": [
+          {
+            "type": "format",
+            "value": "Lyrics Next"
+          }
+        ]
+      }
+    },
+    {
+      "file": "かめりあ - Heart of Android Even If It's Only By Mechanism.ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "appleMusicId": "1448847165",
+        "artists": "Camellia",
+        "album": "Heart of Android",
+        "isrc": "TCJPI1943117",
+        "spotifyId": "4vNy81lS5OT788KnIQmyOR",
+        "ncmMusicId": "1336656391"
+      }
+    }
+  ]
+}

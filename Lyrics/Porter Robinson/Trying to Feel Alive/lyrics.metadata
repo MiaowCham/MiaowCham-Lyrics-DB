@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "path": "Porter Robinson/Trying to Feel Alive",
+  "tracks": {
+    "trying-to-feel-alive": {
+      "title": "Trying to Feel Alive",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "language": "en",
+      "album": "Nurture",
+      "songwriters": [
+        "Porter Robinson"
+      ],
+      "isrc": "USQE92000202",
+      "platforms": {
+        "appleMusicId": "1550626772"
+      }
+    }
+  },
+  "files": [
+    {
+      "name": "Porter Robinson - Trying to Feel Alive.ttml",
+      "format": "ttml",
+      "metadataRef": "trying-to-feel-alive"
+    }
+  ],
+  "sources": [
+    {
+      "file": "Porter Robinson - Trying to Feel Alive.ttml",
+      "format": "ttml",
+      "metadata": {
+        "musicName": "Trying to Feel Alive",
+        "artists": "Porter Robinson",
+        "album": "Nurture",
+        "appleMusicId": "1550626772",
+        "songwriter": "Porter Robinson",
+        "isrc": "USQE92000202",
+        "rootLanguage": "en",
+        "translationLang": "zh-CN",
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham"
+      }
+    }
+  ]
+}

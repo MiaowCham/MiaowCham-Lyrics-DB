@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 2,
+  "path": "ルシノ/ループザルーム (feat. 初音ミク)",
+  "tracks": {
+    "feat": {
+      "title": "ループザルーム (feat. 初音ミク)",
+      "artists": [
+        "ルシノ"
+      ],
+      "language": "en",
+      "album": "ループザルーム / ランベントアリア",
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "ルシノ - ループザルーム (feat. 初音ミク).ttml",
+      "format": "ttml",
+      "metadataRef": "feat"
+    }
+  ],
+  "sources": [
+    {
+      "file": "ルシノ - ループザルーム (feat. 初音ミク).ttml",
+      "format": "ttml",
+      "metadata": {
+        "ttmlAuthorGithub": "136059186",
+        "ttmlAuthorGithubLogin": "MiaowCham",
+        "artists": [
+          "ルシノ",
+          "初音ミク"
+        ],
+        "album": "ループザルーム / ランベントアリア"
+      }
+    }
+  ]
+}

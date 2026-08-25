@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "path": "草东没有派对/勇敢的人",
+  "tracks": {
+    "the-reluctant": {
+      "title": "The Reluctant",
+      "artists": [
+        "草东没有派对"
+      ],
+      "language": "zh-Hant",
+      "songwriters": [
+        "草東沒有派對"
+      ],
+      "platforms": {}
+    }
+  },
+  "files": [
+    {
+      "name": "草东没有派对 - 勇敢的人.ttml",
+      "format": "ttml",
+      "metadataRef": "the-reluctant"
+    }
+  ],
+  "sources": [
+    {
+      "file": "草东没有派对 - 勇敢的人.ttml",
+      "format": "ttml",
+      "metadata": {}
+    }
+  ]
+}
