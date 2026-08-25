@@ -1,0 +1,2621 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "a3d5bd9e6a096e8f3db82889713777dfda355ad1",
+  "tracks": [
+    {
+      "title": "Brave Shine",
+      "artists": [
+        "Aimer"
+      ],
+      "album": "DAWN",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Aimer - Brave Shine.lrcn",
+          "path": "Lyrics/Aimer/DAWN/Aimer - Brave Shine.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Aimer/DAWN/Aimer%20-%20Brave%20Shine.lrcn"
+        },
+        {
+          "name": "Aimer - Brave Shine.ttml",
+          "path": "Lyrics/Aimer/DAWN/Aimer - Brave Shine.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Aimer/DAWN/Aimer%20-%20Brave%20Shine.ttml"
+        }
+      ]
+    },
+    {
+      "title": "LAST STARDUST",
+      "artists": [
+        "Aimer"
+      ],
+      "album": "DAWN",
+      "language": "jp",
+      "platformIds": {
+        "appleMusicId": [
+          "1536130473",
+          "1538259850"
+        ],
+        "ncmMusicId": [
+          "33418857",
+          "476081885",
+          "1415124898"
+        ]
+      },
+      "files": [
+        {
+          "name": "Aimer - LAST STARDUST.lrcn",
+          "path": "Lyrics/Aimer/DAWN/Aimer - LAST STARDUST.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Aimer/DAWN/Aimer%20-%20LAST%20STARDUST.lrcn"
+        },
+        {
+          "name": "Aimer - LAST STARDUST.ttml",
+          "path": "Lyrics/Aimer/DAWN/Aimer - LAST STARDUST.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Aimer/DAWN/Aimer%20-%20LAST%20STARDUST.ttml"
+        }
+      ]
+    },
+    {
+      "title": "in your blue eyes",
+      "artists": [
+        "Ave Mujica"
+      ],
+      "album": "in your blue eyes",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1837094184",
+        "ncmMusicId": "2742468679",
+        "spotifyId": "4UQmtceQpVzfSgwW7EWfwf",
+        "qqMusicId": "601120802"
+      },
+      "files": [
+        {
+          "name": "Ave Mujica - in your blue eyes.ttml",
+          "path": "Lyrics/Ave Mujica/in your blue eyes/Ave Mujica - in your blue eyes.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Ave%20Mujica/in%20your%20blue%20eyes/Ave%20Mujica%20-%20in%20your%20blue%20eyes.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Symbol I : △",
+      "artists": [
+        "Ave Mujica"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Ave Mujica - Symbol I _ △.ttml",
+          "path": "Lyrics/Ave Mujica/Symbol I：△/Ave Mujica - Symbol I _ △.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Ave%20Mujica/Symbol%20I%EF%BC%9A%E2%96%B3/Ave%20Mujica%20-%20Symbol%20I%20_%20%E2%96%B3.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Dive Back In Time(动画《时光代理人》片头曲)",
+      "artists": [
+        "BaishaJAWS"
+      ],
+      "album": "时光代理人(动画《时光代理人》原声带)",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": [
+          "1865122636",
+          "1865381833"
+        ],
+        "spotifyId": [
+          "3PlvpQjHSMYPtodc2Ldl8M",
+          "7GcZYZD9N2gGGnnupzuh7f"
+        ],
+        "ncmMusicId": "1842817284"
+      },
+      "files": [
+        {
+          "name": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).lrcn",
+          "path": "Lyrics/BaishaJAWS/Dive Back In Time(动画《时光代理人》片头曲)/BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/BaishaJAWS/Dive%20Back%20In%20Time%28%E5%8A%A8%E7%94%BB%E3%80%8A%E6%97%B6%E5%85%89%E4%BB%A3%E7%90%86%E4%BA%BA%E3%80%8B%E7%89%87%E5%A4%B4%E6%9B%B2%29/BaishaJAWS%20-%20Dive%20Back%20In%20Time%28%E5%8A%A8%E7%94%BB%E3%80%8A%E6%97%B6%E5%85%89%E4%BB%A3%E7%90%86%E4%BA%BA%E3%80%8B%E7%89%87%E5%A4%B4%E6%9B%B2%29.lrcn"
+        },
+        {
+          "name": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).ttml",
+          "path": "Lyrics/BaishaJAWS/Dive Back In Time(动画《时光代理人》片头曲)/BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/BaishaJAWS/Dive%20Back%20In%20Time%28%E5%8A%A8%E7%94%BB%E3%80%8A%E6%97%B6%E5%85%89%E4%BB%A3%E7%90%86%E4%BA%BA%E3%80%8B%E7%89%87%E5%A4%B4%E6%9B%B2%29/BaishaJAWS%20-%20Dive%20Back%20In%20Time%28%E5%8A%A8%E7%94%BB%E3%80%8A%E6%97%B6%E5%85%89%E4%BB%A3%E7%90%86%E4%BA%BA%E3%80%8B%E7%89%87%E5%A4%B4%E6%9B%B2%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "lovely",
+      "artists": [
+        "Billie Eilish"
+      ],
+      "album": "lovely - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1369380479"
+      },
+      "files": [
+        {
+          "name": "Billie Eilish & Khalid - lovely.ttml",
+          "path": "Lyrics/Billie Eilish/lovely/Billie Eilish & Khalid - lovely.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Billie%20Eilish/lovely/Billie%20Eilish%20%26%20Khalid%20-%20lovely.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Viva La Vida",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Viva La Vida or Death and All His Friends",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "3986017",
+        "qqMusicId": "000B2dCe3JJpi6",
+        "spotifyId": "1mea3bSkSGXuIRvnydlB5b",
+        "appleMusicId": "1122773680"
+      },
+      "files": [
+        {
+          "name": "Coldplay - Viva La Vida.ttml",
+          "path": "Lyrics/Coldplay/Viva La Vida/Coldplay - Viva La Vida.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Coldplay/Viva%20La%20Vida/Coldplay%20-%20Viva%20La%20Vida.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Polytope",
+      "artists": [
+        "Daichi Miura"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Daichi Miura - Polytope.ttml",
+          "path": "Lyrics/Daichi Miura/Polytope/Daichi Miura - Polytope.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Daichi%20Miura/Polytope/Daichi%20Miura%20-%20Polytope.ttml"
+        }
+      ]
+    },
+    {
+      "title": "大石测胸口",
+      "artists": [
+        "Dogg1eB"
+      ],
+      "album": "他的前半生",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2671391615"
+      },
+      "files": [
+        {
+          "name": "Dogg1eB,丁斯塔科维奇 - 大石测胸口.ttml",
+          "path": "Lyrics/Dogg1eB/大石测胸口/Dogg1eB,丁斯塔科维奇 - 大石测胸口.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Dogg1eB/%E5%A4%A7%E7%9F%B3%E6%B5%8B%E8%83%B8%E5%8F%A3/Dogg1eB%2C%E4%B8%81%E6%96%AF%E5%A1%94%E7%A7%91%E7%BB%B4%E5%A5%87%20-%20%E5%A4%A7%E7%9F%B3%E6%B5%8B%E8%83%B8%E5%8F%A3.ttml"
+        }
+      ]
+    },
+    {
+      "title": "We Don't Talk About Bruno (From \"Encanto\"/Soundtrack Version)",
+      "artists": [
+        "Encanto Cast"
+      ],
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "1896087128",
+        "qqMusicId": [
+          "003Dvq093FiP0F",
+          "000B4g5f4YbV45"
+        ],
+        "spotifyId": [
+          "52xJxFP6TqMuO4Yt0eOkMz",
+          "3fYwdlIVtJlYJTvHYrt7ev"
+        ],
+        "appleMusicId": [
+          "1594677760",
+          "1605202548"
+        ]
+      },
+      "files": [
+        {
+          "name": "We Don't Talk About Bruno.ttml",
+          "path": "Lyrics/Encanto Cast/We Don't Talk About Bruno/We Don't Talk About Bruno.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Encanto%20Cast/We%20Don%27t%20Talk%20About%20Bruno/We%20Don%27t%20Talk%20About%20Bruno.ttml"
+        }
+      ]
+    },
+    {
+      "title": "The One Who's Running the Show",
+      "artists": [
+        "Gooseworx"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "The One Who's Running the Show.ttml",
+          "path": "Lyrics/Gooseworx/The One Who's Running the Show/The One Who's Running the Show.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Gooseworx/The%20One%20Who%27s%20Running%20the%20Show/The%20One%20Who%27s%20Running%20the%20Show.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Before Setting Out",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Before Setting Out (2).lys",
+          "path": "Lyrics/HOYO-MiX/Before Setting Out/Before Setting Out (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/Before%20Setting%20Out/Before%20Setting%20Out%20%282%29.lys"
+        },
+        {
+          "name": "Before Setting Out.lys",
+          "path": "Lyrics/HOYO-MiX/Before Setting Out/Before Setting Out.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/Before%20Setting%20Out/Before%20Setting%20Out.lys"
+        }
+      ]
+    },
+    {
+      "title": "Side Quest King (English Ver.)",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "Side Quest King (Honkai: Star Rail Third Anniversary Theme Song) - EP",
+      "language": "en",
+      "platformIds": {
+        "ncmMusicId": "3370641225",
+        "appleMusicId": "1891254310"
+      },
+      "files": [
+        {
+          "name": "side quest king.ttml",
+          "path": "Lyrics/HOYO-MiX/Side Quest King (English Ver.)/side quest king.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/Side%20Quest%20King%20%28English%20Ver.%29/side%20quest%20king.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Beyond This Station",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "Honkai: Star Rail - Let There Be Laughter (Part 2) [Original Game Soundtrack]",
+      "language": "en",
+      "platformIds": {
+        "ncmMusicId": "3409349905",
+        "appleMusicId": "6790171993"
+      },
+      "files": [
+        {
+          "name": "HOYO-MiX - 下一站 Beyond This Station.ttml",
+          "path": "Lyrics/HOYO-MiX/下一站 Beyond This Station/HOYO-MiX - 下一站 Beyond This Station.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E4%B8%8B%E4%B8%80%E7%AB%99%20Beyond%20This%20Station/HOYO-MiX%20-%20%E4%B8%8B%E4%B8%80%E7%AB%99%20Beyond%20This%20Station.ttml"
+        }
+      ]
+    },
+    {
+      "title": "On the Journey",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "On the Journey (Honkai: Star Rail Two-Year Anniversary Commemoration Song)",
+      "language": "",
+      "platformIds": {
+        "qqMusicId": "0049lelQ3EY4jN",
+        "spotifyId": [
+          "0HqjLk8hVH78mkgY6Z2eX6",
+          "0URHPsGbVUzFPGy0s03Rzb",
+          "142gEhGxh2oc62PKi5YPlL"
+        ],
+        "appleMusicId": [
+          "1809715075",
+          "1809714865",
+          "1809715122",
+          "1809714969"
+        ]
+      },
+      "files": [
+        {
+          "name": "HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey.ttml",
+          "path": "Lyrics/HOYO-MiX/不虚此行 On the Journey/HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E4%B8%8D%E8%99%9A%E6%AD%A4%E8%A1%8C%20On%20the%20Journey/HOYO-MiX%2C%20%E9%AD%8F%E6%99%A8%2C%20Nea%20-%20%E4%B8%8D%E8%99%9A%E6%AD%A4%E8%A1%8C%20On%20the%20Journey.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Before Setting Out",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "Before Setting Out (Honkai Impact 3rd Original Game Soundtrack)",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2124643510",
+        "qqMusicId": "002U7gud10KtaN",
+        "spotifyId": "74LGFGQ4SSPaumBvqT37JQ",
+        "appleMusicId": "1730019737"
+      },
+      "files": [
+        {
+          "name": "在出发之前.ttml",
+          "path": "Lyrics/HOYO-MiX/在出发之前/在出发之前.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E5%9C%A8%E5%87%BA%E5%8F%91%E4%B9%8B%E5%89%8D/%E5%9C%A8%E5%87%BA%E5%8F%91%E4%B9%8B%E5%89%8D.ttml"
+        }
+      ]
+    },
+    {
+      "title": "尘间星旅 Star Odyssey",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applejson.尘间星旅 Star Odyssey.json",
+          "path": "Lyrics/HOYO-MiX/尘间星旅 Star Odyssey/applejson.尘间星旅 Star Odyssey.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey/applejson.%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey.json"
+        },
+        {
+          "name": "applettml.尘间星旅 Star Odyssey-Format.ttml",
+          "path": "Lyrics/HOYO-MiX/尘间星旅 Star Odyssey/applettml.尘间星旅 Star Odyssey-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey/applettml.%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey-Format.ttml"
+        },
+        {
+          "name": "applettml.尘间星旅 Star Odyssey.ttml",
+          "path": "Lyrics/HOYO-MiX/尘间星旅 Star Odyssey/applettml.尘间星旅 Star Odyssey.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey/applettml.%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey.ttml"
+        }
+      ]
+    },
+    {
+      "title": "尘间星旅 Star Odyssey",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "HOYO-MiX, 铃木爱理 - 尘间星旅 Star Odyssey (正式版本 v1).ttml",
+          "path": "Lyrics/HOYO-MiX/尘间星旅 Star Odyssey/HOYO-MiX, 铃木爱理 - 尘间星旅 Star Odyssey (正式版本 v1).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey/HOYO-MiX%2C%20%E9%93%83%E6%9C%A8%E7%88%B1%E7%90%86%20-%20%E5%B0%98%E9%97%B4%E6%98%9F%E6%97%85%20Star%20Odyssey%20%28%E6%AD%A3%E5%BC%8F%E7%89%88%E6%9C%AC%20v1%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "拂晓",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "拂晓",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "HOYO-MiX - 拂晓.ttml",
+          "path": "Lyrics/HOYO-MiX/拂晓 Proi Proi/HOYO-MiX - 拂晓.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E6%8B%82%E6%99%93%20Proi%20Proi/HOYO-MiX%20-%20%E6%8B%82%E6%99%93.ttml"
+        }
+      ]
+    },
+    {
+      "title": "拂晓 Proi Proi",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "崩坏星穹铁道-洞穴寓言（中篇）Allegory of the Cave (Part 2)",
+      "language": "",
+      "platformIds": {
+        "qqMusicId": "000J0KtD2auL4h",
+        "spotifyId": [
+          "5qaiPcNQUIUTEtZIiScf9w",
+          "3FWZFYHVediME9wwdsiYas",
+          "2fywHvZ0GP5CWdycMGYJ34",
+          "6snyNT6w27QFkdyTO3vOEM"
+        ],
+        "appleMusicId": [
+          "1815472401",
+          "1815476365",
+          "1815467273",
+          "1815471107",
+          "1815480448"
+        ],
+        "ncmMusicId": "2709812973"
+      },
+      "files": [
+        {
+          "name": "HOYO-MiX, NIDA - 拂晓 Proi Proi (2).ttml",
+          "path": "Lyrics/HOYO-MiX/拂晓 Proi Proi/HOYO-MiX, NIDA - 拂晓 Proi Proi (2).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E6%8B%82%E6%99%93%20Proi%20Proi/HOYO-MiX%2C%20NIDA%20-%20%E6%8B%82%E6%99%93%20Proi%20Proi%20%282%29.ttml"
+        },
+        {
+          "name": "HOYO-MiX, NIDA - 拂晓 Proi Proi.ttml",
+          "path": "Lyrics/HOYO-MiX/拂晓 Proi Proi/HOYO-MiX, NIDA - 拂晓 Proi Proi.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E6%8B%82%E6%99%93%20Proi%20Proi/HOYO-MiX%2C%20NIDA%20-%20%E6%8B%82%E6%99%93%20Proi%20Proi.ttml"
+        }
+      ]
+    },
+    {
+      "title": "拂晓 Proi Proi",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "拂晓 Proi Proi.ass",
+          "path": "Lyrics/HOYO-MiX/拂晓 Proi Proi/拂晓 Proi Proi.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E6%8B%82%E6%99%93%20Proi%20Proi/%E6%8B%82%E6%99%93%20Proi%20Proi.ass"
+        }
+      ]
+    },
+    {
+      "title": "未行之路 The Road Not Taken",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "原神-「未行之路 The Road Not Taken」游戏原声EP专辑",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2160850755",
+        "qqMusicId": "002aHh3Z2bofvM",
+        "spotifyId": [
+          "6yoIGOKFAGZ0rHSxqRuwt2",
+          "13ZiVkjad58eXSASbOFqwB",
+          "0YhGUbMQBJHe0Ude8MlcQf",
+          "5fw4spyGdAkwSkcBHNC7Ir"
+        ],
+        "appleMusicId": [
+          "1747464382",
+          "1747464879",
+          "1747442244",
+          "1747470185",
+          "1747459411"
+        ]
+      },
+      "files": [
+        {
+          "name": "HOYO-MiX - 未行之路.ttml",
+          "path": "Lyrics/HOYO-MiX/未行之路/HOYO-MiX - 未行之路.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E6%9C%AA%E8%A1%8C%E4%B9%8B%E8%B7%AF/HOYO-MiX%20-%20%E6%9C%AA%E8%A1%8C%E4%B9%8B%E8%B7%AF.ttml"
+        }
+      ]
+    },
+    {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection: Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "原神-竟夜有辉之燎 Radiance Aflame",
+      "language": "",
+      "platformIds": {
+        "qqMusicId": "001UwWZY39qaYT",
+        "spotifyId": [
+          "07PUHSNiwqFhvTRvN7ideF",
+          "2veCqqvR69JbR1gWNV8ieC",
+          "3wXzkWWQU3vNgRfiVXGycv",
+          "1ceu36FwqXn8Po656vnOxV"
+        ],
+        "appleMusicId": [
+          "1810694226",
+          "1810682874",
+          "1810704688",
+          "1810684625",
+          "1810689430"
+        ],
+        "ncmMusicId": "2699953016"
+      },
+      "files": [
+        {
+          "name": "HOYO-MiX - 炽烈的还魂诗·再现 (2).ttml",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现/HOYO-MiX - 炽烈的还魂诗·再现 (2).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0/HOYO-MiX%20-%20%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20%282%29.ttml"
+        },
+        {
+          "name": "HOYO-MiX - 炽烈的还魂诗·再现.lrc",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现/HOYO-MiX - 炽烈的还魂诗·再现.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0/HOYO-MiX%20-%20%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0.lrc"
+        },
+        {
+          "name": "HOYO-MiX - 炽烈的还魂诗·再现.ttml",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现/HOYO-MiX - 炽烈的还魂诗·再现.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0/HOYO-MiX%20-%20%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0.ttml"
+        }
+      ]
+    },
+    {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-lyricify.ass",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-lyricify.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation%20%282%29-lyricify.ass"
+        }
+      ]
+    },
+    {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-trans.lrc",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation%20%282%29-trans.lrc"
+        },
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2).lys",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation%20%282%29.lys"
+        },
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-trans.lrc",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation-trans.lrc"
+        },
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.ass",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation.ass"
+        },
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.lys",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation.lys"
+        }
+      ]
+    },
+    {
+      "title": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-lyricify.ass",
+          "path": "Lyrics/HOYO-MiX/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation/炽烈的还魂诗·再现 Ode of Resurrection - Recapitulation-lyricify.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation/%E7%82%BD%E7%83%88%E7%9A%84%E8%BF%98%E9%AD%82%E8%AF%97%C2%B7%E5%86%8D%E7%8E%B0%20Ode%20of%20Resurrection%20-%20Recapitulation-lyricify.ass"
+        }
+      ]
+    },
+    {
+      "title": "Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "Genshin Impact - Radiance Aflame (Original Game Soundtrack)",
+      "language": "",
+      "platformIds": {
+        "qqMusicId": "003lnrCc0HL7pM",
+        "spotifyId": [
+          "41ULvYL5zrXI3NSKTxm3wA",
+          "4ZWZH6IoABI331E1FRMSpx",
+          "4hMqRDgNjCqqtTGhllpHtd",
+          "3I81DTTElZ3c6dvU1VPDOS"
+        ],
+        "appleMusicId": [
+          "1810684611",
+          "1810682872",
+          "1810704404",
+          "1810689428",
+          "1810694220"
+        ],
+        "ncmMusicId": "2699953015"
+      },
+      "files": [
+        {
+          "name": "HOYO-MiX - 蚀形的灾祲 (2).ttml",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲/HOYO-MiX - 蚀形的灾祲 (2).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2/HOYO-MiX%20-%20%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20%282%29.ttml"
+        },
+        {
+          "name": "HOYO-MiX - 蚀形的灾祲.ttml",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲/HOYO-MiX - 蚀形的灾祲.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2/HOYO-MiX%20-%20%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2.ttml"
+        }
+      ]
+    },
+    {
+      "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis (2)-lyricify.ass",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis (2)-lyricify.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis%20%282%29-lyricify.ass"
+        }
+      ]
+    },
+    {
+      "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis (2)-trans.lrc",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis%20%282%29-trans.lrc"
+        },
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis (2).lys",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis%20%282%29.lys"
+        },
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis-trans.lrc",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis-trans.lrc"
+        },
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis.ass",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis.ass"
+        },
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis.lys",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis.lys"
+        }
+      ]
+    },
+    {
+      "title": "蚀形的灾祲 Vitas Corrodens Pestis",
+      "artists": [
+        "HOYO-MiX"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "蚀形的灾祲 Vitas Corrodens Pestis-lyricify.ass",
+          "path": "Lyrics/HOYO-MiX/蚀形的灾祲 Vitas Corrodens Pestis/蚀形的灾祲 Vitas Corrodens Pestis-lyricify.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HOYO-MiX/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis/%E8%9A%80%E5%BD%A2%E7%9A%84%E7%81%BE%E7%A5%B2%20Vitas%20Corrodens%20Pestis-lyricify.ass"
+        }
+      ]
+    },
+    {
+      "title": "XOXO",
+      "artists": [
+        "HoYoFair"
+      ],
+      "album": "HoYoFair 2023 (Genshin Impact Fan Art Project)",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2093298047",
+        "qqMusicId": "002WrfQg2s9KTL",
+        "spotifyId": "36DHuzTdHq7PEussyOVQtT"
+      },
+      "files": [
+        {
+          "name": "HoYoFair - XOXO (2).ttml",
+          "path": "Lyrics/HoYoFair/XOXO/HoYoFair - XOXO (2).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/HoYoFair%20-%20XOXO%20%282%29.ttml"
+        },
+        {
+          "name": "HoYoFair - XOXO.ttml",
+          "path": "Lyrics/HoYoFair/XOXO/HoYoFair - XOXO.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/HoYoFair%20-%20XOXO.ttml"
+        },
+        {
+          "name": "HoYoFair, Marcus Perkins Bejarano, Kim Jinhyoung - XOXO.ttml",
+          "path": "Lyrics/HoYoFair/XOXO/HoYoFair, Marcus Perkins Bejarano, Kim Jinhyoung - XOXO.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/HoYoFair%2C%20Marcus%20Perkins%20Bejarano%2C%20Kim%20Jinhyoung%20-%20XOXO.ttml"
+        },
+        {
+          "name": "XOXO (2).lrc",
+          "path": "Lyrics/HoYoFair/XOXO/XOXO (2).lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/XOXO%20%282%29.lrc"
+        },
+        {
+          "name": "XOXO-lys.qrc",
+          "path": "Lyrics/HoYoFair/XOXO/XOXO-lys.qrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/XOXO-lys.qrc"
+        },
+        {
+          "name": "XOXO.lrc",
+          "path": "Lyrics/HoYoFair/XOXO/XOXO.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/XOXO.lrc"
+        },
+        {
+          "name": "XOXO.lys",
+          "path": "Lyrics/HoYoFair/XOXO/XOXO.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/XOXO.lys"
+        },
+        {
+          "name": "XOXO.ttml",
+          "path": "Lyrics/HoYoFair/XOXO/XOXO.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/HoYoFair/XOXO/XOXO.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Cold War",
+      "artists": [
+        "Jack Wall"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Jack Wall - Cold War - 音译.lrcn",
+          "path": "Lyrics/Jack Wall/Cold War/Jack Wall - Cold War - 音译.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Jack%20Wall/Cold%20War/Jack%20Wall%20-%20Cold%20War%20-%20%E9%9F%B3%E8%AF%91.lrcn"
+        },
+        {
+          "name": "Jack Wall - Cold War - 音译.ttml",
+          "path": "Lyrics/Jack Wall/Cold War/Jack Wall - Cold War - 音译.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Jack%20Wall/Cold%20War/Jack%20Wall%20-%20Cold%20War%20-%20%E9%9F%B3%E8%AF%91.ttml"
+        },
+        {
+          "name": "Jack Wall - Cold War.ttml",
+          "path": "Lyrics/Jack Wall/Cold War/Jack Wall - Cold War.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Jack%20Wall/Cold%20War/Jack%20Wall%20-%20Cold%20War.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Six Degrees (New Ver)",
+      "artists": [
+        "Jay Chou"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Six Degrees (New Ver) (2).lys",
+          "path": "Lyrics/Jay Chou/Six Degrees (New Ver)/Six Degrees (New Ver) (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Jay%20Chou/Six%20Degrees%20%28New%20Ver%29/Six%20Degrees%20%28New%20Ver%29%20%282%29.lys"
+        },
+        {
+          "name": "Six Degrees (New Ver).lys",
+          "path": "Lyrics/Jay Chou/Six Degrees (New Ver)/Six Degrees (New Ver).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Jay%20Chou/Six%20Degrees%20%28New%20Ver%29/Six%20Degrees%20%28New%20Ver%29.lys"
+        }
+      ]
+    },
+    {
+      "title": "A Long Way",
+      "artists": [
+        "Josh Garrels"
+      ],
+      "album": "Home",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "973223438"
+      },
+      "files": [
+        {
+          "name": "Josh Garrels - A Long Way.ttml",
+          "path": "Lyrics/Josh Garrels/A Long Way/Josh Garrels - A Long Way.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Josh%20Garrels/A%20Long%20Way/Josh%20Garrels%20-%20A%20Long%20Way.ttml"
+        }
+      ]
+    },
+    {
+      "title": "oh to be loved",
+      "artists": [
+        "JVKE"
+      ],
+      "album": "oh to be loved - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1832550895"
+      },
+      "files": [
+        {
+          "name": "JVKE - oh to be loved.ttml",
+          "path": "Lyrics/JVKE/oh to be loved/JVKE - oh to be loved.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/JVKE/oh%20to%20be%20loved/JVKE%20-%20oh%20to%20be%20loved.ttml"
+        }
+      ]
+    },
+    {
+      "title": "もういいよ",
+      "artists": [
+        "Kocchi No Kento"
+      ],
+      "album": "もういいよ",
+      "language": "jp",
+      "platformIds": {
+        "appleMusicId": "1771376408",
+        "spotifyId": "4TSjU0UG6ZKbQhOJ4Ma7vE",
+        "ncmMusicId": "2632151480"
+      },
+      "files": [
+        {
+          "name": "Kocchi No Kento - Mouiiyo.lrcn",
+          "path": "Lyrics/Kocchi No Kento/Mouiiyo/Kocchi No Kento - Mouiiyo.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Kocchi%20No%20Kento/Mouiiyo/Kocchi%20No%20Kento%20-%20Mouiiyo.lrcn"
+        },
+        {
+          "name": "Kocchi No Kento - Mouiiyo.ttml",
+          "path": "Lyrics/Kocchi No Kento/Mouiiyo/Kocchi No Kento - Mouiiyo.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Kocchi%20No%20Kento/Mouiiyo/Kocchi%20No%20Kento%20-%20Mouiiyo.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Another Day of Sun",
+      "artists": [
+        "La La Land Cast"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "La La Land Cast - Another Day of Sun.ttml",
+          "path": "Lyrics/La La Land Cast/Another Day of Sun/La La Land Cast - Another Day of Sun.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/La%20La%20Land%20Cast/Another%20Day%20of%20Sun/La%20La%20Land%20Cast%20-%20Another%20Day%20of%20Sun.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Slow Down",
+      "artists": [
+        "Madnap"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Slow Down (2)-trans.lrc",
+          "path": "Lyrics/Madnap/Slow Down/Slow Down (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Madnap/Slow%20Down/Slow%20Down%20%282%29-trans.lrc"
+        },
+        {
+          "name": "Slow Down (2).lys",
+          "path": "Lyrics/Madnap/Slow Down/Slow Down (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Madnap/Slow%20Down/Slow%20Down%20%282%29.lys"
+        },
+        {
+          "name": "Slow Down-trans.lrc",
+          "path": "Lyrics/Madnap/Slow Down/Slow Down-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Madnap/Slow%20Down/Slow%20Down-trans.lrc"
+        },
+        {
+          "name": "Slow Down.lys",
+          "path": "Lyrics/Madnap/Slow Down/Slow Down.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Madnap/Slow%20Down/Slow%20Down.lys"
+        },
+        {
+          "name": "SlowDown.ttml",
+          "path": "Lyrics/Madnap/Slow Down/SlowDown.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Madnap/Slow%20Down/SlowDown.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Tiny Me",
+      "artists": [
+        "masarada"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Tiny Me-trans.lrc",
+          "path": "Lyrics/masarada/Tiny Me/Tiny Me-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/masarada/Tiny%20Me/Tiny%20Me-trans.lrc"
+        },
+        {
+          "name": "Tiny Me.lys",
+          "path": "Lyrics/masarada/Tiny Me/Tiny Me.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/masarada/Tiny%20Me/Tiny%20Me.lys"
+        }
+      ]
+    },
+    {
+      "title": "The Bird Song (with Em Beihold)",
+      "artists": [
+        "Noah Floersch"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "the bird song.ttml",
+          "path": "Lyrics/Noah Floersch/The Bird Song (with Em Beihold)/the bird song.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Noah%20Floersch/The%20Bird%20Song%20%28with%20Em%20Beihold%29/the%20bird%20song.ttml"
+        }
+      ]
+    },
+    {
+      "title": "We are (Japanese Version)",
+      "artists": [
+        "ONE OK ROCK"
+      ],
+      "album": "Ambitions (日本盤)",
+      "language": "",
+      "platformIds": {
+        "qqMusicId": "002BGBQw2nw7cl",
+        "spotifyId": "4QL5DKkPZwBXkph4fW2Y0Z",
+        "appleMusicId": "1173406694"
+      },
+      "files": [
+        {
+          "name": "We are ( JP Edition ).ttml",
+          "path": "Lyrics/ONE OK ROCK/We are/We are ( JP Edition ).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/ONE%20OK%20ROCK/We%20are/We%20are%20%28%20JP%20Edition%20%29.ttml"
+        },
+        {
+          "name": "We are ( JP Edition with not offset).ttml",
+          "path": "Lyrics/ONE OK ROCK/We are/We are ( JP Edition with not offset).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/ONE%20OK%20ROCK/We%20are/We%20are%20%28%20JP%20Edition%20with%20not%20offset%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "We are",
+      "artists": [
+        "ONE OK ROCK"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "We Are.ttml",
+          "path": "Lyrics/ONE OK ROCK/We are/We Are.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/ONE%20OK%20ROCK/We%20are/We%20Are.ttml"
+        }
+      ]
+    },
+    {
+      "title": "High Hopes",
+      "artists": [
+        "Panic! At The Disco"
+      ],
+      "album": "Pray for the Wicked",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "562181972",
+        "qqMusicId": "0034ASsG3ErxnK",
+        "spotifyId": "1rqqCSm0Qe4I9rUvWncaom",
+        "appleMusicId": "1361152303"
+      },
+      "files": [
+        {
+          "name": "Panic! At The Disco - High Hopes.ttml",
+          "path": "Lyrics/Panic! At The Disco/High Hopes/Panic! At The Disco - High Hopes.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Panic%21%20At%20The%20Disco/High%20Hopes/Panic%21%20At%20The%20Disco%20-%20High%20Hopes.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Cheerleader",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {
+        "ncmMusicId": "2611319605"
+      },
+      "files": [
+        {
+          "name": "Cheerleader.ttml",
+          "path": "Lyrics/Porter Robinson/Cheerleader/Cheerleader.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Cheerleader/Cheerleader.ttml"
+        },
+        {
+          "name": "Cheerleader_converted.ttml",
+          "path": "Lyrics/Porter Robinson/Cheerleader/Cheerleader_converted.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Cheerleader/Cheerleader_converted.ttml"
+        }
+      ]
+    },
+    {
+      "title": "fullmoon lullaby",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applejson.fullmoon lullaby.json",
+          "path": "Lyrics/Porter Robinson/fullmoon lullaby/applejson.fullmoon lullaby.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/fullmoon%20lullaby/applejson.fullmoon%20lullaby.json"
+        },
+        {
+          "name": "applettml.fullmoon lullaby-Format.ttml",
+          "path": "Lyrics/Porter Robinson/fullmoon lullaby/applettml.fullmoon lullaby-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/fullmoon%20lullaby/applettml.fullmoon%20lullaby-Format.ttml"
+        },
+        {
+          "name": "applettml.fullmoon lullaby.lrcn",
+          "path": "Lyrics/Porter Robinson/fullmoon lullaby/applettml.fullmoon lullaby.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/fullmoon%20lullaby/applettml.fullmoon%20lullaby.lrcn"
+        },
+        {
+          "name": "applettml.fullmoon lullaby.ttml",
+          "path": "Lyrics/Porter Robinson/fullmoon lullaby/applettml.fullmoon lullaby.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/fullmoon%20lullaby/applettml.fullmoon%20lullaby.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Get Your Wish",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Get Your Wish.ttml",
+          "path": "Lyrics/Porter Robinson/Get Your Wish/Get Your Wish.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Get%20Your%20Wish/Get%20Your%20Wish.ttml"
+        },
+        {
+          "name": "Get Your Wish_converted.ttml",
+          "path": "Lyrics/Porter Robinson/Get Your Wish/Get Your Wish_converted.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Get%20Your%20Wish/Get%20Your%20Wish_converted.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Musician",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "Porter Robinson - Musician.ttml",
+          "path": "Lyrics/Porter Robinson/Musician/Porter Robinson - Musician.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Musician/Porter%20Robinson%20-%20Musician.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Shelter",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "album": "Shelter - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1701889813"
+      },
+      "files": [
+        {
+          "name": "Porter Robinson & Madeon - Shelter.ttml",
+          "path": "Lyrics/Porter Robinson/Shelter/Porter Robinson & Madeon - Shelter.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Shelter/Porter%20Robinson%20%26%20Madeon%20-%20Shelter.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Trying to Feel Alive",
+      "artists": [
+        "Porter Robinson"
+      ],
+      "album": "Nurture",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1550626772"
+      },
+      "files": [
+        {
+          "name": "Porter Robinson - Trying to Feel Alive.ttml",
+          "path": "Lyrics/Porter Robinson/Trying to Feel Alive/Porter Robinson - Trying to Feel Alive.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Porter%20Robinson/Trying%20to%20Feel%20Alive/Porter%20Robinson%20-%20Trying%20to%20Feel%20Alive.ttml"
+        }
+      ]
+    },
+    {
+      "title": "ZUTTO KITTO PRIMARY",
+      "artists": [
+        "PRIME"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "ZUTTO KITTO PRIMARY (2)-trans.lrc",
+          "path": "Lyrics/PRIME/ZUTTO KITTO PRIMARY/ZUTTO KITTO PRIMARY (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/PRIME/ZUTTO%20KITTO%20PRIMARY/ZUTTO%20KITTO%20PRIMARY%20%282%29-trans.lrc"
+        },
+        {
+          "name": "ZUTTO KITTO PRIMARY (2).lys",
+          "path": "Lyrics/PRIME/ZUTTO KITTO PRIMARY/ZUTTO KITTO PRIMARY (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/PRIME/ZUTTO%20KITTO%20PRIMARY/ZUTTO%20KITTO%20PRIMARY%20%282%29.lys"
+        },
+        {
+          "name": "ZUTTO KITTO PRIMARY-trans.lrc",
+          "path": "Lyrics/PRIME/ZUTTO KITTO PRIMARY/ZUTTO KITTO PRIMARY-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/PRIME/ZUTTO%20KITTO%20PRIMARY/ZUTTO%20KITTO%20PRIMARY-trans.lrc"
+        },
+        {
+          "name": "ZUTTO KITTO PRIMARY.lys",
+          "path": "Lyrics/PRIME/ZUTTO KITTO PRIMARY/ZUTTO KITTO PRIMARY.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/PRIME/ZUTTO%20KITTO%20PRIMARY/ZUTTO%20KITTO%20PRIMARY.lys"
+        }
+      ]
+    },
+    {
+      "title": "ズットキット・プライマリ",
+      "artists": [
+        "PRIME"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "PRIME.ttml",
+          "path": "Lyrics/PRIME/ズットキット・プライマリ/PRIME.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/PRIME/%E3%82%BA%E3%83%83%E3%83%88%E3%82%AD%E3%83%83%E3%83%88%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%AA/PRIME.ttml"
+        }
+      ]
+    },
+    {
+      "title": "僕らの手には何もないけど、",
+      "artists": [
+        "RAM WIRE"
+      ],
+      "album": "僕らの手には何もないけど、",
+      "language": "jp",
+      "platformIds": {
+        "ncmMusicId": [
+          "32317208",
+          "33599551",
+          "1454584048",
+          "1454335751"
+        ],
+        "appleMusicId": [
+          "1535538100",
+          "1204764497",
+          "1538099816",
+          "1538099836",
+          "1538099870"
+        ],
+        "spotifyId": [
+          "58QjASyPi3VE4XpoPEityO",
+          "5EsGKF1JoqSRNNUbdPzaMK",
+          "1P4qzma5f3mzvkHLpJsPqn",
+          "5G7hx2PiaWKaaEjFlAhTiv"
+        ]
+      },
+      "files": [
+        {
+          "name": "RAM WIRE - 僕らの手には何もないけど、.lrcn",
+          "path": "Lyrics/RAM WIRE/僕らの手には何もないけど、/RAM WIRE - 僕らの手には何もないけど、.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/RAM%20WIRE/%E5%83%95%E3%82%89%E3%81%AE%E6%89%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%82%E3%81%AA%E3%81%84%E3%81%91%E3%81%A9%E3%80%81/RAM%20WIRE%20-%20%E5%83%95%E3%82%89%E3%81%AE%E6%89%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%82%E3%81%AA%E3%81%84%E3%81%91%E3%81%A9%E3%80%81.lrcn"
+        },
+        {
+          "name": "RAM WIRE - 僕らの手には何もないけど、.ttml",
+          "path": "Lyrics/RAM WIRE/僕らの手には何もないけど、/RAM WIRE - 僕らの手には何もないけど、.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/RAM%20WIRE/%E5%83%95%E3%82%89%E3%81%AE%E6%89%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%82%E3%81%AA%E3%81%84%E3%81%91%E3%81%A9%E3%80%81/RAM%20WIRE%20-%20%E5%83%95%E3%82%89%E3%81%AE%E6%89%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%82%E3%81%AA%E3%81%84%E3%81%91%E3%81%A9%E3%80%81.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Psycho",
+      "artists": [
+        "Red Velvet"
+      ],
+      "album": "",
+      "language": "ko",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applettml.Psycho-Format.ttml",
+          "path": "Lyrics/Red Velvet/Psycho/applettml.Psycho-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Red%20Velvet/Psycho/applettml.Psycho-Format.ttml"
+        },
+        {
+          "name": "applettml.Psycho.ttml",
+          "path": "Lyrics/Red Velvet/Psycho/applettml.Psycho.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Red%20Velvet/Psycho/applettml.Psycho.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "artists": [
+        "Sói Ngủ Nướng"
+      ],
+      "album": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "language": "vi",
+      "platformIds": {
+        "spotifyId": "2c8p1kMuQUYa6LyMqHs8lj",
+        "appleMusicId": "6779507086",
+        "ncmMusicId": "3392989926"
+      },
+      "files": [
+        {
+          "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá' - 激进修复.ttml",
+          "path": "Lyrics/Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'/Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá' - 激进修复.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng/B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng%20-%20B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27%20-%20%E6%BF%80%E8%BF%9B%E4%BF%AE%E5%A4%8D.ttml"
+        },
+        {
+          "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'.ttml",
+          "path": "Lyrics/Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'/Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng/B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng%20-%20B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27.ttml"
+        },
+        {
+          "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.lrcn",
+          "path": "Lyrics/Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'/Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng/B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng%20-%20B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27_transliteration_completed.lrcn"
+        },
+        {
+          "name": "Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.ttml",
+          "path": "Lyrics/Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'/Sói Ngủ Nướng - Bởi Vì Em Tự Tin Em Là 'lông Lá'_transliteration_completed.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng/B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng%20-%20B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27_transliteration_completed.ttml"
+        },
+        {
+          "name": "无音译.ttml",
+          "path": "Lyrics/Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'/无音译.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng/B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27/%E6%97%A0%E9%9F%B3%E8%AF%91.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Bởi Vì Em Tự Tin Em Là 'lông Lá'",
+      "artists": [
+        "Sói Ngủ Nướng"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "[VERSE].txt",
+          "path": "Lyrics/Sói Ngủ Nướng/Bởi Vì Em Tự Tin Em Là 'lông Lá'/[VERSE].txt",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C3%B3i%20Ng%E1%BB%A7%20N%C6%B0%E1%BB%9Bng/B%E1%BB%9Fi%20V%C3%AC%20Em%20T%E1%BB%B1%20Tin%20Em%20L%C3%A0%20%27l%C3%B4ng%20L%C3%A1%27/%5BVERSE%5D.txt"
+        }
+      ]
+    },
+    {
+      "title": "My Curse",
+      "artists": [
+        "Sān-Z"
+      ],
+      "album": "My Curse",
+      "language": "",
+      "platformIds": {
+        "qqMusicId": "000S4qDD3TfSdb",
+        "spotifyId": [
+          "2o0B9EF7TCLWfqwpa5qYuI",
+          "2HCTkliGqZjCQj4iTHT2oq",
+          "7i3p6qve9tXnoYJYI2ig1w",
+          "1dILJl0F4RUdwreYbI1DFP"
+        ],
+        "appleMusicId": [
+          "1813316853",
+          "1813571540",
+          "1813790987",
+          "1813790993",
+          "1813790977"
+        ],
+        "ncmMusicId": "2704988304"
+      },
+      "files": [
+        {
+          "name": "My Curse, My Fate.ass",
+          "path": "Lyrics/Sān-Z/My Curse, My Fate/My Curse, My Fate.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/My%20Curse%2C%20My%20Fate/My%20Curse%2C%20My%20Fate.ass"
+        },
+        {
+          "name": "Sān-Z, HOYO-MiX - My Curse, My Fate (2).ttml",
+          "path": "Lyrics/Sān-Z/My Curse, My Fate/Sān-Z, HOYO-MiX - My Curse, My Fate (2).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/My%20Curse%2C%20My%20Fate/S%C4%81n-Z%2C%20HOYO-MiX%20-%20My%20Curse%2C%20My%20Fate%20%282%29.ttml"
+        },
+        {
+          "name": "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml",
+          "path": "Lyrics/Sān-Z/My Curse, My Fate/Sān-Z, HOYO-MiX - My Curse, My Fate.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/My%20Curse%2C%20My%20Fate/S%C4%81n-Z%2C%20HOYO-MiX%20-%20My%20Curse%2C%20My%20Fate.ttml"
+        },
+        {
+          "name": "Sān-Z, HOYO-MiX - My Curse, My Fate.ttml.xml",
+          "path": "Lyrics/Sān-Z/My Curse, My Fate/Sān-Z, HOYO-MiX - My Curse, My Fate.ttml.xml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/My%20Curse%2C%20My%20Fate/S%C4%81n-Z%2C%20HOYO-MiX%20-%20My%20Curse%2C%20My%20Fate.ttml.xml"
+        }
+      ]
+    },
+    {
+      "title": "My Curse, My Fate",
+      "artists": [
+        "Sān-Z"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "lyric.ttml",
+          "path": "Lyrics/Sān-Z/My Curse, My Fate/lyric.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/My%20Curse%2C%20My%20Fate/lyric.ttml"
+        }
+      ]
+    },
+    {
+      "title": "预言 Prophecy",
+      "artists": [
+        "Sān-Z"
+      ],
+      "album": "绝区零-预言 Prophecy",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "6786666554",
+        "ncmMusicId": "3402223603"
+      },
+      "files": [
+        {
+          "name": "Sān-Z - Prophecy (feat. Gin Wigmore).lqe",
+          "path": "Lyrics/Sān-Z/Prophecy/Sān-Z - Prophecy (feat. Gin Wigmore).lqe",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/Prophecy/S%C4%81n-Z%20-%20Prophecy%20%28feat.%20Gin%20Wigmore%29.lqe"
+        },
+        {
+          "name": "Sān-Z - Prophecy (feat. Gin Wigmore).lrcn",
+          "path": "Lyrics/Sān-Z/Prophecy/Sān-Z - Prophecy (feat. Gin Wigmore).lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/Prophecy/S%C4%81n-Z%20-%20Prophecy%20%28feat.%20Gin%20Wigmore%29.lrcn"
+        },
+        {
+          "name": "Sān-Z - Prophecy (feat. Gin Wigmore).ttml",
+          "path": "Lyrics/Sān-Z/Prophecy/Sān-Z - Prophecy (feat. Gin Wigmore).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/Prophecy/S%C4%81n-Z%20-%20Prophecy%20%28feat.%20Gin%20Wigmore%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Stars Align",
+      "artists": [
+        "Sān-Z"
+      ],
+      "album": "Stars Align (feat. Astra Yao) - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1796149669",
+        "spotifyId": "62OmUhX3LOCp1mpyDCgnbb",
+        "ncmMusicId": "2675131838"
+      },
+      "files": [
+        {
+          "name": "Stars Align (2).lys",
+          "path": "Lyrics/Sān-Z/Stars Align/Stars Align (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/Stars%20Align/Stars%20Align%20%282%29.lys"
+        },
+        {
+          "name": "Stars Align.lys",
+          "path": "Lyrics/Sān-Z/Stars Align/Stars Align.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/Stars%20Align/Stars%20Align.lys"
+        },
+        {
+          "name": "Stars Align.ttml",
+          "path": "Lyrics/Sān-Z/Stars Align/Stars Align.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/Stars%20Align/Stars%20Align.ttml"
+        }
+      ]
+    },
+    {
+      "title": "制服·剪刀·鲨鱼尾",
+      "artists": [
+        "Sān-Z"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applejson.制服·剪刀·鲨鱼尾.json",
+          "path": "Lyrics/Sān-Z/制服·剪刀·鲨鱼尾/applejson.制服·剪刀·鲨鱼尾.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/%E5%88%B6%E6%9C%8D%C2%B7%E5%89%AA%E5%88%80%C2%B7%E9%B2%A8%E9%B1%BC%E5%B0%BE/applejson.%E5%88%B6%E6%9C%8D%C2%B7%E5%89%AA%E5%88%80%C2%B7%E9%B2%A8%E9%B1%BC%E5%B0%BE.json"
+        },
+        {
+          "name": "applettml.制服·剪刀·鲨鱼尾-Format.ttml",
+          "path": "Lyrics/Sān-Z/制服·剪刀·鲨鱼尾/applettml.制服·剪刀·鲨鱼尾-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/%E5%88%B6%E6%9C%8D%C2%B7%E5%89%AA%E5%88%80%C2%B7%E9%B2%A8%E9%B1%BC%E5%B0%BE/applettml.%E5%88%B6%E6%9C%8D%C2%B7%E5%89%AA%E5%88%80%C2%B7%E9%B2%A8%E9%B1%BC%E5%B0%BE-Format.ttml"
+        },
+        {
+          "name": "applettml.制服·剪刀·鲨鱼尾.ttml",
+          "path": "Lyrics/Sān-Z/制服·剪刀·鲨鱼尾/applettml.制服·剪刀·鲨鱼尾.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/S%C4%81n-Z/%E5%88%B6%E6%9C%8D%C2%B7%E5%89%AA%E5%88%80%C2%B7%E9%B2%A8%E9%B1%BC%E5%B0%BE/applettml.%E5%88%B6%E6%9C%8D%C2%B7%E5%89%AA%E5%88%80%C2%B7%E9%B2%A8%E9%B1%BC%E5%B0%BE.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Against All Answers",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "TOGENASHI TOGEARI - Against All Answers.ttml",
+          "path": "Lyrics/TOGENASHI TOGEARI/Against All Answers/TOGENASHI TOGEARI - Against All Answers.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/TOGENASHI%20TOGEARI/Against%20All%20Answers/TOGENASHI%20TOGEARI%20-%20Against%20All%20Answers.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Voiceless Fish (Shin Kawasaki (Temporary))",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary)).ttml",
+          "path": "Lyrics/TOGENASHI TOGEARI/Voiceless Fish/TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary)).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/TOGENASHI%20TOGEARI/Voiceless%20Fish/TOGENASHI%20TOGEARI%20-%20Voiceless%20Fish%20%28Shin%20Kawasaki%20%28Temporary%29%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "VOID (Nina Iseri, Momoka Kawaragi)",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "TOGENASHI TOGEARI - VOID (Nina Iseri, Momoka Kawaragi).ttml",
+          "path": "Lyrics/TOGENASHI TOGEARI/VOID/TOGENASHI TOGEARI - VOID (Nina Iseri, Momoka Kawaragi).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/TOGENASHI%20TOGEARI/VOID/TOGENASHI%20TOGEARI%20-%20VOID%20%28Nina%20Iseri%2C%20Momoka%20Kawaragi%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Wrong World",
+      "artists": [
+        "TOGENASHI TOGEARI"
+      ],
+      "album": "Wrong World - Single",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": [
+          "1737842246",
+          "1763003782",
+          "1813911822",
+          "1781751322",
+          "1814689416"
+        ]
+      },
+      "files": [
+        {
+          "name": "TOGENASHI TOGEARI - Wrong World.ttml",
+          "path": "Lyrics/TOGENASHI TOGEARI/Wrong World/TOGENASHI TOGEARI - Wrong World.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/TOGENASHI%20TOGEARI/Wrong%20World/TOGENASHI%20TOGEARI%20-%20Wrong%20World.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Brain Rot",
+      "artists": [
+        "Tokyo Manaka"
+      ],
+      "album": "Brain Rot - Single",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": "1875880766"
+      },
+      "files": [
+        {
+          "name": "Tokyo Manaka - Brain Rot.ttml",
+          "path": "Lyrics/Tokyo Manaka/Brain Rot/Tokyo Manaka - Brain Rot.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Tokyo%20Manaka/Brain%20Rot/Tokyo%20Manaka%20-%20Brain%20Rot.ttml"
+        }
+      ]
+    },
+    {
+      "title": "REINCARNA†ION!!",
+      "artists": [
+        "Turbo"
+      ],
+      "album": "REINCARNA✝ION!!",
+      "language": "en",
+      "platformIds": {
+        "ncmMusicId": [
+          "3414238214",
+          "3413599651"
+        ]
+      },
+      "files": [
+        {
+          "name": "Turbo - REINCARNA†ION!! - 激进.ttml",
+          "path": "Lyrics/Turbo/REINCARNA†ION!!/Turbo - REINCARNA†ION!! - 激进.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Turbo/REINCARNA%E2%80%A0ION%21%21/Turbo%20-%20REINCARNA%E2%80%A0ION%21%21%20-%20%E6%BF%80%E8%BF%9B.ttml"
+        },
+        {
+          "name": "Turbo - REINCARNA†ION!!.lrcn",
+          "path": "Lyrics/Turbo/REINCARNA†ION!!/Turbo - REINCARNA†ION!!.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Turbo/REINCARNA%E2%80%A0ION%21%21/Turbo%20-%20REINCARNA%E2%80%A0ION%21%21.lrcn"
+        },
+        {
+          "name": "Turbo - REINCARNA†ION!!.ttml",
+          "path": "Lyrics/Turbo/REINCARNA†ION!!/Turbo - REINCARNA†ION!!.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Turbo/REINCARNA%E2%80%A0ION%21%21/Turbo%20-%20REINCARNA%E2%80%A0ION%21%21.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Lower One's Eyes",
+      "artists": [
+        "Will Stetson"
+      ],
+      "album": "Lower One's Eyes - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1629613507"
+      },
+      "files": [
+        {
+          "name": "Lower One's Eyes (2)-trans.lrc",
+          "path": "Lyrics/Will Stetson/Lower One's Eyes/Lower One's Eyes (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Will%20Stetson/Lower%20One%27s%20Eyes/Lower%20One%27s%20Eyes%20%282%29-trans.lrc"
+        },
+        {
+          "name": "Lower One's Eyes (2).lys",
+          "path": "Lyrics/Will Stetson/Lower One's Eyes/Lower One's Eyes (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Will%20Stetson/Lower%20One%27s%20Eyes/Lower%20One%27s%20Eyes%20%282%29.lys"
+        },
+        {
+          "name": "Lower One's Eyes-trans.lrc",
+          "path": "Lyrics/Will Stetson/Lower One's Eyes/Lower One's Eyes-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Will%20Stetson/Lower%20One%27s%20Eyes/Lower%20One%27s%20Eyes-trans.lrc"
+        },
+        {
+          "name": "Lower One's Eyes.lys",
+          "path": "Lyrics/Will Stetson/Lower One's Eyes/Lower One's Eyes.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Will%20Stetson/Lower%20One%27s%20Eyes/Lower%20One%27s%20Eyes.lys"
+        },
+        {
+          "name": "Will Stetson - Lower One's Eyes.ttml",
+          "path": "Lyrics/Will Stetson/Lower One's Eyes/Will Stetson - Lower One's Eyes.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Will%20Stetson/Lower%20One%27s%20Eyes/Will%20Stetson%20-%20Lower%20One%27s%20Eyes.ttml"
+        }
+      ]
+    },
+    {
+      "title": "にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン)",
+      "artists": [
+        "Wonderful★opportunity!"
+      ],
+      "album": "にっこり^^調査隊のテーマ",
+      "language": "ja-JP",
+      "platformIds": {
+        "ncmMusicId": "1918884502",
+        "appleMusicId": "1607417027"
+      },
+      "files": [
+        {
+          "name": "Wonderful★opportunity! - にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン).ttml",
+          "path": "Lyrics/Wonderful★opportunity!/にっこり^^調査隊のテーマ/Wonderful★opportunity! - にっこり^^調査隊のテーマ (feat. 鏡音リン&鏡音レン).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Wonderful%E2%98%85opportunity%21/%E3%81%AB%E3%81%A3%E3%81%93%E3%82%8A%5E%5E%E8%AA%BF%E6%9F%BB%E9%9A%8A%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E/Wonderful%E2%98%85opportunity%21%20-%20%E3%81%AB%E3%81%A3%E3%81%93%E3%82%8A%5E%5E%E8%AA%BF%E6%9F%BB%E9%9A%8A%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%20%28feat.%20%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3%26%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Minus Sixty One",
+      "artists": [
+        "Woodkid"
+      ],
+      "album": "WOODKID FOR DEATH STRANDING 2: ON THE BEACH",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1818147352"
+      },
+      "files": [
+        {
+          "name": "Woodkid - Minus Sixty One - A8e.ttml",
+          "path": "Lyrics/Woodkid/Minus Sixty One/Woodkid - Minus Sixty One - A8e.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Woodkid/Minus%20Sixty%20One/Woodkid%20-%20Minus%20Sixty%20One%20-%20A8e.ttml"
+        },
+        {
+          "name": "Woodkid - Minus Sixty One - Ultra.ttml",
+          "path": "Lyrics/Woodkid/Minus Sixty One/Woodkid - Minus Sixty One - Ultra.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Woodkid/Minus%20Sixty%20One/Woodkid%20-%20Minus%20Sixty%20One%20-%20Ultra.ttml"
+        },
+        {
+          "name": "Woodkid - Minus Sixty One.ttml",
+          "path": "Lyrics/Woodkid/Minus Sixty One/Woodkid - Minus Sixty One.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Woodkid/Minus%20Sixty%20One/Woodkid%20-%20Minus%20Sixty%20One.ttml"
+        },
+        {
+          "name": "Woodkid - Minus Sixty One1.ttml",
+          "path": "Lyrics/Woodkid/Minus Sixty One/Woodkid - Minus Sixty One1.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Woodkid/Minus%20Sixty%20One/Woodkid%20-%20Minus%20Sixty%20One1.ttml"
+        }
+      ]
+    },
+    {
+      "title": "color",
+      "artists": [
+        "yama"
+      ],
+      "album": "color - Single",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": [
+          "1644816114",
+          "1651594378",
+          "1723301930"
+        ]
+      },
+      "files": [
+        {
+          "name": "yama - color.lrcn",
+          "path": "Lyrics/yama/color/yama - color.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/yama/color/yama%20-%20color.lrcn"
+        },
+        {
+          "name": "yama - color.ttml",
+          "path": "Lyrics/yama/color/yama - color.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/yama/color/yama%20-%20color.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Fallacy",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Fallacy",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "1993424659",
+        "qqMusicId": "004V37Dc0HTlf1",
+        "spotifyId": "6MfjWLBkGRCybOT4mxU67y"
+      },
+      "files": [
+        {
+          "name": "YonKaGor - Fallacy.ttml",
+          "path": "Lyrics/YonKaGor/Fallacy/YonKaGor - Fallacy.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Fallacy/YonKaGor%20-%20Fallacy.ttml"
+        }
+      ]
+    },
+    {
+      "title": "INFAMOUS",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "INFAMOUS - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1811058440"
+      },
+      "files": [
+        {
+          "name": "YonKaGor - INFAMOUS.lrcn",
+          "path": "Lyrics/YonKaGor/INFAMOUS/YonKaGor - INFAMOUS.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/INFAMOUS/YonKaGor%20-%20INFAMOUS.lrcn"
+        },
+        {
+          "name": "YonKaGor - INFAMOUS.ttml",
+          "path": "Lyrics/YonKaGor/INFAMOUS/YonKaGor - INFAMOUS.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/INFAMOUS/YonKaGor%20-%20INFAMOUS.ttml"
+        }
+      ]
+    },
+    {
+      "title": "It's Normal",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "It's Normal",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2050055192",
+        "qqMusicId": "0041NYj90S6gd3",
+        "spotifyId": "51Fh6eKnXxxfavzeI4Ejrg"
+      },
+      "files": [
+        {
+          "name": "YonKaGor - It's Normal.ttml",
+          "path": "Lyrics/YonKaGor/It's Normal/YonKaGor - It's Normal.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/It%27s%20Normal/YonKaGor%20-%20It%27s%20Normal.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Linger in the Rain",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Linger in the Rain",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2652556933",
+        "qqMusicId": "000V6jGM3AEsE8",
+        "spotifyId": "2ZdLhmKydlxXLXL1Hlo4Ex",
+        "appleMusicId": "1782943766"
+      },
+      "files": [
+        {
+          "name": "YonKaGor - Linger in the Rain.ttml",
+          "path": "Lyrics/YonKaGor/Linger in the Rain/YonKaGor - Linger in the Rain.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Linger%20in%20the%20Rain/YonKaGor%20-%20Linger%20in%20the%20Rain.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Memory Merge",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Memory Merge",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "2157280456",
+        "qqMusicId": "0009x4CZ2ZVCvR",
+        "spotifyId": "5usdxPXJmVeqwheEYreUoo"
+      },
+      "files": [
+        {
+          "name": "YonKaGor - Memory Merge.ttml",
+          "path": "Lyrics/YonKaGor/Memory Merge/YonKaGor - Memory Merge.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Memory%20Merge/YonKaGor%20-%20Memory%20Merge.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Mr. Sunfish",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "Mr. Sunfish",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "1844306051",
+        "qqMusicId": "00442N4R0y4Veo",
+        "spotifyId": "0YjFF1QQ3L3dNMkXHjEXFy"
+      },
+      "files": [
+        {
+          "name": "Mr. Sunfish (2)-trans.lrc",
+          "path": "Lyrics/YonKaGor/Mr. Sunfish/Mr. Sunfish (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Mr.%20Sunfish/Mr.%20Sunfish%20%282%29-trans.lrc"
+        },
+        {
+          "name": "Mr. Sunfish (2).lys",
+          "path": "Lyrics/YonKaGor/Mr. Sunfish/Mr. Sunfish (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Mr.%20Sunfish/Mr.%20Sunfish%20%282%29.lys"
+        },
+        {
+          "name": "Mr. Sunfish-trans.lrc",
+          "path": "Lyrics/YonKaGor/Mr. Sunfish/Mr. Sunfish-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Mr.%20Sunfish/Mr.%20Sunfish-trans.lrc"
+        },
+        {
+          "name": "Mr. Sunfish.lys",
+          "path": "Lyrics/YonKaGor/Mr. Sunfish/Mr. Sunfish.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Mr.%20Sunfish/Mr.%20Sunfish.lys"
+        },
+        {
+          "name": "Mr.Sunfish.ttml",
+          "path": "Lyrics/YonKaGor/Mr. Sunfish/Mr.Sunfish.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Mr.%20Sunfish/Mr.Sunfish.ttml"
+        },
+        {
+          "name": "YonKaGor - Mr. Sunfish.ttml",
+          "path": "Lyrics/YonKaGor/Mr. Sunfish/YonKaGor - Mr. Sunfish.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/Mr.%20Sunfish/YonKaGor%20-%20Mr.%20Sunfish.ttml"
+        }
+      ]
+    },
+    {
+      "title": "You're Just Like Pop Music",
+      "artists": [
+        "YonKaGor"
+      ],
+      "album": "You're Just Like Pop Music",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "1880256280",
+        "qqMusicId": "0000wcn9098WVg",
+        "spotifyId": "0UYnMDFZuXUpsiWGMq1EVk"
+      },
+      "files": [
+        {
+          "name": "YonKaGor - You're Just Like Pop Music.ttml",
+          "path": "Lyrics/YonKaGor/You're Just Like Pop Music/YonKaGor - You're Just Like Pop Music.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/YonKaGor/You%27re%20Just%20Like%20Pop%20Music/YonKaGor%20-%20You%27re%20Just%20Like%20Pop%20Music.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Funny",
+      "artists": [
+        "Zedd"
+      ],
+      "album": "Funny",
+      "language": "",
+      "platformIds": {
+        "ncmMusicId": "1462389947",
+        "qqMusicId": "004IEY5L3hxal9",
+        "spotifyId": "4FYbo4yQzu3hGkj2Ix4ucW",
+        "appleMusicId": "1742838162"
+      },
+      "files": [
+        {
+          "name": "Funny.ass",
+          "path": "Lyrics/Zedd/Funny/Funny.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Zedd/Funny/Funny.ass"
+        },
+        {
+          "name": "Zedd,Jasmine Thompson - Funny (2).ttml",
+          "path": "Lyrics/Zedd/Funny/Zedd,Jasmine Thompson - Funny (2).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Zedd/Funny/Zedd%2CJasmine%20Thompson%20-%20Funny%20%282%29.ttml"
+        },
+        {
+          "name": "Zedd,Jasmine Thompson - Funny.ttml",
+          "path": "Lyrics/Zedd/Funny/Zedd,Jasmine Thompson - Funny.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Zedd/Funny/Zedd%2CJasmine%20Thompson%20-%20Funny.ttml"
+        },
+        {
+          "name": "Zedd,Jasmine Thompson - Funny.txt",
+          "path": "Lyrics/Zedd/Funny/Zedd,Jasmine Thompson - Funny.txt",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/Zedd/Funny/Zedd%2CJasmine%20Thompson%20-%20Funny.txt"
+        }
+      ]
+    },
+    {
+      "title": "Heart of Android : Even If It's Only by Mechanism",
+      "artists": [
+        "かめりあ"
+      ],
+      "album": "Heart of Android",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1448847165",
+        "spotifyId": "4vNy81lS5OT788KnIQmyOR",
+        "ncmMusicId": "1336656391"
+      },
+      "files": [
+        {
+          "name": "かめりあ - Heart of Android Even If It's Only By Mechanism.lrcn",
+          "path": "Lyrics/かめりあ/Heart of Android Even If It's Only By Mechanism/かめりあ - Heart of Android Even If It's Only By Mechanism.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82/Heart%20of%20Android%20Even%20If%20It%27s%20Only%20By%20Mechanism/%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82%20-%20Heart%20of%20Android%20Even%20If%20It%27s%20Only%20By%20Mechanism.lrcn"
+        },
+        {
+          "name": "かめりあ - Heart of Android Even If It's Only By Mechanism.ttml",
+          "path": "Lyrics/かめりあ/Heart of Android Even If It's Only By Mechanism/かめりあ - Heart of Android Even If It's Only By Mechanism.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82/Heart%20of%20Android%20Even%20If%20It%27s%20Only%20By%20Mechanism/%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82%20-%20Heart%20of%20Android%20Even%20If%20It%27s%20Only%20By%20Mechanism.ttml"
+        }
+      ]
+    },
+    {
+      "title": "もういいよ",
+      "artists": [
+        "こっちのけんと"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "もういいよ (2).lys",
+          "path": "Lyrics/こっちのけんと/もういいよ/もういいよ (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%81%93%E3%81%A3%E3%81%A1%E3%81%AE%E3%81%91%E3%82%93%E3%81%A8/%E3%82%82%E3%81%86%E3%81%84%E3%81%84%E3%82%88/%E3%82%82%E3%81%86%E3%81%84%E3%81%84%E3%82%88%20%282%29.lys"
+        },
+        {
+          "name": "もういいよ.lys",
+          "path": "Lyrics/こっちのけんと/もういいよ/もういいよ.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%81%93%E3%81%A3%E3%81%A1%E3%81%AE%E3%81%91%E3%82%93%E3%81%A8/%E3%82%82%E3%81%86%E3%81%84%E3%81%84%E3%82%88/%E3%82%82%E3%81%86%E3%81%84%E3%81%84%E3%82%88.lys"
+        }
+      ]
+    },
+    {
+      "title": "Tiny Me",
+      "artists": [
+        "マサラダ"
+      ],
+      "album": "Tiny Me - Single",
+      "language": "en",
+      "platformIds": {
+        "appleMusicId": "1705677736"
+      },
+      "files": [
+        {
+          "name": "masarada - Tiny Me.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/masarada - Tiny Me.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/masarada%20-%20Tiny%20Me.ttml"
+        },
+        {
+          "name": "masarada - Tiny Me_lys.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/masarada - Tiny Me_lys.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/masarada%20-%20Tiny%20Me_lys.ttml"
+        },
+        {
+          "name": "masarada - Tiny Me_noRuby.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/masarada - Tiny Me_noRuby.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/masarada%20-%20Tiny%20Me_noRuby.ttml"
+        }
+      ]
+    },
+    {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "album": "",
+      "language": "en-US",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20A8e.ttml"
+        }
+      ]
+    },
+    {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "album": "",
+      "language": "en-US",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20C10e.ttml"
+        }
+      ]
+    },
+    {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "album": "",
+      "language": "en-US",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20Ultra.ttml"
+        }
+      ]
+    },
+    {
+      "title": "ちっちゃな私 (Tiny Me)",
+      "artists": [
+        "マサラダ"
+      ],
+      "album": "",
+      "language": "en-US",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "マサラダ - ちっちゃな私 - ちっちゃな私.ttml",
+          "path": "Lyrics/マサラダ/ちっちゃな私 (Tiny Me)/マサラダ - ちっちゃな私 - ちっちゃな私.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80/%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20%28Tiny%20Me%29/%E3%83%9E%E3%82%B5%E3%83%A9%E3%83%80%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81%20-%20%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%AA%E7%A7%81.ttml"
+        }
+      ]
+    },
+    {
+      "title": "ループザルーム (feat. 初音ミク)",
+      "artists": [
+        "ルシノ"
+      ],
+      "album": "ループザルーム / ランベントアリア",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "ルシノ - ループザルーム (feat. 初音ミク).ttml",
+          "path": "Lyrics/ルシノ/ループザルーム (feat. 初音ミク)/ルシノ - ループザルーム (feat. 初音ミク).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E3%83%AB%E3%82%B7%E3%83%8E/%E3%83%AB%E3%83%BC%E3%83%97%E3%82%B6%E3%83%AB%E3%83%BC%E3%83%A0%20%28feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%29/%E3%83%AB%E3%82%B7%E3%83%8E%20-%20%E3%83%AB%E3%83%BC%E3%83%97%E3%82%B6%E3%83%AB%E3%83%BC%E3%83%A0%20%28feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Horizon Dreamer",
+      "artists": [
+        "三浦大知"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {
+        "ncmMusicId": [
+          "2630258193",
+          "2716877107"
+        ]
+      },
+      "files": [
+        {
+          "name": "applejson.Horizon Dreamer.json",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applejson.Horizon Dreamer.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applejson.Horizon%20Dreamer.json"
+        },
+        {
+          "name": "applettml.Horizon Dreamer-Format.ttml",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer-Format.ttml"
+        },
+        {
+          "name": "applettml.Horizon Dreamer-LbVer.ttml",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer-LbVer.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer-LbVer.ttml"
+        },
+        {
+          "name": "applettml.Horizon Dreamer-noEnPron-Format.ttml",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer-noEnPron-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer-noEnPron-Format.ttml"
+        },
+        {
+          "name": "applettml.Horizon Dreamer-noEnPron.ttml",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer-noEnPron.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer-noEnPron.ttml"
+        },
+        {
+          "name": "applettml.Horizon Dreamer.lrc",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer.lrc"
+        },
+        {
+          "name": "applettml.Horizon Dreamer.lrcn",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer.lrcn"
+        },
+        {
+          "name": "applettml.Horizon Dreamer.ttml",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/applettml.Horizon Dreamer.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/applettml.Horizon%20Dreamer.ttml"
+        },
+        {
+          "name": "Horizon Dreamer-participles.lys",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/Horizon Dreamer-participles.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/Horizon%20Dreamer-participles.lys"
+        },
+        {
+          "name": "Horizon Dreamer-trans.lrc",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/Horizon Dreamer-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/Horizon%20Dreamer-trans.lrc"
+        },
+        {
+          "name": "Horizon Dreamer.lys",
+          "path": "Lyrics/三浦大知/Horizon Dreamer/Horizon Dreamer.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5/Horizon%20Dreamer/Horizon%20Dreamer.lys"
+        }
+      ]
+    },
+    {
+      "title": "【中文】音之怪Otonoke",
+      "artists": [
+        "临风"
+      ],
+      "album": "オトノケ/Otonoke 胆大党/超自然武装当哒当OP中文翻唱",
+      "language": "en",
+      "platformIds": {
+        "ncmMusicId": "2645276002"
+      },
+      "files": [
+        {
+          "name": "临风 - 【中文】音之怪Otonoke.lrcn",
+          "path": "Lyrics/临风/【中文】音之怪Otonoke/临风 - 【中文】音之怪Otonoke.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%B4%E9%A3%8E/%E3%80%90%E4%B8%AD%E6%96%87%E3%80%91%E9%9F%B3%E4%B9%8B%E6%80%AAOtonoke/%E4%B8%B4%E9%A3%8E%20-%20%E3%80%90%E4%B8%AD%E6%96%87%E3%80%91%E9%9F%B3%E4%B9%8B%E6%80%AAOtonoke.lrcn"
+        },
+        {
+          "name": "临风 - 【中文】音之怪Otonoke.ttml",
+          "path": "Lyrics/临风/【中文】音之怪Otonoke/临风 - 【中文】音之怪Otonoke.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E4%B8%B4%E9%A3%8E/%E3%80%90%E4%B8%AD%E6%96%87%E3%80%91%E9%9F%B3%E4%B9%8B%E6%80%AAOtonoke/%E4%B8%B4%E9%A3%8E%20-%20%E3%80%90%E4%B8%AD%E6%96%87%E3%80%91%E9%9F%B3%E4%B9%8B%E6%80%AAOtonoke.ttml"
+        }
+      ]
+    },
+    {
+      "title": "I'm A Star",
+      "artists": [
+        "周深"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "I'm A Star.lrc",
+          "path": "Lyrics/周深/I'm A Star/I'm A Star.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%91%A8%E6%B7%B1/I%27m%20A%20Star/I%27m%20A%20Star.lrc"
+        },
+        {
+          "name": "I'm A Star.lys",
+          "path": "Lyrics/周深/I'm A Star/I'm A Star.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%91%A8%E6%B7%B1/I%27m%20A%20Star/I%27m%20A%20Star.lys"
+        }
+      ]
+    },
+    {
+      "title": "我是明星 (I'm A Star)",
+      "artists": [
+        "周深"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "I'm A Star.ttml",
+          "path": "Lyrics/周深/我是明星 (I'm A Star)/I'm A Star.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%91%A8%E6%B7%B1/%E6%88%91%E6%98%AF%E6%98%8E%E6%98%9F%20%28I%27m%20A%20Star%29/I%27m%20A%20Star.ttml"
+        }
+      ]
+    },
+    {
+      "title": "A Day in Lungmen",
+      "artists": [
+        "塞壬唱片MSR"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "A Day in Lungmen (2)-trans.lrc",
+          "path": "Lyrics/塞壬唱片MSR/A Day in Lungmen/A Day in Lungmen (2)-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%A1%9E%E5%A3%AC%E5%94%B1%E7%89%87MSR/A%20Day%20in%20Lungmen/A%20Day%20in%20Lungmen%20%282%29-trans.lrc"
+        },
+        {
+          "name": "A Day in Lungmen (2).lys",
+          "path": "Lyrics/塞壬唱片MSR/A Day in Lungmen/A Day in Lungmen (2).lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%A1%9E%E5%A3%AC%E5%94%B1%E7%89%87MSR/A%20Day%20in%20Lungmen/A%20Day%20in%20Lungmen%20%282%29.lys"
+        },
+        {
+          "name": "A Day in Lungmen-trans.lrc",
+          "path": "Lyrics/塞壬唱片MSR/A Day in Lungmen/A Day in Lungmen-trans.lrc",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%A1%9E%E5%A3%AC%E5%94%B1%E7%89%87MSR/A%20Day%20in%20Lungmen/A%20Day%20in%20Lungmen-trans.lrc"
+        },
+        {
+          "name": "A Day in Lungmen.lys",
+          "path": "Lyrics/塞壬唱片MSR/A Day in Lungmen/A Day in Lungmen.lys",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%A1%9E%E5%A3%AC%E5%94%B1%E7%89%87MSR/A%20Day%20in%20Lungmen/A%20Day%20in%20Lungmen.lys"
+        }
+      ]
+    },
+    {
+      "title": "人是猫",
+      "artists": [
+        "张卡斯"
+      ],
+      "album": "人是猫",
+      "language": "zh-Hans-CN",
+      "platformIds": {
+        "ncmMusicId": "3395708493"
+      },
+      "files": [
+        {
+          "name": "张卡斯, 洛天依 - 人是猫.ttml",
+          "path": "Lyrics/张卡斯/人是猫/张卡斯, 洛天依 - 人是猫.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E5%BC%A0%E5%8D%A1%E6%96%AF/%E4%BA%BA%E6%98%AF%E7%8C%AB/%E5%BC%A0%E5%8D%A1%E6%96%AF%2C%20%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E4%BA%BA%E6%98%AF%E7%8C%AB.ttml"
+        }
+      ]
+    },
+    {
+      "title": "中国人会飞",
+      "artists": [
+        "揽佬"
+      ],
+      "album": "BALDNESS",
+      "language": "zh-CN",
+      "platformIds": {
+        "ncmMusicId": "3416788740"
+      },
+      "files": [
+        {
+          "name": "揽佬 - 中国人能飞.lrcn",
+          "path": "Lyrics/揽佬/中国人能飞/揽佬 - 中国人能飞.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%8F%BD%E4%BD%AC/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E/%E6%8F%BD%E4%BD%AC%20-%20%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E.lrcn"
+        },
+        {
+          "name": "揽佬 - 中国人能飞.ttml",
+          "path": "Lyrics/揽佬/中国人能飞/揽佬 - 中国人能飞.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%8F%BD%E4%BD%AC/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E/%E6%8F%BD%E4%BD%AC%20-%20%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E.ttml"
+        }
+      ]
+    },
+    {
+      "title": "理想主义患者",
+      "artists": [
+        "星尘"
+      ],
+      "album": "理想主义患者",
+      "language": "zh-CN",
+      "platformIds": {
+        "ncmMusicId": "2713838054"
+      },
+      "files": [
+        {
+          "name": "理想主义患者.ttml",
+          "path": "Lyrics/星尘/理想主义患者/理想主义患者.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%98%9F%E5%B0%98/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89%E6%82%A3%E8%80%85/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89%E6%82%A3%E8%80%85.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Brain Rot",
+      "artists": [
+        "東京真中"
+      ],
+      "album": "Brain Rot - Single",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": "1875880766",
+        "ncmMusicId": "3348197008"
+      },
+      "files": [
+        {
+          "name": "applejson.ブレインロット.json",
+          "path": "Lyrics/東京真中/ブレインロット/applejson.ブレインロット.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%9D%B1%E4%BA%AC%E7%9C%9F%E4%B8%AD/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%AD%E3%83%83%E3%83%88/applejson.%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%AD%E3%83%83%E3%83%88.json"
+        },
+        {
+          "name": "applettml.ブレインロット-Format.ttml",
+          "path": "Lyrics/東京真中/ブレインロット/applettml.ブレインロット-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%9D%B1%E4%BA%AC%E7%9C%9F%E4%B8%AD/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%AD%E3%83%83%E3%83%88/applettml.%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%AD%E3%83%83%E3%83%88-Format.ttml"
+        },
+        {
+          "name": "applettml.ブレインロット.ttml",
+          "path": "Lyrics/東京真中/ブレインロット/applettml.ブレインロット.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%9D%B1%E4%BA%AC%E7%9C%9F%E4%B8%AD/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%AD%E3%83%83%E3%83%88/applettml.%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%AD%E3%83%83%E3%83%88.ttml"
+        }
+      ]
+    },
+    {
+      "title": "I LOVE U",
+      "artists": [
+        "洛天依"
+      ],
+      "album": "依如初见",
+      "language": "zh-Hans",
+      "platformIds": {
+        "ncmMusicId": "1979009858",
+        "qqMusicId": "002lWTZR2zfSFX",
+        "spotifyId": "5LTAXf1HvRCbQJ8wIoKXfs"
+      },
+      "files": [
+        {
+          "name": "洛天依 - I LOVE U.lrcn",
+          "path": "Lyrics/洛天依/依如初见/洛天依 - I LOVE U.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E4%BE%9D%E5%A6%82%E5%88%9D%E8%A7%81/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20I%20LOVE%20U.lrcn"
+        },
+        {
+          "name": "洛天依 - I LOVE U.ttml",
+          "path": "Lyrics/洛天依/依如初见/洛天依 - I LOVE U.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E4%BE%9D%E5%A6%82%E5%88%9D%E8%A7%81/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20I%20LOVE%20U.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Light and Shadow",
+      "artists": [
+        "洛天依"
+      ],
+      "album": "Light and Shadow - Single",
+      "language": "zh-Hans",
+      "platformIds": {
+        "appleMusicId": [
+          "1635119677",
+          "1645248076"
+        ]
+      },
+      "files": [
+        {
+          "name": "洛天依 - 光与影的对白.lrcn",
+          "path": "Lyrics/洛天依/依如初见/洛天依 - 光与影的对白.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E4%BE%9D%E5%A6%82%E5%88%9D%E8%A7%81/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E5%85%89%E4%B8%8E%E5%BD%B1%E7%9A%84%E5%AF%B9%E7%99%BD.lrcn"
+        },
+        {
+          "name": "洛天依 - 光与影的对白.ttml",
+          "path": "Lyrics/洛天依/依如初见/洛天依 - 光与影的对白.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E4%BE%9D%E5%A6%82%E5%88%9D%E8%A7%81/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E5%85%89%E4%B8%8E%E5%BD%B1%E7%9A%84%E5%AF%B9%E7%99%BD.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Summer Insects",
+      "artists": [
+        "洛天依"
+      ],
+      "album": "Like the First Time",
+      "language": "zh-Hans",
+      "platformIds": {
+        "appleMusicId": "1645247864"
+      },
+      "files": [
+        {
+          "name": "洛天依 - 夏虫.lrcn",
+          "path": "Lyrics/洛天依/依如初见/洛天依 - 夏虫.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E4%BE%9D%E5%A6%82%E5%88%9D%E8%A7%81/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E5%A4%8F%E8%99%AB.lrcn"
+        },
+        {
+          "name": "洛天依 - 夏虫.ttml",
+          "path": "Lyrics/洛天依/依如初见/洛天依 - 夏虫.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E4%BE%9D%E5%A6%82%E5%88%9D%E8%A7%81/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E5%A4%8F%E8%99%AB.ttml"
+        }
+      ]
+    },
+    {
+      "title": "心空 feat. HYPER SLASH超级斩",
+      "artists": [
+        "洛天依"
+      ],
+      "album": "再生",
+      "language": "zh-Hans",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "洛天依 - 心空 feat. HYPER SLASH超级斩.lrcn",
+          "path": "Lyrics/洛天依/再生/洛天依 - 心空 feat. HYPER SLASH超级斩.lrcn",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E5%86%8D%E7%94%9F/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E5%BF%83%E7%A9%BA%20feat.%20HYPER%20SLASH%E8%B6%85%E7%BA%A7%E6%96%A9.lrcn"
+        },
+        {
+          "name": "洛天依 - 心空 feat. HYPER SLASH超级斩.ttml",
+          "path": "Lyrics/洛天依/再生/洛天依 - 心空 feat. HYPER SLASH超级斩.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E6%B4%9B%E5%A4%A9%E4%BE%9D/%E5%86%8D%E7%94%9F/%E6%B4%9B%E5%A4%A9%E4%BE%9D%20-%20%E5%BF%83%E7%A9%BA%20feat.%20HYPER%20SLASH%E8%B6%85%E7%BA%A7%E6%96%A9.ttml"
+        }
+      ]
+    },
+    {
+      "title": "LADY",
+      "artists": [
+        "米津玄师"
+      ],
+      "album": "LADY - Single",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": [
+          "1676871814",
+          "1759899370"
+        ],
+        "ncmMusicId": [
+          "2029895034",
+          "2614446838"
+        ],
+        "spotifyId": [
+          "7w6NWogvAAFdEhD9MA2uvv",
+          "6zOrkNaQjL3PE6HzwSwZUW"
+        ]
+      },
+      "files": [
+        {
+          "name": "Kenshi Yonezu - LADY.ttml",
+          "path": "Lyrics/米津玄师/LADY/Kenshi Yonezu - LADY.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88/LADY/Kenshi%20Yonezu%20-%20LADY.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Lemon",
+      "artists": [
+        "米津玄师"
+      ],
+      "album": "",
+      "language": "ja",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applettml.Lemon-Format.ttml",
+          "path": "Lyrics/米津玄师/Lemon/applettml.Lemon-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88/Lemon/applettml.Lemon-Format.ttml"
+        },
+        {
+          "name": "applettml.Lemon.ttml",
+          "path": "Lyrics/米津玄师/Lemon/applettml.Lemon.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88/Lemon/applettml.Lemon.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Loser",
+      "artists": [
+        "米津玄师"
+      ],
+      "album": "bootleg",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": [
+          "1538275659",
+          "1537279545"
+        ],
+        "spotifyId": [
+          "7AqUE5AY514dbzeOAfJRa0",
+          "0R4NxLV3QI7WSpbanQOhUS",
+          "23jMNv8wq1c7wsekYPNWQV"
+        ],
+        "ncmMusicId": [
+          "512359195",
+          "432509390"
+        ]
+      },
+      "files": [
+        {
+          "name": "Kenshi Yonezu - Loser.ttml",
+          "path": "Lyrics/米津玄师/Loser/Kenshi Yonezu - Loser.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88/Loser/Kenshi%20Yonezu%20-%20Loser.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Haiirotoao",
+      "artists": [
+        "米津玄师"
+      ],
+      "album": "bootleg",
+      "language": "ja",
+      "platformIds": {
+        "appleMusicId": "1538275671"
+      },
+      "files": [
+        {
+          "name": "Kenshi Yonezu - Haiirotoao.ttml",
+          "path": "Lyrics/米津玄师/灰色と青/Kenshi Yonezu - Haiirotoao.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88/%E7%81%B0%E8%89%B2%E3%81%A8%E9%9D%92/Kenshi%20Yonezu%20-%20Haiirotoao.ttml"
+        },
+        {
+          "name": "米津玄师 & 菅田将晖 - 灰色と青 ( + 菅田将暉 ).ttml",
+          "path": "Lyrics/米津玄师/灰色と青/米津玄师 & 菅田将晖 - 灰色と青 ( + 菅田将暉 ).ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88/%E7%81%B0%E8%89%B2%E3%81%A8%E9%9D%92/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%88%20%26%20%E8%8F%85%E7%94%B0%E5%B0%86%E6%99%96%20-%20%E7%81%B0%E8%89%B2%E3%81%A8%E9%9D%92%20%28%20%2B%20%E8%8F%85%E7%94%B0%E5%B0%86%E6%9A%89%20%29.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Light in Abyss - Full ver",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "album": "",
+      "language": "",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "amllttml.Light in Abyss - Full ver-Tutorial.ttml",
+          "path": "Lyrics/苏逸Suyi/Light in Abyss - Full ver/amllttml.Light in Abyss - Full ver-Tutorial.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/Light%20in%20Abyss%20-%20Full%20ver/amllttml.Light%20in%20Abyss%20-%20Full%20ver-Tutorial.ttml"
+        },
+        {
+          "name": "applettml.Light in Abyss - Full ver-Tutorial-Format.ttml",
+          "path": "Lyrics/苏逸Suyi/Light in Abyss - Full ver/applettml.Light in Abyss - Full ver-Tutorial-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/Light%20in%20Abyss%20-%20Full%20ver/applettml.Light%20in%20Abyss%20-%20Full%20ver-Tutorial-Format.ttml"
+        }
+      ]
+    },
+    {
+      "title": "Light in Abyss - Full ver",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "album": "",
+      "language": "en",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applejson.Light in Abyss - Full ver.json",
+          "path": "Lyrics/苏逸Suyi/Light in Abyss - Full ver/applejson.Light in Abyss - Full ver.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/Light%20in%20Abyss%20-%20Full%20ver/applejson.Light%20in%20Abyss%20-%20Full%20ver.json"
+        },
+        {
+          "name": "applettml.Light in Abyss - Full ver-Format.ttml",
+          "path": "Lyrics/苏逸Suyi/Light in Abyss - Full ver/applettml.Light in Abyss - Full ver-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/Light%20in%20Abyss%20-%20Full%20ver/applettml.Light%20in%20Abyss%20-%20Full%20ver-Format.ttml"
+        },
+        {
+          "name": "applettml.Light in Abyss - Full ver.ttml",
+          "path": "Lyrics/苏逸Suyi/Light in Abyss - Full ver/applettml.Light in Abyss - Full ver.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/Light%20in%20Abyss%20-%20Full%20ver/applettml.Light%20in%20Abyss%20-%20Full%20ver.ttml"
+        }
+      ]
+    },
+    {
+      "title": "别忘记查收关心！",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "album": "",
+      "language": "zh-Hans",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applejson.别忘记查收关心！.json",
+          "path": "Lyrics/苏逸Suyi/别忘记查收关心！/applejson.别忘记查收关心！.json",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81/applejson.%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81.json"
+        },
+        {
+          "name": "applettml.别忘记查收关心！-Format.ttml",
+          "path": "Lyrics/苏逸Suyi/别忘记查收关心！/applettml.别忘记查收关心！-Format.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81/applettml.%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81-Format.ttml"
+        },
+        {
+          "name": "applettml.别忘记查收关心！.ttml",
+          "path": "Lyrics/苏逸Suyi/别忘记查收关心！/applettml.别忘记查收关心！.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81/applettml.%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81.ttml"
+        },
+        {
+          "name": "别忘记查收关心！.ass",
+          "path": "Lyrics/苏逸Suyi/别忘记查收关心！/别忘记查收关心！.ass",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81/%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81.ass"
+        }
+      ]
+    },
+    {
+      "title": "别忘记查收关心！",
+      "artists": [
+        "苏逸Suyi"
+      ],
+      "album": "",
+      "language": "zh-Hans",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "applettml.别忘记查收关心！-LbVer.ttml",
+          "path": "Lyrics/苏逸Suyi/别忘记查收关心！/applettml.别忘记查收关心！-LbVer.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8B%8F%E9%80%B8Suyi/%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81/applettml.%E5%88%AB%E5%BF%98%E8%AE%B0%E6%9F%A5%E6%94%B6%E5%85%B3%E5%BF%83%EF%BC%81-LbVer.ttml"
+        }
+      ]
+    },
+    {
+      "title": "The Reluctant",
+      "artists": [
+        "草东没有派对"
+      ],
+      "album": "",
+      "language": "zh-Hant",
+      "platformIds": {},
+      "files": [
+        {
+          "name": "草东没有派对 - 勇敢的人.ttml",
+          "path": "Lyrics/草东没有派对/勇敢的人/草东没有派对 - 勇敢的人.ttml",
+          "url": "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/blob/a3d5bd9e6a096e8f3db82889713777dfda355ad1/Lyrics/%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9/%E5%8B%87%E6%95%A2%E7%9A%84%E4%BA%BA/%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%20-%20%E5%8B%87%E6%95%A2%E7%9A%84%E4%BA%BA.ttml"
+        }
+      ]
+    }
+  ]
+}

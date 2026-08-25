@@ -1,0 +1,24 @@
+<!--
+  Copyright 2026 MiaowCham Lyrics DB contributors
+  SPDX-License-Identifier: Apache-2.0
+-->
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="MiaowCham Lyrics DB 歌词索引">
+  <title>MiaowCham Lyrics DB</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header><p class="eyebrow">MiaowCham Lyrics DB</p><h1>歌词索引</h1><p>按曲名、歌手、专辑或平台 ID 快速查找。</p></header>
+  <main>
+    <label class="search"><span>搜索</span><input id="search" type="search" placeholder="输入曲名、歌手、专辑或 ID" autocomplete="off"></label>
+    <div class="meta"><span id="summary">正在载入索引…</span><span id="snapshot"></span></div>
+    <section id="results" aria-live="polite"></section>
+  </main>
+  <footer>页面与管理工具使用 Apache-2.0；歌词数据与歌词内容版权依仓库 README 声明。</footer>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
