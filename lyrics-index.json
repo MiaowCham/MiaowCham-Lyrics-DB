@@ -251,21 +251,6 @@
       ]
     },
     {
-      "path": "HOYO-MiX/Before Setting Out",
-      "metadataRef": "before-setting-out",
-      "track": {
-        "title": "Before Setting Out",
-        "artists": [
-          "HOYO-MiX"
-        ]
-      },
-      "platforms": {},
-      "files": [
-        "Before Setting Out (2).lys",
-        "Before Setting Out.lys"
-      ]
-    },
-    {
       "path": "HOYO-MiX/Side Quest King (English Ver.)",
       "metadataRef": "side-quest-king-english-ver",
       "track": {
@@ -364,6 +349,8 @@
         "appleMusicId": "1730019737"
       },
       "files": [
+        "Before Setting Out (2).lys",
+        "Before Setting Out.lys",
         "在出发之前.ttml"
       ]
     },
@@ -412,9 +399,7 @@
         "album": "拂晓"
       },
       "platforms": {},
-      "files": [
-        "HOYO-MiX - 拂晓.ttml"
-      ]
+      "files": []
     },
     {
       "path": "HOYO-MiX/拂晓 Proi Proi",
@@ -445,8 +430,10 @@
         "ncmMusicId": "2709812973"
       },
       "files": [
+        "HOYO-MiX - 拂晓.ttml",
         "HOYO-MiX, NIDA - 拂晓 Proi Proi (2).ttml",
-        "HOYO-MiX, NIDA - 拂晓 Proi Proi.ttml"
+        "HOYO-MiX, NIDA - 拂晓 Proi Proi.ttml",
+        "拂晓 Proi Proi.ass"
       ]
     },
     {
@@ -459,9 +446,7 @@
         ]
       },
       "platforms": {},
-      "files": [
-        "拂晓 Proi Proi.ass"
-      ]
+      "files": []
     },
     {
       "path": "HOYO-MiX/未行之路",
@@ -1759,7 +1744,9 @@
       "files": [
         "masarada - Tiny Me.ttml",
         "masarada - Tiny Me_lys.ttml",
-        "masarada - Tiny Me_noRuby.ttml"
+        "masarada - Tiny Me_noRuby.ttml",
+        "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
+        "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml"
       ]
     },
     {
@@ -1776,9 +1763,7 @@
         ]
       },
       "platforms": {},
-      "files": [
-        "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml"
-      ]
+      "files": []
     },
     {
       "path": "マサラダ/ちっちゃな私 (Tiny Me)",
@@ -1794,9 +1779,7 @@
         ]
       },
       "platforms": {},
-      "files": [
-        "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml"
-      ]
+      "files": []
     },
     {
       "path": "マサラダ/ちっちゃな私 (Tiny Me)",

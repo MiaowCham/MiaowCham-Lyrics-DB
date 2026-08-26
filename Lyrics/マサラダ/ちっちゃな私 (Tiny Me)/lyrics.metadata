@@ -81,12 +81,16 @@
     {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
       "format": "ttml",
-      "metadataRef": "tiny-me-2"
+      "metadataRef": "tiny-me",
+      "linked": true,
+      "linkedFrom": "tiny-me-2"
     },
     {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml",
       "format": "ttml",
-      "metadataRef": "tiny-me-3"
+      "metadataRef": "tiny-me",
+      "linked": true,
+      "linkedFrom": "tiny-me-3"
     },
     {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml",

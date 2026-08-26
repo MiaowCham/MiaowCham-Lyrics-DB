@@ -47,7 +47,9 @@
     {
       "name": "HOYO-MiX - 拂晓.ttml",
       "format": "ttml",
-      "metadataRef": "track"
+      "metadataRef": "proi-proi",
+      "linked": true,
+      "linkedFrom": "track"
     },
     {
       "name": "HOYO-MiX, NIDA - 拂晓 Proi Proi (2).ttml",
@@ -62,7 +64,9 @@
     {
       "name": "拂晓 Proi Proi.ass",
       "format": "ass",
-      "metadataRef": "proi-proi-2"
+      "metadataRef": "proi-proi",
+      "linked": true,
+      "linkedFrom": "proi-proi-2"
     }
   ],
   "sources": [
