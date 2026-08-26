@@ -12,6 +12,14 @@ from pathlib import Path
 from urllib.parse import quote
 
 
+PLATFORM_ALIASES = {
+    "ncmMusicId": ("netease", "ncm", "wyyyy"),
+    "qqMusicId": ("qq", "qqmusic", "qq-music", "qm"),
+    "appleMusicId": ("apple", "am", "apple-music", "applemusic"),
+    "spotifyId": ("spotify",),
+}
+
+
 def export(repo: Path, output: Path, source_commit: str, github_repository: str) -> Path:
     index = json.loads((repo / "lyrics-index.json").read_text(encoding="utf-8"))
     if not isinstance(index.get("tracks"), list):
@@ -28,18 +36,43 @@ def export(repo: Path, output: Path, source_commit: str, github_repository: str)
         for name in entry.get("files", []):
             relative = "/".join(("Lyrics", directory, str(name)))
             encoded = "/".join(quote(part, safe="") for part in relative.split("/"))
+            raw_url = f"https://raw.githubusercontent.com/{github_repository}/{source_commit}/{encoded}"
             files.append({
                 "name": str(name),
                 "path": relative,
-                "url": f"https://github.com/{github_repository}/blob/{source_commit}/{encoded}",
+                "url": raw_url,
+                "githubUrl": f"https://github.com/{github_repository}/blob/{source_commit}/{encoded}",
             })
+        routes = []
+        for key, aliases in PLATFORM_ALIASES.items():
+            raw_ids = entry.get("platforms", {}).get(key, [])
+            ids = raw_ids if isinstance(raw_ids, list) else [raw_ids]
+            for value in ids:
+                value = str(value).strip()
+                if not value:
+                    continue
+                for alias in aliases:
+                    for file in files:
+                        suffix = Path(file["name"]).suffix or ".txt"
+                        routes.append({
+                            "platform": alias,
+                            "id": value,
+                            "file": file["name"],
+                            "url": file["url"],
+                            "virtualPath": raw_url,
+                            "displayPath": f"/{alias}/{quote(value, safe='')}{suffix}",
+                        })
         public_tracks.append({
+            "path": directory,
+            "metadataRef": entry.get("metadataRef", ""),
             "title": track.get("title", ""),
             "artists": track.get("artists", []),
             "album": track.get("album", ""),
             "language": track.get("language", ""),
             "platformIds": entry.get("platforms", {}),
             "files": files,
+            "routes": routes,
+            "metadata": entry,
         })
     data_dir = output / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
