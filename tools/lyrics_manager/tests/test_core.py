@@ -7,6 +7,7 @@ import unittest
 from pathlib import Path
 
 from tools.lyrics_manager.core import LyricsDatabase, parse_lrcn, parse_ttml, preview_lrcn
+from tools.lyrics_manager.gui import remove_track_record
 
 
 TTML = '''<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:amll="http://www.example.com/ns/amll" xml:lang="ja"><head><metadata><ttm:title>Old</ttm:title><amll:meta key="artists" value="A"/><amll:meta key="album" value="Keep"/><amll:meta key="unknown" value="untouched"/></metadata></head><body><div><p xml:id="L1"><span>原文</span></p></div></body></tt>'''
@@ -95,6 +96,22 @@ class CoreTests(unittest.TestCase):
         self.assertIn("Only First Changed", (self.track_dir / "song.ttml").read_text(encoding="utf-8"))
         self.assertIn("[ti:Only First Changed]", (self.track_dir / "song.lrcn").read_text(encoding="utf-8"))
 
+    def test_deleted_track_stays_deleted_after_rescan(self):
+        metadata = self.db.load_metadata(self.track_dir)
+        ref = next(iter(metadata["tracks"]))
+        self.db.save_metadata(self.track_dir, remove_track_record(metadata, ref))
+        reloaded = self.db.load_metadata(self.track_dir)
+        self.assertNotIn(ref, reloaded["tracks"])
+        self.assertIsNone(reloaded["files"][0]["metadataRef"])
+
+    def test_sync_linked_file_uses_canonical_track(self):
+        metadata = self.db.load_metadata(self.track_dir)
+        ref, track = next(iter(metadata["tracks"].items()))
+        track = {**track, "title": "Canonical Title"}
+        result = self.db.sync_file_to_track(self.track_dir / "song.ttml", track)
+        self.assertEqual(len(result["changed_files"]), 1)
+        self.assertIn("Canonical Title", (self.track_dir / "song.ttml").read_text(encoding="utf-8"))
+
     def test_ttml_preview_accepts_itunes_key(self):
         source = TTML.replace('xml:id="L1"', 'xmlns:itunes="http://music.apple.com/lyric-ttml-internal" itunes:key="L1"')
         (self.track_dir / "song.ttml").write_text(source, encoding="utf-8")
@@ -124,9 +141,19 @@ class CoreTests(unittest.TestCase):
 
     def test_lys_agents_and_bg_numbering(self):
         path = self.track_dir / "sample.lys"
-        path.write_text("[1]主唱\n[3]背景\n[2]第二句\n", encoding="utf-8")
+        path.write_text("[1]左声道 (1,20)主唱\n[6]背景 (21,20)和声\n[3]第二句\n[8]右侧背景\n", encoding="utf-8")
         rows = self.db.preview(path)
-        self.assertEqual([(r["line_number"], r["agent"]) for r in rows], [("1", "1"), ("bg", "3"), ("2", "2")])
+        self.assertEqual(
+            [(r["line_number"], r["agent"], r["original"]) for r in rows],
+            [("1", "1", "左声道 主唱"), ("bg", "6", "背景 和声"), ("2", "3", "第二句"), ("bg", "8", "右侧背景")],
+        )
+
+    def test_qrc_preview_removes_word_timestamps_and_has_no_agent(self):
+        path = self.track_dir / "sample.qrc"
+        path.write_text("[100,200]Hello (100,80)world(180,120)!\n[300,100]Next line\n", encoding="utf-8")
+        rows = self.db.preview(path)
+        self.assertEqual([(r["line_number"], r["agent"], r["original"]) for r in rows],
+                         [("1", "", "Hello world!"), ("2", "", "Next line")])
 
     def test_lrcn_background_is_not_numbered(self):
         path = self.track_dir / "background.lrcn"

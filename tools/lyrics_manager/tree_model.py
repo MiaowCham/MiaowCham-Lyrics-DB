@@ -15,6 +15,13 @@ from typing import Any, Iterable
 from .core import LYRIC_EXTENSIONS, has_legacy_ttml
 
 
+def _linked_target_value(record: dict[str, Any], key: str) -> str | None:
+    target = record.get("linkedTarget")
+    if not isinstance(target, dict):
+        return None
+    return str(target.get(key) or "") or None
+
+
 @dataclass(frozen=True)
 class RegistryNode:
     """A UI-independent node in the lyrics registry hierarchy."""
@@ -26,6 +33,8 @@ class RegistryNode:
     file_name: str | None = None
     linked: bool = False
     linked_from: str | None = None
+    linked_target_path: str | None = None
+    linked_target_ref: str | None = None
     legacy: bool = False
     search_text: str = ""
     children: tuple["RegistryNode", ...] = ()
@@ -47,7 +56,12 @@ def build_registry_tree(
             str(item.get("name")): item
             for item in metadata.get("files", []) if isinstance(item, dict) and item.get("name")
         }
-        bindings = {name: str(item.get("metadataRef") or "") for name, item in file_records.items()}
+        # External links deliberately do not occupy the source directory's
+        # virtual track entity; their canonical entity lives elsewhere.
+        bindings = {
+            name: "" if _linked_target_value(item, "path") else str(item.get("metadataRef") or "")
+            for name, item in file_records.items()
+        }
         actual_files = sorted(
             (path.name for path in directory.iterdir()
              if path.is_file() and path.suffix.casefold() in LYRIC_EXTENSIONS),
@@ -63,6 +77,8 @@ def build_registry_tree(
                     "file", name, directory, str(ref), name,
                     bool(file_records.get(name, {}).get("linked")),
                     str(file_records.get(name, {}).get("linkedFrom") or "") or None,
+                    _linked_target_value(file_records.get(name, {}), "path"),
+                    _linked_target_value(file_records.get(name, {}), "metadataRef"),
                     has_legacy_ttml(directory / name) if Path(name).suffix.casefold() == ".ttml" else False,
                     name.casefold(),
                 )
@@ -81,6 +97,8 @@ def build_registry_tree(
                     "file", name, directory, None, name,
                     bool(file_records.get(name, {}).get("linked")),
                     str(file_records.get(name, {}).get("linkedFrom") or "") or None,
+                    _linked_target_value(file_records.get(name, {}), "path"),
+                    _linked_target_value(file_records.get(name, {}), "metadataRef"),
                     has_legacy_ttml(directory / name) if Path(name).suffix.casefold() == ".ttml" else False,
                     name.casefold(),
                 ) for name in unbound),

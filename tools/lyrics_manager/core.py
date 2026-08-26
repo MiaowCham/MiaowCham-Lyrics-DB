@@ -390,6 +390,41 @@ def preview_text(path: str | Path) -> list[dict[str, str]]:
     return rows
 
 
+def _lyricify_word_text(value: str) -> str:
+    """Remove Lyricify word timestamps while retaining the lyric text and spaces."""
+    return re.sub(r"\(\d+\s*,\s*\d+\)", "", value).strip()
+
+
+def preview_lyricify(path: str | Path, *, qrc: bool) -> list[dict[str, str]]:
+    """Preview Lyricify QRC or Lyricify Syllable timing syntax.
+
+    QRC uses ``[start,duration]`` while LYS uses a numeric property in the
+    brackets.  The property itself is retained in the Agent column; only 6,
+    7 and 8 denote background vocals.
+    """
+    rows: list[dict[str, str]] = []
+    number = 0
+    pattern = r"^\[(\d+)\s*,\s*(\d+)\](.*)$" if qrc else r"^\[([0-8])\](.*)$"
+    for raw in _read_text(Path(path)).splitlines():
+        match = re.match(pattern, raw.strip())
+        if not match:
+            continue
+        if qrc:
+            _start, _duration, value = match.groups()
+            agent = ""
+            bg = False
+        else:
+            agent, value = match.groups()
+            bg = agent in {"6", "7", "8"}
+        if not bg:
+            number += 1
+        rows.append(_preview_row(
+            f"@{len(rows)}", _lyricify_word_text(value),
+            line_number="bg" if bg else number, agent=agent,
+        ))
+    return rows
+
+
 def preview_file(path: str | Path) -> list[dict[str, str]]:
     path = Path(path)
     suffix = path.suffix.lower()
@@ -402,6 +437,12 @@ def preview_file(path: str | Path) -> list[dict[str, str]]:
             return preview_text(path)
     if suffix in {".lrcn", ".lnt"}:
         return preview_lrcn(path)
+    if suffix == ".qrc":
+        rows = preview_lyricify(path, qrc=True)
+        return rows or preview_text(path)
+    if suffix == ".lys":
+        rows = preview_lyricify(path, qrc=False)
+        return rows or preview_text(path)
     if suffix == ".json":
         try:
             value = json.loads(_read_text(path))
@@ -738,6 +779,11 @@ class LyricsDatabase:
         # fields remain available. A user may also create wholly manual tracks.
         for ref, track in manual.get("tracks", {}).items():
             result["tracks"][ref] = _manual_merge(result["tracks"].get(ref, {}), track)
+        # A manually deleted entity must not be resurrected from an unchanged
+        # lyric file when the library is scanned again.
+        deleted_tracks = {str(ref) for ref in manual.get("deletedTracks", [])}
+        for ref in deleted_tracks:
+            result["tracks"].pop(ref, None)
         existing_files = {item.get("name"): item for item in manual.get("files", []) if isinstance(item, dict)}
         result["files"] = [_manual_merge(item, existing_files.get(item["name"], {})) for item in result["files"]]
         for key, value in manual.items():
@@ -853,6 +899,26 @@ class LyricsDatabase:
             except (OSError, UnicodeError, ValueError) as exc:
                 warnings.append(f"{path.name}: {exc}")
         return {"changed_files": changed, "warnings": warnings}
+
+    def sync_file_to_track(self, path: str | Path, track: dict[str, Any]) -> dict[str, Any]:
+        """Synchronise one linked TTML/LRCN file from its canonical track metadata."""
+        path = Path(path)
+        if not path.is_absolute():
+            path = self.root / path
+        path = path.resolve()
+        path.relative_to(self.lyrics_root)
+        if path.suffix.casefold() not in {".ttml", ".lrcn"}:
+            return {"changed_files": [], "warnings": [f"{path.name}: 此格式不支持元数据同步"]}
+        try:
+            before = _read_text(path)
+            platforms = track.get("platforms", {}) if isinstance(track.get("platforms"), dict) else {}
+            after = _sync_ttml_text(before, track) if path.suffix.casefold() == ".ttml" else _sync_lrcn_text(before, track, platforms)
+            if before != after:
+                _atomic_text(path, after)
+                return {"changed_files": [path.relative_to(self.root).as_posix()], "warnings": []}
+            return {"changed_files": [], "warnings": []}
+        except (OSError, UnicodeError, ValueError) as exc:
+            return {"changed_files": [], "warnings": [f"{path.name}: {exc}"]}
 
 
 DatabaseManager = LyricsDatabase

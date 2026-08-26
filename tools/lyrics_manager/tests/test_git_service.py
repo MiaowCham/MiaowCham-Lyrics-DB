@@ -64,6 +64,16 @@ class GitServiceTests(unittest.TestCase):
         self.assertFalse(entries["tracked.txt"].staged)
         self.assertTrue(entries["tracked.txt"].unstaged)
 
+    def test_move_stages_a_tracked_file_as_rename(self) -> None:
+        target = self.repo / "moved.txt"
+        self.assertTrue(self.service.is_tracked("tracked.txt"))
+        self.service.move("tracked.txt", target)
+        self.assertFalse((self.repo / "tracked.txt").exists())
+        self.assertTrue(target.exists())
+        entry = next(item for item in self.service.status_entries() if item.path == "moved.txt")
+        self.assertEqual(entry.index_status, "R")
+        self.assertEqual(entry.original_path, "tracked.txt")
+
     def test_commit_description_and_structured_log(self) -> None:
         (self.repo / "new.txt").write_text("new\n", encoding="utf-8")
         self.service.stage(["new.txt"])

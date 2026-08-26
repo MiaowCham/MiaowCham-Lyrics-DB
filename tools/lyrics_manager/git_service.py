@@ -135,6 +135,15 @@ class GitService:
     def status(self) -> str:
         return self._run_raw("status", "--short", "--branch").stdout
 
+    def is_tracked(self, path: str | Path) -> bool:
+        """Return whether Git currently tracks a concrete repository file."""
+        return self._run_raw("ls-files", "--error-unmatch", "--", *self._paths([path]), check=False).returncode == 0
+
+    def move(self, source: str | Path, destination: str | Path) -> str:
+        """Move a tracked file and stage it explicitly as a Git rename."""
+        source_path, destination_path = self._paths([source, destination])
+        return self._run_raw("mv", "--", source_path, destination_path).stdout
+
     def status_entries(self) -> list[GitFileStatus]:
         output = self._run_raw("status", "--porcelain=v1", "-z", "--untracked-files=all").stdout
         records = output.split("\0")

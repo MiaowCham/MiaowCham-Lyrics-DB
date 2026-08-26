@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 import queue
 import re
+import shutil
 import subprocess
 import sys
 import threading
@@ -80,6 +81,59 @@ def link_file_record(metadata: dict[str, Any], file_name: str, target_ref: str) 
     raise ValueError("该文件不在 metadata 的文件列表中")
 
 
+def link_file_to_external_target(
+    source_metadata: dict[str, Any], file_name: str, target_directory_rel: str, target_ref: str,
+) -> dict[str, Any]:
+    """Link a local lyric file to a track entity stored in another directory.
+
+    The lyric remains in its current folder.  Its local record retains the
+    original binding in ``linkedFrom`` while ``linkedTarget`` is the canonical
+    metadata location to use for display and synchronisation.
+    """
+    if not target_directory_rel or not target_ref:
+        raise ValueError("关联目标目录和曲目实体不能为空")
+    updated = copy.deepcopy(source_metadata)
+    for item in updated.get("files", []):
+        if isinstance(item, dict) and item.get("name") == file_name:
+            old_ref = str(item.get("metadataRef") or "")
+            item.update({
+                "linked": True,
+                "linkedFrom": old_ref,
+                "linkedTarget": {"path": target_directory_rel.replace("\\", "/"), "metadataRef": target_ref},
+            })
+            return updated
+    raise ValueError("该文件不在 metadata 的文件列表中")
+
+
+def move_file_records_to_target(
+    source_metadata: dict[str, Any], target_metadata: dict[str, Any], file_names: list[str], target_ref: str,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Move file records between directories after their files were moved on disk."""
+    source = copy.deepcopy(source_metadata)
+    target = copy.deepcopy(target_metadata)
+    if target_ref not in target.get("tracks", {}):
+        raise ValueError("目标曲目实体不存在")
+    wanted = set(file_names)
+    records = [item for item in source.get("files", []) if isinstance(item, dict) and item.get("name") in wanted]
+    found = {str(item.get("name")) for item in records}
+    missing = wanted - found
+    if missing:
+        raise ValueError(f"源目录中找不到歌词文件：{', '.join(sorted(missing))}")
+    target_names = {str(item.get("name")) for item in target.get("files", []) if isinstance(item, dict)}
+    duplicates = found & target_names
+    if duplicates:
+        raise ValueError(f"目标目录已有同名歌词文件：{', '.join(sorted(duplicates))}")
+    source["files"] = [item for item in source.get("files", []) if not (isinstance(item, dict) and item.get("name") in wanted)]
+    for item in records:
+        old_ref = str(item.get("linkedFrom") or item.get("metadataRef") or "")
+        item["metadataRef"] = target_ref
+        item["linked"] = True
+        item["linkedFrom"] = old_ref
+        item.pop("linkedTarget", None)
+        target.setdefault("files", []).append(item)
+    return source, target
+
+
 def split_file_record(metadata: dict[str, Any], file_name: str, source_ref: str, new_ref: str) -> dict[str, Any]:
     """Clone a track and rebind one file as an independently editable entity."""
     updated = copy.deepcopy(metadata)
@@ -118,6 +172,77 @@ def rename_file_record(metadata: dict[str, Any], old_name: str, new_name: str) -
         if isinstance(source, dict) and source.get("file") == old_name:
             source["file"] = new_name
     return updated
+
+
+def remove_file_record(metadata: dict[str, Any], file_name: str) -> dict[str, Any]:
+    """Return metadata with a deleted lyric file's binding removed."""
+    updated = copy.deepcopy(metadata)
+    records = updated.get("files", [])
+    remaining = [item for item in records if not (isinstance(item, dict) and item.get("name") == file_name)]
+    if len(remaining) == len(records):
+        raise ValueError("该文件不在 metadata 的文件列表中")
+    updated["files"] = remaining
+    for source in updated.get("sources", []):
+        if isinstance(source, dict) and source.get("file") == file_name:
+            source.pop("file", None)
+    return updated
+
+
+def remove_track_record(metadata: dict[str, Any], metadata_ref: str) -> dict[str, Any]:
+    """Delete one virtual track entity while retaining its local lyric files as unbound."""
+    updated = copy.deepcopy(metadata)
+    tracks = updated.get("tracks", {})
+    if metadata_ref not in tracks:
+        raise ValueError("曲目实体不存在")
+    tracks.pop(metadata_ref)
+    deleted = {str(value) for value in updated.get("deletedTracks", [])}
+    deleted.add(metadata_ref)
+    updated["deletedTracks"] = sorted(deleted)
+    for item in updated.get("files", []):
+        if not isinstance(item, dict) or item.get("metadataRef") != metadata_ref:
+            continue
+        # An external link remains valid after its old local entity disappears.
+        if isinstance(item.get("linkedTarget"), dict):
+            continue
+        # Keep an explicit null so discovery cannot restore the old binding.
+        item["metadataRef"] = None
+        item.pop("linked", None)
+        item.pop("linkedFrom", None)
+    return updated
+
+
+def detach_external_link_record(metadata: dict[str, Any], file_name: str) -> dict[str, Any]:
+    """Restore a file's local binding after its external target was removed."""
+    updated = copy.deepcopy(metadata)
+    for item in updated.get("files", []):
+        if isinstance(item, dict) and item.get("name") == file_name:
+            target = item.get("linkedTarget")
+            if not isinstance(target, dict):
+                raise ValueError("该文件没有外部关联")
+            item["metadataRef"] = str(item.get("linkedFrom") or item.get("metadataRef") or "")
+            item.pop("linked", None)
+            item.pop("linkedFrom", None)
+            item.pop("linkedTarget", None)
+            return updated
+    raise ValueError("该文件不在 metadata 的文件列表中")
+
+
+def make_linked_file_independent(
+    source_metadata: dict[str, Any], file_name: str, new_ref: str, track: dict[str, Any],
+) -> dict[str, Any]:
+    """Turn one linked lyric into an independently editable local entity."""
+    updated = copy.deepcopy(source_metadata)
+    if not new_ref or new_ref in updated.get("tracks", {}):
+        raise ValueError("新的曲目实体标识无效或已存在")
+    updated.setdefault("tracks", {})[new_ref] = copy.deepcopy(track)
+    for item in updated.get("files", []):
+        if isinstance(item, dict) and item.get("name") == file_name:
+            item["metadataRef"] = new_ref
+            item.pop("linked", None)
+            item.pop("linkedFrom", None)
+            item.pop("linkedTarget", None)
+            return updated
+    raise ValueError("该文件不在 metadata 的文件列表中")
 
 
 def scan_library_data(adapter: Any, repo: Path) -> tuple[list[Path], dict[Path, dict[str, Any]], RegistryNode]:
@@ -159,6 +284,9 @@ class CoreAdapter:
         refs = [metadata_ref] if metadata_ref else None
         return self.database.sync_to_sources(directory, metadata_refs=refs)
 
+    def sync_file(self, path: Path, track: dict[str, Any]) -> Any:
+        return self.database.sync_file_to_track(path, track)
+
     def preview(self, path: Path) -> list[tuple[str, str, str, str, str]]:
         result = self.database.preview(path)
         rows = result.get("lines", result) if isinstance(result, dict) else result
@@ -192,6 +320,9 @@ class LyricsManagerApp(tk.Tk):
         self.metadata_cache: dict[Path, dict[str, Any]] = {}
         self.registry_model: RegistryNode | None = None
         self.tree_nodes: dict[str, RegistryNode] = {}
+        self._drag_source_item: str | None = None
+        self._tree_drag_active = False
+        self._linked_edit_enabled = False
         self.current_dir: Path | None = None
         self.current_metadata: dict[str, Any] = {}
         self.current_ref: str | None = None
@@ -201,7 +332,12 @@ class LyricsManagerApp(tk.Tk):
         self.selected_file_var = tk.StringVar()
         self.status_var = tk.StringVar(value="就绪")
         self.current_file_path: Path | None = None
-        self.auto_sync_var = tk.BooleanVar(value=self._load_preference())
+        self._preferences = self._load_preferences()
+        self.auto_sync_var = tk.BooleanVar(value=bool(self._preferences.get("auto_sync", False)))
+        expanded = self._preferences.get("expanded_tree_nodes", [])
+        self._expanded_tree_keys: set[str] = {str(value) for value in expanded if isinstance(value, str)}
+        self._tree_expansion_known = bool(self._preferences.get("tree_expansion_known", False))
+        self.tree_node_keys: dict[str, str] = {}
         self._git_busy = False
         self._git_buttons: list[ttk.Button] = []
         self._git_results: queue.Queue[tuple[Any, Exception | None]] = queue.Queue()
@@ -212,25 +348,33 @@ class LyricsManagerApp(tk.Tk):
         self._build_ui()
         self.after_idle(self.refresh_library)
 
-    def _load_preference(self) -> bool:
+    def _load_preferences(self) -> dict[str, Any]:
         try:
-            return bool(json.loads(CONFIG_PATH.read_text(encoding="utf-8")).get("auto_sync", False))
+            value = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+            return value if isinstance(value, dict) else {}
         except (OSError, ValueError, TypeError):
-            return False
+            return {}
 
     def _save_preference(self) -> None:
         try:
-            CONFIG_PATH.write_text(json.dumps({"auto_sync": self.auto_sync_var.get()}), encoding="utf-8")
+            self._preferences.update({
+                "auto_sync": self.auto_sync_var.get(),
+                "expanded_tree_nodes": sorted(self._expanded_tree_keys),
+                "tree_expansion_known": self._tree_expansion_known,
+            })
+            CONFIG_PATH.write_text(json.dumps(self._preferences, ensure_ascii=False), encoding="utf-8")
         except OSError as exc:
             self._set_status(f"偏好保存失败：{exc}")
 
     def _build_ui(self) -> None:
-        notebook = ttk.Notebook(self)
-        notebook.pack(fill="both", expand=True)
-        library = ttk.Frame(notebook, padding=8)
-        version = ttk.Frame(notebook, padding=8)
-        notebook.add(library, text="歌词库")
-        notebook.add(version, text="版本管理")
+        self.main_notebook = ttk.Notebook(self)
+        self.main_notebook.pack(fill="both", expand=True)
+        library = ttk.Frame(self.main_notebook, padding=8)
+        version = ttk.Frame(self.main_notebook, padding=8)
+        self.main_notebook.add(library, text="歌词库")
+        self.main_notebook.add(version, text="版本管理")
+        self.version_tab = version
+        self.main_notebook.bind("<<NotebookTabChanged>>", self._on_main_tab_changed)
         self._build_library(library)
         self._build_git(version)
         ttk.Separator(self, orient="horizontal").pack(fill="x")
@@ -238,6 +382,11 @@ class LyricsManagerApp(tk.Tk):
 
     def _set_status(self, text: str) -> None:
         self.status_var.set(text)
+
+    def _on_main_tab_changed(self, _event: object = None) -> None:
+        """Refresh Git status whenever the user enters the version-management tab."""
+        if self.main_notebook.select() == str(self.version_tab) and not self._git_busy:
+            self.git_status()
 
     def _build_library(self, parent: ttk.Frame) -> None:
         panes = ttk.Panedwindow(parent, orient="horizontal")
@@ -257,6 +406,16 @@ class LyricsManagerApp(tk.Tk):
         self.registry_tree.bind("<<TreeviewSelect>>", self._select_registry_node)
         self.registry_tree.bind("<Double-Button-1>", self._open_tree_file)
         self.registry_tree.bind("<Button-3>", self._show_registry_menu)
+        self.registry_tree.bind("<ButtonPress-1>", self._begin_tree_drag, add=True)
+        self.registry_tree.bind("<B1-Motion>", self._update_tree_drag_cursor, add=True)
+        self.registry_tree.bind("<ButtonRelease-1>", self._finish_tree_drag, add=True)
+        self.registry_tree.bind("<Delete>", self.delete_selected_node)
+        self.registry_tree.bind("<<TreeviewOpen>>", self._cache_tree_open_state)
+        self.registry_tree.bind("<<TreeviewClose>>", self._cache_tree_open_state)
+        tree_controls = ttk.Frame(left)
+        tree_controls.pack(fill="x", pady=(0, 4))
+        ttk.Button(tree_controls, text="全部展开", command=self.expand_all_tree).pack(side="left", fill="x", expand=True)
+        ttk.Button(tree_controls, text="全部收起", command=self.collapse_all_tree).pack(side="left", fill="x", expand=True, padx=(4, 0))
         self.refresh_button = ttk.Button(left, text="重新扫描", command=self.refresh_library)
         self.refresh_button.pack(fill="x")
 
@@ -274,9 +433,12 @@ class LyricsManagerApp(tk.Tk):
         file_buttons.grid(row=1, column=0, columnspan=2, sticky="w", pady=(0, 8))
         ttk.Button(file_buttons, text="打开文件", command=self.open_selected_file).pack(side="left")
         ttk.Button(file_buttons, text="在文件管理器打开", command=self.reveal_selected_file).pack(side="left", padx=6)
+        ttk.Button(file_buttons, text="删除文件", command=self.delete_selected_file).pack(side="left", padx=(0, 6))
         self.convert_ttml_button = ttk.Button(file_buttons, text="一键转换旧 TTML", command=self.convert_selected_ttml)
         self.convert_ttml_button.pack(side="left", padx=(0, 6))
         ttk.Button(file_buttons, text="关联到其他曲目", command=self.bind_selected_file).pack(side="left", padx=(0, 6))
+        self.edit_linked_button = ttk.Button(file_buttons, text="编辑关联曲目", command=self.enable_linked_editing)
+        self.edit_linked_button.pack(side="left", padx=(0, 6))
         ttk.Button(file_buttons, text="拆分为独立曲目", command=self.split_selected_file).pack(side="left")
         ttk.Label(metadata, text="曲目实体").grid(row=2, column=0, sticky="w", padx=(0, 8), pady=3)
         self.metadata_ref_box = ttk.Combobox(metadata, textvariable=self.metadata_ref_var, state="readonly")
@@ -289,11 +451,11 @@ class LyricsManagerApp(tk.Tk):
             self._metadata_inputs.append(entry)
         controls = ttk.Frame(metadata)
         controls.grid(row=len(FIELDS) + 3, column=0, columnspan=2, sticky="ew", pady=(10, 6))
-        save_button = ttk.Button(controls, text="保存 lyrics.metadata", command=self.save_metadata)
-        save_button.pack(side="left")
-        sync_button = ttk.Button(controls, text="同步到文件", command=self.sync_sources)
-        sync_button.pack(side="left", padx=6)
-        self._metadata_actions.extend((save_button, sync_button))
+        self.save_metadata_button = ttk.Button(controls, text="保存 lyrics.metadata", command=self.save_metadata)
+        self.save_metadata_button.pack(side="left")
+        self.sync_button = ttk.Button(controls, text="同步到文件", command=self.sync_sources)
+        self.sync_button.pack(side="left", padx=6)
+        self._metadata_actions.append(self.save_metadata_button)
         self.link_notice = ttk.Label(metadata, text="", foreground="#a05a00")
         self.link_notice.grid(row=len(FIELDS) + 4, column=0, columnspan=2, sticky="w")
         self.legacy_notice = ttk.Label(metadata, text="", foreground="#9a6700")
@@ -455,25 +617,93 @@ class LyricsManagerApp(tk.Tk):
 
     def _filter_tracks(self) -> None:
         query = self.search_var.get().strip().casefold()
+        if not query:
+            self._capture_tree_expansion()
         self.registry_tree.delete(*self.registry_tree.get_children())
         self.tree_nodes.clear()
+        self.tree_node_keys.clear()
         filtered = filter_registry_tree(self.registry_model, query) if self.registry_model else None
         if filtered:
-            self._insert_registry_node("", filtered, open_node=True)
+            self._insert_registry_node("", filtered, open_node=not self._tree_expansion_known)
 
     def _insert_registry_node(self, parent: str, node: RegistryNode, *, open_node: bool = False) -> None:
+        key = self._tree_node_key(node)
         item = self.registry_tree.insert(
             parent, "end", text=node.label,
-            open=open_node or bool(self.search_var.get().strip()),
+            open=open_node or key in self._expanded_tree_keys or bool(self.search_var.get().strip()),
             tags=("legacy",) if node.legacy else (),
         )
         self.tree_nodes[item] = node
+        self.tree_node_keys[item] = key
         for child in node.children:
             self._insert_registry_node(item, child)
+
+    def _tree_node_key(self, node: RegistryNode) -> str:
+        if node.kind == "root":
+            return "root"
+        if node.kind == "artist":
+            return f"artist:{node.label}"
+        relative = ""
+        if node.directory:
+            try:
+                relative = node.directory.relative_to(self.repo / "Lyrics").as_posix()
+            except ValueError:
+                relative = str(node.directory)
+        if node.kind == "directory":
+            return f"directory:{relative}"
+        if node.kind == "track":
+            return f"track:{relative}:{node.metadata_ref or '__unbound__'}"
+        if node.kind == "file":
+            return f"file:{relative}:{node.file_name or node.label}"
+        return f"{node.kind}:{relative}:{node.label}"
+
+    def _capture_tree_expansion(self) -> None:
+        if not self.tree_nodes:
+            return
+        self._expanded_tree_keys = {
+            self.tree_node_keys[item]
+            for item, node in self.tree_nodes.items()
+            if node.children and self.registry_tree.exists(item) and bool(self.registry_tree.item(item, "open"))
+        }
+        self._tree_expansion_known = True
+        self._save_preference()
+
+    def _cache_tree_open_state(self, _event: object = None) -> None:
+        if self.search_var.get().strip():
+            return
+        item = self.registry_tree.focus()
+        key = self.tree_node_keys.get(item)
+        if not key:
+            return
+        if bool(self.registry_tree.item(item, "open")):
+            self._expanded_tree_keys.add(key)
+        else:
+            self._expanded_tree_keys.discard(key)
+        self._tree_expansion_known = True
+        self._save_preference()
+
+    def expand_all_tree(self) -> None:
+        for item, node in self.tree_nodes.items():
+            if node.children:
+                self.registry_tree.item(item, open=True)
+                self._expanded_tree_keys.add(self.tree_node_keys[item])
+        self._tree_expansion_known = True
+        self._save_preference()
+        self._set_status("已展开左侧全部节点")
+
+    def collapse_all_tree(self) -> None:
+        for item, node in self.tree_nodes.items():
+            if node.children:
+                self.registry_tree.item(item, open=False)
+        self._expanded_tree_keys.clear()
+        self._tree_expansion_known = True
+        self._save_preference()
+        self._set_status("已收起左侧全部节点")
 
     def _select_registry_node(self, _event: object = None) -> None:
         selection = self.registry_tree.selection()
         node = self.tree_nodes.get(selection[0]) if selection else None
+        self._linked_edit_enabled = False
         self.title(f"MiaowCham's Lyrics Manager - {node.file_name}" if node and node.kind == "file" else APP_NAME)
         self.legacy_notice.configure(
             text="检测到 body 内旧式翻译/音译，建议先转换。" if node and node.kind == "file" and node.legacy else ""
@@ -490,8 +720,18 @@ class LyricsManagerApp(tk.Tk):
         if node.kind != "file":
             self.current_file_path = None
             self.selected_file_var.set("")
+        metadata_dir = node.directory
         preferred_ref = node.metadata_ref
-        self._load_directory(node.directory, preferred_ref, select_default=False)
+        if node.kind == "file" and node.linked_target_path and node.linked_target_ref:
+            candidate = (self.repo / "Lyrics" / node.linked_target_path).resolve()
+            try:
+                candidate.relative_to((self.repo / "Lyrics").resolve())
+                if candidate.is_dir():
+                    metadata_dir = candidate
+                    preferred_ref = node.linked_target_ref
+            except ValueError:
+                pass
+        self._load_directory(metadata_dir, preferred_ref, select_default=False)
         if node.kind == "file" and node.file_name:
             self.current_file_path = node.directory / node.file_name
             self.selected_file_var.set(node.file_name)
@@ -502,13 +742,27 @@ class LyricsManagerApp(tk.Tk):
 
     def _set_linked_edit_state(self, node: RegistryNode | None) -> None:
         linked = bool(node and node.kind == "file" and node.linked)
-        state = "disabled" if linked else "normal"
+        state = "normal" if not linked or self._linked_edit_enabled else "disabled"
         for widget in (*self._metadata_inputs, *self._metadata_actions):
             widget.configure(state=state)
+        self.sync_button.configure(state="normal")
+        self.edit_linked_button.configure(state="normal" if linked else "disabled")
         if linked and node:
-            self.link_notice.configure(text=f"此文件的元数据关联到 {node.metadata_ref}；请前往该曲目实体修改，或拆分为独立曲目。")
+            target = (f"{node.linked_target_path} / {node.linked_target_ref}"
+                      if node.linked_target_path and node.linked_target_ref else str(node.metadata_ref))
+            self.link_notice.configure(text=f"此文件的元数据关联到 {target}；请前往目标曲目修改，或拆分为独立曲目。")
         else:
             self.link_notice.configure(text="")
+
+    def enable_linked_editing(self) -> None:
+        selection = self.registry_tree.selection()
+        node = self.tree_nodes.get(selection[0]) if selection else None
+        if not node or node.kind != "file" or not node.linked:
+            self._set_status("请先选择关联的歌词文件")
+            return
+        self._linked_edit_enabled = True
+        self._set_linked_edit_state(node)
+        self.link_notice.configure(text="已启用编辑；首次保存时请选择独立保存或并入目标曲目实体。")
 
     def _open_tree_file(self, _event: object = None) -> None:
         selection = self.registry_tree.selection()
@@ -529,14 +783,19 @@ class LyricsManagerApp(tk.Tk):
         if node.kind == "file":
             menu.add_command(label="打开", command=self.open_selected_file)
             menu.add_command(label="在文件管理器中查看", command=self.reveal_selected_file)
+            menu.add_command(label="删除文件", command=self.delete_selected_file)
             if node.file_name and Path(node.file_name).suffix.casefold() == ".ttml":
                 backup = node.directory / (node.file_name + ".bak") if node.directory else None
                 menu.add_command(label="恢复备份" if backup and backup.is_file() else "转换旧 TTML 格式",
                                  command=self.convert_selected_ttml)
-        elif node.kind in {"root", "directory", "artist", "track"}:
+        elif node.kind == "track":
+            menu.add_command(label="删除曲目实体（保留歌词）", command=self.delete_selected_node)
+        elif node.kind in {"root", "directory", "artist"}:
             path = (self.repo / "Lyrics" if node.kind == "root" else
                     node.directory or (self.repo / "Lyrics" / node.label))
             menu.add_command(label="在文件管理器中查看", command=lambda p=path: _reveal_path(p))
+        if node.kind in {"root", "artist", "directory"}:
+            menu.add_command(label="删除目录及其中歌词", command=self.delete_selected_node)
         menu.add_separator()
         menu.add_command(label="刷新", command=self.refresh_library)
         menu.tk_popup(event.x_root, event.y_root)
@@ -592,6 +851,73 @@ class LyricsManagerApp(tk.Tk):
             editable.update({"name": values["source"], "url": values["sourceUrl"]})
         return result
 
+    def _choose_linked_save_mode(self) -> str:
+        dialog = tk.Toplevel(self)
+        dialog.title("保存关联曲目")
+        dialog.transient(self)
+        dialog.grab_set()
+        ttk.Label(dialog, text="首次编辑关联曲目时，选择保存方式：").pack(anchor="w", padx=16, pady=(16, 8))
+        ttk.Label(dialog, text="独立保存：保留文件位置并创建新的本地曲目实体。\n并入目标实体：保存到目标实体，并将歌词移动到目标目录。").pack(anchor="w", padx=16, pady=(0, 12))
+        result = ["cancel"]
+        def choose(value: str) -> None:
+            result[0] = value
+            dialog.destroy()
+        controls = ttk.Frame(dialog)
+        controls.pack(fill="x", padx=16, pady=(0, 16))
+        ttk.Button(controls, text="取消", command=lambda: choose("cancel")).pack(side="right")
+        ttk.Button(controls, text="并入目标实体", command=lambda: choose("merge")).pack(side="right", padx=6)
+        ttk.Button(controls, text="独立保存", command=lambda: choose("independent")).pack(side="right")
+        dialog.protocol("WM_DELETE_WINDOW", lambda: choose("cancel"))
+        self.wait_window(dialog)
+        return result[0]
+
+    @staticmethod
+    def _new_track_ref(metadata: dict[str, Any], base: str) -> str:
+        safe = "-".join(part for part in re.split(r"[^a-z0-9]+", base.casefold()) if part) or "track"
+        refs = metadata.get("tracks", {})
+        candidate, ordinal = safe, 2
+        while candidate in refs:
+            candidate = f"{safe}-{ordinal}"
+            ordinal += 1
+        return candidate
+
+    def _save_linked_edit(self) -> bool:
+        """Persist an explicitly unlocked linked lyric according to the selected ownership mode."""
+        selection = self.registry_tree.selection()
+        node = self.tree_nodes.get(selection[0]) if selection else None
+        path = self._selected_file()
+        if not node or not node.linked or not path or not self.current_ref:
+            return False
+        mode = self._choose_linked_save_mode()
+        if mode == "cancel":
+            self._set_status("已取消保存关联曲目")
+            return True
+        metadata = self._metadata_from_form()
+        track = metadata.get("tracks", {}).get(self.current_ref, {})
+        if not isinstance(track, dict):
+            raise ValueError("关联目标曲目实体不存在")
+        source_dir = path.parent
+        if mode == "independent":
+            source = self.adapter.load(source_dir)
+            new_ref = self._new_track_ref(source, f"{self.current_ref}-{path.stem}")
+            self.adapter.save(source_dir, make_linked_file_independent(source, path.name, new_ref, track))
+            self._set_status(f"已将 {path.name} 独立保存为曲目实体 {new_ref}")
+        elif source_dir == self.current_dir:
+            for item in metadata.get("files", []):
+                if isinstance(item, dict) and item.get("name") == path.name:
+                    item.pop("linked", None)
+                    item.pop("linkedFrom", None)
+                    item.pop("linkedTarget", None)
+            self.adapter.save(self.current_dir, metadata)
+            self._set_status(f"已将 {path.name} 并入曲目实体 {self.current_ref}")
+        else:
+            self._move_files_to_target(source_dir, self.current_dir, [path.name], self.current_ref,
+                                       target_metadata=metadata)
+            self._set_status(f"已将 {path.name} 并入目标曲目实体 {self.current_ref}")
+        self._linked_edit_enabled = False
+        self.refresh_library()
+        return True
+
     def save_metadata(self) -> None:
         if not self.current_dir:
             self._set_status("请先选择曲目")
@@ -600,6 +926,10 @@ class LyricsManagerApp(tk.Tk):
         renamed_path: Path | None = None
         renamed_backup: tuple[Path, Path] | None = None
         try:
+            selection = self.registry_tree.selection()
+            node = self.tree_nodes.get(selection[0]) if selection else None
+            if node and node.linked and self._linked_edit_enabled and self._save_linked_edit():
+                return
             metadata = self._metadata_from_form()
             if original_path:
                 requested_name = self.selected_file_var.get().strip()
@@ -664,6 +994,21 @@ class LyricsManagerApp(tk.Tk):
         if not messagebox.askyesno("确认同步", "这会根据 lyrics.metadata 修改支持的歌词源文件，是否继续？", parent=self):
             return
         try:
+            selection = self.registry_tree.selection()
+            node = self.tree_nodes.get(selection[0]) if selection else None
+            if node and node.kind == "file" and node.linked:
+                track = self.current_metadata.get("tracks", {}).get(self.current_ref, {}) if self.current_ref else {}
+                if not isinstance(track, dict):
+                    raise ValueError("关联目标曲目实体不存在")
+                path = self._selected_file()
+                if not path:
+                    raise ValueError("找不到关联歌词文件")
+                if node.linked_target_path:
+                    result = self.adapter.sync_file(path, track)
+                else:
+                    result = self.adapter.sync(self.current_dir, self.current_ref)
+                self._set_status(self._format_sync_result(result).replace("\n", " "))
+                return
             metadata = self._metadata_from_form()
             self.adapter.save(self.current_dir, metadata)
             self.current_metadata = self.adapter.load(self.current_dir)
@@ -676,48 +1021,367 @@ class LyricsManagerApp(tk.Tk):
         if not path or not self.current_dir:
             self._set_status("请先选择歌词文件")
             return
-        target_ref = self._choose_link_target()
-        if not target_ref:
+        source_dir = path.parent
+        target = self._choose_link_target(source_dir)
+        if not target:
             return
+        target_dir, target_ref = target
         try:
-            updated = link_file_record(self.current_metadata, path.name, target_ref)
-            self.adapter.save(self.current_dir, updated)
+            source_metadata = self.adapter.load(source_dir)
+            if target_dir == source_dir:
+                updated = link_file_record(source_metadata, path.name, target_ref)
+            else:
+                relative_target = target_dir.relative_to(self.repo / "Lyrics").as_posix()
+                updated = link_file_to_external_target(source_metadata, path.name, relative_target, target_ref)
+            self.adapter.save(source_dir, updated)
+            old_ref = next((str(item.get("linkedFrom") or item.get("metadataRef") or "") for item in source_metadata.get("files", [])
+                            if isinstance(item, dict) and item.get("name") == path.name), "")
+            self._prompt_remove_empty_track(source_dir, old_ref)
             self._set_status(f"{path.name} 已关联到 {target_ref}；拆分前请在目标曲目实体修改元数据")
+            if target_dir != source_dir and messagebox.askyesno(
+                "迁移歌词", f"关联已建立。是否将 {path.name} 移动到目标目录\n{target_dir.relative_to(self.repo / 'Lyrics')}？", parent=self,
+            ):
+                self._move_files_to_target(source_dir, target_dir, [path.name], target_ref)
             self.refresh_library()
         except Exception as exc:
             self._show_error("关联失败", exc)
 
-    def _choose_link_target(self) -> str | None:
-        tracks = self.current_metadata.get("tracks", {})
-        candidates = [(ref, str(track.get("title") or "（无标题）")) for ref, track in tracks.items()
-                      if isinstance(track, dict) and ref != self.current_ref]
+    def _choose_link_target(self, source_dir: Path) -> tuple[Path, str] | None:
+        """Show a registry-style picker containing lyric files outside source_dir."""
+        candidates: dict[tuple[Path, str], tuple[Path, str]] = {}
+        for directory, metadata in self.metadata_cache.items():
+            if directory == source_dir:
+                continue
+            for item in metadata.get("files", []):
+                if not isinstance(item, dict) or not item.get("name"):
+                    continue
+                target = item.get("linkedTarget") if isinstance(item.get("linkedTarget"), dict) else {}
+                target_dir = directory
+                target_ref = str(item.get("metadataRef") or "")
+                if target.get("path") and target.get("metadataRef"):
+                    candidate_dir = (self.repo / "Lyrics" / str(target["path"])).resolve()
+                    if candidate_dir.is_dir():
+                        target_dir, target_ref = candidate_dir, str(target["metadataRef"])
+                if target_ref:
+                    candidates[(directory, str(item["name"]))] = (target_dir, target_ref)
         if not candidates:
-            self._set_status("当前目录没有其他可关联的曲目实体")
+            self._set_status("没有可关联的其他目录歌词")
             return None
         dialog = tk.Toplevel(self)
-        dialog.title("关联到其他曲目")
+        dialog.title("选择要关联的歌词")
+        dialog.geometry("560x480")
         dialog.transient(self)
         dialog.grab_set()
-        ttk.Label(dialog, text="选择目标曲目：").pack(anchor="w", padx=12, pady=(12, 4))
-        box = tk.Listbox(dialog, width=60, height=min(12, len(candidates)), exportselection=False)
-        for ref, title in candidates:
-            box.insert("end", f"{title} [{ref}]")
-        box.selection_set(0)
-        box.pack(fill="both", expand=True, padx=12)
-        result: list[str] = []
+        ttk.Label(dialog, text="选择原目录以外的目标歌词：").pack(anchor="w", padx=12, pady=(12, 4))
+        tree_frame = ttk.Frame(dialog)
+        tree_frame.pack(fill="both", expand=True, padx=12)
+        tree = ttk.Treeview(tree_frame, show="tree", selectmode="browse")
+        tree.pack(side="left", fill="both", expand=True)
+        scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=tree.yview)
+        scrollbar.pack(side="right", fill="y")
+        tree.configure(yscrollcommand=scrollbar.set)
+        picker_nodes: dict[str, tuple[Path, str] | None] = {}
+        root = tree.insert("", "end", text="Lyrics", open=True)
+        groups: dict[str, str] = {}
+        for (directory, name), target_value in sorted(candidates.items(), key=lambda item: str(item[0][0]).casefold() + item[0][1].casefold()):
+            relative = directory.relative_to(self.repo / "Lyrics")
+            artist = relative.parts[0] if relative.parts else "（未知歌手）"
+            artist_item = groups.setdefault(artist, tree.insert(root, "end", text=artist, open=True))
+            directory_item = tree.insert(artist_item, "end", text="/".join(relative.parts[1:]) or directory.name, open=True)
+            target_dir, target_ref = target_value
+            track = self.metadata_cache.get(target_dir, {}).get("tracks", {}).get(target_ref, {})
+            title = str(track.get("title") or target_ref) if isinstance(track, dict) else target_ref
+            leaf = tree.insert(directory_item, "end", text=f"{name}  →  {title} [{target_ref}]")
+            picker_nodes[leaf] = target_value
+        result: list[tuple[Path, str]] = []
         def confirm() -> None:
-            selection = box.curselection()
-            if selection:
-                result.append(candidates[selection[0]][0])
+            selection = tree.selection()
+            target_value = picker_nodes.get(selection[0]) if selection else None
+            if target_value:
+                result.append(target_value)
                 dialog.destroy()
+            else:
+                self._set_status("请在弹窗中选择一个歌词文件")
         buttons = ttk.Frame(dialog)
         buttons.pack(fill="x", padx=12, pady=12)
         ttk.Button(buttons, text="取消", command=dialog.destroy).pack(side="right")
         ttk.Button(buttons, text="确认关联", command=confirm).pack(side="right", padx=6)
-        box.bind("<Double-Button-1>", lambda _event: confirm())
+        tree.bind("<Double-Button-1>", lambda _event: confirm())
         dialog.protocol("WM_DELETE_WINDOW", dialog.destroy)
         self.wait_window(dialog)
         return result[0] if result else None
+
+    def _move_files_to_target(self, source_dir: Path, target_dir: Path, file_names: list[str], target_ref: str,
+                              *, target_metadata: dict[str, Any] | None = None) -> None:
+        """Move lyrics on disk and update both directory metadata files atomically where possible."""
+        if source_dir == target_dir:
+            raise ValueError("源目录与目标目录相同；请使用关联歌词")
+        source_before = self.adapter.load(source_dir)
+        target_before = self.adapter.load(target_dir)
+        target_working = target_metadata if target_metadata is not None else target_before
+        source_after, target_after = move_file_records_to_target(source_before, target_working, file_names, target_ref)
+        moves = [(source_dir / name, target_dir / name) for name in file_names]
+        for original, destination in moves:
+            if not original.is_file():
+                raise FileNotFoundError(f"找不到源歌词文件：{original.name}")
+            if destination.exists():
+                raise FileExistsError(f"目标目录已有同名文件：{destination.name}")
+        moved: list[tuple[Path, Path, bool]] = []
+        try:
+            for original, destination in moves:
+                git_marked = self.git.is_tracked(original)
+                if git_marked:
+                    self.git.move(original, destination)
+                else:
+                    original.rename(destination)
+                moved.append((original, destination, git_marked))
+            self.adapter.save(target_dir, target_after)
+            self.adapter.save(source_dir, source_after)
+            staged = sum(1 for _, _, git_marked in moved if git_marked)
+            suffix = f"；Git 已标记 {staged} 个重命名" if staged else ""
+            self._set_status(f"已移动 {len(moved)} 个歌词文件到 {target_dir.relative_to(self.repo / 'Lyrics')}{suffix}")
+        except Exception:
+            for original, destination, git_marked in reversed(moved):
+                if destination.exists() and not original.exists():
+                    try:
+                        if git_marked:
+                            self.git.move(destination, original)
+                        else:
+                            destination.rename(original)
+                    except OSError:
+                        pass
+            # Metadata writes are atomic.  Restore both copies if either write failed.
+            try:
+                self.adapter.save(target_dir, target_before)
+                self.adapter.save(source_dir, source_before)
+            except Exception:
+                pass
+            raise
+
+    def _begin_tree_drag(self, event: tk.Event) -> None:
+        item = self.registry_tree.identify_row(event.y)
+        node = self.tree_nodes.get(item)
+        self._drag_source_item = item if node and node.kind in {"file", "track"} else None
+        self._tree_drag_active = False
+
+    def _update_tree_drag_cursor(self, _event: tk.Event) -> None:
+        if self._drag_source_item and not self._tree_drag_active:
+            self._tree_drag_active = True
+            self.registry_tree.configure(cursor="hand2")
+
+    def _finish_tree_drag(self, event: tk.Event) -> None:
+        source_item = self._drag_source_item
+        self._drag_source_item = None
+        self._tree_drag_active = False
+        self.registry_tree.configure(cursor="")
+        if not source_item:
+            return
+        target_item = self.registry_tree.identify_row(event.y)
+        if not target_item or target_item == source_item:
+            return
+        source = self.tree_nodes.get(source_item)
+        target = self.tree_nodes.get(target_item)
+        if not source or not target or target.kind not in {"file", "track"}:
+            return
+        if not source.directory or not target.directory:
+            return
+        if source.kind == "file":
+            file_names = [str(source.file_name)] if source.file_name else []
+        else:
+            file_names = [str(child.file_name) for child in source.children if child.kind == "file" and child.file_name]
+        if not file_names:
+            self._set_status("拖拽的曲目实体没有可处理的歌词文件")
+            return
+        target_dir, target_ref = target.directory, target.metadata_ref
+        if target.kind == "file" and target.linked_target_path and target.linked_target_ref:
+            target_dir = (self.repo / "Lyrics" / target.linked_target_path).resolve()
+            target_ref = target.linked_target_ref
+        if not target_ref:
+            self._set_status("请拖放到一个已绑定曲目实体的歌词或曲目节点")
+            return
+        if source.directory == target_dir and source.metadata_ref == target_ref:
+            self._set_status("源与目标已经是同一曲目实体")
+            return
+        action = self._ask_drop_action(len(file_names), target_dir, target_ref)
+        if action == "cancel":
+            return
+        try:
+            if action == "link":
+                source_metadata = self.adapter.load(source.directory)
+                updated = source_metadata
+                for file_name in file_names:
+                    if source.directory == target_dir:
+                        updated = link_file_record(updated, file_name, target_ref)
+                    else:
+                        relative = target_dir.relative_to(self.repo / "Lyrics").as_posix()
+                        updated = link_file_to_external_target(updated, file_name, relative, target_ref)
+                self.adapter.save(source.directory, updated)
+                old_refs = {
+                    str(item.get("linkedFrom") or item.get("metadataRef") or "")
+                    for item in source_metadata.get("files", [])
+                    if isinstance(item, dict) and item.get("name") in file_names
+                }
+                for old_ref in sorted(old_refs):
+                    self._prompt_remove_empty_track(source.directory, old_ref)
+                self._set_status(f"已关联 {len(file_names)} 个歌词到 {target_ref}")
+            elif action == "move":
+                self._move_files_to_target(source.directory, target_dir, file_names, target_ref)
+            self.refresh_library()
+        except Exception as exc:
+            self._show_error("拖拽操作失败", exc)
+
+    def _ask_drop_action(self, file_count: int, target_dir: Path, target_ref: str) -> str:
+        """Ask whether a drop means metadata linking, physical move, or cancellation."""
+        dialog = tk.Toplevel(self)
+        dialog.title("处理拖放的歌词")
+        dialog.transient(self)
+        dialog.grab_set()
+        relative = target_dir.relative_to(self.repo / "Lyrics")
+        ttk.Label(dialog, text=f"将 {file_count} 个歌词拖放到 {relative} / {target_ref}").pack(padx=16, pady=(16, 8))
+        ttk.Label(dialog, text="请选择操作：关联只共享元数据；移动会更改文件所在目录。").pack(padx=16, pady=(0, 12))
+        result = ["cancel"]
+        def choose(action: str) -> None:
+            result[0] = action
+            dialog.destroy()
+        controls = ttk.Frame(dialog)
+        controls.pack(fill="x", padx=16, pady=(0, 16))
+        ttk.Button(controls, text="取消", command=lambda: choose("cancel")).pack(side="right")
+        ttk.Button(controls, text="移动歌词", command=lambda: choose("move")).pack(side="right", padx=6)
+        ttk.Button(controls, text="关联歌词", command=lambda: choose("link")).pack(side="right")
+        dialog.protocol("WM_DELETE_WINDOW", lambda: choose("cancel"))
+        self.wait_window(dialog)
+        return result[0]
+
+    def _external_link_dependents(self, target_dir: Path, target_ref: str) -> list[tuple[Path, str]]:
+        relative = target_dir.relative_to(self.repo / "Lyrics").as_posix()
+        dependents: list[tuple[Path, str]] = []
+        for directory in self.track_dirs:
+            metadata = self.adapter.load(directory)
+            for item in metadata.get("files", []):
+                target = item.get("linkedTarget") if isinstance(item, dict) else None
+                if isinstance(target, dict) and target.get("path") == relative and target.get("metadataRef") == target_ref:
+                    dependents.append((directory, str(item.get("name") or "")))
+        return [(directory, name) for directory, name in dependents if name]
+
+    def _prompt_remove_empty_track(self, directory: Path, metadata_ref: str) -> None:
+        """Offer to remove a virtual entity once linking leaves it with no local lyrics."""
+        if not metadata_ref:
+            return
+        metadata = self.adapter.load(directory)
+        if metadata_ref not in metadata.get("tracks", {}):
+            return
+        has_local_files = any(
+            isinstance(item, dict) and item.get("metadataRef") == metadata_ref and not isinstance(item.get("linkedTarget"), dict)
+            for item in metadata.get("files", [])
+        )
+        if not has_local_files and messagebox.askyesno(
+            "删除空曲目实体", f"关联后曲目实体“{metadata_ref}”已不再包含本地歌词。是否删除该曲目实体？",
+            parent=self,
+        ):
+            self._delete_track_entity(directory, metadata_ref)
+
+    def _delete_track_entity(self, directory: Path, metadata_ref: str) -> None:
+        metadata = self.adapter.load(directory)
+        dependents = self._external_link_dependents(directory, metadata_ref)
+        updated = remove_track_record(metadata, metadata_ref)
+        self.adapter.save(directory, updated)
+        for dependent_dir, file_name in dependents:
+            if dependent_dir == directory:
+                continue
+            dependent = self.adapter.load(dependent_dir)
+            self.adapter.save(dependent_dir, detach_external_link_record(dependent, file_name))
+        suffix = f"；已解除 {len(dependents)} 个外部关联" if dependents else ""
+        self._set_status(f"已删除曲目实体 {metadata_ref}，歌词保留为未绑定状态{suffix}")
+
+    def delete_selected_node(self, _event: object = None) -> None:
+        """Delete the currently selected registry node with type-appropriate safeguards."""
+        selection = self.registry_tree.selection()
+        node = self.tree_nodes.get(selection[0]) if selection else None
+        if not node:
+            self._set_status("请先在左侧选择要删除的节点")
+            return
+        if node.kind == "file":
+            self.delete_selected_file()
+            return
+        if node.kind == "track":
+            if not node.directory or not node.metadata_ref:
+                file_names = [str(child.file_name) for child in node.children if child.kind == "file" and child.file_name]
+                if not node.directory or not file_names:
+                    self._set_status("该未绑定节点没有可删除的歌词文件")
+                    return
+                if not messagebox.askyesno(
+                    "删除未绑定歌词", f"“{node.label}”不是曲目实体。是否删除其下的 {len(file_names)} 个歌词文件？",
+                    icon="warning", parent=self,
+                ):
+                    self._set_status("已取消删除")
+                    return
+                try:
+                    before = self.adapter.load(node.directory)
+                    after = before
+                    for file_name in file_names:
+                        after = remove_file_record(after, file_name)
+                    paths = [node.directory / file_name for file_name in file_names]
+                    if not all(path.is_file() for path in paths):
+                        raise FileNotFoundError("部分待删除歌词文件已经不存在")
+                    self.adapter.save(node.directory, after)
+                    try:
+                        for path in paths:
+                            path.unlink()
+                    except Exception:
+                        self.adapter.save(node.directory, before)
+                        raise
+                    self._set_status(f"已删除 {len(paths)} 个未绑定歌词文件")
+                    self.refresh_library()
+                except Exception as exc:
+                    self._show_error("删除未绑定歌词失败", exc)
+                return
+            dependents = self._external_link_dependents(node.directory, node.metadata_ref)
+            extra = f"\n并解除 {len(dependents)} 个外部关联。" if dependents else ""
+            if messagebox.askyesno(
+                "删除曲目实体", f"删除曲目实体“{node.label}”？\n歌词文件会保留并变为未绑定状态。{extra}",
+                icon="warning", parent=self,
+            ):
+                try:
+                    self._delete_track_entity(node.directory, node.metadata_ref)
+                    self.refresh_library()
+                except Exception as exc:
+                    self._show_error("删除曲目实体失败", exc)
+            return
+        if node.kind not in {"root", "artist", "directory"}:
+            return
+        lyrics_root = (self.repo / "Lyrics").resolve()
+        target = lyrics_root if node.kind == "root" else (node.directory or (lyrics_root / node.label)).resolve()
+        try:
+            target.relative_to(lyrics_root)
+        except ValueError:
+            self._show_error("删除失败", ValueError("拒绝删除歌词库以外的路径"))
+            return
+        if not target.exists():
+            self._set_status("目标目录已经不存在")
+            return
+        description = "整个歌词库内容" if node.kind == "root" else str(target.relative_to(lyrics_root))
+        if not messagebox.askyesno(
+            "确认删除目录", f"确定删除“{description}”及其所有歌词、元数据吗？\n此操作不可撤销。",
+            icon="warning", parent=self,
+        ):
+            self._set_status("已取消删除")
+            return
+        try:
+            if node.kind == "root":
+                for child in list(target.iterdir()):
+                    if child.is_dir():
+                        shutil.rmtree(child)
+                    else:
+                        child.unlink()
+            else:
+                shutil.rmtree(target)
+            self.current_file_path = None
+            self.current_dir = None
+            self.selected_file_var.set("")
+            self._set_status(f"已删除 {description}")
+            self.refresh_library()
+        except Exception as exc:
+            self._show_error("删除目录失败", exc)
 
     def split_selected_file(self) -> None:
         """Clone the selected entity and bind only the selected file to it."""
@@ -779,6 +1443,36 @@ class LyricsManagerApp(tk.Tk):
             _reveal_path(path)
         except Exception as exc:
             self._show_error("打开文件管理器失败", exc)
+
+    def delete_selected_file(self) -> None:
+        """Delete the selected lyric and remove its per-directory metadata record."""
+        path = self._selected_file()
+        if not path:
+            self._set_status("请先选择要删除的歌词文件")
+            return
+        if not messagebox.askyesno(
+            "确认删除", f"确定永久删除“{path.name}”吗？\n\n其在 lyrics.metadata 中的关联也会一并解除。",
+            icon="warning", parent=self,
+        ):
+            self._set_status("已取消删除")
+            return
+        directory = path.parent
+        try:
+            before = self.adapter.load(directory)
+            after = remove_file_record(before, path.name)
+            # Persist the unbinding first; if deleting the file fails, restore it.
+            self.adapter.save(directory, after)
+            try:
+                path.unlink()
+            except Exception:
+                self.adapter.save(directory, before)
+                raise
+            self.current_file_path = None
+            self.selected_file_var.set("")
+            self._set_status(f"已删除 {path.name}，并解除其元数据关联")
+            self.refresh_library()
+        except Exception as exc:
+            self._show_error("删除失败", exc)
 
     def convert_selected_ttml(self) -> None:
         path = self._selected_file()
