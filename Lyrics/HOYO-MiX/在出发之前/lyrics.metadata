@@ -19,6 +19,20 @@
   },
   "files": [
     {
+      "name": "Before Setting Out (2).lys",
+      "format": "lys",
+      "metadataRef": "before-setting-out",
+      "linked": true,
+      "linkedFrom": "before-setting-out"
+    },
+    {
+      "name": "Before Setting Out.lys",
+      "format": "lys",
+      "metadataRef": "before-setting-out",
+      "linked": true,
+      "linkedFrom": "before-setting-out"
+    },
+    {
       "name": "在出发之前.ttml",
       "format": "ttml",
       "metadataRef": "before-setting-out"
