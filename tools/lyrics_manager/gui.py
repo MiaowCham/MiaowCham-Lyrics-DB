@@ -17,6 +17,7 @@ import shutil
 import subprocess
 import sys
 import threading
+import time
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from typing import Any
@@ -420,9 +421,19 @@ class LyricsManagerApp(tk.Tk):
         self._apply_theme()
         self.repo = Path(root_path or Path(__file__).resolve().parents[2]).resolve()
         self.adapter = CoreAdapter(self.repo)
-        self.git = GitService(self.repo)
         self.gh_executable: str | None = self._preferences.get("gh_executable") or None
-        self.github = GitHubPRService(self.repo, gh_executable=self.gh_executable)
+        self.git_executable: str | None = self._preferences.get("git_executable") or None
+        self.git: GitService | None = None
+        self.git_init_error: Exception | None = None
+        try:
+            self.git = GitService(self.repo, git_executable=self.git_executable or "git")
+        except Exception as exc:  # git missing / not a repo: stay usable, fix in Settings
+            self.git_init_error = exc
+        self.github = GitHubPRService(
+            self.repo,
+            gh_executable=self.gh_executable,
+            git_executable=self.git_executable,
+        )
         self.track_dirs: list[Path] = []
         self.metadata_cache: dict[Path, dict[str, Any]] = {}
         self.registry_model: RegistryNode | None = None
@@ -447,6 +458,7 @@ class LyricsManagerApp(tk.Tk):
         self.tree_node_keys: dict[str, str] = {}
         self._git_busy = False
         self._git_buttons: list[ttk.Button] = []
+        self._commit_include: dict[str, bool] = {}  # path -> include in commit
         self._git_results: queue.Queue[tuple[Any, Exception | None]] = queue.Queue()
         self._scan_results: queue.Queue[tuple[Any, Exception | None]] = queue.Queue()
         self._scan_busy = False
@@ -476,6 +488,7 @@ class LyricsManagerApp(tk.Tk):
                 "tree_expansion_known": self._tree_expansion_known,
                 "theme_mode": self.theme.mode,
                 "gh_executable": self.gh_executable or "",
+                "git_executable": self.git_executable or "",
                 "offer_merge_after_pr": self.offer_merge_var.get(),
             })
             CONFIG_PATH.write_text(json.dumps(self._preferences, ensure_ascii=False), encoding="utf-8")
@@ -682,9 +695,26 @@ class LyricsManagerApp(tk.Tk):
             edit, text="开启后，保存 lyrics.metadata 会把元数据写回 TTML/LRCN 头部。",
         ).grid(row=1, column=0, sticky="w", pady=(4, 0))
 
+        # -- Git -------------------------------------------------------------
+        gitbox = ttk.LabelFrame(parent, text="Git", padding=12)
+        gitbox.grid(row=2, column=0, sticky="nw", padx=8, pady=4)
+        gitbox.columnconfigure(1, weight=1)
+        ttk.Label(gitbox, text="git 可执行文件").grid(row=0, column=0, sticky="w", pady=(0, 4))
+        git_controls = ttk.Frame(gitbox)
+        git_controls.grid(row=1, column=0, columnspan=2, sticky="ew")
+        git_controls.columnconfigure(0, weight=1)
+        self.git_path_var = tk.StringVar(value=self.git_executable or "")
+        self.git_path_entry = ttk.Entry(git_controls, textvariable=self.git_path_var)
+        self.git_path_entry.grid(row=0, column=0, sticky="ew")
+        ttk.Button(git_controls, text="选择", command=self._browse_git_executable).grid(row=0, column=1, padx=(4, 0))
+        ttk.Button(git_controls, text="重置", command=self._reset_git_executable).grid(row=0, column=2, padx=(4, 0))
+        ttk.Label(
+            gitbox, text="留空则自动检测（推荐）。PATH 找不到 git 时在此指定。",
+        ).grid(row=2, column=0, columnspan=2, sticky="w", pady=(6, 0))
+
         # -- GitHub ----------------------------------------------------------
         gh = ttk.LabelFrame(parent, text="GitHub", padding=12)
-        gh.grid(row=2, column=0, sticky="nw", padx=8, pady=4)
+        gh.grid(row=3, column=0, sticky="nw", padx=8, pady=4)
         gh.columnconfigure(1, weight=1)
         ttk.Label(gh, text="gh 可执行文件").grid(row=0, column=0, sticky="w", pady=(0, 4))
         gh_controls = ttk.Frame(gh)
@@ -724,9 +754,50 @@ class LyricsManagerApp(tk.Tk):
             self.gh_path_var.set(path)
         except tk.TclError:
             pass
-        self.github = GitHubPRService(self.repo, gh_executable=self.gh_executable)
+        self.github = GitHubPRService(
+            self.repo,
+            gh_executable=self.gh_executable,
+            git_executable=self.git_executable,
+        )
         self._save_preference()
         self._set_status("gh 可执行文件已更新")
+
+    def _browse_git_executable(self) -> None:
+        path = filedialog.askopenfilename(title="选择 git 可执行文件", parent=self)
+        if path:
+            self._set_git_executable(path)
+
+    def _reset_git_executable(self) -> None:
+        self._set_git_executable("")
+
+    def _set_git_executable(self, path: str) -> None:
+        """Point the manager at a specific git binary (e.g. when PATH misses it).
+
+        ``GitService`` validates git eagerly, so an unresolvable path surfaces as
+        an actionable error rather than silently failing later.
+        """
+        path = path.strip()
+        if path and not Path(path).is_file():
+            self._show_error("无效路径", ValueError(f"未找到文件：{path}"))
+            return
+        self.git_executable = path or None
+        try:
+            self.git_path_var.set(path)
+        except tk.TclError:
+            pass
+        try:
+            self.git = GitService(self.repo, git_executable=self.git_executable or "git")
+            self.git_init_error = None
+        except Exception as exc:  # GitError/ValueError from a bad executable
+            self._show_error("Git 初始化失败", exc)
+            return
+        self.github = GitHubPRService(
+            self.repo,
+            gh_executable=self.gh_executable,
+            git_executable=self.git_executable,
+        )
+        self._save_preference()
+        self._set_status("git 可执行文件已更新")
 
     def _set_status(self, text: str) -> None:
         self.status_var.set(text)
@@ -858,20 +929,24 @@ class LyricsManagerApp(tk.Tk):
         self.git_change_count = ttk.Label(change_side, text="变更（0）")
         self.git_change_count.grid(row=0, column=0, sticky="w", pady=(0, 4))
         self.git_changes = ttk.Treeview(
-            change_side, columns=("staged", "worktree"), show="tree headings",
+            change_side, columns=("include", "staged", "worktree"), show="tree headings",
             selectmode="extended", height=14,
         )
         self.git_changes.heading("#0", text="文件")
+        self.git_changes.heading("include", text="暂存")
         self.git_changes.heading("staged", text="暂存区")
         self.git_changes.heading("worktree", text="工作区")
-        self.git_changes.column("#0", width=280, stretch=True)
-        self.git_changes.column("staged", width=70, anchor="center", stretch=False)
-        self.git_changes.column("worktree", width=70, anchor="center", stretch=False)
+        self.git_changes.column("#0", width=260, stretch=True)
+        self.git_changes.column("include", width=52, anchor="center", stretch=False)
+        self.git_changes.column("staged", width=60, anchor="center", stretch=False)
+        self.git_changes.column("worktree", width=60, anchor="center", stretch=False)
         self.git_changes.grid(row=1, column=0, sticky="nsew")
         self.git_changes.bind("<<TreeviewSelect>>", self._git_show_selected_diff)
+        self.git_changes.bind("<Button-1>", self._toggle_change_include)
         action_bar = ttk.Frame(change_side)
         action_bar.grid(row=2, column=0, sticky="ew", pady=(6, 0))
-        for label, command in (("暂存所选", self.git_stage), ("取消暂存", self.git_unstage)):
+        for label, command in (("全部勾选", self._check_all_changes), ("取消全部", self._uncheck_all_changes),
+                               ("暂存所选", self.git_stage), ("取消暂存", self.git_unstage)):
             button = ttk.Button(action_bar, text=label, command=command)
             button.pack(side="left", padx=(0, 5))
             self._git_buttons.append(button)
@@ -1895,6 +1970,17 @@ class LyricsManagerApp(tk.Tk):
         """Run Git away from Tk; marshal every UI callback onto Tk's thread."""
         if self._git_busy:
             return False
+        if self.git is None:
+            detail = str(self.git_init_error or "")
+            self._set_status("Git 不可用：请到「设置」页指定 git 可执行文件")
+            messagebox.showwarning(
+                "Git 不可用",
+                "未找到可用的 git，无法执行版本管理操作。\n\n"
+                "请到「设置」页的 Git 组指定 git 可执行文件路径后重试。"
+                + (f"\n\n原因：{detail}" if detail else ""),
+                parent=self,
+            )
+            return False
         self._git_busy = True
         self.git_busy_label.configure(text=f"{label}…")
         self._set_status(f"Git：{label}…")
@@ -1942,20 +2028,76 @@ class LyricsManagerApp(tk.Tk):
         entries, branch = payload
         self.git_repository_label.configure(text=f"{self.git.repository_name()}  ·  {branch}")
         self.git_changes.delete(*self.git_changes.get_children())
+        fresh_paths: set[str] = set()
         for entry in entries:
             staged = entry.index_status if entry.staged else "—"
             unstaged = entry.worktree_status if entry.unstaged else "—"
-            self.git_changes.insert("", "end", text=entry.path, values=(staged, unstaged))
+            checked = self._commit_include.get(entry.path, True)
+            fresh_paths.add(entry.path)
+            self.git_changes.insert("", "end", text=entry.path,
+                                    values=(self._check_mark(checked), staged, unstaged))
+        # Drop stale include choices for files no longer in the change set.
+        for path in list(self._commit_include):
+            if path not in fresh_paths:
+                self._commit_include.pop(path, None)
         self.git_change_count.configure(text=f"变更（{len(entries)}）")
-        self.git_commit_button.configure(state="normal" if any(e.staged for e in entries) else "disabled")
+        any_checked = any(self._commit_include.get(e.path, True) for e in entries)
+        self.git_commit_button.configure(state="normal" if any_checked else "disabled")
         if not entries:
             self.git_diff_label.configure(text="没有本地变更")
             self._set_git_output("工作区干净")
+
+    @staticmethod
+    def _check_mark(checked: bool) -> str:
+        return "☑" if checked else "☐"
+
+    def _set_change_checked(self, item: str, checked: bool) -> None:
+        path = self.git_changes.item(item, "text")
+        self._commit_include[path] = checked
+        self.git_changes.set(item, "include", self._check_mark(checked))
+        self._update_commit_button_state()
+
+    def _update_commit_button_state(self) -> None:
+        any_checked = any(
+            self._commit_include.get(self.git_changes.item(item, "text"), True)
+            for item in self.git_changes.get_children()
+        )
+        self.git_commit_button.configure(state="normal" if any_checked else "disabled")
+
+    def _toggle_change_include(self, event: tk.Event) -> None:
+        region = self.git_changes.identify_region(event.x, event.y)
+        if region != "cell":
+            return
+        column = self.git_changes.identify_column(event.x)
+        if column != "#1":  # the "暂存" checkbox column
+            return
+        item = self.git_changes.identify_row(event.y)
+        if not item:
+            return
+        path = self.git_changes.item(item, "text")
+        self._set_change_checked(item, not self._commit_include.get(path, True))
+
+    def _check_all_changes(self) -> None:
+        for item in self.git_changes.get_children():
+            self._commit_include[self.git_changes.item(item, "text")] = True
+            self.git_changes.set(item, "include", self._check_mark(True))
+        self._update_commit_button_state()
+
+    def _uncheck_all_changes(self) -> None:
+        for item in self.git_changes.get_children():
+            self._commit_include[self.git_changes.item(item, "text")] = False
+            self.git_changes.set(item, "include", self._check_mark(False))
+        self._update_commit_button_state()
 
     def _git_paths(self) -> list[str]:
         return [self.git_changes.item(item, "text") for item in self.git_changes.selection()]
 
     def git_status(self) -> None:
+        if self.git is None:
+            self._set_status("Git 不可用：请到「设置」页的 Git 组指定 git 可执行文件")
+            self.git_repository_label.configure(text="Git 不可用")
+            self.github_state_label.configure(text="Git 不可用")
+            return
         self._run_git_task("刷新", self._git_snapshot, self._apply_git_snapshot)
 
     def _git_show_selected_diff(self, _event: object = None) -> None:
@@ -1995,13 +2137,36 @@ class LyricsManagerApp(tk.Tk):
         if paths and messagebox.askyesno("确认取消暂存", "取消暂存所选文件？", parent=self):
             self._run_git_task("取消暂存", lambda: (self.git.unstage(paths), self._git_snapshot()),
                                lambda result: (self._set_git_output(result[0]), self._apply_git_snapshot(result[1])))
+    def _checked_paths(self) -> list[str]:
+        """Paths whose "暂存" checkbox is on, in list order."""
+        paths: list[str] = []
+        for item in self.git_changes.get_children():
+            path = self.git_changes.item(item, "text")
+            if self._commit_include.get(path, True):
+                paths.append(path)
+        return paths
+
     def git_commit(self) -> None:
         message = self.git_commit_summary.get().strip()
         if not message:
             self._set_status("请填写提交摘要")
             return
         description = self.git_commit_description.get("1.0", "end-1c")
-        if messagebox.askyesno("确认提交", f"创建提交：{message}", parent=self):
+        checked = self._checked_paths()
+        if not checked:
+            self._set_status("未勾选任何变更文件，无法提交")
+            messagebox.showinfo("没有勾选文件", "请先勾选要提交的文件（☑），再点击「提交」。", parent=self)
+            return
+        if messagebox.askyesno(
+            "确认提交",
+            f"将暂存并提交 {len(checked)} 个勾选文件：\n{message}",
+            parent=self,
+        ):
+            def task() -> Any:
+                stage_output = self.git.stage(checked)
+                commit_output = self.git.commit(message, description)
+                return (stage_output + commit_output, self._git_snapshot(), self.git.log_entries())
+
             def done(result: Any) -> None:
                 output, snapshot, history = result
                 self._set_git_output(output)
@@ -2012,7 +2177,7 @@ class LyricsManagerApp(tk.Tk):
                 for entry in history:
                     self.git_history.insert("", "end", text=entry.subject,
                                             values=(entry.date, entry.author, entry.short_commit))
-            self._run_git_task("提交", lambda: (self.git.commit(message, description), self._git_snapshot(), self.git.log_entries()), done)
+            self._run_git_task("提交", task, done)
     def git_fetch(self) -> None:
         if messagebox.askyesno("确认 Fetch", "从已配置远端获取最新对象和引用？", parent=self):
             self._run_git_task("Fetch", lambda: (self.git.fetch(), self._git_snapshot()),
@@ -2115,22 +2280,77 @@ class LyricsManagerApp(tk.Tk):
         if not result or not result["title"]:
             return
 
+        # Resolve the base/current branch and decide the workflow.
+        base_default = base or ""
+        current = ""
+        try:
+            current = self.git.current_branch()
+        except Exception as exc:
+            self._show_error("读取当前分支失败", exc)
+            return
+        try:
+            entries = self.git.status_entries()
+        except Exception:
+            entries = []
+        has_changes = bool(entries)
+        same_as_base = bool(base_default and current == base_default and "分离" not in current)
+
+        if same_as_base:
+            if not messagebox.askyesno(
+                "当前在默认分支上",
+                f"你当前在默认分支 {base_default} 上，无法直接对其开 PR。\n\n"
+                "是否自动创建临时分支，把变更提交上去，推送并开 PR，"
+                f"再切回 {base_default}？",
+                parent=self,
+            ):
+                self._set_status("已取消创建 PR")
+                return
+            temp_branch = self._temp_branch_name(result["title"], base_default)
+        else:
+            temp_branch = ""
+
         def do_create() -> Any:
+            git = self.git
+            if same_as_base:
+                original = git.current_branch()
+                git.switch_create(temp_branch)
+                if has_changes:
+                    git.stage_all()
+                    git.commit(result["title"], result["body"] or "Changes for PR")
+                push_output = git.push_upstream(temp_branch)
+                created = self.github.create(
+                    result["title"], body=result["body"], base=base_default,
+                )
+                try:
+                    git.switch(original)
+                except Exception:
+                    pass
+                created["temp_branch"] = temp_branch
+                created["original_branch"] = original
+                created["push_output"] = push_output
+                return created
             return self.github.create(
-                result["title"],
-                body=result["body"],
-                base=base or None,
-                push=True,
+                result["title"], body=result["body"], base=base_default or None, push=True,
             )
 
         def on_created(payload: Any) -> None:
             url = payload.get("url", "")
             number = payload.get("number", 0)
-            self._set_git_output(payload.get("output", ""))
-            self._set_status(f"PR 已创建：{url}")
+            temp = payload.get("temp_branch", "")
+            output = payload.get("output", "")
+            if temp:
+                output = (output + f"\n\n（变更已提交到临时分支 {temp} 并推送）").strip()
+            self._set_git_output(output)
+            note = f"（临时分支 {temp}）" if temp else ""
+            self._set_status(f"PR 已创建：{url} {note}")
             self._after_pr_created(number, url)
 
         self._run_git_task("创建 PR", do_create, on_created)
+
+    def _temp_branch_name(self, title: str, base: str) -> str:
+        slug = re.sub(r"[^\w\u4e00-\u9fff-]+", "-", title).strip("-").lower() or "pr"
+        slug = slug[:40].strip("-") or "pr"
+        return f"pr/{slug}-{int(time.time())}"
 
     def _after_pr_created(self, number: int, url: str) -> None:
         """Offer immediate merge when the actor is the repository owner."""

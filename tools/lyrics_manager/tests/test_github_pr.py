@@ -68,17 +68,31 @@ class GitHubPRServiceTests(unittest.TestCase):
                 return _completed()
         return fake_run
 
-    def test_create_uses_push_flag_and_parses_url(self) -> None:
+    def test_create_uses_explicit_push_and_parses_url(self) -> None:
         output = "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/pull/42\n"
         fake = self._capture_run([_completed(output)])
         with patch("tools.lyrics_manager.github_pr.GitHubPRService._run", side_effect=fake) as run:
-            result = self.service.create("feat: 歌词", body="说明", base="main", push=True)
+            with patch("tools.lyrics_manager.github_pr.GitService") as git_cls:
+                git_instance = git_cls.return_value
+                git_instance.current_branch.return_value = "feature-x"
+                git_instance.push_upstream.return_value = "pushed ok"
+                result = self.service.create("feat: 歌词", body="说明", base="main", push=True)
         self.assertEqual(result["number"], 42)
         self.assertEqual(result["url"], "https://github.com/MiaowCham/MiaowCham-Lyrics-DB/pull/42")
+        self.assertEqual(result["push_output"], "pushed ok")
         args = run.call_args.args
-        self.assertIn("--push", args)
+        # The branch is pushed explicitly, not via `gh pr create --push`.
+        self.assertNotIn("--push", args)
         self.assertIn("--base", args)
         self.assertIn("--title", args)
+        git_instance.push_upstream.assert_called_once_with("feature-x")
+
+    def test_create_with_push_rejects_detached_head(self) -> None:
+        with patch("tools.lyrics_manager.github_pr.GitService") as git_cls:
+            git_instance = git_cls.return_value
+            git_instance.current_branch.return_value = "abc1234（分离 HEAD）"
+            with self.assertRaisesRegex(GitHubError, "分离 HEAD"):
+                self.service.create("title", push=True)
 
     def test_create_rejects_empty_title(self) -> None:
         with self.assertRaisesRegex(GitHubError, "标题"):
