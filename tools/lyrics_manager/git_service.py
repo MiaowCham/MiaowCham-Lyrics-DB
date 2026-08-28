@@ -135,6 +135,17 @@ class GitService:
     def status(self) -> str:
         return self._run_raw("status", "--short", "--branch").stdout
 
+    def refresh_index(self) -> str:
+        """Refresh the index stat cache so Git reports accurate state.
+
+        The manager rewrites metadata atomically, which touches file mtimes.
+        Under ``core.autocrlf=true`` Git may then report a file as modified
+        (with an empty diff) purely on a stale stat cache until the index is
+        refreshed.  ``update-index --refresh`` re-validates content and clears
+        those false positives without staging anything.
+        """
+        return self._run_raw("update-index", "--refresh", check=False).stdout
+
     def is_tracked(self, path: str | Path) -> bool:
         """Return whether Git currently tracks a concrete repository file."""
         return self._run_raw("ls-files", "--error-unmatch", "--", *self._paths([path]), check=False).returncode == 0

@@ -1935,6 +1935,7 @@ class LyricsManagerApp(tk.Tk):
         return True
 
     def _git_snapshot(self) -> tuple[Any, str]:
+        self.git.refresh_index()
         return self.git.status_entries(), self.git.current_branch()
 
     def _apply_git_snapshot(self, payload: tuple[Any, str]) -> None:

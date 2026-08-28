@@ -41,6 +41,14 @@ def _read_text(path: Path) -> str:
 
 
 def _atomic_text(path: Path, text: str) -> None:
+    # Nothing changed: leave the file (and thus its mtime and Git's index stat
+    # cache) untouched.  Rewriting an identical file would otherwise make Git
+    # report it as modified with an empty diff under core.autocrlf=true.
+    try:
+        if path.exists() and path.read_text(encoding="utf-8-sig") == text:
+            return
+    except (OSError, UnicodeDecodeError):
+        pass
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:

@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.lyrics_manager.core import LyricsDatabase, parse_lrcn, parse_ttml, preview_lrcn
+from tools.lyrics_manager.core import LyricsDatabase, _atomic_text, parse_lrcn, parse_ttml, preview_lrcn
 from tools.lyrics_manager.gui import remove_track_record
 
 
@@ -26,6 +26,28 @@ class CoreTests(unittest.TestCase):
 
     def tearDown(self):
         self.temp.cleanup()
+
+    def test_atomic_text_skips_identical_write(self):
+        """Rewriting identical content must not touch the file (nor its mtime).
+
+        Git relies on the index stat cache to detect changes; an unnecessary
+        rewrite under ``core.autocrlf=true`` makes Git report an unchanged file
+        as modified with an empty diff.  The manager should therefore leave the
+        file untouched when the new text is byte-for-byte identical.
+        """
+        import time
+        target = self.root / "unchanged.txt"
+        content = "one\ntwo\n"
+        _atomic_text(target, content)
+        first_mtime = target.stat().st_mtime_ns
+        time.sleep(0.02)
+        _atomic_text(target, content)
+        self.assertEqual(target.stat().st_mtime_ns, first_mtime, "identical rewrite should be skipped")
+        self.assertEqual(target.read_text(encoding="utf-8"), content)
+        time.sleep(0.02)
+        _atomic_text(target, "changed\n")
+        self.assertNotEqual(target.stat().st_mtime_ns, first_mtime, "changed content should be rewritten")
+        self.assertEqual(target.read_text(encoding="utf-8"), "changed\n")
 
     def test_extract_ttml_and_lrcn(self):
         ttml = parse_ttml(self.track_dir / "song.ttml")
