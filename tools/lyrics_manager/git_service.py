@@ -186,6 +186,17 @@ class GitService:
             return branch
         return self._run_raw("rev-parse", "--short", "HEAD").stdout.strip() + "（分离 HEAD）"
 
+    def default_branch(self) -> str:
+        """Return the remote's default branch name (e.g. ``main``)."""
+        result = self._run_raw(
+            "symbolic-ref", "--quiet", "--short", "refs/remotes/origin/HEAD",
+            check=False,
+        )
+        name = result.stdout.strip()
+        if name.startswith("origin/"):
+            name = name[len("origin/"):]
+        return name or "main"
+
     def diff(self, paths: Iterable[str | Path] = (), *, staged: bool = False) -> str:
         args = ["diff"]
         if staged:

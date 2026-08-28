@@ -452,6 +452,7 @@ class LyricsManagerApp(tk.Tk):
         self.current_file_path: Path | None = None
         self.auto_sync_var = tk.BooleanVar(value=bool(self._preferences.get("auto_sync", False)))
         self.offer_merge_var = tk.BooleanVar(value=bool(self._preferences.get("offer_merge_after_pr", True)))
+        self.commit_to_temp_var = tk.BooleanVar(value=bool(self._preferences.get("commit_to_temp_branch", False)))
         expanded = self._preferences.get("expanded_tree_nodes", [])
         self._expanded_tree_keys: set[str] = {str(value) for value in expanded if isinstance(value, str)}
         self._tree_expansion_known = bool(self._preferences.get("tree_expansion_known", False))
@@ -490,6 +491,7 @@ class LyricsManagerApp(tk.Tk):
                 "gh_executable": self.gh_executable or "",
                 "git_executable": self.git_executable or "",
                 "offer_merge_after_pr": self.offer_merge_var.get(),
+                "commit_to_temp_branch": self.commit_to_temp_var.get(),
             })
             CONFIG_PATH.write_text(json.dumps(self._preferences, ensure_ascii=False), encoding="utf-8")
         except OSError as exc:
@@ -694,6 +696,13 @@ class LyricsManagerApp(tk.Tk):
         ttk.Label(
             edit, text="开启后，保存 lyrics.metadata 会把元数据写回 TTML/LRCN 头部。",
         ).grid(row=1, column=0, sticky="w", pady=(4, 0))
+        ttk.Checkbutton(
+            edit, text="提交到临时分支",
+            variable=self.commit_to_temp_var, command=self._save_preference,
+        ).grid(row=2, column=0, sticky="w", pady=(10, 0))
+        ttk.Label(
+            edit, text="点击「提交」时，默认把变更提交到临时分支（而非当前分支）。",
+        ).grid(row=3, column=0, sticky="w", pady=(4, 0))
 
         # -- Git -------------------------------------------------------------
         gitbox = ttk.LabelFrame(parent, text="Git", padding=12)
@@ -2147,6 +2156,9 @@ class LyricsManagerApp(tk.Tk):
         return paths
 
     def git_commit(self) -> None:
+        if self.git is None:
+            self._set_status("Git 不可用：请到「设置」页的 Git 组指定 git 可执行文件")
+            return
         message = self.git_commit_summary.get().strip()
         if not message:
             self._set_status("请填写提交摘要")
@@ -2157,27 +2169,81 @@ class LyricsManagerApp(tk.Tk):
             self._set_status("未勾选任何变更文件，无法提交")
             messagebox.showinfo("没有勾选文件", "请先勾选要提交的文件（☑），再点击「提交」。", parent=self)
             return
-        if messagebox.askyesno(
-            "确认提交",
-            f"将暂存并提交 {len(checked)} 个勾选文件：\n{message}",
+        current = self.git.current_branch()
+        default_branch = self._default_branch_name()
+
+        # Decide the commit target.  The setting may pre-choose a temp branch;
+        # otherwise ask the user on every commit.
+        use_temp = self.commit_to_temp_var.get()
+        if not use_temp:
+            use_temp = messagebox.askyesno(
+                "提交目标",
+                f"是否提交到临时分支？\n（选“否”则提交到当前分支：{current}）",
+                parent=self,
+            )
+
+        if not use_temp:
+            self._run_commit(checked, message, description, switch_to=None)
+            return
+
+        # Commit to a temporary branch.  If we are already on a non-default
+        # branch, keep committing to it rather than forking a new one.
+        on_detached = "分离" in current
+        if not on_detached and current != default_branch:
+            temp_branch = current      # continue the existing temporary branch
+            switch_to = None
+            target_label = f"当前分支 {current}"
+        else:
+            temp_branch = self._temp_branch_name(message, default_branch)
+            switch_to = temp_branch
+            target_label = f"临时分支 {temp_branch}"
+
+        if not messagebox.askyesno(
+            "确认提交到临时分支",
+            f"将暂存并提交 {len(checked)} 个勾选文件到：{target_label}\n{message}",
             parent=self,
         ):
-            def task() -> Any:
-                stage_output = self.git.stage(checked)
-                commit_output = self.git.commit(message, description)
-                return (stage_output + commit_output, self._git_snapshot(), self.git.log_entries())
+            return
+        self._run_commit(checked, message, description, switch_to=switch_to,
+                         temp_branch=temp_branch)
 
-            def done(result: Any) -> None:
-                output, snapshot, history = result
-                self._set_git_output(output)
-                self._apply_git_snapshot(snapshot)
-                self.git_commit_summary.delete(0, "end")
-                self.git_commit_description.delete("1.0", "end")
-                self.git_history.delete(*self.git_history.get_children())
-                for entry in history:
-                    self.git_history.insert("", "end", text=entry.subject,
-                                            values=(entry.date, entry.author, entry.short_commit))
-            self._run_git_task("提交", task, done)
+    def _run_commit(self, checked: list[str], message: str, description: str,
+                    *,
+                    switch_to: str | None,
+                    temp_branch: str | None = None) -> None:
+        """Stage the checked files, optionally switching to a branch, then commit."""
+        def task() -> Any:
+            git = self.git
+            branch_before = ""
+            if switch_to:
+                branch_before = git.current_branch()
+                git.switch_create(switch_to)
+            stage_output = git.stage(checked)
+            commit_output = git.commit(message, description)
+            return (stage_output + commit_output, self._git_snapshot(), git.log_entries(),
+                    branch_before, switch_to)
+
+        def done(result: Any) -> None:
+            output, snapshot, history, branch_before, switch_to = result
+            self._set_git_output(output)
+            self._apply_git_snapshot(snapshot)
+            self.git_commit_summary.delete(0, "end")
+            self.git_commit_description.delete("1.0", "end")
+            self.git_history.delete(*self.git_history.get_children())
+            for entry in history:
+                self.git_history.insert("", "end", text=entry.subject,
+                                        values=(entry.date, entry.author, entry.short_commit))
+            if switch_to:
+                self._set_status(f"已提交到临时分支 {switch_to}")
+
+        self._run_git_task("提交", task, done)
+
+    def _default_branch_name(self) -> str:
+        try:
+            return self.git.default_branch()
+        except Exception:
+            return "main"
+
     def git_fetch(self) -> None:
         if messagebox.askyesno("确认 Fetch", "从已配置远端获取最新对象和引用？", parent=self):
             self._run_git_task("Fetch", lambda: (self.git.fetch(), self._git_snapshot()),
@@ -2382,10 +2448,44 @@ class LyricsManagerApp(tk.Tk):
 
         def on_merged(result: Any) -> None:
             self._set_git_output(result.get("output", "已合并"))
-            self._set_status(f"PR #{number} 已合并")
-            messagebox.showinfo("合并完成", f"PR #{number} 已以 squash 方式合并。", parent=self)
+            self._set_status(f"PR #{number} 已合并，正在切回默认分支并拉取…")
+            messagebox.showinfo(
+                "合并完成",
+                f"PR #{number} 已以 squash 方式合并。\n正在将仓库切回默认分支并拉取最新代码。",
+                parent=self,
+            )
+            self._refresh_main_after_merge()
 
         self._run_git_task("合并 PR", do_merge, on_merged)
+
+    def _refresh_main_after_merge(self) -> None:
+        """After a merge, put the repo back on the default branch and pull it."""
+        default = self._default_branch_name()
+
+        def task() -> Any:
+            git = self.git
+            notes: list[str] = []
+            try:
+                current = git.current_branch()
+                if current != default and "分离" not in current:
+                    notes.append(git.switch(default))
+            except Exception as exc:
+                notes.append(f"切换分支失败：{exc}")
+            try:
+                pull = git.pull_ff_only()
+                if pull.strip():
+                    notes.append(pull)
+            except Exception as exc:
+                notes.append(f"拉取失败：{exc}")
+            return ("\n".join(notes), self._git_snapshot())
+
+        def done(result: Any) -> None:
+            output, snapshot = result
+            self._set_git_output(output or "已切回默认分支并拉取最新代码")
+            self._apply_git_snapshot(snapshot)
+            self._set_status(f"已切回默认分支 {default} 并拉取最新代码")
+
+        self._run_git_task("拉取 main", task, done)
 
     # --- Pull request page ----------------------------------------------
 
