@@ -97,11 +97,17 @@ class GitHubPRService:
     NETWORK_TIMEOUT = 120.0
     LOGIN_TIMEOUT = 600.0
 
-    def __init__(self, repository: str | Path, gh_executable: str | None = None) -> None:
+    def __init__(
+        self,
+        repository: str | Path,
+        gh_executable: str | None = None,
+        git_executable: str | None = None,
+    ) -> None:
         self.repository = Path(repository).resolve()
         if not self.repository.is_dir():
             raise ValueError(f"仓库目录不存在：{self.repository}")
         self.gh_executable = gh_executable or _gh_available()
+        self.git_executable = git_executable or "git"
         self._process_lock = threading.Lock()
 
     # -- infrastructure ---------------------------------------------------
@@ -277,7 +283,7 @@ class GitHubPRService:
         return RepositoryInfo(owner=owner, repo=repo, default_branch=default_branch, login=login)
 
     def current_branch(self) -> str:
-        return GitService(self.repository).current_branch()
+        return GitService(self.repository, self.git_executable).current_branch()
 
     def is_owner(self) -> bool:
         """Return whether the authenticated user may administer this repo.
@@ -323,15 +329,28 @@ class GitHubPRService:
     ) -> dict[str, Any]:
         """Open a pull request, optionally pushing the current branch first.
 
-        With ``push=True``, ``gh`` pushes the current branch to its remote
-        tracking branch (or origin with the same name) before creating the PR —
-        this is the "commit to a branch and open a PR now" flow.
+        ``gh pr create --push`` is not supported by every gh release, so with
+        ``push=True`` the branch is pushed explicitly with ``git push -u``
+        before a ``gh pr create`` without the ``--push`` flag.  This is the
+        "commit to a branch and open a PR now" flow.
         """
         title = title.strip()
         if not title:
             raise GitHubError("PR 标题不能为空")
         if "\x00" in title or "\x00" in body:
             raise GitHubError("PR 内容包含无效字符")
+        push_output = ""
+        if push:
+            git = GitService(self.repository, self.git_executable)
+            branch = git.current_branch()
+            if "分离" in branch:
+                raise GitHubError("当前处于分离 HEAD（detached HEAD），无法创建 PR。请先切换到具体分支。")
+            if base and branch == base:
+                raise GitHubError(
+                    f"当前分支（{branch}）与基准分支相同，无法创建 PR。\n"
+                    "请先把变更提交到一个新分支，或改用临时分支流程。"
+                )
+            push_output = git.push_upstream(branch)
         args: list[str] = ["pr", "create", "--title", title]
         if body.strip():
             args.extend(["--body", body.strip()])
@@ -341,8 +360,6 @@ class GitHubPRService:
             args.extend(["--base", base])
         if draft:
             args.append("--draft")
-        if push:
-            args.append("--push")
         proc = self._run(*args, check=False)
         output = (proc.stdout or proc.stderr or "").strip()
         if proc.returncode:
@@ -359,7 +376,7 @@ class GitHubPRService:
             number = int(match.group(1))
         if not url:
             url = self._run("pr", "view", "--json", "url", "--jq", ".url").stdout.strip()
-        return {"url": url, "number": number, "output": output}
+        return {"url": url, "number": number, "output": output, "push_output": push_output}
 
     def view(self, number: int) -> dict[str, Any]:
         payload = self._json(

@@ -224,6 +224,17 @@ class GitService:
         # the manager targets an established repository.
         return self._run_raw("restore", "--staged", "--", *safe).stdout
 
+    def stage_all(self) -> str:
+        """Stage every change (tracked edits, deletions and new files)."""
+        return self._run_raw("add", "-A").stdout
+
+    def switch(self, branch: str) -> str:
+        return self._run_raw("switch", branch).stdout
+
+    def switch_create(self, branch: str) -> str:
+        """Create ``branch`` from HEAD and switch to it, carrying changes along."""
+        return self._run_raw("switch", "-c", branch).stdout
+
     def commit(self, message: str, description: str = "") -> str:
         message = message.strip()
         if not message:
@@ -247,4 +258,15 @@ class GitService:
 
     def push(self) -> str:
         result = self._run_raw("push", timeout=self.NETWORK_TIMEOUT)
+        return result.stdout + result.stderr
+
+    def push_upstream(self, branch: str) -> str:
+        """Push ``branch`` to origin and set it as the upstream.
+
+        ``git push -u`` works whether or not an upstream already exists, so a
+        first-time push to a brand-new branch is handled the same as a normal
+        push.  ``gh pr create --push`` is not available in every gh release, so
+        the manager pushes explicitly before creating a pull request.
+        """
+        result = self._run_raw("push", "--set-upstream", "origin", branch, timeout=self.NETWORK_TIMEOUT)
         return result.stdout + result.stderr
