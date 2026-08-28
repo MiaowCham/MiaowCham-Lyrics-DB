@@ -18,10 +18,11 @@ import subprocess
 import sys
 import threading
 import tkinter as tk
-from tkinter import messagebox, ttk
+from tkinter import filedialog, messagebox, ttk
 from typing import Any
 
 from .git_service import GitError, GitService
+from .github_pr import GitHubError, GitHubPRService, PullRequest
 from .tree_model import RegistryNode, build_registry_tree, filter_registry_tree
 
 try:
@@ -40,6 +41,107 @@ FIELDS = (
     ("ncmMusicId", "网易云 ID"), ("qqMusicId", "QQ 音乐 ID"),
     ("source", "来源"), ("sourceUrl", "来源 URL"),
 )
+
+
+# --- Theme (dark-mode) support -----------------------------------------
+#
+# Tk/ttk exposes no cross-platform "is the OS in dark mode" query, so we sniff
+# each platform's native preference.  Linux desktop environments differ enough
+# that we conservatively default to light there unless the user overrides.
+
+THEME_MODES = ("system", "light", "dark")
+
+# ttk "clam" theme's configurable colour roles, filled from dark/light palettes.
+_CLAM_COLOURS = (
+    "background", "foreground", "fieldbackground", "foreground", "selectbackground",
+    "selectforeground", "bordercolor", "lightcolor", "darkcolor", "focuscolor",
+    "troughcolor", "insertcolor",
+)
+
+_DARK_PALETTE = {
+    "background": "#1e1e1e",
+    "foreground": "#dcdcdc",
+    "fieldbackground": "#252526",
+    "selectbackground": "#264f78",
+    "selectforeground": "#ffffff",
+    "bordercolor": "#3c3c3c",
+    "lightcolor": "#2e2e2e",
+    "darkcolor": "#151515",
+    "focuscolor": "#3c3c3c",
+    "troughcolor": "#2a2a2a",
+    "insertcolor": "#dcdcdc",
+}
+
+_LIGHT_PALETTE = {
+    "background": "#f0f0f0",
+    "foreground": "#202020",
+    "fieldbackground": "#ffffff",
+    "selectbackground": "#0078d7",
+    "selectforeground": "#ffffff",
+    "bordercolor": "#c8c8c8",
+    "lightcolor": "#fafafa",
+    "darkcolor": "#7a7a7a",
+    "focuscolor": "#c8c8c8",
+    "troughcolor": "#e0e0e0",
+    "insertcolor": "#202020",
+}
+
+# Widgets that do not honour the ttk theme and need explicit colours.
+_LIGHT_TEXT_BG = "#ffffff"
+_LIGHT_TEXT_FG = "#202020"
+_DARK_TEXT_BG = "#1e1e1e"
+_DARK_TEXT_FG = "#dcdcdc"
+_LIGHT_LEGACY_BG = "#fff1a8"
+_LIGHT_LEGACY_FG = "#5c4300"
+_DARK_LEGACY_BG = "#6b5500"
+_DARK_LEGACY_FG = "#ffe9a0"
+
+
+def _system_prefers_dark() -> bool:
+    """Detect the OS-level dark-mode preference without third-party packages."""
+    if sys.platform == "win32":
+        try:
+            import winreg
+            with winreg.OpenKey(
+                winreg.HKEY_CURRENT_USER,
+                r"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize",
+            ) as key:
+                value, _ = winreg.QueryValueEx(key, "AppsUseLightTheme")
+            return int(value) == 0
+        except (OSError, ValueError, ImportError):
+            return False
+    if sys.platform == "darwin":
+        try:
+            result = subprocess.run(
+                ["defaults", "read", "-g", "AppleInterfaceStyle"],
+                capture_output=True, text=True, shell=False, timeout=3,
+            )
+            return result.returncode == 0 and "dark" in result.stdout.lower()
+        except (OSError, subprocess.TimeoutExpired):
+            return False
+    return False
+
+
+def _resolve_theme_mode(mode: str) -> str:
+    if mode == "dark":
+        return "dark"
+    if mode == "light":
+        return "light"
+    return "dark" if _system_prefers_dark() else "light"
+
+
+class _Theme:
+    """Small helper holding the resolved palette for the running app."""
+
+    def __init__(self, mode: str) -> None:
+        self.mode = mode
+        resolved = _resolve_theme_mode(mode)
+        self.dark = resolved == "dark"
+        self.palette = _DARK_PALETTE if self.dark else _LIGHT_PALETTE
+        self.text_bg = _DARK_TEXT_BG if self.dark else _LIGHT_TEXT_BG
+        self.text_fg = _DARK_TEXT_FG if self.dark else _LIGHT_TEXT_FG
+        self.legacy_bg = _DARK_LEGACY_BG if self.dark else _LIGHT_LEGACY_BG
+        self.legacy_fg = _DARK_LEGACY_FG if self.dark else _LIGHT_LEGACY_FG
 
 
 def _open_path(path: Path) -> None:
@@ -313,9 +415,14 @@ class LyricsManagerApp(tk.Tk):
         self.title(APP_NAME)
         self.geometry("1280x780")
         self.minsize(980, 620)
+        self._preferences = self._load_preferences()
+        self.theme = _Theme(str(self._preferences.get("theme_mode", "system")))
+        self._apply_theme()
         self.repo = Path(root_path or Path(__file__).resolve().parents[2]).resolve()
         self.adapter = CoreAdapter(self.repo)
         self.git = GitService(self.repo)
+        self.gh_executable: str | None = self._preferences.get("gh_executable") or None
+        self.github = GitHubPRService(self.repo, gh_executable=self.gh_executable)
         self.track_dirs: list[Path] = []
         self.metadata_cache: dict[Path, dict[str, Any]] = {}
         self.registry_model: RegistryNode | None = None
@@ -332,8 +439,8 @@ class LyricsManagerApp(tk.Tk):
         self.selected_file_var = tk.StringVar()
         self.status_var = tk.StringVar(value="就绪")
         self.current_file_path: Path | None = None
-        self._preferences = self._load_preferences()
         self.auto_sync_var = tk.BooleanVar(value=bool(self._preferences.get("auto_sync", False)))
+        self.offer_merge_var = tk.BooleanVar(value=bool(self._preferences.get("offer_merge_after_pr", True)))
         expanded = self._preferences.get("expanded_tree_nodes", [])
         self._expanded_tree_keys: set[str] = {str(value) for value in expanded if isinstance(value, str)}
         self._tree_expansion_known = bool(self._preferences.get("tree_expansion_known", False))
@@ -345,6 +452,12 @@ class LyricsManagerApp(tk.Tk):
         self._scan_busy = False
         self._metadata_inputs: list[tk.Widget] = []
         self._metadata_actions: list[ttk.Button] = []
+        self._github_busy = False
+        self._github_results: queue.Queue[tuple[Any, Exception | None]] = queue.Queue()
+        self._github_buttons: list[ttk.Button] = []
+        self._gh_user_login: str = ""
+        self._gh_is_owner: bool = False
+        self._pr_selected: int | None = None
         self._build_ui()
         self.after_idle(self.refresh_library)
 
@@ -361,24 +474,259 @@ class LyricsManagerApp(tk.Tk):
                 "auto_sync": self.auto_sync_var.get(),
                 "expanded_tree_nodes": sorted(self._expanded_tree_keys),
                 "tree_expansion_known": self._tree_expansion_known,
+                "theme_mode": self.theme.mode,
+                "gh_executable": self.gh_executable or "",
+                "offer_merge_after_pr": self.offer_merge_var.get(),
             })
             CONFIG_PATH.write_text(json.dumps(self._preferences, ensure_ascii=False), encoding="utf-8")
         except OSError as exc:
             self._set_status(f"偏好保存失败：{exc}")
+
+    def _apply_theme(self) -> None:
+        """Apply the ttk theme and explicit widget colours for the current mode.
+
+        The default ``"."`` style alone does not reach the more specific style
+        names (``TNotebook.Tab``, ``TButton``, ``Treeview.Heading``, ``TEntry``,
+        ``TCombobox``, scrollbars, etc.), so every element style is configured
+        explicitly.  This keeps the tab strip, buttons, tree headers, inputs and
+        combo boxes consistent with the resolved palette.
+        """
+        style = ttk.Style(self)
+        try:
+            style.theme_use("clam")
+        except tk.TclError:
+            pass
+        pal = self.theme.palette
+        try:
+            # Base / default — inherited by plain frames and labels.
+            style.configure(".", background=pal["background"], foreground=pal["foreground"],
+                            fieldbackground=pal["fieldbackground"], bordercolor=pal["bordercolor"],
+                            focuscolor=pal["focuscolor"], troughcolor=pal["troughcolor"],
+                            lightcolor=pal["lightcolor"], darkcolor=pal["darkcolor"],
+                            insertcolor=pal["insertcolor"], selectbackground=pal["selectbackground"],
+                            selectforeground=pal["selectforeground"])
+            # Notebook tab strip.
+            style.configure("TNotebook", background=pal["background"], bordercolor=pal["bordercolor"],
+                            tabmargins=(0, 4, 0, 0))
+            style.configure("TNotebook.Tab", background=pal["darkcolor"], foreground=pal["foreground"],
+                            padding=(14, 6), bordercolor=pal["bordercolor"],
+                            lightcolor=pal["fieldbackground"], darkcolor=pal["darkcolor"])
+            style.map("TNotebook.Tab",
+                      background=[("selected", pal["background"]), ("active", pal["lightcolor"])],
+                      foreground=[("selected", pal["foreground"])])
+            # Frames / labels / label frames.
+            style.configure("TFrame", background=pal["background"])
+            style.configure("TLabel", background=pal["background"], foreground=pal["foreground"])
+            style.configure("TLabelframe", background=pal["background"], bordercolor=pal["bordercolor"])
+            style.configure("TLabelframe.Label", background=pal["background"], foreground=pal["foreground"])
+            # Buttons: map every interactive state so hover/press never goes white.
+            style.configure("TButton", background=pal["lightcolor"], foreground=pal["foreground"],
+                            bordercolor=pal["bordercolor"], focuscolor=pal["focuscolor"],
+                            padding=(10, 4), lightcolor=pal["fieldbackground"], darkcolor=pal["darkcolor"])
+            style.map("TButton",
+                      background=[("pressed", pal["selectbackground"]),
+                                  ("active", pal["lightcolor"]),
+                                  ("disabled", pal["background"])],
+                      foreground=[("disabled", pal["bordercolor"])])
+            # Entry / combobox (fields the user types into).
+            style.configure("TEntry", fieldbackground=pal["fieldbackground"], foreground=pal["foreground"],
+                            insertcolor=pal["insertcolor"], bordercolor=pal["bordercolor"],
+                            lightcolor=pal["fieldbackground"], darkcolor=pal["darkcolor"])
+            style.map("TEntry",
+                      fieldbackground=[("focus", pal["fieldbackground"])],
+                      bordercolor=[("focus", pal["selectbackground"])])
+            style.configure("TCombobox", fieldbackground=pal["fieldbackground"], foreground=pal["foreground"],
+                            background=pal["fieldbackground"], arrowcolor=pal["foreground"],
+                            bordercolor=pal["bordercolor"], lightcolor=pal["fieldbackground"],
+                            darkcolor=pal["darkcolor"], selectbackground=pal["selectbackground"],
+                            selectforeground=pal["selectforeground"])
+            style.map("TCombobox",
+                      fieldbackground=[("readonly", pal["fieldbackground"]), ("focus", pal["fieldbackground"])],
+                      foreground=[("readonly", pal["foreground"])],
+                      background=[("active", pal["lightcolor"]), ("pressed", pal["selectbackground"])],
+                      arrowcolor=[("active", pal["foreground"])])
+            # Treeview body and headings.
+            style.configure("Treeview", background=pal["fieldbackground"], fieldbackground=pal["fieldbackground"],
+                            foreground=pal["foreground"], bordercolor=pal["bordercolor"],
+                            lightcolor=pal["fieldbackground"], darkcolor=pal["darkcolor"])
+            style.map("Treeview",
+                      background=[("selected", pal["selectbackground"])],
+                      foreground=[("selected", pal["selectforeground"])])
+            style.configure("Treeview.Heading", background=pal["darkcolor"], foreground=pal["foreground"],
+                            bordercolor=pal["bordercolor"], lightcolor=pal["fieldbackground"],
+                            darkcolor=pal["darkcolor"])
+            style.map("Treeview.Heading", background=[("active", pal["lightcolor"])])
+            # Scrollbars.
+            style.configure("Vertical.TScrollbar", background=pal["fieldbackground"], troughcolor=pal["troughcolor"],
+                            bordercolor=pal["bordercolor"], arrowcolor=pal["foreground"],
+                            lightcolor=pal["fieldbackground"], darkcolor=pal["darkcolor"])
+            style.configure("Horizontal.TScrollbar", background=pal["fieldbackground"], troughcolor=pal["troughcolor"],
+                            bordercolor=pal["bordercolor"], arrowcolor=pal["foreground"],
+                            lightcolor=pal["fieldbackground"], darkcolor=pal["darkcolor"])
+            # Separator.
+            style.configure("TSeparator", background=pal["bordercolor"])
+            # Radio / check buttons: the indicator (circle / box) is a separate
+            # element that the plain ``background`` option does not reach, so it
+            # is themed explicitly and its states are mapped to avoid white on
+            # hover or selection.
+            for radio_style in ("TRadiobutton", "TCheckbutton"):
+                style.configure(radio_style, background=pal["background"], foreground=pal["foreground"],
+                                indicatorbackground=pal["fieldbackground"],
+                                indicatorforeground=pal["foreground"],
+                                bordercolor=pal["bordercolor"], lightcolor=pal["fieldbackground"],
+                                darkcolor=pal["darkcolor"])
+                style.map(radio_style,
+                          background=[("active", pal["lightcolor"]), ("selected", pal["background"])],
+                          foreground=[("disabled", pal["bordercolor"])],
+                          indicatorbackground=[("selected", pal["selectbackground"]),
+                                               ("active", pal["fieldbackground"])],
+                          indicatorforeground=[("selected", pal["selectforeground"])])
+            # Panedwindow panels (resizable splitter).
+            style.configure("TPanedwindow", background=pal["background"])
+            style.configure("TPanedwindow.Pane", background=pal["background"])
+            # Progress bar (background library scan).
+            style.configure("Horizontal.TProgressbar", background=pal["selectbackground"],
+                            troughcolor=pal["troughcolor"], bordercolor=pal["bordercolor"])
+        except tk.TclError:
+            pass
+        self.configure(background=pal["background"])
+        for widget in getattr(self, "_theme_text_widgets", []):
+            try:
+                widget.configure(
+                    bg=self.theme.text_bg, fg=self.theme.text_fg,
+                    insertbackground=self.theme.text_fg,
+                )
+            except tk.TclError:
+                pass
+        for tree, tag in getattr(self, "_theme_tree_tags", []):
+            try:
+                tree.tag_configure(tag, background=self.theme.legacy_bg, foreground=self.theme.legacy_fg)
+            except tk.TclError:
+                pass
+
+    def _track_theme_text(self, widget: tk.Widget) -> None:
+        widgets = getattr(self, "_theme_text_widgets", None)
+        if widgets is None:
+            widgets = []
+            self._theme_text_widgets = widgets
+        if widget not in widgets:
+            widgets.append(widget)
+
+    def _track_theme_tree_tag(self, tree: ttk.Treeview, tag: str) -> None:
+        tags = getattr(self, "_theme_tree_tags", None)
+        if tags is None:
+            tags = []
+            self._theme_tree_tags = tags
+        pair = (tree, tag)
+        if pair not in tags:
+            tags.append(pair)
+
+    def _set_theme_mode(self, mode: str) -> None:
+        if mode not in THEME_MODES:
+            return
+        self.theme = _Theme(mode)
+        self._apply_theme()
+        self._save_preference()
+        self._set_status(f"主题已切换为：{mode}")
 
     def _build_ui(self) -> None:
         self.main_notebook = ttk.Notebook(self)
         self.main_notebook.pack(fill="both", expand=True)
         library = ttk.Frame(self.main_notebook, padding=8)
         version = ttk.Frame(self.main_notebook, padding=8)
+        pulls = ttk.Frame(self.main_notebook, padding=8)
+        settings = ttk.Frame(self.main_notebook, padding=8)
         self.main_notebook.add(library, text="歌词库")
         self.main_notebook.add(version, text="版本管理")
+        self.main_notebook.add(pulls, text="拉取请求")
+        self.main_notebook.add(settings, text="设置")
         self.version_tab = version
+        self.pulls_tab = pulls
         self.main_notebook.bind("<<NotebookTabChanged>>", self._on_main_tab_changed)
         self._build_library(library)
         self._build_git(version)
+        self._build_pulls(pulls)
+        self._build_settings(settings)
         ttk.Separator(self, orient="horizontal").pack(fill="x")
         ttk.Label(self, textvariable=self.status_var, anchor="w", padding=(8, 4)).pack(fill="x")
+
+    def _build_settings(self, parent: ttk.Frame) -> None:
+        """Settings page: appearance, editing behaviour, and GitHub options."""
+        parent.columnconfigure(0, weight=1)
+
+        # -- Appearance ----------------------------------------------------
+        box = ttk.LabelFrame(parent, text="外观", padding=12)
+        box.grid(row=0, column=0, sticky="nw", padx=8, pady=(8, 4))
+        box.columnconfigure(0, weight=1)
+        ttk.Label(box, text="主题模式").grid(row=0, column=0, sticky="w", pady=(0, 6))
+        self.theme_var = tk.StringVar(value=self.theme.mode)
+        labels = {"system": "跟随系统", "light": "浅色", "dark": "暗色"}
+        for row, mode in enumerate(THEME_MODES, start=1):
+            ttk.Radiobutton(
+                box, text=labels[mode], value=mode, variable=self.theme_var,
+                command=lambda m=mode: self._set_theme_mode(m),
+            ).grid(row=row, column=0, sticky="w", pady=2)
+        ttk.Label(
+            box, text="更改立即生效并保存。手动选择的模式会使应用不再跟随系统。",
+        ).grid(row=4, column=0, sticky="w", pady=(10, 0))
+
+        # -- Editing --------------------------------------------------------
+        edit = ttk.LabelFrame(parent, text="编辑", padding=12)
+        edit.grid(row=1, column=0, sticky="nw", padx=8, pady=4)
+        edit.columnconfigure(0, weight=1)
+        ttk.Checkbutton(
+            edit, text="保存后自动同步到源文件",
+            variable=self.auto_sync_var, command=self._save_preference,
+        ).grid(row=0, column=0, sticky="w")
+        ttk.Label(
+            edit, text="开启后，保存 lyrics.metadata 会把元数据写回 TTML/LRCN 头部。",
+        ).grid(row=1, column=0, sticky="w", pady=(4, 0))
+
+        # -- GitHub ----------------------------------------------------------
+        gh = ttk.LabelFrame(parent, text="GitHub", padding=12)
+        gh.grid(row=2, column=0, sticky="nw", padx=8, pady=4)
+        gh.columnconfigure(1, weight=1)
+        ttk.Label(gh, text="gh 可执行文件").grid(row=0, column=0, sticky="w", pady=(0, 4))
+        gh_controls = ttk.Frame(gh)
+        gh_controls.grid(row=1, column=0, columnspan=2, sticky="ew")
+        gh_controls.columnconfigure(0, weight=1)
+        self.gh_path_var = tk.StringVar(value=self.gh_executable or "")
+        self.gh_path_entry = ttk.Entry(gh_controls, textvariable=self.gh_path_var)
+        self.gh_path_entry.grid(row=0, column=0, sticky="ew")
+        ttk.Button(gh_controls, text="选择", command=self._browse_gh_executable).grid(row=0, column=1, padx=(4, 0))
+        ttk.Button(gh_controls, text="重置", command=self._reset_gh_executable).grid(row=0, column=2, padx=(4, 0))
+        ttk.Label(
+            gh, text="留空则自动检测（推荐）。填写的路径会被优先使用。",
+        ).grid(row=2, column=0, columnspan=2, sticky="w", pady=(6, 0))
+        ttk.Checkbutton(
+            gh, text="创建 PR 后询问是否立即合并",
+            variable=self.offer_merge_var, command=self._save_preference,
+        ).grid(row=3, column=0, columnspan=2, sticky="w", pady=(12, 0))
+        ttk.Label(
+            gh, text="仅当你的 GitHub 账户拥有该仓库时，合并选项才会出现。",
+        ).grid(row=4, column=0, columnspan=2, sticky="w", pady=(4, 0))
+
+    def _browse_gh_executable(self) -> None:
+        path = filedialog.askopenfilename(title="选择 gh 可执行文件", parent=self)
+        if path:
+            self._set_gh_executable(path)
+
+    def _reset_gh_executable(self) -> None:
+        self._set_gh_executable("")
+
+    def _set_gh_executable(self, path: str) -> None:
+        path = path.strip()
+        if path and not Path(path).is_file():
+            self._show_error("无效路径", ValueError(f"未找到文件：{path}"))
+            return
+        self.gh_executable = path or None
+        try:
+            self.gh_path_var.set(path)
+        except tk.TclError:
+            pass
+        self.github = GitHubPRService(self.repo, gh_executable=self.gh_executable)
+        self._save_preference()
+        self._set_status("gh 可执行文件已更新")
 
     def _set_status(self, text: str) -> None:
         self.status_var.set(text)
@@ -387,6 +735,8 @@ class LyricsManagerApp(tk.Tk):
         """Refresh Git status whenever the user enters the version-management tab."""
         if self.main_notebook.select() == str(self.version_tab) and not self._git_busy:
             self.git_status()
+        elif self.main_notebook.select() == str(self.pulls_tab):
+            self._refresh_github_state()
 
     def _build_library(self, parent: ttk.Frame) -> None:
         panes = ttk.Panedwindow(parent, orient="horizontal")
@@ -402,7 +752,8 @@ class LyricsManagerApp(tk.Tk):
         tree_scroll = ttk.Scrollbar(tree_frame, orient="vertical", command=self.registry_tree.yview)
         tree_scroll.pack(side="right", fill="y")
         self.registry_tree.configure(yscrollcommand=tree_scroll.set)
-        self.registry_tree.tag_configure("legacy", background="#fff1a8", foreground="#5c4300")
+        self.registry_tree.tag_configure("legacy", background=self.theme.legacy_bg, foreground=self.theme.legacy_fg)
+        self._track_theme_tree_tag(self.registry_tree, "legacy")
         self.registry_tree.bind("<<TreeviewSelect>>", self._select_registry_node)
         self.registry_tree.bind("<Double-Button-1>", self._open_tree_file)
         self.registry_tree.bind("<Button-3>", self._show_registry_menu)
@@ -460,10 +811,6 @@ class LyricsManagerApp(tk.Tk):
         self.link_notice.grid(row=len(FIELDS) + 4, column=0, columnspan=2, sticky="w")
         self.legacy_notice = ttk.Label(metadata, text="", foreground="#9a6700")
         self.legacy_notice.grid(row=len(FIELDS) + 5, column=0, columnspan=2, sticky="w")
-        ttk.Checkbutton(
-            controls, text="保存后自动同步到源文件", variable=self.auto_sync_var,
-            command=self._save_preference,
-        ).pack(side="left", padx=8)
         preview.rowconfigure(0, weight=1)
         preview.columnconfigure(0, weight=1)
         self.preview_tree = ttk.Treeview(preview, columns=("line_number", "agent", "original", "translation", "romanization"), show="headings")
@@ -488,7 +835,8 @@ class LyricsManagerApp(tk.Tk):
         self.git_busy_label.grid(row=0, column=1, padx=6)
         for column, (label, command) in enumerate((
             ("刷新", self.git_status), ("Fetch", self.git_fetch),
-            ("Pull（仅快进）", self.git_pull), ("Push", self.git_push),
+            ("Pull（仅快进）", self.git_pull), ("创建 PR", self.git_create_pr),
+            ("Push（备用）", self.git_push),
         ), start=2):
             button = ttk.Button(header, text=label, command=command)
             button.grid(row=0, column=column, padx=3)
@@ -534,7 +882,10 @@ class LyricsManagerApp(tk.Tk):
         detail.columnconfigure(0, weight=1)
         self.git_diff_label = ttk.Label(detail, text="选择文件查看差异")
         self.git_diff_label.grid(row=0, column=0, sticky="w", pady=(0, 4))
-        self.git_output = tk.Text(detail, wrap="none", font=("TkFixedFont", 10), padx=8, pady=8)
+        self.git_output = tk.Text(detail, wrap="none", font=("TkFixedFont", 10), padx=8, pady=8,
+                                  bg=self.theme.text_bg, fg=self.theme.text_fg,
+                                  insertbackground=self.theme.text_fg)
+        self._track_theme_text(self.git_output)
         self.git_output.grid(row=1, column=0, sticky="nsew")
         self.git_output.configure(state="disabled")
         commit_box = ttk.LabelFrame(detail, text="提交", padding=8)
@@ -544,7 +895,10 @@ class LyricsManagerApp(tk.Tk):
         self.git_commit_summary = ttk.Entry(commit_box)
         self.git_commit_summary.grid(row=1, column=0, sticky="ew", pady=(2, 6))
         ttk.Label(commit_box, text="描述（可选）").grid(row=2, column=0, sticky="w")
-        self.git_commit_description = tk.Text(commit_box, height=3, wrap="word")
+        self.git_commit_description = tk.Text(commit_box, height=3, wrap="word",
+                                              bg=self.theme.text_bg, fg=self.theme.text_fg,
+                                              insertbackground=self.theme.text_fg)
+        self._track_theme_text(self.git_commit_description)
         self.git_commit_description.grid(row=3, column=0, sticky="ew", pady=(2, 6))
         self.git_commit_button = ttk.Button(commit_box, text="提交到当前分支", command=self.git_commit)
         self.git_commit_button.grid(row=4, column=0, sticky="e")
@@ -1667,8 +2021,483 @@ class LyricsManagerApp(tk.Tk):
             self._run_git_task("Pull", lambda: (self.git.pull_ff_only(), self._git_snapshot()),
                                lambda result: (self._set_git_output(result[0]), self._apply_git_snapshot(result[1])))
     def git_push(self) -> None:
+        if not messagebox.askyesno(
+            "推荐使用 Pull Request",
+            "建议改用「创建 PR」将变更提交到分支并通过拉取请求合并，\n"
+            "以便审阅与讨论。\n\n"
+            "仍要直接推送当前分支到远端吗？",
+            parent=self,
+        ):
+            return
         if messagebox.askyesno("确认推送", "将当前分支推送到已配置远端？", parent=self):
             self._run_git_task("Push", self.git.push, self._set_git_output)
+
+    def git_create_pr(self) -> None:
+        """Guide the user toward opening a pull request for the current work."""
+        if self._git_busy:
+            return
+        self._ensure_gh()
+        if not messagebox.askyesno(
+            "创建 Pull Request",
+            "这将把当前分支推送到远端并立即开启一个 Pull Request。\n\n"
+            "建议先提交所有变更（暂存 + 提交），再继续。是否继续？",
+            parent=self,
+        ):
+            return
+        self._open_pr_dialog()
+
+    def _ensure_gh(self) -> None:
+        """Surface an actionable error when gh is missing or not authenticated."""
+        if not self.github.is_available():
+            messagebox.showwarning(
+                "需要 GitHub CLI",
+                "未检测到 GitHub CLI（gh）。\n\n"
+                "请到 https://cli.github.com 安装后重试。\n"
+                "安装完成后可在「拉取请求」页点击「登录 GitHub」。",
+                parent=self,
+            )
+            raise GitHubError("未安装 gh")
+        status = self.github.auth_status()
+        if not status.get("authenticated"):
+            if messagebox.askyesno(
+                "需要登录 GitHub",
+                "当前 gh 尚未登录 GitHub。是否现在登录？\n\n"
+                "（将打开浏览器进行授权）",
+                parent=self,
+            ):
+                self.main_notebook.select(self.pulls_tab)
+                self.github_login()
+            raise GitHubError("未登录 GitHub")
+
+    def _open_pr_dialog(self) -> None:
+        dialog = tk.Toplevel(self)
+        dialog.title("创建 Pull Request")
+        dialog.transient(self)
+        dialog.grab_set()
+        dialog.geometry("520x340")
+        dialog.configure(background=self.theme.palette["background"])
+        dialog.columnconfigure(0, weight=1)
+
+        result: dict[str, str] = {}
+
+        def collect() -> None:
+            result["title"] = title_entry.get().strip()
+            result["body"] = body_text.get("1.0", "end-1c").strip()
+            dialog.destroy()
+
+        def cancel() -> None:
+            result.clear()
+            dialog.destroy()
+
+        base = ""
+        try:
+            base = self.github.repository_info().default_branch
+        except GitHubError:
+            base = ""
+
+        ttk.Label(dialog, text="PR 标题（必填）").grid(row=0, column=0, sticky="w", padx=12, pady=(12, 2))
+        title_entry = ttk.Entry(dialog)
+        title_entry.grid(row=1, column=0, sticky="ew", padx=12, pady=(0, 6))
+        ttk.Label(dialog, text="描述（可选，留空则使用提交摘要）").grid(row=2, column=0, sticky="w", padx=12, pady=(0, 2))
+        body_text = tk.Text(dialog, height=6, wrap="word",
+                            bg=self.theme.text_bg, fg=self.theme.text_fg,
+                            insertbackground=self.theme.text_fg)
+        body_text.grid(row=3, column=0, sticky="ew", padx=12, pady=(0, 6))
+        ttk.Label(dialog, text=f"基准分支：{base or '（默认分支）'}").grid(row=4, column=0, sticky="w", padx=12, pady=(0, 6))
+
+        buttons = ttk.Frame(dialog)
+        buttons.grid(row=5, column=0, sticky="e", padx=12, pady=12)
+        ttk.Button(buttons, text="创建并推送", command=collect).pack(side="left", padx=4)
+        ttk.Button(buttons, text="取消", command=cancel).pack(side="left", padx=4)
+
+        self.wait_window(dialog)
+        if not result or not result["title"]:
+            return
+
+        def do_create() -> Any:
+            return self.github.create(
+                result["title"],
+                body=result["body"],
+                base=base or None,
+                push=True,
+            )
+
+        def on_created(payload: Any) -> None:
+            url = payload.get("url", "")
+            number = payload.get("number", 0)
+            self._set_git_output(payload.get("output", ""))
+            self._set_status(f"PR 已创建：{url}")
+            self._after_pr_created(number, url)
+
+        self._run_git_task("创建 PR", do_create, on_created)
+
+    def _after_pr_created(self, number: int, url: str) -> None:
+        """Offer immediate merge when the actor is the repository owner."""
+        show_url = url or (f"见 #{number}" if number else "（无 URL）")
+        if not self.github.is_owner():
+            messagebox.showinfo(
+                "Pull Request 已创建",
+                f"{show_url}\n\n可在「拉取请求」页查看进度、审阅与合并。",
+                parent=self,
+            )
+            return
+        if self.offer_merge_var.get() and messagebox.askyesno(
+            "立即合并",
+            f"PR {show_url} 已创建。\n\n"
+            "你拥有该仓库，是否立即以 squash 方式合并此 PR？",
+            parent=self,
+        ):
+            self._merge_pr(number)
+            return
+        messagebox.showinfo(
+            "Pull Request 已创建",
+            f"{show_url}\n\n可在「拉取请求」页查看进度、审阅与合并。",
+            parent=self,
+        )
+
+    def _merge_pr(self, number: int) -> None:
+        def do_merge() -> Any:
+            return self.github.merge(number, method="squash")
+
+        def on_merged(result: Any) -> None:
+            self._set_git_output(result.get("output", "已合并"))
+            self._set_status(f"PR #{number} 已合并")
+            messagebox.showinfo("合并完成", f"PR #{number} 已以 squash 方式合并。", parent=self)
+
+        self._run_git_task("合并 PR", do_merge, on_merged)
+
+    # --- Pull request page ----------------------------------------------
+
+    def _build_pulls(self, parent: ttk.Frame) -> None:
+        parent.rowconfigure(1, weight=1)
+        parent.columnconfigure(0, weight=1)
+
+        header = ttk.Frame(parent)
+        header.grid(row=0, column=0, sticky="ew", pady=(0, 8))
+        header.columnconfigure(0, weight=1)
+
+        self.github_state_label = ttk.Label(header, text="未连接 GitHub")
+        self.github_state_label.grid(row=0, column=0, sticky="w")
+        self.github_busy_label = ttk.Label(header, text="")
+        self.github_busy_label.grid(row=0, column=1, padx=6)
+
+        for column, (label, command) in enumerate((
+            ("登录 GitHub", self.github_login), ("退出登录", self.github_logout),
+            ("诊断 GitHub", self.github_diagnose), ("刷新", self.github_refresh_prs),
+        ), start=2):
+            button = ttk.Button(header, text=label, command=command)
+            button.grid(row=0, column=column, padx=3)
+            self._github_buttons.append(button)
+
+        body = ttk.Panedwindow(parent, orient="horizontal")
+        body.grid(row=1, column=0, sticky="nsew")
+
+        left = ttk.Frame(body)
+        left.rowconfigure(0, weight=1)
+        left.columnconfigure(0, weight=1)
+        body.add(left, weight=1)
+        self.github_state_selector = ttk.Combobox(
+            left, state="readonly", values=("open", "closed", "all"),
+        )
+        self.github_state_selector.set("open")
+        self.github_state_selector.grid(row=0, column=0, sticky="ew", pady=(0, 4))
+        self.github_state_selector.bind("<<ComboboxSelected>>", lambda _e: self.github_refresh_prs())
+        self.github_pr_list = ttk.Treeview(left, columns=("num", "author", "base", "head"), show="tree headings")
+        self.github_pr_list.heading("#0", text="标题")
+        self.github_pr_list.heading("num", text="#")
+        self.github_pr_list.heading("author", text="作者")
+        self.github_pr_list.heading("base", text="基准")
+        self.github_pr_list.heading("head", text="来源")
+        self.github_pr_list.column("#0", width=320)
+        self.github_pr_list.column("num", width=55, anchor="center", stretch=False)
+        self.github_pr_list.column("author", width=110, stretch=False)
+        self.github_pr_list.column("base", width=100, stretch=False)
+        self.github_pr_list.column("head", width=100, stretch=False)
+        self.github_pr_list.grid(row=1, column=0, sticky="nsew")
+        self.github_pr_list.bind("<<TreeviewSelect>>", self._github_show_selected_pr)
+
+        pr_scroll = ttk.Scrollbar(left, orient="vertical", command=self.github_pr_list.yview)
+        pr_scroll.grid(row=1, column=1, sticky="ns")
+        self.github_pr_list.configure(yscrollcommand=pr_scroll.set)
+
+        right = ttk.Frame(body)
+        right.rowconfigure(1, weight=1)
+        right.columnconfigure(0, weight=1)
+        body.add(right, weight=2)
+
+        self.github_pr_title = ttk.Label(right, text="选择一个 PR 查看详情", font=("TkDefaultFont", 11, "bold"))
+        self.github_pr_title.grid(row=0, column=0, sticky="w", pady=(0, 4))
+
+        detail_nb = ttk.Notebook(right)
+        detail_nb.grid(row=1, column=0, sticky="nsew")
+        overview = ttk.Frame(detail_nb, padding=6)
+        changes = ttk.Frame(detail_nb, padding=6)
+        review = ttk.Frame(detail_nb, padding=6)
+        detail_nb.add(overview, text="概览")
+        detail_nb.add(changes, text="变更")
+        detail_nb.add(review, text="审阅")
+
+        for frame in (overview, changes, review):
+            frame.rowconfigure(1, weight=1)
+            frame.columnconfigure(0, weight=1)
+
+        self.github_pr_overview = tk.Text(overview, wrap="word", state="disabled",
+                                          bg=self.theme.text_bg, fg=self.theme.text_fg)
+        self.github_pr_overview.grid(row=1, column=0, sticky="nsew")
+        self.github_pr_diff = tk.Text(changes, wrap="none", state="disabled",
+                                      bg=self.theme.text_bg, fg=self.theme.text_fg,
+                                      font=("TkFixedFont", 10))
+        self.github_pr_diff.grid(row=1, column=0, sticky="nsew")
+        self.github_pr_review = tk.Text(review, wrap="word", state="disabled",
+                                        bg=self.theme.text_bg, fg=self.theme.text_fg)
+        self.github_pr_review.grid(row=1, column=0, sticky="nsew")
+        for widget in (self.github_pr_overview, self.github_pr_diff, self.github_pr_review):
+            self._track_theme_text(widget)
+
+        action_bar = ttk.Frame(right)
+        action_bar.grid(row=2, column=0, sticky="ew", pady=(8, 0))
+        ttk.Button(action_bar, text="在浏览器打开",
+                   command=self._github_open_pr_url).pack(side="left", padx=(0, 5))
+        self.github_merge_button = ttk.Button(action_bar, text="合并（squash）",
+                                              command=self._github_merge_selected, state="disabled")
+        self.github_merge_button.pack(side="left", padx=(0, 5))
+        self._github_buttons.append(self.github_merge_button)
+
+        self._set_text(self.github_pr_overview, "请先登录 GitHub 并点击“刷新”加载 PR。")
+
+    def _run_github_task(self, label: str, action: Any, on_success: Any) -> bool:
+        """Run a GitHub operation off the Tk thread, mirroring :meth:`_run_git_task`."""
+        if self._github_busy:
+            return False
+        self._github_busy = True
+        self.github_busy_label.configure(text=f"{label}…")
+        self._set_status(f"GitHub：{label}…")
+        previous_states = [str(button.cget("state")) for button in self._github_buttons]
+        for button in self._github_buttons:
+            button.configure(state="disabled")
+
+        def finish(result: Any = None, error: Exception | None = None) -> None:
+            self._github_busy = False
+            self.github_busy_label.configure(text="")
+            for button, state in zip(self._github_buttons, previous_states):
+                button.configure(state=state)
+            if error is not None:
+                self._set_status(f"GitHub {label}失败：{error}")
+                self._show_error("GitHub 操作失败", error)
+            else:
+                on_success(result)
+                self._set_status(f"GitHub：{label}完成")
+
+        def worker() -> None:
+            try:
+                result = action()
+            except Exception as exc:
+                self._github_results.put((None, exc))
+            else:
+                self._github_results.put((result, None))
+
+        def poll_result() -> None:
+            try:
+                result, error = self._github_results.get_nowait()
+            except queue.Empty:
+                self.after(30, poll_result)
+            else:
+                finish(result, error)
+
+        threading.Thread(target=worker, name=f"github-{label}", daemon=True).start()
+        self.after(30, poll_result)
+        return True
+
+    def _set_text(self, widget: tk.Text, text: str) -> None:
+        widget.configure(state="normal")
+        widget.delete("1.0", "end")
+        widget.insert("1.0", text or "（无内容）")
+        widget.configure(state="disabled")
+
+    def _refresh_github_state(self) -> None:
+        """Update the login/owner label and (if usable) the PR list."""
+        if self._github_busy:
+            return
+        if not self.github.is_available():
+            self.github_state_label.configure(text="未检测到 GitHub CLI（gh）")
+            return
+
+        def do_state() -> Any:
+            status = self.github.auth_status()
+            owner = False
+            login = status.get("login", "")
+            if status.get("authenticated"):
+                try:
+                    owner = self.github.is_owner()
+                except GitHubError:
+                    owner = False
+            return {"authenticated": status.get("authenticated", False),
+                    "login": login, "owner": owner}
+
+        def on_state(state: dict[str, Any]) -> None:
+            self._gh_user_login = state.get("login", "")
+            self._gh_is_owner = state.get("owner", False)
+            if state.get("authenticated"):
+                who = self._gh_user_login or "已登录"
+                owner_tag = "（仓库所有者）" if self._gh_is_owner else ""
+                self.github_state_label.configure(text=f"已登录：{who}{owner_tag}")
+                self.github_refresh_prs()
+            else:
+                self.github_state_label.configure(text="未登录 GitHub")
+
+        self._run_github_task("检查登录状态", do_state, on_state)
+
+    def github_login(self) -> None:
+        if not self.github.is_available():
+            messagebox.showwarning(
+                "需要 GitHub CLI",
+                "未检测到 GitHub CLI（gh）。\n\n请先访问 https://cli.github.com 安装。",
+                parent=self,
+            )
+            return
+
+        def do_login() -> Any:
+            return self.github.login()
+
+        def on_login(result: dict[str, Any]) -> None:
+            if result.get("success"):
+                self._gh_user_login = result.get("login", "")
+                messagebox.showinfo(
+                    "登录成功",
+                    f"已登录 GitHub：{self._gh_user_login or '（已登录）'}",
+                    parent=self,
+                )
+                self._refresh_github_state()
+            else:
+                self._show_error("登录失败", GitHubError(result.get("output", "登录未完成")))
+
+        self._run_github_task("登录 GitHub", do_login, on_login)
+
+    def github_logout(self) -> None:
+        if not messagebox.askyesno("退出登录", "确定退出 GitHub 登录？", parent=self):
+            return
+
+        def do_logout() -> Any:
+            return self.github.logout()
+
+        def on_logout(result: Any) -> None:
+            self._gh_user_login = ""
+            self._gh_is_owner = False
+            self.github_state_label.configure(text="未登录 GitHub")
+            self.github_pr_list.delete(*self.github_pr_list.get_children())
+
+        self._run_github_task("退出登录", do_logout, on_logout)
+
+    def github_diagnose(self) -> None:
+        """Show a one-screen GitHub integration diagnostic dump."""
+        def do_diagnose() -> Any:
+            return self.github.diagnose()
+
+        def on_diagnose(text: str) -> None:
+            self.github_pr_title.configure(text="GitHub 诊断")
+            self._set_text(self.github_pr_overview, text)
+            self._set_text(self.github_pr_diff, "（诊断信息已显示在「概览」页）")
+            self._set_text(self.github_pr_review, "（无）")
+            self._set_status("GitHub 诊断完成")
+
+        self._run_github_task("诊断 GitHub", do_diagnose, on_diagnose)
+
+    def github_refresh_prs(self) -> None:
+        state = self.github_state_selector.get().strip() or "open"
+
+        def do_list() -> Any:
+            return self.github.list_prs(state=state)
+
+        def on_list(prs: list[PullRequest]) -> None:
+            self.github_pr_list.delete(*self.github_pr_list.get_children())
+            for pr in prs:
+                draft = "（草稿）" if pr.is_draft else ""
+                self.github_pr_list.insert(
+                    "", "end", text=f"{pr.title}{draft}",
+                    values=(pr.number, pr.author, pr.base, pr.head),
+                    tags=(str(pr.number),),
+                )
+            self._set_status(f"已加载 {len(prs)} 个 PR")
+
+        self._run_github_task("刷新 PR 列表", do_list, on_list)
+
+    def _selected_pr_number(self) -> int | None:
+        selection = self.github_pr_list.selection()
+        if not selection:
+            return None
+        return int(self.github_pr_list.item(selection[0], "values")[0])
+
+    def _github_show_selected_pr(self, _event: object = None) -> None:
+        number = self._selected_pr_number()
+        if number is None:
+            return
+        self._pr_selected = number
+
+        def do_load() -> Any:
+            info = self.github.view(number)
+            diff_text = ""
+            try:
+                diff_text = self.github.diff(number)
+            except GitHubError:
+                pass
+            reviews = ""
+            try:
+                reviews = self.github.reviews(number)
+            except GitHubError:
+                pass
+            return {"info": info, "diff": diff_text, "reviews": reviews}
+
+        def on_load(payload: dict[str, Any]) -> None:
+            info = payload.get("info", {})
+            self.github_pr_title.configure(text=f"#{number} · {info.get('title', '')}")
+            overview_lines = [
+                f"标题：{info.get('title', '')}",
+                f"状态：{info.get('state', '')}",
+                f"作者：{info.get('authorLogin', '')}",
+                f"分支：{info.get('headRefName', '')} → {info.get('baseRefName', '')}",
+                f"URL：{info.get('url', '')}",
+                "",
+                str(info.get('body', '') or '（无描述）'),
+            ]
+            self._set_text(self.github_pr_overview, "\n".join(overview_lines))
+            self._set_text(self.github_pr_diff, payload.get("diff", "") or "（无差异）")
+            self._set_text(self.github_pr_review, payload.get("reviews", "") or "（暂无审阅）")
+            mergeable = bool(info.get("mergeable"))
+            can_merge = self._gh_is_owner and mergeable
+            self.github_merge_button.configure(state="normal" if can_merge else "disabled")
+
+        self._run_github_task("读取 PR 详情", do_load, on_load)
+
+    def _github_merge_selected(self) -> None:
+        number = self._pr_selected or self._selected_pr_number()
+        if number is None:
+            return
+        if not self._gh_is_owner:
+            messagebox.showwarning("无权限", "仅仓库所有者可以合并 PR。", parent=self)
+            return
+        if not messagebox.askyesno("确认合并", f"以 squash 方式合并 PR #{number}？", parent=self):
+            return
+        self._merge_pr(number)
+
+    def _github_open_pr_url(self) -> None:
+        number = self._pr_selected or self._selected_pr_number()
+        if number is None:
+            return
+        try:
+            info = self.github.view(number)
+            url = info.get("url", "")
+        except GitHubError:
+            url = ""
+        if not url:
+            self._show_error("打开失败", GitHubError("无法获取 PR URL"))
+            return
+        # open the URL in the default browser without a shell
+        if sys.platform == "win32":
+            os.startfile(url)  # type: ignore[attr-defined]
+        elif sys.platform == "darwin":
+            subprocess.Popen(["open", url], shell=False)
+        else:
+            subprocess.Popen(["xdg-open", url], shell=False)
 
 
 def main() -> None:
