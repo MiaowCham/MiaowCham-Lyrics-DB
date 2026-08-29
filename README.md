@@ -96,7 +96,7 @@ Apple Syllable 允许使用两个以上的人声 ID，不同平台的对唱视�
 
 ## 版权声明与许可
 
-由喵锵（[@MiaowCham](https://github.com/MiaowCham)）整理制作的按节拍划分的歌词文件依根目录 [LICENSE](LICENSE) 使用 CC BY-NC-SA 4.0 许可协议。
+由喵锵（[@MiaowCham](https://github.com/MiaowCham)）和其他贡献者整理制作的按节拍划分的歌词文件依根目录 [LICENSE](LICENSE) 使用 CC BY-NC-SA 4.0 许可协议。
 （不包含歌词内容）允许在署名（逐字歌词制作者）、非商业和相同许可协议下进行共享和改编。
 
 著作权主张是为了更好的维护项目的运行与发展。本项目额外允许在条件不允许的情况下\*不展示“逐字歌词制作者”的署名。具体著作权认定根据当地法律法规执行。
