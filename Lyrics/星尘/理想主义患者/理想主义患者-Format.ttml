@@ -1,0 +1,1097 @@
+
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xml:lang="zh-CN" itunes:timing="Word">
+    <head>
+        <metadata>
+            <ttm:agent type="person" xml:id="v1">
+            </ttm:agent>
+            <ttm:title>理想主义患者</ttm:title><amll:meta key="ncmMusicId" value="2713838054" /><amll:meta key="album" value="理想主义患者" /><amll:meta key="artists" value="北极星Polaris_D" />
+            <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
+                <songwriters>
+                    <songwriter>北极星Polaris_D</songwriter>
+                </songwriters>
+                <transliterations>
+                    <transliteration>
+                        <text for="L1">
+                            <span begin="00:14.110" end="00:14.482" xmlns="http://www.w3.org/ns/ttml">zhèng</span>
+                            <span begin="00:14.482" end="00:14.653" xmlns="http://www.w3.org/ns/ttml">zhā</span>
+                            <span begin="00:14.653" end="00:15.172" xmlns="http://www.w3.org/ns/ttml">zhe</span>
+                            <span begin="00:15.172" end="00:15.332" xmlns="http://www.w3.org/ns/ttml">cóng</span>
+                            <span begin="00:15.332" end="00:15.672" xmlns="http://www.w3.org/ns/ttml">chuáng</span>
+                            <span begin="00:15.672" end="00:16.023" xmlns="http://www.w3.org/ns/ttml">shàng</span>
+                            <span begin="00:16.023" end="00:16.383" xmlns="http://www.w3.org/ns/ttml">pá</span>
+                            <span begin="00:16.383" end="00:16.624" xmlns="http://www.w3.org/ns/ttml">qǐ</span>
+                        </text>
+                        <text for="L2">
+                            <span begin="00:16.943" end="00:17.230" xmlns="http://www.w3.org/ns/ttml">xiàng</span>
+                            <span begin="00:17.230" end="00:17.420" xmlns="http://www.w3.org/ns/ttml">wù</span>
+                            <span begin="00:17.420" end="00:17.962" xmlns="http://www.w3.org/ns/ttml">rù</span>
+                            <span begin="00:17.962" end="00:18.142" xmlns="http://www.w3.org/ns/ttml">dào</span>
+                            <span begin="00:18.142" end="00:18.441" xmlns="http://www.w3.org/ns/ttml">rén</span>
+                            <span begin="00:18.441" end="00:18.762" xmlns="http://www.w3.org/ns/ttml">qún</span>
+                            <span begin="00:18.762" end="00:19.184" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                        </text>
+                        <text for="L3">
+                            <span begin="00:19.584" end="00:19.944" xmlns="http://www.w3.org/ns/ttml">qún</span>
+                            <span begin="00:19.944" end="00:20.112" xmlns="http://www.w3.org/ns/ttml">liáo</span>
+                            <span begin="00:20.112" end="00:20.632" xmlns="http://www.w3.org/ns/ttml">lěng</span>
+                            <span begin="00:20.632" end="00:20.832" xmlns="http://www.w3.org/ns/ttml">chǎng</span>
+                            <span begin="00:20.832" end="00:21.192" xmlns="http://www.w3.org/ns/ttml">méi</span>
+                            <span begin="00:21.192" end="00:21.522" xmlns="http://www.w3.org/ns/ttml">xīn</span>
+                            <span begin="00:21.522" end="00:21.889" xmlns="http://www.w3.org/ns/ttml">xiāo</span>
+                            <span begin="00:21.889" end="00:22.173" xmlns="http://www.w3.org/ns/ttml">xī</span>
+                        </text>
+                        <text for="L4">
+                            <span begin="00:22.373" end="00:22.710" xmlns="http://www.w3.org/ns/ttml">tíng</span>
+                            <span begin="00:22.710" end="00:22.864" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="00:22.864" end="00:23.412" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="00:23.412" end="00:23.572" xmlns="http://www.w3.org/ns/ttml">fā</span>
+                            <span begin="00:23.572" end="00:23.912" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="00:23.912" end="00:24.263" xmlns="http://www.w3.org/ns/ttml">zuì</span>
+                            <span begin="00:24.263" end="00:24.623" xmlns="http://www.w3.org/ns/ttml">hòu</span>
+                            <span begin="00:24.623" end="00:24.933" xmlns="http://www.w3.org/ns/ttml">yī</span>
+                            <span begin="00:24.933" end="00:25.120" xmlns="http://www.w3.org/ns/ttml">jù</span>
+                        </text>
+                        <text for="L5">
+                            <span begin="00:25.182" end="00:25.291" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="00:25.291" end="00:25.451" xmlns="http://www.w3.org/ns/ttml">tài</span>
+                            <span begin="00:25.572" end="00:25.753" xmlns="http://www.w3.org/ns/ttml">hé</span>
+                            <span begin="00:25.753" end="00:25.891" xmlns="http://www.w3.org/ns/ttml">qún</span>
+                            <span begin="00:26.144" end="00:26.280" xmlns="http://www.w3.org/ns/ttml">kě</span>
+                            <span begin="00:26.280" end="00:26.461" xmlns="http://www.w3.org/ns/ttml">yě</span>
+                            <span begin="00:26.461" end="00:26.600" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="00:26.600" end="00:26.908" xmlns="http://www.w3.org/ns/ttml">tài</span>
+                            <span begin="00:26.908" end="00:27.264" xmlns="http://www.w3.org/ns/ttml">dú</span>
+                            <span begin="00:27.264" end="00:27.430" xmlns="http://www.w3.org/ns/ttml">lì</span>
+                        </text>
+                        <text for="L6">
+                            <span begin="00:27.758" end="00:27.930" xmlns="http://www.w3.org/ns/ttml">hài</span>
+                            <span begin="00:27.930" end="00:28.184" xmlns="http://www.w3.org/ns/ttml">pà</span>
+                            <span begin="00:28.360" end="00:28.512" xmlns="http://www.w3.org/ns/ttml">guān</span>
+                            <span begin="00:28.512" end="00:28.704" xmlns="http://www.w3.org/ns/ttml">xì</span>
+                            <span begin="00:28.867" end="00:29.040" xmlns="http://www.w3.org/ns/ttml">méi</span>
+                            <span begin="00:29.040" end="00:29.208" xmlns="http://www.w3.org/ns/ttml">àn</span>
+                            <span begin="00:29.208" end="00:29.359" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="00:29.359" end="00:29.670" xmlns="http://www.w3.org/ns/ttml">suǒ</span>
+                            <span begin="00:29.670" end="00:29.838" xmlns="http://www.w3.org/ns/ttml">shè</span>
+                            <span begin="00:29.838" end="00:30.037" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="00:30.037" end="00:30.358" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="00:30.358" end="00:30.840" xmlns="http://www.w3.org/ns/ttml">yùn</span>
+                            <span begin="00:30.840" end="00:31.539" xmlns="http://www.w3.org/ns/ttml">xíng</span>
+                        </text>
+                        <text for="L7">
+                            <span begin="00:31.966" end="00:32.278" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="00:32.278" end="00:32.598" xmlns="http://www.w3.org/ns/ttml">yǒu</span>
+                            <span begin="00:32.598" end="00:32.925" xmlns="http://www.w3.org/ns/ttml">tài</span>
+                            <span begin="00:32.925" end="00:33.245" xmlns="http://www.w3.org/ns/ttml">duō</span>
+                            <span begin="00:33.245" end="00:33.788" xmlns="http://www.w3.org/ns/ttml">wèn</span>
+                            <span begin="00:33.788" end="00:34.566" xmlns="http://www.w3.org/ns/ttml">tí</span>
+                        </text>
+                        <text for="L8">
+                            <span begin="00:35.617" end="00:36.004" xmlns="http://www.w3.org/ns/ttml">rú</span>
+                            <span begin="00:36.004" end="00:36.366" xmlns="http://www.w3.org/ns/ttml">guǒ</span>
+                            <span begin="00:36.366" end="00:36.547" xmlns="http://www.w3.org/ns/ttml">kě</span>
+                            <span begin="00:36.547" end="00:36.736" xmlns="http://www.w3.org/ns/ttml">yǐ</span>
+                        </text>
+                        <text for="L9">
+                            <span begin="00:37.019" end="00:37.199" xmlns="http://www.w3.org/ns/ttml">bié</span>
+                            <span begin="00:37.199" end="00:37.408" xmlns="http://www.w3.org/ns/ttml">bèi</span>
+                            <span begin="00:37.408" end="00:37.646" xmlns="http://www.w3.org/ns/ttml">kùn</span>
+                            <span begin="00:37.646" end="00:37.926" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="00:37.926" end="00:38.205" xmlns="http://www.w3.org/ns/ttml">dōu</span>
+                            <span begin="00:38.205" end="00:38.418" xmlns="http://www.w3.org/ns/ttml">shì</span>
+                            <span begin="00:38.418" end="00:38.588" xmlns="http://www.w3.org/ns/ttml">wèi</span>
+                            <span begin="00:38.588" end="00:38.777" xmlns="http://www.w3.org/ns/ttml">liǎo</span>
+                            <span begin="00:38.777" end="00:39.138" xmlns="http://www.w3.org/ns/ttml">nǐ</span>
+                        </text>
+                        <text for="L10">
+                            <span begin="00:39.318" end="00:39.457" xmlns="http://www.w3.org/ns/ttml">néng</span>
+                            <span begin="00:39.457" end="00:39.640" xmlns="http://www.w3.org/ns/ttml">táo</span>
+                            <span begin="00:39.640" end="00:39.808" xmlns="http://www.w3.org/ns/ttml">lí</span>
+                            <span begin="00:39.808" end="00:39.968" xmlns="http://www.w3.org/ns/ttml">yě</span>
+                            <span begin="00:39.968" end="00:40.148" xmlns="http://www.w3.org/ns/ttml">shì</span>
+                            <span begin="00:40.148" end="00:40.418" xmlns="http://www.w3.org/ns/ttml">zhǒng</span>
+                            <span begin="00:40.418" end="00:40.679" xmlns="http://www.w3.org/ns/ttml">néng</span>
+                            <span begin="00:40.679" end="00:40.920" xmlns="http://www.w3.org/ns/ttml">lì</span>
+                        </text>
+                        <text for="L11">
+                            <span begin="00:41.141" end="00:41.493" xmlns="http://www.w3.org/ns/ttml">bié</span>
+                            <span begin="00:41.493" end="00:41.829" xmlns="http://www.w3.org/ns/ttml">ràng</span>
+                            <span begin="00:41.829" end="00:42.011" xmlns="http://www.w3.org/ns/ttml">qíng</span>
+                            <span begin="00:42.011" end="00:42.160" xmlns="http://www.w3.org/ns/ttml">xù</span>
+                            <span begin="00:42.278" end="00:42.427" xmlns="http://www.w3.org/ns/ttml">yā</span>
+                            <span begin="00:42.427" end="00:42.787" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                            <span begin="00:42.787" end="00:43.117" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="00:43.117" end="00:43.317" xmlns="http://www.w3.org/ns/ttml">yā</span>
+                            <span begin="00:43.317" end="00:43.489" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L12">
+                            <span begin="00:43.843" end="00:44.003" xmlns="http://www.w3.org/ns/ttml">fǎn</span>
+                            <span begin="00:44.003" end="00:44.161" xmlns="http://www.w3.org/ns/ttml">xiàng</span>
+                            <span begin="00:44.161" end="00:44.491" xmlns="http://www.w3.org/ns/ttml">bào</span>
+                            <span begin="00:44.491" end="00:44.821" xmlns="http://www.w3.org/ns/ttml">qǐ</span>
+                            <span begin="00:44.821" end="00:45.161" xmlns="http://www.w3.org/ns/ttml">shāng</span>
+                            <span begin="00:45.161" end="00:45.470" xmlns="http://www.w3.org/ns/ttml">hài</span>
+                            <span begin="00:45.470" end="00:46.060" xmlns="http://www.w3.org/ns/ttml">zì</span>
+                            <span begin="00:46.060" end="00:46.421" xmlns="http://www.w3.org/ns/ttml">jǐ</span>
+                        </text>
+                        <text for="L13">
+                            <span begin="00:46.589" end="00:46.919" xmlns="http://www.w3.org/ns/ttml">bié</span>
+                            <span begin="00:46.919" end="00:47.248" xmlns="http://www.w3.org/ns/ttml">tīng</span>
+                            <span begin="00:47.248" end="00:47.617" xmlns="http://www.w3.org/ns/ttml">chéng</span>
+                            <span begin="00:47.617" end="00:47.927" xmlns="http://www.w3.org/ns/ttml">jì</span>
+                            <span begin="00:47.927" end="00:48.319" xmlns="http://www.w3.org/ns/ttml">wài</span>
+                            <span begin="00:48.319" end="00:48.638" xmlns="http://www.w3.org/ns/ttml">dōu</span>
+                            <span begin="00:48.638" end="00:48.838" xmlns="http://www.w3.org/ns/ttml">méi</span>
+                            <span begin="00:48.838" end="00:49.137" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                            <span begin="00:49.137" end="00:49.439" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L14">
+                            <span begin="00:49.439" end="00:49.626" xmlns="http://www.w3.org/ns/ttml">shuō</span>
+                            <span begin="00:49.626" end="00:49.949" xmlns="http://www.w3.org/ns/ttml">jiào</span>
+                            <span begin="00:49.949" end="00:50.258" xmlns="http://www.w3.org/ns/ttml">zhe</span>
+                            <span begin="00:50.258" end="00:50.627" xmlns="http://www.w3.org/ns/ttml">yào</span>
+                            <span begin="00:50.627" end="00:51.001" xmlns="http://www.w3.org/ns/ttml">jiǎo</span>
+                            <span begin="00:51.001" end="00:51.361" xmlns="http://www.w3.org/ns/ttml">tà</span>
+                            <span begin="00:51.361" end="00:51.538" xmlns="http://www.w3.org/ns/ttml">shí</span>
+                            <span begin="00:51.538" end="00:51.848" xmlns="http://www.w3.org/ns/ttml">dì</span>
+                        </text>
+                        <text for="L15">
+                            <span begin="00:51.848" end="00:52.200" xmlns="http://www.w3.org/ns/ttml">què</span>
+                            <span begin="00:52.559" end="00:52.708" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="00:52.708" end="00:53.067" xmlns="http://www.w3.org/ns/ttml">gào</span>
+                            <span begin="00:53.067" end="00:53.230" xmlns="http://www.w3.org/ns/ttml">sù</span>
+                            <span begin="00:53.230" end="00:53.548" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="00:53.548" end="00:53.709" xmlns="http://www.w3.org/ns/ttml">zuì</span>
+                            <span begin="00:53.709" end="00:54.080" xmlns="http://www.w3.org/ns/ttml">dà</span>
+                            <span begin="00:54.080" end="00:54.269" xmlns="http://www.w3.org/ns/ttml">qián</span>
+                            <span begin="00:54.269" end="00:54.458" xmlns="http://www.w3.org/ns/ttml">tí</span>
+                        </text>
+                        <text for="L16">
+                            <span begin="00:54.768" end="00:55.079" xmlns="http://www.w3.org/ns/ttml">shì</span>
+                            <span begin="00:55.079" end="00:55.407" xmlns="http://www.w3.org/ns/ttml">bì</span>
+                            <span begin="00:55.407" end="00:55.776" xmlns="http://www.w3.org/ns/ttml">xū</span>
+                            <span begin="00:55.776" end="00:56.149" xmlns="http://www.w3.org/ns/ttml">xiān</span>
+                            <span begin="00:56.149" end="00:56.481" xmlns="http://www.w3.org/ns/ttml">zhé</span>
+                            <span begin="00:56.481" end="00:56.858" xmlns="http://www.w3.org/ns/ttml">duàn</span>
+                            <span begin="00:56.858" end="00:57.006" xmlns="http://www.w3.org/ns/ttml">yǔ</span>
+                            <span begin="00:57.006" end="00:57.446" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L17">
+                            <span begin="00:58.548" end="00:59.157" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="00:59.157" end="00:59.305" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="00:59.305" end="00:59.517" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="00:59.517" end="00:59.677" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="00:59.677" end="00:59.844" xmlns="http://www.w3.org/ns/ttml">kěn</span>
+                            <span begin="00:59.844" end="01:00.005" xmlns="http://www.w3.org/ns/ttml">zhì</span>
+                            <span begin="01:00.005" end="01:00.205" xmlns="http://www.w3.org/ns/ttml">hǎo</span>
+                            <span begin="01:00.205" end="01:00.376" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:00.376" end="01:00.564" xmlns="http://www.w3.org/ns/ttml">bìng</span>
+                            <span begin="01:00.564" end="01:00.725" xmlns="http://www.w3.org/ns/ttml">jiào</span>
+                            <span begin="01:00.725" end="01:00.884" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                            <span begin="01:00.884" end="01:01.056" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="01:01.056" end="01:01.398" xmlns="http://www.w3.org/ns/ttml">zhǔ</span>
+                            <span begin="01:01.398" end="01:01.566" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L18">
+                            <span begin="01:01.751" end="01:01.920" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:01.920" end="01:02.086" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="01:02.086" end="01:02.271" xmlns="http://www.w3.org/ns/ttml">yào</span>
+                            <span begin="01:02.271" end="01:02.448" xmlns="http://www.w3.org/ns/ttml">guī</span>
+                            <span begin="01:02.448" end="01:02.631" xmlns="http://www.w3.org/ns/ttml">zé</span>
+                            <span begin="01:02.631" end="01:02.797" xmlns="http://www.w3.org/ns/ttml">zuò</span>
+                            <span begin="01:02.797" end="01:02.976" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:02.976" end="01:03.130" xmlns="http://www.w3.org/ns/ttml">diǎn</span>
+                            <span begin="01:03.130" end="01:03.309" xmlns="http://www.w3.org/ns/ttml">dī</span>
+                            <span begin="01:03.309" end="01:03.461" xmlns="http://www.w3.org/ns/ttml">cì</span>
+                            <span begin="01:03.461" end="01:03.650" xmlns="http://www.w3.org/ns/ttml">rù</span>
+                            <span begin="01:03.650" end="01:03.821" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:03.821" end="01:04.111" xmlns="http://www.w3.org/ns/ttml">shēn</span>
+                            <span begin="01:04.111" end="01:04.317" xmlns="http://www.w3.org/ns/ttml">tǐ</span>
+                        </text>
+                        <text for="L19">
+                            <span begin="01:04.500" end="01:04.659" xmlns="http://www.w3.org/ns/ttml">bié</span>
+                            <span begin="01:04.659" end="01:04.990" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="01:04.990" end="01:05.176" xmlns="http://www.w3.org/ns/ttml">jiā</span>
+                            <span begin="01:05.176" end="01:05.596" xmlns="http://www.w3.org/ns/ttml">zhòng</span>
+                            <span begin="01:05.596" end="01:05.989" xmlns="http://www.w3.org/ns/ttml">wài</span>
+                            <span begin="01:05.989" end="01:06.711" xmlns="http://www.w3.org/ns/ttml">ké</span>
+                            <span begin="01:06.711" end="01:07.010" xmlns="http://www.w3.org/ns/ttml">yū</span>
+                            <span begin="01:07.010" end="01:07.329" xmlns="http://www.w3.org/ns/ttml">qīng</span>
+                        </text>
+                        <text for="L20">
+                            <span begin="01:07.360" end="01:07.530" xmlns="http://www.w3.org/ns/ttml">xiàn</span>
+                            <span begin="01:07.530" end="01:07.869" xmlns="http://www.w3.org/ns/ttml">shí</span>
+                            <span begin="01:07.869" end="01:08.056" xmlns="http://www.w3.org/ns/ttml">táo</span>
+                            <span begin="01:08.056" end="01:08.389" xmlns="http://www.w3.org/ns/ttml">bì</span>
+                            <span begin="01:08.389" end="01:08.551" xmlns="http://www.w3.org/ns/ttml">zhī</span>
+                            <span begin="01:08.551" end="01:08.729" xmlns="http://www.w3.org/ns/ttml">shì</span>
+                            <span begin="01:08.729" end="01:08.909" xmlns="http://www.w3.org/ns/ttml">zì</span>
+                            <span begin="01:08.909" end="01:09.071" xmlns="http://www.w3.org/ns/ttml">bǎo</span>
+                            <span begin="01:09.071" end="01:09.231" xmlns="http://www.w3.org/ns/ttml">ér</span>
+                            <span begin="01:09.231" end="01:09.431" xmlns="http://www.w3.org/ns/ttml">yǐ</span>
+                        </text>
+                        <text for="L21">
+                            <span begin="01:09.551" end="01:09.746" xmlns="http://www.w3.org/ns/ttml">tā</span>
+                            <span begin="01:09.746" end="01:09.895" xmlns="http://www.w3.org/ns/ttml">shuō</span>
+                            <span begin="01:09.895" end="01:10.075" xmlns="http://www.w3.org/ns/ttml">tā</span>
+                            <span begin="01:10.075" end="01:10.366" xmlns="http://www.w3.org/ns/ttml">yǒu</span>
+                            <span begin="01:10.366" end="01:10.615" xmlns="http://www.w3.org/ns/ttml">hěn</span>
+                            <span begin="01:10.615" end="01:10.793" xmlns="http://www.w3.org/ns/ttml">duō</span>
+                        </text>
+                        <text for="L22">
+                            <span begin="01:10.928" end="01:11.117" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="01:11.117" end="01:11.288" xmlns="http://www.w3.org/ns/ttml">biǎo</span>
+                            <span begin="01:11.288" end="01:11.468" xmlns="http://www.w3.org/ns/ttml">dá</span>
+                            <span begin="01:11.468" end="01:11.709" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:11.709" end="01:11.979" xmlns="http://www.w3.org/ns/ttml">huà</span>
+                            <span begin="01:11.979" end="01:12.208" xmlns="http://www.w3.org/ns/ttml">tí</span>
+                        </text>
+                        <text for="L23">
+                            <span begin="01:12.307" end="01:12.467" xmlns="http://www.w3.org/ns/ttml">kě</span>
+                            <span begin="01:12.467" end="01:12.629" xmlns="http://www.w3.org/ns/ttml">chén</span>
+                            <span begin="01:12.629" end="01:12.820" xmlns="http://www.w3.org/ns/ttml">mò</span>
+                            <span begin="01:12.820" end="01:13.140" xmlns="http://www.w3.org/ns/ttml">hé</span>
+                            <span begin="01:13.140" end="01:13.498" xmlns="http://www.w3.org/ns/ttml">shí</span>
+                            <span begin="01:13.498" end="01:13.811" xmlns="http://www.w3.org/ns/ttml">qǐ</span>
+                            <span begin="01:13.811" end="01:14.188" xmlns="http://www.w3.org/ns/ttml">biàn</span>
+                            <span begin="01:14.188" end="01:14.502" xmlns="http://www.w3.org/ns/ttml">chéng</span>
+                            <span begin="01:14.502" end="01:14.866" xmlns="http://www.w3.org/ns/ttml">liǎo</span>
+                            <span begin="01:14.866" end="01:15.187" xmlns="http://www.w3.org/ns/ttml">guàn</span>
+                            <span begin="01:15.187" end="01:15.529" xmlns="http://www.w3.org/ns/ttml">xìng</span>
+                        </text>
+                        <text for="L24">
+                            <span begin="01:15.541" end="01:15.853" xmlns="http://www.w3.org/ns/ttml">líng</span>
+                            <span begin="01:15.853" end="01:16.042" xmlns="http://www.w3.org/ns/ttml">hún</span>
+                            <span begin="01:16.042" end="01:16.428" xmlns="http://www.w3.org/ns/ttml">bèi</span>
+                            <span begin="01:16.428" end="01:16.592" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                            <span begin="01:16.592" end="01:16.814" xmlns="http://www.w3.org/ns/ttml">xìng</span>
+                            <span begin="01:16.814" end="01:17.243" xmlns="http://www.w3.org/ns/ttml">dòng</span>
+                            <span begin="01:17.243" end="01:17.615" xmlns="http://www.w3.org/ns/ttml">zhù</span>
+                            <span begin="01:17.615" end="01:17.923" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:17.923" end="01:18.245" xmlns="http://www.w3.org/ns/ttml">bēi</span>
+                            <span begin="01:18.245" end="01:18.742" xmlns="http://www.w3.org/ns/ttml">míng</span>
+                        </text>
+                        <text for="L25">
+                            <span begin="01:19.320" end="01:19.512" xmlns="http://www.w3.org/ns/ttml">yào</span>
+                            <span begin="01:19.512" end="01:19.671" xmlns="http://www.w3.org/ns/ttml">rán</span>
+                            <span begin="01:19.671" end="01:19.889" xmlns="http://www.w3.org/ns/ttml">shāo</span>
+                            <span begin="01:19.889" end="01:20.177" xmlns="http://www.w3.org/ns/ttml">xiào</span>
+                            <span begin="01:20.177" end="01:20.359" xmlns="http://www.w3.org/ns/ttml">róng</span>
+                            <span begin="01:20.359" end="01:20.710" xmlns="http://www.w3.org/ns/ttml">xù</span>
+                            <span begin="01:20.710" end="01:20.998" xmlns="http://www.w3.org/ns/ttml">mìng</span>
+                        </text>
+                        <text for="L26">
+                            <span begin="01:21.045" end="01:21.335" xmlns="http://www.w3.org/ns/ttml">zhèng</span>
+                            <span begin="01:21.335" end="01:21.506" xmlns="http://www.w3.org/ns/ttml">zhā</span>
+                            <span begin="01:21.506" end="01:21.872" xmlns="http://www.w3.org/ns/ttml">zhe</span>
+                            <span begin="01:21.872" end="01:22.202" xmlns="http://www.w3.org/ns/ttml">huí</span>
+                            <span begin="01:22.202" end="01:22.573" xmlns="http://www.w3.org/ns/ttml">dào</span>
+                            <span begin="01:22.573" end="01:22.894" xmlns="http://www.w3.org/ns/ttml">liǎo</span>
+                            <span begin="01:22.894" end="01:23.225" xmlns="http://www.w3.org/ns/ttml">jiā</span>
+                            <span begin="01:23.225" end="01:23.483" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                        </text>
+                        <text for="L27">
+                            <span begin="01:23.741" end="01:24.031" xmlns="http://www.w3.org/ns/ttml">què</span>
+                            <span begin="01:24.031" end="01:24.226" xmlns="http://www.w3.org/ns/ttml">yòu</span>
+                            <span begin="01:24.226" end="01:24.624" xmlns="http://www.w3.org/ns/ttml">shǎo</span>
+                            <span begin="01:24.624" end="01:24.843" xmlns="http://www.w3.org/ns/ttml">liǎo</span>
+                            <span begin="01:24.843" end="01:25.224" xmlns="http://www.w3.org/ns/ttml">xiē</span>
+                            <span begin="01:25.224" end="01:25.562" xmlns="http://www.w3.org/ns/ttml">dōng</span>
+                            <span begin="01:25.562" end="01:25.924" xmlns="http://www.w3.org/ns/ttml">xī</span>
+                        </text>
+                        <text for="L28">
+                            <span begin="01:26.116" end="01:26.280" xmlns="http://www.w3.org/ns/ttml">nòng</span>
+                            <span begin="01:26.280" end="01:26.447" xmlns="http://www.w3.org/ns/ttml">diū</span>
+                            <span begin="01:26.447" end="01:26.791" xmlns="http://www.w3.org/ns/ttml">nà</span>
+                            <span begin="01:26.791" end="01:26.960" xmlns="http://www.w3.org/ns/ttml">gè</span>
+                            <span begin="01:26.960" end="01:27.300" xmlns="http://www.w3.org/ns/ttml">bèi</span>
+                            <span begin="01:27.300" end="01:27.621" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:27.621" end="01:27.989" xmlns="http://www.w3.org/ns/ttml">cáng</span>
+                            <span begin="01:27.989" end="01:28.289" xmlns="http://www.w3.org/ns/ttml">qǐ</span>
+                        </text>
+                        <text for="L29">
+                            <span begin="01:28.838" end="01:29.187" xmlns="http://www.w3.org/ns/ttml">hái</span>
+                            <span begin="01:29.187" end="01:29.500" xmlns="http://www.w3.org/ns/ttml">méi</span>
+                            <span begin="01:29.500" end="01:29.777" xmlns="http://www.w3.org/ns/ttml">rén</span>
+                            <span begin="01:29.777" end="01:30.057" xmlns="http://www.w3.org/ns/ttml">jiàn</span>
+                            <span begin="01:30.057" end="01:30.385" xmlns="http://www.w3.org/ns/ttml">guò</span>
+                            <span begin="01:30.385" end="01:30.727" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:30.727" end="01:31.016" xmlns="http://www.w3.org/ns/ttml">zì</span>
+                            <span begin="01:31.016" end="01:31.315" xmlns="http://www.w3.org/ns/ttml">jǐ</span>
+                        </text>
+                        <text for="L30">
+                            <span begin="01:31.906" end="01:32.077" xmlns="http://www.w3.org/ns/ttml">fān</span>
+                            <span begin="01:32.077" end="01:32.248" xmlns="http://www.w3.org/ns/ttml">lái</span>
+                            <span begin="01:32.416" end="01:32.597" xmlns="http://www.w3.org/ns/ttml">fù</span>
+                            <span begin="01:32.597" end="01:32.759" xmlns="http://www.w3.org/ns/ttml">qù</span>
+                            <span begin="01:32.959" end="01:33.127" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="01:33.127" end="01:33.296" xmlns="http://www.w3.org/ns/ttml">zhe</span>
+                            <span begin="01:33.296" end="01:33.449" xmlns="http://www.w3.org/ns/ttml">huó</span>
+                            <span begin="01:33.449" end="01:33.786" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:33.786" end="01:34.129" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                            <span begin="01:34.129" end="01:34.288" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L31">
+                            <span begin="01:34.597" end="01:34.784" xmlns="http://www.w3.org/ns/ttml">kě</span>
+                            <span begin="01:34.784" end="01:34.969" xmlns="http://www.w3.org/ns/ttml">lián</span>
+                            <span begin="01:35.157" end="01:35.338" xmlns="http://www.w3.org/ns/ttml">rè</span>
+                            <span begin="01:35.338" end="01:35.500" xmlns="http://www.w3.org/ns/ttml">qíng</span>
+                            <span begin="01:35.700" end="01:35.848" xmlns="http://www.w3.org/ns/ttml">tài</span>
+                            <span begin="01:35.848" end="01:36.019" xmlns="http://www.w3.org/ns/ttml">guò</span>
+                            <span begin="01:36.019" end="01:36.188" xmlns="http://www.w3.org/ns/ttml">jiù</span>
+                            <span begin="01:36.188" end="01:36.359" xmlns="http://www.w3.org/ns/ttml">huì</span>
+                            <span begin="01:36.476" end="01:36.625" xmlns="http://www.w3.org/ns/ttml">biǎn</span>
+                            <span begin="01:36.625" end="01:36.796" xmlns="http://www.w3.org/ns/ttml">zhí</span>
+                            <span begin="01:36.796" end="01:37.185" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:37.185" end="01:37.717" xmlns="http://www.w3.org/ns/ttml">dào</span>
+                            <span begin="01:37.717" end="01:38.272" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                        </text>
+                        <text for="L32">
+                            <span begin="01:38.703" end="01:39.023" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:39.023" end="01:39.383" xmlns="http://www.w3.org/ns/ttml">hái</span>
+                            <span begin="01:39.383" end="01:39.734" xmlns="http://www.w3.org/ns/ttml">méi</span>
+                            <span begin="01:39.734" end="01:40.093" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="01:40.093" end="01:40.592" xmlns="http://www.w3.org/ns/ttml">tài</span>
+                            <span begin="01:40.592" end="01:41.233" xmlns="http://www.w3.org/ns/ttml">qīng</span>
+                        </text>
+                        <text for="L33">
+                            <span begin="01:42.453" end="01:42.771" xmlns="http://www.w3.org/ns/ttml">rú</span>
+                            <span begin="01:42.771" end="01:43.119" xmlns="http://www.w3.org/ns/ttml">guǒ</span>
+                            <span begin="01:43.119" end="01:43.315" xmlns="http://www.w3.org/ns/ttml">kě</span>
+                            <span begin="01:43.315" end="01:43.492" xmlns="http://www.w3.org/ns/ttml">yǐ</span>
+                        </text>
+                        <text for="L34">
+                            <span begin="01:43.803" end="01:43.972" xmlns="http://www.w3.org/ns/ttml">ràng</span>
+                            <span begin="01:43.972" end="01:44.170" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:44.170" end="01:44.430" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="01:44.430" end="01:44.703" xmlns="http://www.w3.org/ns/ttml">guò</span>
+                            <span begin="01:44.703" end="01:45.025" xmlns="http://www.w3.org/ns/ttml">qù</span>
+                            <span begin="01:45.025" end="01:45.185" xmlns="http://www.w3.org/ns/ttml">zhǎo</span>
+                            <span begin="01:45.185" end="01:45.371" xmlns="http://www.w3.org/ns/ttml">dào</span>
+                            <span begin="01:45.371" end="01:45.553" xmlns="http://www.w3.org/ns/ttml">zì</span>
+                            <span begin="01:45.553" end="01:45.803" xmlns="http://www.w3.org/ns/ttml">jǐ</span>
+                        </text>
+                        <text for="L35">
+                            <span begin="01:46.082" end="01:46.264" xmlns="http://www.w3.org/ns/ttml">bǎ</span>
+                            <span begin="01:46.264" end="01:46.422" xmlns="http://www.w3.org/ns/ttml">sǐ</span>
+                            <span begin="01:46.422" end="01:46.622" xmlns="http://www.w3.org/ns/ttml">jié</span>
+                            <span begin="01:46.622" end="01:46.771" xmlns="http://www.w3.org/ns/ttml">zhèng</span>
+                            <span begin="01:46.771" end="01:46.942" xmlns="http://www.w3.org/ns/ttml">kāi</span>
+                            <span begin="01:46.942" end="01:47.173" xmlns="http://www.w3.org/ns/ttml">dé</span>
+                            <span begin="01:47.173" end="01:47.454" xmlns="http://www.w3.org/ns/ttml">qīng</span>
+                            <span begin="01:47.454" end="01:47.675" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L36">
+                            <span begin="01:47.964" end="01:48.112" xmlns="http://www.w3.org/ns/ttml">ràng</span>
+                            <span begin="01:48.112" end="01:48.304" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:48.304" end="01:48.602" xmlns="http://www.w3.org/ns/ttml">xún</span>
+                            <span begin="01:48.602" end="01:48.945" xmlns="http://www.w3.org/ns/ttml">sǐ</span>
+                            <span begin="01:48.945" end="01:49.294" xmlns="http://www.w3.org/ns/ttml">mì</span>
+                            <span begin="01:49.294" end="01:49.642" xmlns="http://www.w3.org/ns/ttml">huó</span>
+                            <span begin="01:49.642" end="01:49.991" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="01:49.991" end="01:50.173" xmlns="http://www.w3.org/ns/ttml">wǎng</span>
+                            <span begin="01:50.173" end="01:50.353" xmlns="http://www.w3.org/ns/ttml">shì</span>
+                        </text>
+                        <text for="L37">
+                            <span begin="01:50.655" end="01:50.870" xmlns="http://www.w3.org/ns/ttml">jū</span>
+                            <span begin="01:50.870" end="01:51.032" xmlns="http://www.w3.org/ns/ttml">rán</span>
+                            <span begin="01:51.032" end="01:51.363" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="01:51.363" end="01:51.641" xmlns="http://www.w3.org/ns/ttml">guò</span>
+                            <span begin="01:51.641" end="01:51.964" xmlns="http://www.w3.org/ns/ttml">zhè</span>
+                            <span begin="01:51.964" end="01:52.324" xmlns="http://www.w3.org/ns/ttml">yàng</span>
+                            <span begin="01:52.324" end="01:52.884" xmlns="http://www.w3.org/ns/ttml">ér</span>
+                            <span begin="01:52.884" end="01:53.264" xmlns="http://www.w3.org/ns/ttml">yǐ</span>
+                        </text>
+                        <text for="L38">
+                            <span begin="01:53.430" end="01:53.763" xmlns="http://www.w3.org/ns/ttml">ràng</span>
+                            <span begin="01:53.763" end="01:54.093" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:54.093" end="01:54.414" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="01:54.414" end="01:54.744" xmlns="http://www.w3.org/ns/ttml">hòu</span>
+                            <span begin="01:54.744" end="01:55.084" xmlns="http://www.w3.org/ns/ttml">huǐ</span>
+                            <span begin="01:55.084" end="01:55.432" xmlns="http://www.w3.org/ns/ttml">měi</span>
+                            <span begin="01:55.432" end="01:55.612" xmlns="http://www.w3.org/ns/ttml">gè</span>
+                            <span begin="01:55.612" end="01:55.952" xmlns="http://www.w3.org/ns/ttml">jué</span>
+                            <span begin="01:55.952" end="01:56.164" xmlns="http://www.w3.org/ns/ttml">dìng</span>
+                        </text>
+                        <text for="L39">
+                            <span begin="01:56.333" end="01:56.469" xmlns="http://www.w3.org/ns/ttml">qíng</span>
+                            <span begin="01:56.469" end="01:56.782" xmlns="http://www.w3.org/ns/ttml">xù</span>
+                            <span begin="01:56.782" end="01:57.093" xmlns="http://www.w3.org/ns/ttml">yī</span>
+                            <span begin="01:57.093" end="01:57.452" xmlns="http://www.w3.org/ns/ttml">jiàn</span>
+                            <span begin="01:57.452" end="01:57.781" xmlns="http://www.w3.org/ns/ttml">huī</span>
+                            <span begin="01:57.781" end="01:58.135" xmlns="http://www.w3.org/ns/ttml">fù</span>
+                            <span begin="01:58.135" end="01:58.311" xmlns="http://www.w3.org/ns/ttml">lěng</span>
+                            <span begin="01:58.311" end="01:58.609" xmlns="http://www.w3.org/ns/ttml">jìng</span>
+                        </text>
+                        <text for="L40">
+                            <span begin="01:58.609" end="01:59.136" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="01:59.399" end="01:59.538" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="01:59.538" end="01:59.867" xmlns="http://www.w3.org/ns/ttml">gāi</span>
+                            <span begin="01:59.867" end="02:00.039" xmlns="http://www.w3.org/ns/ttml">zhè</span>
+                            <span begin="02:00.039" end="02:00.379" xmlns="http://www.w3.org/ns/ttml">yàng</span>
+                            <span begin="02:00.379" end="02:00.538" xmlns="http://www.w3.org/ns/ttml">sǐ</span>
+                            <span begin="02:00.538" end="02:00.899" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="02:00.899" end="02:01.066" xmlns="http://www.w3.org/ns/ttml">yuán</span>
+                            <span begin="02:01.066" end="02:01.249" xmlns="http://www.w3.org/ns/ttml">dì</span>
+                        </text>
+                        <text for="L41">
+                            <span begin="02:01.538" end="02:01.698" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="02:01.698" end="02:01.910" xmlns="http://www.w3.org/ns/ttml">jiù</span>
+                            <span begin="02:01.910" end="02:02.216" xmlns="http://www.w3.org/ns/ttml">gāi</span>
+                            <span begin="02:02.216" end="02:02.560" xmlns="http://www.w3.org/ns/ttml">huó</span>
+                            <span begin="02:02.560" end="02:02.888" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="02:02.888" end="02:03.251" xmlns="http://www.w3.org/ns/ttml">zì</span>
+                            <span begin="02:03.251" end="02:03.750" xmlns="http://www.w3.org/ns/ttml">yóu</span>
+                            <span begin="02:03.750" end="02:07.320" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                        </text>
+                        <text for="L42">
+                            <span begin="02:25.765" end="02:26.410" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="02:26.410" end="02:26.582" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="02:26.582" end="02:26.754" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="02:26.754" end="02:26.926" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="02:26.926" end="02:27.103" xmlns="http://www.w3.org/ns/ttml">kěn</span>
+                            <span begin="02:27.103" end="02:27.274" xmlns="http://www.w3.org/ns/ttml">zhì</span>
+                            <span begin="02:27.274" end="02:27.454" xmlns="http://www.w3.org/ns/ttml">hǎo</span>
+                            <span begin="02:27.454" end="02:27.645" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="02:27.645" end="02:27.814" xmlns="http://www.w3.org/ns/ttml">bìng</span>
+                            <span begin="02:27.814" end="02:27.994" xmlns="http://www.w3.org/ns/ttml">jiào</span>
+                            <span begin="02:27.994" end="02:28.172" xmlns="http://www.w3.org/ns/ttml">lǐ</span>
+                            <span begin="02:28.172" end="02:28.325" xmlns="http://www.w3.org/ns/ttml">xiǎng</span>
+                            <span begin="02:28.325" end="02:28.644" xmlns="http://www.w3.org/ns/ttml">zhǔ</span>
+                            <span begin="02:28.644" end="02:28.844" xmlns="http://www.w3.org/ns/ttml">yì</span>
+                        </text>
+                        <text for="L43">
+                            <span begin="02:29.059" end="02:29.201" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="02:29.201" end="02:29.353" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="02:29.353" end="02:29.515" xmlns="http://www.w3.org/ns/ttml">yào</span>
+                            <span begin="02:29.515" end="02:29.686" xmlns="http://www.w3.org/ns/ttml">guī</span>
+                            <span begin="02:29.686" end="02:29.875" xmlns="http://www.w3.org/ns/ttml">zé</span>
+                            <span begin="02:29.875" end="02:30.034" xmlns="http://www.w3.org/ns/ttml">zuò</span>
+                            <span begin="02:30.034" end="02:30.205" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="02:30.205" end="02:30.382" xmlns="http://www.w3.org/ns/ttml">diǎn</span>
+                            <span begin="02:30.382" end="02:30.551" xmlns="http://www.w3.org/ns/ttml">dī</span>
+                            <span begin="02:30.551" end="02:30.724" xmlns="http://www.w3.org/ns/ttml">cì</span>
+                            <span begin="02:30.724" end="02:30.893" xmlns="http://www.w3.org/ns/ttml">rù</span>
+                            <span begin="02:30.893" end="02:31.085" xmlns="http://www.w3.org/ns/ttml">wǒ</span>
+                            <span begin="02:31.085" end="02:31.383" xmlns="http://www.w3.org/ns/ttml">shēn</span>
+                            <span begin="02:31.383" end="02:31.593" xmlns="http://www.w3.org/ns/ttml">tǐ</span>
+                        </text>
+                        <text for="L44">
+                            <span begin="02:31.811" end="02:31.953" xmlns="http://www.w3.org/ns/ttml">bié</span>
+                            <span begin="02:31.953" end="02:32.249" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="02:32.249" end="02:32.406" xmlns="http://www.w3.org/ns/ttml">jiā</span>
+                            <span begin="02:32.406" end="02:32.872" xmlns="http://www.w3.org/ns/ttml">zhòng</span>
+                            <span begin="02:32.872" end="02:33.262" xmlns="http://www.w3.org/ns/ttml">wài</span>
+                            <span begin="02:33.262" end="02:33.944" xmlns="http://www.w3.org/ns/ttml">ké</span>
+                            <span begin="02:33.944" end="02:34.246" xmlns="http://www.w3.org/ns/ttml">yū</span>
+                            <span begin="02:34.246" end="02:34.582" xmlns="http://www.w3.org/ns/ttml">qīng</span>
+                        </text>
+                        <text for="L45">
+                            <span begin="02:34.576" end="02:34.728" xmlns="http://www.w3.org/ns/ttml">xiàn</span>
+                            <span begin="02:34.728" end="02:34.929" xmlns="http://www.w3.org/ns/ttml">shí</span>
+                            <span begin="02:35.106" end="02:35.277" xmlns="http://www.w3.org/ns/ttml">táo</span>
+                            <span begin="02:35.277" end="02:35.475" xmlns="http://www.w3.org/ns/ttml">bì</span>
+                            <span begin="02:35.664" end="02:35.808" xmlns="http://www.w3.org/ns/ttml">zhī</span>
+                            <span begin="02:35.808" end="02:35.977" xmlns="http://www.w3.org/ns/ttml">shì</span>
+                            <span begin="02:35.977" end="02:36.157" xmlns="http://www.w3.org/ns/ttml">zì</span>
+                            <span begin="02:36.157" end="02:36.328" xmlns="http://www.w3.org/ns/ttml">bǎo</span>
+                            <span begin="02:36.328" end="02:36.508" xmlns="http://www.w3.org/ns/ttml">ér</span>
+                            <span begin="02:36.508" end="02:36.735" xmlns="http://www.w3.org/ns/ttml">yǐ</span>
+                        </text>
+                        <text for="L46">
+                            <span begin="02:36.917" end="02:37.077" xmlns="http://www.w3.org/ns/ttml">bié</span>
+                            <span begin="02:37.077" end="02:37.259" xmlns="http://www.w3.org/ns/ttml">ràng</span>
+                            <span begin="02:37.259" end="02:37.428" xmlns="http://www.w3.org/ns/ttml">nǐ</span>
+                            <span begin="02:37.428" end="02:37.666" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="02:37.666" end="02:37.927" xmlns="http://www.w3.org/ns/ttml">líng</span>
+                            <span begin="02:37.927" end="02:38.107" xmlns="http://www.w3.org/ns/ttml">hún</span>
+                        </text>
+                        <text for="L47">
+                            <span begin="02:38.258" end="02:38.438" xmlns="http://www.w3.org/ns/ttml">kùn</span>
+                            <span begin="02:38.438" end="02:38.597" xmlns="http://www.w3.org/ns/ttml">sǐ</span>
+                            <span begin="02:38.597" end="02:38.777" xmlns="http://www.w3.org/ns/ttml">zài</span>
+                            <span begin="02:38.777" end="02:39.018" xmlns="http://www.w3.org/ns/ttml">liǎo</span>
+                            <span begin="02:39.018" end="02:39.259" xmlns="http://www.w3.org/ns/ttml">shēn</span>
+                            <span begin="02:39.259" end="02:39.419" xmlns="http://www.w3.org/ns/ttml">tǐ</span>
+                        </text>
+                        <text for="L48">
+                            <span begin="02:39.619" end="02:39.796" xmlns="http://www.w3.org/ns/ttml">bèi</span>
+                            <span begin="02:39.796" end="02:39.967" xmlns="http://www.w3.org/ns/ttml">shí</span>
+                            <span begin="02:39.967" end="02:40.098" xmlns="http://www.w3.org/ns/ttml">jiān</span>
+                            <span begin="02:40.098" end="02:40.424" xmlns="http://www.w3.org/ns/ttml">shāo</span>
+                            <span begin="02:40.424" end="02:40.769" xmlns="http://www.w3.org/ns/ttml">gān</span>
+                            <span begin="02:40.769" end="02:41.098" xmlns="http://www.w3.org/ns/ttml">jìng</span>
+                            <span begin="02:41.098" end="02:41.459" xmlns="http://www.w3.org/ns/ttml">méi</span>
+                            <span begin="02:41.459" end="02:41.825" xmlns="http://www.w3.org/ns/ttml">yǒu</span>
+                            <span begin="02:41.825" end="02:42.127" xmlns="http://www.w3.org/ns/ttml">mù</span>
+                            <span begin="02:42.127" end="02:42.466" xmlns="http://www.w3.org/ns/ttml">zhì</span>
+                            <span begin="02:42.466" end="02:42.768" xmlns="http://www.w3.org/ns/ttml">míng</span>
+                        </text>
+                        <text for="L49">
+                            <span begin="02:42.768" end="02:43.128" xmlns="http://www.w3.org/ns/ttml">qiān</span>
+                            <span begin="02:43.128" end="02:43.317" xmlns="http://www.w3.org/ns/ttml">wàn</span>
+                            <span begin="02:43.317" end="02:43.696" xmlns="http://www.w3.org/ns/ttml">bù</span>
+                            <span begin="02:43.696" end="02:43.858" xmlns="http://www.w3.org/ns/ttml">yào</span>
+                            <span begin="02:43.858" end="02:44.025" xmlns="http://www.w3.org/ns/ttml">fàng</span>
+                            <span begin="02:44.025" end="02:44.496" xmlns="http://www.w3.org/ns/ttml">xià</span>
+                            <span begin="02:44.496" end="02:44.879" xmlns="http://www.w3.org/ns/ttml">shǒu</span>
+                            <span begin="02:44.879" end="02:45.206" xmlns="http://www.w3.org/ns/ttml">zhōng</span>
+                            <span begin="02:45.206" end="02:45.556" xmlns="http://www.w3.org/ns/ttml">de</span>
+                            <span begin="02:45.556" end="02:45.889" xmlns="http://www.w3.org/ns/ttml">bǐ</span>
+                        </text>
+                        <text for="L50">
+                            <span begin="02:46.420" end="02:46.887" xmlns="http://www.w3.org/ns/ttml">wèi</span>
+                            <span begin="02:47.481" end="02:47.639" xmlns="http://www.w3.org/ns/ttml">xiě</span>
+                            <span begin="02:47.639" end="02:47.852" xmlns="http://www.w3.org/ns/ttml">diǎn</span>
+                            <span begin="02:47.852" end="02:48.102" xmlns="http://www.w3.org/ns/ttml">shén</span>
+                            <span begin="02:48.102" end="02:48.314" xmlns="http://www.w3.org/ns/ttml">me</span>
+                            <span begin="02:48.314" end="02:48.619" xmlns="http://www.w3.org/ns/ttml">dōu</span>
+                            <span begin="02:48.619" end="02:48.943" xmlns="http://www.w3.org/ns/ttml">xíng</span>
+                        </text>
+                    </transliteration>
+                </transliterations><translations/>
+            </iTunesMetadata>
+        </metadata>
+    </head>
+    <body dur="02:48.943">
+        <div begin="00:14.110" end="02:48.943">
+            <p begin="00:14.110" end="00:16.624" ttm:agent="v1" itunes:key="L1">
+                <span begin="00:14.110" end="00:14.482">挣</span>
+                <span begin="00:14.482" end="00:14.653">扎</span>
+                <span begin="00:14.653" end="00:15.172">着</span>
+                <span begin="00:15.172" end="00:15.332">从</span>
+                <span begin="00:15.332" end="00:15.672">床</span>
+                <span begin="00:15.672" end="00:16.023">上</span>
+                <span begin="00:16.023" end="00:16.383">爬</span>
+                <span begin="00:16.383" end="00:16.624">起</span>
+            </p>
+            <p begin="00:16.943" end="00:19.184" ttm:agent="v1" itunes:key="L2">
+                <span begin="00:16.943" end="00:17.230">像</span>
+                <span begin="00:17.230" end="00:17.420">误</span>
+                <span begin="00:17.420" end="00:17.962">入</span>
+                <span begin="00:17.962" end="00:18.142">到</span>
+                <span begin="00:18.142" end="00:18.441">人</span>
+                <span begin="00:18.441" end="00:18.762">群</span>
+                <span begin="00:18.762" end="00:19.184">里</span>
+            </p>
+            <p begin="00:19.584" end="00:22.173" ttm:agent="v1" itunes:key="L3">
+                <span begin="00:19.584" end="00:19.944">群</span>
+                <span begin="00:19.944" end="00:20.112">聊</span>
+                <span begin="00:20.112" end="00:20.632">冷</span>
+                <span begin="00:20.632" end="00:20.832">场</span>
+                <span begin="00:20.832" end="00:21.192">没</span>
+                <span begin="00:21.192" end="00:21.522">新</span>
+                <span begin="00:21.522" end="00:21.889">消</span>
+                <span begin="00:21.889" end="00:22.173">息</span>
+            </p>
+            <p begin="00:22.373" end="00:25.120" ttm:agent="v1" itunes:key="L4">
+                <span begin="00:22.373" end="00:22.710">停</span>
+                <span begin="00:22.710" end="00:22.864">在</span>
+                <span begin="00:22.864" end="00:23.412">我</span>
+                <span begin="00:23.412" end="00:23.572">发</span>
+                <span begin="00:23.572" end="00:23.912">的</span>
+                <span begin="00:23.912" end="00:24.263">最</span>
+                <span begin="00:24.263" end="00:24.623">后</span>
+                <span begin="00:24.623" end="00:24.933">一</span>
+                <span begin="00:24.933" end="00:25.120">句</span>
+            </p>
+            <p begin="00:25.182" end="00:27.430" ttm:agent="v1" itunes:key="L5">
+                <span begin="00:25.182" end="00:25.291">不</span>
+                <span begin="00:25.291" end="00:25.451">太</span>
+                <span begin="00:25.572" end="00:25.753">合</span>
+                <span begin="00:25.753" end="00:25.891">群 </span>
+                <span begin="00:26.144" end="00:26.280">可</span>
+                <span begin="00:26.280" end="00:26.461">也 </span>
+                <span begin="00:26.461" end="00:26.600">不</span>
+                <span begin="00:26.600" end="00:26.908">太</span>
+                <span begin="00:26.908" end="00:27.264">独</span>
+                <span begin="00:27.264" end="00:27.430">立</span>
+            </p>
+            <p begin="00:27.758" end="00:31.539" ttm:agent="v1" itunes:key="L6">
+                <span begin="00:27.758" end="00:27.930">害</span>
+                <span begin="00:27.930" end="00:28.184">怕</span>
+                <span begin="00:28.360" end="00:28.512">关</span>
+                <span begin="00:28.512" end="00:28.704">系 </span>
+                <span begin="00:28.867" end="00:29.040">没</span>
+                <span begin="00:29.040" end="00:29.208">按</span>
+                <span begin="00:29.208" end="00:29.359">我</span>
+                <span begin="00:29.359" end="00:29.670">所</span>
+                <span begin="00:29.670" end="00:29.838">设</span>
+                <span begin="00:29.838" end="00:30.037">想</span>
+                <span begin="00:30.037" end="00:30.358">的</span>
+                <span begin="00:30.358" end="00:30.840">运</span>
+                <span begin="00:30.840" end="00:31.539">行</span>
+            </p>
+            <p begin="00:31.966" end="00:34.566" ttm:agent="v1" itunes:key="L7">
+                <span begin="00:31.966" end="00:32.278">我</span>
+                <span begin="00:32.278" end="00:32.598">有</span>
+                <span begin="00:32.598" end="00:32.925">太</span>
+                <span begin="00:32.925" end="00:33.245">多 </span>
+                <span begin="00:33.245" end="00:33.788">问</span>
+                <span begin="00:33.788" end="00:34.566">题：</span>
+            </p>
+            <p begin="00:35.617" end="00:36.736" ttm:agent="v1" itunes:key="L8">
+                <span begin="00:35.617" end="00:36.004">如</span>
+                <span begin="00:36.004" end="00:36.366">果</span>
+                <span begin="00:36.366" end="00:36.547">可</span>
+                <span begin="00:36.547" end="00:36.736">以</span>
+            </p>
+            <p begin="00:37.019" end="00:39.138" ttm:agent="v1" itunes:key="L9">
+                <span begin="00:37.019" end="00:37.199">别</span>
+                <span begin="00:37.199" end="00:37.408">被</span>
+                <span begin="00:37.408" end="00:37.646">困</span>
+                <span begin="00:37.646" end="00:37.926">在</span>
+                <span begin="00:37.926" end="00:38.205">"都</span>
+                <span begin="00:38.205" end="00:38.418">是</span>
+                <span begin="00:38.418" end="00:38.588">为</span>
+                <span begin="00:38.588" end="00:38.777">了</span>
+                <span begin="00:38.777" end="00:39.138">你"</span>
+            </p>
+            <p begin="00:39.318" end="00:40.920" ttm:agent="v1" itunes:key="L10">
+                <span begin="00:39.318" end="00:39.457">能</span>
+                <span begin="00:39.457" end="00:39.640">逃</span>
+                <span begin="00:39.640" end="00:39.808">离</span>
+                <span begin="00:39.808" end="00:39.968">也</span>
+                <span begin="00:39.968" end="00:40.148">是</span>
+                <span begin="00:40.148" end="00:40.418">种</span>
+                <span begin="00:40.418" end="00:40.679">能</span>
+                <span begin="00:40.679" end="00:40.920">力</span>
+            </p>
+            <p begin="00:41.141" end="00:43.489" ttm:agent="v1" itunes:key="L11">
+                <span begin="00:41.141" end="00:41.493">别</span>
+                <span begin="00:41.493" end="00:41.829">让</span>
+                <span begin="00:41.829" end="00:42.011">情</span>
+                <span begin="00:42.011" end="00:42.160">绪</span>
+                <span begin="00:42.278" end="00:42.427">压</span>
+                <span begin="00:42.427" end="00:42.787">抑</span>
+                <span begin="00:42.787" end="00:43.117">再</span>
+                <span begin="00:43.117" end="00:43.317">压</span>
+                <span begin="00:43.317" end="00:43.489">抑</span>
+            </p>
+            <p begin="00:43.843" end="00:46.421" ttm:agent="v1" itunes:key="L12">
+                <span begin="00:43.843" end="00:44.003">反</span>
+                <span begin="00:44.003" end="00:44.161">向</span>
+                <span begin="00:44.161" end="00:44.491">暴</span>
+                <span begin="00:44.491" end="00:44.821">起</span>
+                <span begin="00:44.821" end="00:45.161">伤</span>
+                <span begin="00:45.161" end="00:45.470">害</span>
+                <span begin="00:45.470" end="00:46.060">自</span>
+                <span begin="00:46.060" end="00:46.421">己</span>
+            </p>
+            <p begin="00:46.589" end="00:49.439" ttm:agent="v1" itunes:key="L13">
+                <span begin="00:46.589" end="00:46.919">别</span>
+                <span begin="00:46.919" end="00:47.248">听</span>
+                <span begin="00:47.248" end="00:47.617">成</span>
+                <span begin="00:47.617" end="00:47.927">绩</span>
+                <span begin="00:47.927" end="00:48.319">外</span>
+                <span begin="00:48.319" end="00:48.638">都</span>
+                <span begin="00:48.638" end="00:48.838">没</span>
+                <span begin="00:48.838" end="00:49.137">意</span>
+                <span begin="00:49.137" end="00:49.439">义</span>
+            </p>
+            <p begin="00:49.439" end="00:51.848" ttm:agent="v1" itunes:key="L14">
+                <span begin="00:49.439" end="00:49.626">说</span>
+                <span begin="00:49.626" end="00:49.949">教</span>
+                <span begin="00:49.949" end="00:50.258">着</span>
+                <span begin="00:50.258" end="00:50.627">要</span>
+                <span begin="00:50.627" end="00:51.001">脚</span>
+                <span begin="00:51.001" end="00:51.361">踏</span>
+                <span begin="00:51.361" end="00:51.538">实</span>
+                <span begin="00:51.538" end="00:51.848">地</span>
+            </p>
+            <p begin="00:51.848" end="00:54.458" ttm:agent="v1" itunes:key="L15">
+                <span begin="00:51.848" end="00:52.200">却</span>
+                <span begin="00:52.559" end="00:52.708">不</span>
+                <span begin="00:52.708" end="00:53.067">告</span>
+                <span begin="00:53.067" end="00:53.230">诉</span>
+                <span begin="00:53.230" end="00:53.548">我</span>
+                <span begin="00:53.548" end="00:53.709">最</span>
+                <span begin="00:53.709" end="00:54.080">大</span>
+                <span begin="00:54.080" end="00:54.269">前</span>
+                <span begin="00:54.269" end="00:54.458">提</span>
+            </p>
+            <p begin="00:54.768" end="00:57.446" ttm:agent="v1" itunes:key="L16">
+                <span begin="00:54.768" end="00:55.079">是</span>
+                <span begin="00:55.079" end="00:55.407">必</span>
+                <span begin="00:55.407" end="00:55.776">须</span>
+                <span begin="00:55.776" end="00:56.149">先</span>
+                <span begin="00:56.149" end="00:56.481">折</span>
+                <span begin="00:56.481" end="00:56.858">断</span>
+                <span begin="00:56.858" end="00:57.006">羽</span>
+                <span begin="00:57.006" end="00:57.446">翼</span>
+            </p>
+            <p begin="00:58.548" end="01:01.566" ttm:agent="v1" itunes:key="L17">
+                <span begin="00:58.548" end="00:59.157">我</span>
+                <span begin="00:59.157" end="00:59.305">不</span>
+                <span begin="00:59.305" end="00:59.517">想</span>
+                <span begin="00:59.517" end="00:59.677">不</span>
+                <span begin="00:59.677" end="00:59.844">肯</span>
+                <span begin="00:59.844" end="01:00.005">治</span>
+                <span begin="01:00.005" end="01:00.205">好</span>
+                <span begin="01:00.205" end="01:00.376">的</span>
+                <span begin="01:00.376" end="01:00.564">"病" </span>
+                <span begin="01:00.564" end="01:00.725">叫</span>
+                <span begin="01:00.725" end="01:00.884">理</span>
+                <span begin="01:00.884" end="01:01.056">想</span>
+                <span begin="01:01.056" end="01:01.398">主</span>
+                <span begin="01:01.398" end="01:01.566">义</span>
+            </p>
+            <p begin="01:01.751" end="01:04.317" ttm:agent="v1" itunes:key="L18">
+                <span begin="01:01.751" end="01:01.920">我</span>
+                <span begin="01:01.920" end="01:02.086">不</span>
+                <span begin="01:02.086" end="01:02.271">要</span>
+                <span begin="01:02.271" end="01:02.448">规</span>
+                <span begin="01:02.448" end="01:02.631">则</span>
+                <span begin="01:02.631" end="01:02.797">做</span>
+                <span begin="01:02.797" end="01:02.976">的</span>
+                <span begin="01:02.976" end="01:03.130">点</span>
+                <span begin="01:03.130" end="01:03.309">滴 </span>
+                <span begin="01:03.309" end="01:03.461">刺</span>
+                <span begin="01:03.461" end="01:03.650">入</span>
+                <span begin="01:03.650" end="01:03.821">我</span>
+                <span begin="01:03.821" end="01:04.111">身</span>
+                <span begin="01:04.111" end="01:04.317">体</span>
+            </p>
+            <p begin="01:04.500" end="01:07.329" ttm:agent="v1" itunes:key="L19">
+                <span begin="01:04.500" end="01:04.659">别</span>
+                <span begin="01:04.659" end="01:04.990">再</span>
+                <span begin="01:04.990" end="01:05.176">加</span>
+                <span begin="01:05.176" end="01:05.596">重 </span>
+                <span begin="01:05.596" end="01:05.989">外</span>
+                <span begin="01:05.989" end="01:06.711">壳</span>
+                <span begin="01:06.711" end="01:07.010">淤</span>
+                <span begin="01:07.010" end="01:07.329">青</span>
+            </p>
+            <p begin="01:07.360" end="01:09.431" ttm:agent="v1" itunes:key="L20">
+                <span begin="01:07.360" end="01:07.530">现</span>
+                <span begin="01:07.530" end="01:07.869">实 </span>
+                <span begin="01:07.869" end="01:08.056">逃</span>
+                <span begin="01:08.056" end="01:08.389">避 </span>
+                <span begin="01:08.389" end="01:08.551">只</span>
+                <span begin="01:08.551" end="01:08.729">是</span>
+                <span begin="01:08.729" end="01:08.909">自</span>
+                <span begin="01:08.909" end="01:09.071">保</span>
+                <span begin="01:09.071" end="01:09.231">而</span>
+                <span begin="01:09.231" end="01:09.431">已</span>
+            </p>
+            <p begin="01:09.551" end="01:10.793" ttm:agent="v1" itunes:key="L21">
+                <span begin="01:09.551" end="01:09.746">他</span>
+                <span begin="01:09.746" end="01:09.895">说</span>
+                <span begin="01:09.895" end="01:10.075">他</span>
+                <span begin="01:10.075" end="01:10.366">有</span>
+                <span begin="01:10.366" end="01:10.615">很</span>
+                <span begin="01:10.615" end="01:10.793">多</span>
+            </p>
+            <p begin="01:10.928" end="01:12.208" ttm:agent="v1" itunes:key="L22">
+                <span begin="01:10.928" end="01:11.117">想</span>
+                <span begin="01:11.117" end="01:11.288">表</span>
+                <span begin="01:11.288" end="01:11.468">达</span>
+                <span begin="01:11.468" end="01:11.709">的</span>
+                <span begin="01:11.709" end="01:11.979">话</span>
+                <span begin="01:11.979" end="01:12.208">题</span>
+            </p>
+            <p begin="01:12.307" end="01:15.529" ttm:agent="v1" itunes:key="L23">
+                <span begin="01:12.307" end="01:12.467">可</span>
+                <span begin="01:12.467" end="01:12.629">沉</span>
+                <span begin="01:12.629" end="01:12.820">默</span>
+                <span begin="01:12.820" end="01:13.140">何</span>
+                <span begin="01:13.140" end="01:13.498">时</span>
+                <span begin="01:13.498" end="01:13.811">起</span>
+                <span begin="01:13.811" end="01:14.188">变</span>
+                <span begin="01:14.188" end="01:14.502">成</span>
+                <span begin="01:14.502" end="01:14.866">了</span>
+                <span begin="01:14.866" end="01:15.187">惯</span>
+                <span begin="01:15.187" end="01:15.529">性</span>
+            </p>
+            <p begin="01:15.541" end="01:18.742" ttm:agent="v1" itunes:key="L24">
+                <span begin="01:15.541" end="01:15.853">灵</span>
+                <span begin="01:15.853" end="01:16.042">魂</span>
+                <span begin="01:16.042" end="01:16.428">被</span>
+                <span begin="01:16.428" end="01:16.592">"理</span>
+                <span begin="01:16.592" end="01:16.814">性"</span>
+                <span begin="01:16.814" end="01:17.243">冻</span>
+                <span begin="01:17.243" end="01:17.615">住</span>
+                <span begin="01:17.615" end="01:17.923">的</span>
+                <span begin="01:17.923" end="01:18.245">悲</span>
+                <span begin="01:18.245" end="01:18.742">鸣</span>
+            </p>
+            <p begin="01:19.320" end="01:20.998" ttm:agent="v1" itunes:key="L25">
+                <span begin="01:19.320" end="01:19.512">要</span>
+                <span begin="01:19.512" end="01:19.671">燃</span>
+                <span begin="01:19.671" end="01:19.889">烧</span>
+                <span begin="01:19.889" end="01:20.177">笑</span>
+                <span begin="01:20.177" end="01:20.359">容</span>
+                <span begin="01:20.359" end="01:20.710">续</span>
+                <span begin="01:20.710" end="01:20.998">命</span>
+            </p>
+            <p begin="01:21.045" end="01:23.483" ttm:agent="v1" itunes:key="L26">
+                <span begin="01:21.045" end="01:21.335">挣</span>
+                <span begin="01:21.335" end="01:21.506">扎</span>
+                <span begin="01:21.506" end="01:21.872">着</span>
+                <span begin="01:21.872" end="01:22.202">回</span>
+                <span begin="01:22.202" end="01:22.573">到</span>
+                <span begin="01:22.573" end="01:22.894">了</span>
+                <span begin="01:22.894" end="01:23.225">家</span>
+                <span begin="01:23.225" end="01:23.483">里</span>
+            </p>
+            <p begin="01:23.741" end="01:25.924" ttm:agent="v1" itunes:key="L27">
+                <span begin="01:23.741" end="01:24.031">却</span>
+                <span begin="01:24.031" end="01:24.226">又</span>
+                <span begin="01:24.226" end="01:24.624">少</span>
+                <span begin="01:24.624" end="01:24.843">了</span>
+                <span begin="01:24.843" end="01:25.224">些</span>
+                <span begin="01:25.224" end="01:25.562">东</span>
+                <span begin="01:25.562" end="01:25.924">西</span>
+            </p>
+            <p begin="01:26.116" end="01:28.289" ttm:agent="v1" itunes:key="L28">
+                <span begin="01:26.116" end="01:26.280">弄</span>
+                <span begin="01:26.280" end="01:26.447">丢</span>
+                <span begin="01:26.447" end="01:26.791">那</span>
+                <span begin="01:26.791" end="01:26.960">个</span>
+                <span begin="01:26.960" end="01:27.300">被</span>
+                <span begin="01:27.300" end="01:27.621">我</span>
+                <span begin="01:27.621" end="01:27.989">藏</span>
+                <span begin="01:27.989" end="01:28.289">起</span>
+            </p>
+            <p begin="01:28.838" end="01:31.315" ttm:agent="v1" itunes:key="L29">
+                <span begin="01:28.838" end="01:29.187">还</span>
+                <span begin="01:29.187" end="01:29.500">没</span>
+                <span begin="01:29.500" end="01:29.777">人</span>
+                <span begin="01:29.777" end="01:30.057">见</span>
+                <span begin="01:30.057" end="01:30.385">过</span>
+                <span begin="01:30.385" end="01:30.727">的</span>
+                <span begin="01:30.727" end="01:31.016">自</span>
+                <span begin="01:31.016" end="01:31.315">己</span>
+            </p>
+            <p begin="01:31.906" end="01:34.288" ttm:agent="v1" itunes:key="L30">
+                <span begin="01:31.906" end="01:32.077">翻</span>
+                <span begin="01:32.077" end="01:32.248">来</span>
+                <span begin="01:32.416" end="01:32.597">覆</span>
+                <span begin="01:32.597" end="01:32.759">去 </span>
+                <span begin="01:32.959" end="01:33.127">想</span>
+                <span begin="01:33.127" end="01:33.296">着</span>
+                <span begin="01:33.296" end="01:33.449">活</span>
+                <span begin="01:33.449" end="01:33.786">的</span>
+                <span begin="01:33.786" end="01:34.129">意</span>
+                <span begin="01:34.129" end="01:34.288">义</span>
+            </p>
+            <p begin="01:34.597" end="01:38.272" ttm:agent="v1" itunes:key="L31">
+                <span begin="01:34.597" end="01:34.784">可</span>
+                <span begin="01:34.784" end="01:34.969">连</span>
+                <span begin="01:35.157" end="01:35.338">热</span>
+                <span begin="01:35.338" end="01:35.500">情</span>
+                <span begin="01:35.700" end="01:35.848">太</span>
+                <span begin="01:35.848" end="01:36.019">过</span>
+                <span begin="01:36.019" end="01:36.188">就</span>
+                <span begin="01:36.188" end="01:36.359">会</span>
+                <span begin="01:36.476" end="01:36.625">贬</span>
+                <span begin="01:36.625" end="01:36.796">值</span>
+                <span begin="01:36.796" end="01:37.185">的</span>
+                <span begin="01:37.185" end="01:37.717">道</span>
+                <span begin="01:37.717" end="01:38.272">理</span>
+            </p>
+            <p begin="01:38.703" end="01:41.233" ttm:agent="v1" itunes:key="L32">
+                <span begin="01:38.703" end="01:39.023">我</span>
+                <span begin="01:39.023" end="01:39.383">还</span>
+                <span begin="01:39.383" end="01:39.734">没</span>
+                <span begin="01:39.734" end="01:40.093">想</span>
+                <span begin="01:40.093" end="01:40.592">太</span>
+                <span begin="01:40.592" end="01:41.233">清：</span>
+            </p>
+            <p begin="01:42.453" end="01:43.492" ttm:agent="v1" itunes:key="L33">
+                <span begin="01:42.453" end="01:42.771">如</span>
+                <span begin="01:42.771" end="01:43.119">果</span>
+                <span begin="01:43.119" end="01:43.315">可</span>
+                <span begin="01:43.315" end="01:43.492">以</span>
+            </p>
+            <p begin="01:43.803" end="01:45.803" ttm:agent="v1" itunes:key="L34">
+                <span begin="01:43.803" end="01:43.972">让</span>
+                <span begin="01:43.972" end="01:44.170">我</span>
+                <span begin="01:44.170" end="01:44.430">在</span>
+                <span begin="01:44.430" end="01:44.703">过</span>
+                <span begin="01:44.703" end="01:45.025">去</span>
+                <span begin="01:45.025" end="01:45.185">找</span>
+                <span begin="01:45.185" end="01:45.371">到</span>
+                <span begin="01:45.371" end="01:45.553">自</span>
+                <span begin="01:45.553" end="01:45.803">己</span>
+            </p>
+            <p begin="01:46.082" end="01:47.675" ttm:agent="v1" itunes:key="L35">
+                <span begin="01:46.082" end="01:46.264">把</span>
+                <span begin="01:46.264" end="01:46.422">死</span>
+                <span begin="01:46.422" end="01:46.622">结</span>
+                <span begin="01:46.622" end="01:46.771">挣</span>
+                <span begin="01:46.771" end="01:46.942">开</span>
+                <span begin="01:46.942" end="01:47.173">得</span>
+                <span begin="01:47.173" end="01:47.454">轻</span>
+                <span begin="01:47.454" end="01:47.675">易</span>
+            </p>
+            <p begin="01:47.964" end="01:50.353" ttm:agent="v1" itunes:key="L36">
+                <span begin="01:47.964" end="01:48.112">让</span>
+                <span begin="01:48.112" end="01:48.304">我</span>
+                <span begin="01:48.304" end="01:48.602">寻</span>
+                <span begin="01:48.602" end="01:48.945">死</span>
+                <span begin="01:48.945" end="01:49.294">觅</span>
+                <span begin="01:49.294" end="01:49.642">活</span>
+                <span begin="01:49.642" end="01:49.991">的</span>
+                <span begin="01:49.991" end="01:50.173">往</span>
+                <span begin="01:50.173" end="01:50.353">事</span>
+            </p>
+            <p begin="01:50.655" end="01:53.264" ttm:agent="v1" itunes:key="L37">
+                <span begin="01:50.655" end="01:50.870">居</span>
+                <span begin="01:50.870" end="01:51.032">然</span>
+                <span begin="01:51.032" end="01:51.363">不</span>
+                <span begin="01:51.363" end="01:51.641">过</span>
+                <span begin="01:51.641" end="01:51.964">这</span>
+                <span begin="01:51.964" end="01:52.324">样</span>
+                <span begin="01:52.324" end="01:52.884">而</span>
+                <span begin="01:52.884" end="01:53.264">已</span>
+            </p>
+            <p begin="01:53.430" end="01:56.164" ttm:agent="v1" itunes:key="L38">
+                <span begin="01:53.430" end="01:53.763">让</span>
+                <span begin="01:53.763" end="01:54.093">我</span>
+                <span begin="01:54.093" end="01:54.414">不</span>
+                <span begin="01:54.414" end="01:54.744">后</span>
+                <span begin="01:54.744" end="01:55.084">悔</span>
+                <span begin="01:55.084" end="01:55.432">每</span>
+                <span begin="01:55.432" end="01:55.612">个</span>
+                <span begin="01:55.612" end="01:55.952">决</span>
+                <span begin="01:55.952" end="01:56.164">定</span>
+            </p>
+            <p begin="01:56.333" end="01:58.609" ttm:agent="v1" itunes:key="L39">
+                <span begin="01:56.333" end="01:56.469">情</span>
+                <span begin="01:56.469" end="01:56.782">绪</span>
+                <span begin="01:56.782" end="01:57.093">一</span>
+                <span begin="01:57.093" end="01:57.452">键</span>
+                <span begin="01:57.452" end="01:57.781">恢</span>
+                <span begin="01:57.781" end="01:58.135">复</span>
+                <span begin="01:58.135" end="01:58.311">冷</span>
+                <span begin="01:58.311" end="01:58.609">静</span>
+            </p>
+            <p begin="01:58.609" end="02:01.249" ttm:agent="v1" itunes:key="L40">
+                <span begin="01:58.609" end="01:59.136">我</span>
+                <span begin="01:59.399" end="01:59.538">不</span>
+                <span begin="01:59.538" end="01:59.867">该</span>
+                <span begin="01:59.867" end="02:00.039">这</span>
+                <span begin="02:00.039" end="02:00.379">样</span>
+                <span begin="02:00.379" end="02:00.538">死</span>
+                <span begin="02:00.538" end="02:00.899">在</span>
+                <span begin="02:00.899" end="02:01.066">原</span>
+                <span begin="02:01.066" end="02:01.249">地</span>
+            </p>
+            <p begin="02:01.538" end="02:07.320" ttm:agent="v1" itunes:key="L41">
+                <span begin="02:01.538" end="02:01.698">我</span>
+                <span begin="02:01.698" end="02:01.910">就</span>
+                <span begin="02:01.910" end="02:02.216">该</span>
+                <span begin="02:02.216" end="02:02.560">活</span>
+                <span begin="02:02.560" end="02:02.888">在</span>
+                <span begin="02:02.888" end="02:03.251">自</span>
+                <span begin="02:03.251" end="02:03.750">由</span>
+                <span begin="02:03.750" end="02:07.320">里</span>
+            </p>
+            <p begin="02:25.765" end="02:28.844" ttm:agent="v1" itunes:key="L42">
+                <span begin="02:25.765" end="02:26.410">我</span>
+                <span begin="02:26.410" end="02:26.582">不</span>
+                <span begin="02:26.582" end="02:26.754">想</span>
+                <span begin="02:26.754" end="02:26.926">不</span>
+                <span begin="02:26.926" end="02:27.103">肯</span>
+                <span begin="02:27.103" end="02:27.274">治</span>
+                <span begin="02:27.274" end="02:27.454">好</span>
+                <span begin="02:27.454" end="02:27.645">的</span>
+                <span begin="02:27.645" end="02:27.814">"病" </span>
+                <span begin="02:27.814" end="02:27.994">叫</span>
+                <span begin="02:27.994" end="02:28.172">理</span>
+                <span begin="02:28.172" end="02:28.325">想</span>
+                <span begin="02:28.325" end="02:28.644">主</span>
+                <span begin="02:28.644" end="02:28.844">义</span>
+            </p>
+            <p begin="02:29.059" end="02:31.593" ttm:agent="v1" itunes:key="L43">
+                <span begin="02:29.059" end="02:29.201">我</span>
+                <span begin="02:29.201" end="02:29.353">不</span>
+                <span begin="02:29.353" end="02:29.515">要</span>
+                <span begin="02:29.515" end="02:29.686">规</span>
+                <span begin="02:29.686" end="02:29.875">则</span>
+                <span begin="02:29.875" end="02:30.034">做</span>
+                <span begin="02:30.034" end="02:30.205">的</span>
+                <span begin="02:30.205" end="02:30.382">点</span>
+                <span begin="02:30.382" end="02:30.551">滴 </span>
+                <span begin="02:30.551" end="02:30.724">刺</span>
+                <span begin="02:30.724" end="02:30.893">入</span>
+                <span begin="02:30.893" end="02:31.085">我</span>
+                <span begin="02:31.085" end="02:31.383">身</span>
+                <span begin="02:31.383" end="02:31.593">体</span>
+            </p>
+            <p begin="02:31.811" end="02:34.582" ttm:agent="v1" itunes:key="L44">
+                <span begin="02:31.811" end="02:31.953">别</span>
+                <span begin="02:31.953" end="02:32.249">再</span>
+                <span begin="02:32.249" end="02:32.406">加</span>
+                <span begin="02:32.406" end="02:32.872">重 </span>
+                <span begin="02:32.872" end="02:33.262">外</span>
+                <span begin="02:33.262" end="02:33.944">壳</span>
+                <span begin="02:33.944" end="02:34.246">淤</span>
+                <span begin="02:34.246" end="02:34.582">青</span>
+            </p>
+            <p begin="02:34.576" end="02:36.735" ttm:agent="v1" itunes:key="L45">
+                <span begin="02:34.576" end="02:34.728">现</span>
+                <span begin="02:34.728" end="02:34.929">实 </span>
+                <span begin="02:35.106" end="02:35.277">逃</span>
+                <span begin="02:35.277" end="02:35.475">避 </span>
+                <span begin="02:35.664" end="02:35.808">只</span>
+                <span begin="02:35.808" end="02:35.977">是</span>
+                <span begin="02:35.977" end="02:36.157">自</span>
+                <span begin="02:36.157" end="02:36.328">保</span>
+                <span begin="02:36.328" end="02:36.508">而</span>
+                <span begin="02:36.508" end="02:36.735">已</span>
+            </p>
+            <p begin="02:36.917" end="02:38.107" ttm:agent="v1" itunes:key="L46">
+                <span begin="02:36.917" end="02:37.077">别</span>
+                <span begin="02:37.077" end="02:37.259">让</span>
+                <span begin="02:37.259" end="02:37.428">你</span>
+                <span begin="02:37.428" end="02:37.666">的</span>
+                <span begin="02:37.666" end="02:37.927">灵</span>
+                <span begin="02:37.927" end="02:38.107">魂</span>
+            </p>
+            <p begin="02:38.258" end="02:39.419" ttm:agent="v1" itunes:key="L47">
+                <span begin="02:38.258" end="02:38.438">困</span>
+                <span begin="02:38.438" end="02:38.597">死</span>
+                <span begin="02:38.597" end="02:38.777">在</span>
+                <span begin="02:38.777" end="02:39.018">了</span>
+                <span begin="02:39.018" end="02:39.259">身</span>
+                <span begin="02:39.259" end="02:39.419">体</span>
+            </p>
+            <p begin="02:39.619" end="02:42.768" ttm:agent="v1" itunes:key="L48">
+                <span begin="02:39.619" end="02:39.796">被</span>
+                <span begin="02:39.796" end="02:39.967">时</span>
+                <span begin="02:39.967" end="02:40.098">间</span>
+                <span begin="02:40.098" end="02:40.424">烧</span>
+                <span begin="02:40.424" end="02:40.769">干</span>
+                <span begin="02:40.769" end="02:41.098">净</span>
+                <span begin="02:41.098" end="02:41.459">没</span>
+                <span begin="02:41.459" end="02:41.825">有</span>
+                <span begin="02:41.825" end="02:42.127">墓</span>
+                <span begin="02:42.127" end="02:42.466">志</span>
+                <span begin="02:42.466" end="02:42.768">铭</span>
+            </p>
+            <p begin="02:42.768" end="02:45.889" ttm:agent="v1" itunes:key="L49">
+                <span begin="02:42.768" end="02:43.128">千</span>
+                <span begin="02:43.128" end="02:43.317">万</span>
+                <span begin="02:43.317" end="02:43.696">不</span>
+                <span begin="02:43.696" end="02:43.858">要</span>
+                <span begin="02:43.858" end="02:44.025">放</span>
+                <span begin="02:44.025" end="02:44.496">下</span>
+                <span begin="02:44.496" end="02:44.879">手</span>
+                <span begin="02:44.879" end="02:45.206">中</span>
+                <span begin="02:45.206" end="02:45.556">的</span>
+                <span begin="02:45.556" end="02:45.889">笔</span>
+            </p>
+            <p begin="02:46.420" end="02:48.943" ttm:agent="v1" itunes:key="L50">
+                <span begin="02:46.420" end="02:46.887">"喂"</span>
+                <span begin="02:47.481" end="02:47.639">写</span>
+                <span begin="02:47.639" end="02:47.852">点</span>
+                <span begin="02:47.852" end="02:48.102">什</span>
+                <span begin="02:48.102" end="02:48.314">么</span>
+                <span begin="02:48.314" end="02:48.619">都</span>
+                <span begin="02:48.619" end="02:48.943">行</span>
+            </p>
+        </div>
+    </body>
+</tt>

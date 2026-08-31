@@ -63,6 +63,31 @@ Push 现在作为备用选项：点击「Push（备用）」会先弹窗推荐�
 python -m unittest discover -s tools/lyrics_manager/tests -v
 ```
 
+### TTML 一键格式化脚本
+
+`tools/lyrics_manager/ttml_formatter.py` 扫描仓库中**压缩态（单行、未格式化）**的 TTML 文件，把不规范的逐节拍发音/音节 span 转为更标准的形式，并生成可读的多行 `-Format.ttml`：
+
+```powershell
+# 文件路径方式，可从任意目录运行；不带根目录时自动定位本仓库的 Lyrics
+python tools/lyrics_manager/ttml_formatter.py                        # 处理全部压缩 TTML
+python tools/lyrics_manager/ttml_formatter.py --list                 # 仅列出候选文件
+python tools/lyrics_manager/ttml_formatter.py D:\Github\MiaowCham-Lyrics-DB\Lyrics
+# 也可在仓库根目录用模块方式：
+python -m tools.lyrics_manager.ttml_formatter --list
+```
+
+处理规则：
+
+1. 普通发音 span 末尾补 `xmlns="http://www.w3.org/ns/ttml"`（如 `<span begin="36.626" end="37.988" xmlns="...">mo</span>`）。
+2. 带 `ttm:role="x-bg"` 的发音 span 规范为外层 `<span xmlns:ttm="...#metadata" ttm:role="x-bg" xmlns="...">` 包裹内层纯 span。
+3. 音节内置的空格移动到音节外（也应用到逐节拍发音）。
+4. 发音语言为 ja-Latn / zh-Latn-pinyin / zh-Latn-jyutping / ko-Latn，且整个发音内无内置或音节间空格时，在所有音节间补空格；若发音音节与原文音节字母一致（忽略符号与空格），则按原文音节是否带空格决定。
+5. 其他发音语言按原文音节是否带空格决定。
+
+脚本还会把**旧式 TTML**（翻译/音译以 `x-translation`/`x-transliteration`/`x-roman` 附属形式夹杂在 `body` 内）迁移到 `head` 的 iTunesMetadata 容器（含背景 `x-bg` 行，生成 `L<n>:bgN`）。
+
+写入策略：内容变化时先把原文件备份为 `.bak`，原位写回规范化的单行版；无论是否变化都会生成同名 `-Format.ttml`（若已存在，先备份其 `.bak`）。脚本只用 Python 标准库，不改动歌词正文与未知字段。
+
 `pages` 分支包含静态 GitHub Pages 搜索页面及公开索引快照。仓库管理员仍需在 GitHub 的 Pages 设置中选择 `pages` 分支根目录作为发布源。
 页面快照可用 `python tools/export_pages.py <输出目录> --source-commit <main 提交>` 重新生成；公开数据只含搜索字段、相对路径和固定提交链接，不包含歌词全文或本地路径。
 

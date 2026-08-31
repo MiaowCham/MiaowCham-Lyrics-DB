@@ -31,7 +31,8 @@ class GitHubPRServiceTests(unittest.TestCase):
     # -- availability -----------------------------------------------------
 
     def test_missing_gh_raises_actionable_error(self) -> None:
-        service = GitHubPRService(Path("."), gh_executable=None)
+        with patch("tools.lyrics_manager.github_pr._gh_available", return_value=None):
+            service = GitHubPRService(Path("."), gh_executable=None)
         self.assertFalse(service.is_available())
         with self.assertRaisesRegex(GitHubError, "GitHub CLI"):
             service.ensure_available()
@@ -219,7 +220,8 @@ class GitHubPRServiceTests(unittest.TestCase):
                 self.service.output("pr", "list")
 
     def test_diagnose_reports_missing_gh(self) -> None:
-        service = GitHubPRService(Path("."), gh_executable=None)
+        with patch("tools.lyrics_manager.github_pr._gh_available", return_value=None):
+            service = GitHubPRService(Path("."), gh_executable=None)
         text = service.diagnose()
         self.assertIn("未在 PATH 找到", text)
         self.assertIn("https://cli.github.com", text)

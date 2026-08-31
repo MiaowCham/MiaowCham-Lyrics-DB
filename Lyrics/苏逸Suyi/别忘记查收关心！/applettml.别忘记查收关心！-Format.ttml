@@ -1,20 +1,12 @@
+
 <tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="zh-Hans">
     <head>
-        <metadata>
-            <ttm:agent type="person" xml:id="v1"/>
-            <ttm:agent type="group" xml:id="v2"/>
-            <ttm:agent type="person" xml:id="v3"/>
-            <ttm:agent type="person" xml:id="v4"/>
-            <ttm:agent type="person" xml:id="v5"/>
-            <ttm:agent type="person" xml:id="v6"/>
-            <ttm:agent type="other" xml:id="v7"/>
-            <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
-                <translations/>
+        <metadata><ttm:agent type="person" xml:id="v1"/><ttm:agent type="group" xml:id="v2"/><ttm:agent type="person" xml:id="v3"/><ttm:agent type="person" xml:id="v4"/><ttm:agent type="person" xml:id="v5"/><ttm:agent type="person" xml:id="v6"/><ttm:agent type="other" xml:id="v7"/>
+            <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal"><translations/>
                 <songwriters>
                     <songwriter>苏逸Suyi</songwriter>
                     <songwriter>Yagi</songwriter>
-                </songwriters>
-                <audio lyricOffset="-0.080"/>
+                </songwriters><audio lyricOffset="-0.080"/>
             </iTunesMetadata>
         </metadata>
     </head>
@@ -311,7 +303,7 @@
                 <span begin="1:32.270" end="1:32.500">片</span>
                 <span begin="1:32.500" end="1:32.940">天</span>
                 <span ttm:role="x-bg">
-                    <span begin="1:32.770" end="1:33.280">(Yeah,</span><space/>
+                    <span begin="1:32.770" end="1:33.280">(Yeah,</span>
                     <span begin="1:33.280" end="1:34.010">yeah)</span>
                 </span>
             </p>
@@ -623,7 +615,7 @@
                 <span begin="3:16.540" end="3:16.800">几</span>
                 <span begin="3:16.800" end="3:17.360">多</span>
                 <span ttm:role="x-bg">
-                    <span begin="3:17.170" end="3:17.660">(Yeah,</span><space/>
+                    <span begin="3:17.170" end="3:17.660">(Yeah,</span>
                     <span begin="3:17.660" end="3:18.240">yeah)</span>
                 </span>
             </p>

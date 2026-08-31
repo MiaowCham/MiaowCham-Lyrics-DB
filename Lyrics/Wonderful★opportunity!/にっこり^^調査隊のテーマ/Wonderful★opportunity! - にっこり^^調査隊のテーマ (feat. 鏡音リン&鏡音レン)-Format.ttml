@@ -1,0 +1,1650 @@
+
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xml:lang="ja-JP" itunes:timing="Word">
+    <head>
+        <metadata>
+            <ttm:agent type="person" xml:id="v1">
+                <ttm:name type="full">镜音铃</ttm:name>
+            </ttm:agent>
+            <ttm:agent type="person" xml:id="v2">
+                <ttm:name type="full">镜音连</ttm:name>
+            </ttm:agent><ttm:agent type="group" xml:id="v1000" /><ttm:agent type="other" xml:id="v2000" />
+            <ttm:title>にっこり^^調査隊のテーマ (feat. 鏡音リン&amp;鏡音レン)</ttm:title><amll:meta key="ttmlAuthorGithub" value="136059186" /><amll:meta key="ttmlAuthorGithubLogin" value="MiaowCham" /><amll:meta key="ncmMusicId" value="1918884502" /><amll:meta key="appleMusicId" value="1607417027" /><amll:meta key="artists" value="Wonderful opportunity!" /><amll:meta key="artists" value="鏡音リン" /><amll:meta key="artists" value="鏡音レン" /><amll:meta key="album" value="にっこり^^調査隊のテーマ" /><amll:meta key="isrc" value="JP92Q2200001" />
+            <itunes:iTunesMetadata>
+                <itunes:songwriters>
+                    <itunes:songwriter>JESUS-P</itunes:songwriter>
+                    <itunes:songwriter>Wonderful opportunity!</itunes:songwriter>
+                </itunes:songwriters>
+                <itunes:transliterations>
+                    <itunes:transliteration>
+                        <itunes:text for="L1">
+                            <itunes:span begin="00:02.729" end="00:03.402">nikkori</itunes:span>
+                            <itunes:span begin="00:03.402" end="00:03.725">chousa</itunes:span>
+                            <itunes:span begin="00:03.725" end="00:04.047">tai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L2">
+                            <itunes:span begin="00:04.047" end="00:04.174">o</itunes:span>
+                            <itunes:span begin="00:04.174" end="00:04.396">wa kon</itunes:span>
+                            <itunes:span begin="00:04.396" end="00:04.558">ban</itunes:span>
+                            <itunes:span begin="00:04.558" end="00:04.774">chiwa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L3">
+                            <itunes:span begin="00:05.359" end="00:05.527">kyou</itunes:span>
+                            <itunes:span begin="00:05.527" end="00:05.708">mo</itunes:span>
+                            <itunes:span begin="00:05.708" end="00:05.876">kyou</itunes:span>
+                            <itunes:span begin="00:05.876" end="00:06.031">tote</itunes:span>
+                            <itunes:span begin="00:06.031" end="00:06.389">saikou</itunes:span>
+                            <itunes:span begin="00:06.389" end="00:06.593">desu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L4">
+                            <itunes:span begin="00:06.743" end="00:07.133">oo</itunes:span>
+                            <itunes:span begin="00:07.402" end="00:07.745">wanda</itunes:span>
+                            <itunes:span begin="00:07.745" end="00:08.063">ho-i</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L5">
+                            <itunes:span begin="00:10.031" end="00:10.709">tansaku</itunes:span>
+                            <itunes:span begin="00:12.528" end="00:13.373">korekushon</itunes:span>
+                            <itunes:span begin="00:15.341" end="00:16.013">tankyuu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L7">
+                            <itunes:span begin="00:18.718" end="00:19.054">shokun</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:19.051" end="00:19.219">(hai)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L8">
+                            <itunes:span begin="00:19.363" end="00:19.718">wareware</itunes:span>
+                            <itunes:span begin="00:19.718" end="00:19.862">wa</itunes:span>
+                            <itunes:span begin="00:20.030" end="00:20.230">sekai</itunes:span>
+                            <itunes:span begin="00:20.230" end="00:20.346">no</itunes:span>
+                            <itunes:span begin="00:20.346" end="00:20.522">egao</itunes:span>
+                            <itunes:span begin="00:20.522" end="00:20.714">o</itunes:span>
+                            <itunes:span begin="00:20.714" end="00:20.995">chousa</itunes:span>
+                            <itunes:span begin="00:20.995" end="00:21.194">suru</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L9">
+                            <itunes:span begin="00:21.172" end="00:21.392">hai</itunes:span>
+                            <itunes:span begin="00:21.392" end="00:21.730">taichou</itunes:span>
+                            <itunes:span begin="00:21.730" end="00:21.814">ore</itunes:span>
+                            <itunes:span begin="00:21.814" end="00:21.979">ni</itunes:span>
+                            <itunes:span begin="00:21.979" end="00:22.155">meian</itunes:span>
+                            <itunes:span begin="00:22.155" end="00:22.470">ga</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:22.379" end="00:22.695">(kyakka)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L10">
+                            <itunes:span begin="00:22.614" end="00:22.733">tte</itunes:span>
+                            <itunes:span begin="00:22.733" end="00:22.865">mada</itunes:span>
+                            <itunes:span begin="00:22.865" end="00:23.014">nani</itunes:span>
+                            <itunes:span begin="00:23.014" end="00:23.207">mo</itunes:span>
+                            <itunes:span begin="00:23.207" end="00:23.370">ite</itunes:span>
+                            <itunes:span begin="00:23.370" end="00:23.710">nai nda</itunes:span>
+                            <itunes:span begin="00:23.710" end="00:23.857">ga</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L11">
+                            <itunes:span begin="00:23.749" end="00:23.962">mo-</itunes:span>
+                            <itunes:span begin="00:24.076" end="00:24.238">to-</itunes:span>
+                            <itunes:span begin="00:24.238" end="00:24.341">ni-</itunes:span>
+                            <itunes:span begin="00:24.341" end="00:24.537">ka-</itunes:span>
+                            <itunes:span begin="00:24.537" end="00:24.701">ku</itunes:span>
+                            <itunes:span begin="00:24.701" end="00:24.989">areda</itunes:span>
+                            <itunes:span begin="00:24.989" end="00:25.258">hora</itunes:span>
+                            <itunes:span begin="00:25.341" end="00:25.717">kanabun</itunes:span>
+                            <itunes:span begin="00:25.717" end="00:25.808">wa</itunes:span>
+                            <itunes:span begin="00:25.808" end="00:26.084">ikken</itunes:span>
+                            <itunes:span begin="00:26.084" end="00:26.176">ni</itunes:span>
+                            <itunes:span begin="00:26.176" end="00:26.388">shika</itunes:span>
+                            <itunes:span begin="00:26.388" end="00:26.624">zu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L12">
+                            <itunes:span begin="00:26.255" end="00:26.465">aa</itunes:span>
+                            <itunes:span begin="00:26.561" end="00:26.861">hyakubun</itunes:span>
+                            <itunes:span begin="00:26.861" end="00:27.025">wa</itunes:span>
+                            <itunes:span begin="00:27.025" end="00:27.225">ikken</itunes:span>
+                            <itunes:span begin="00:27.225" end="00:27.330">ni</itunes:span>
+                            <itunes:span begin="00:27.330" end="00:27.530">shika</itunes:span>
+                            <itunes:span begin="00:27.530" end="00:27.630">zuda</itunes:span>
+                            <itunes:span begin="00:27.630" end="00:27.905">nee</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L13">
+                            <itunes:span begin="00:27.868" end="00:28.022">sore</itunes:span>
+                            <itunes:span begin="00:28.022" end="00:28.262">sore</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L14">
+                            <itunes:span begin="00:28.237" end="00:28.499">tsumari</itunes:span>
+                            <itunes:span begin="00:28.499" end="00:28.873">mushitori</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L15">
+                            <itunes:span begin="00:28.828" end="00:29.333">chigau tte</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L16">
+                            <itunes:span begin="00:29.423" end="00:29.633">taichou</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L17">
+                            <itunes:span begin="00:29.733" end="00:30.283">naninani</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:29.867" end="00:30.156">(nanda)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L18">
+                            <itunes:span begin="00:30.041" end="00:30.276">teian</itunes:span>
+                            <itunes:span begin="00:30.276" end="00:30.406">ga</itunes:span>
+                            <itunes:span begin="00:30.406" end="00:30.742">arimasu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L19">
+                            <itunes:span begin="00:30.704" end="00:30.895">zehi</itunes:span>
+                            <itunes:span begin="00:30.895" end="00:31.059">kika</itunes:span>
+                            <itunes:span begin="00:31.059" end="00:31.184">se</itunes:span>
+                            <itunes:span begin="00:31.184" end="00:31.239">te</itunes:span>
+                            <itunes:span begin="00:31.239" end="00:31.435">hoshii</itunes:span>
+                            <itunes:span begin="00:31.435" end="00:31.735">monoda</itunes:span>
+                            <itunes:span begin="00:31.735" end="00:31.884">na</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L20">
+                            <itunes:span begin="00:31.867" end="00:32.307">toriaezu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L21">
+                            <itunes:span begin="00:32.396" end="00:32.856">toriaezu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L22">
+                            <itunes:span begin="00:32.916" end="00:33.362">toriaezu</itunes:span>
+                            <itunes:span begin="00:33.362" end="00:33.702">shuppatsu</itunes:span>
+                            <itunes:span begin="00:33.702" end="00:33.952">shiyou</itunes:span>
+                            <itunes:span begin="00:33.952" end="00:34.135">noo</itunes:span>
+                            <itunes:span begin="00:34.135" end="00:34.527">purande</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:34.552" end="00:34.783">(un)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L23">
+                            <itunes:span begin="00:34.698" end="00:34.967">chotto</itunes:span>
+                            <itunes:span begin="00:34.967" end="00:35.247">mate</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:35.222" end="00:35.378">(e)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L24">
+                            <itunes:span begin="00:35.377" end="00:35.632">shuppatsu</itunes:span>
+                            <itunes:span begin="00:35.632" end="00:36.198">shinkou</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L25">
+                            <itunes:span begin="00:36.053" end="00:36.333">chotto</itunes:span>
+                            <itunes:span begin="00:36.333" end="00:36.557">mate tte</itunes:span>
+                            <itunes:span begin="00:36.623" end="00:36.850">tabi</itunes:span>
+                            <itunes:span begin="00:36.850" end="00:37.118">shitaku</itunes:span>
+                            <itunes:span begin="00:37.118" end="00:37.323">kurai</itunes:span>
+                            <itunes:span begin="00:37.323" end="00:37.419">sa</itunes:span>
+                            <itunes:span begin="00:37.419" end="00:37.976">sero</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L26">
+                            <itunes:span begin="00:37.729" end="00:38.033">suu</itunes:span>
+                            <itunes:span begin="00:38.033" end="00:38.443">jitsu</itunes:span>
+                            <itunes:span begin="00:38.443" end="00:38.706">ato</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L27">
+                            <itunes:span begin="00:38.549" end="00:38.689">jaa</itunes:span>
+                            <itunes:span begin="00:38.689" end="00:39.036">mochimono</itunes:span>
+                            <itunes:span begin="00:39.036" end="00:39.272">chekku</itunes:span>
+                            <itunes:span begin="00:39.272" end="00:39.358">o</itunes:span>
+                            <itunes:span begin="00:39.358" end="00:39.620">hajime</itunes:span>
+                            <itunes:span begin="00:39.620" end="00:39.942">ma-</itunes:span>
+                            <itunes:span begin="00:39.942" end="00:40.169">su</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L28">
+                            <itunes:span begin="00:40.205" end="00:40.560">mazu</itunes:span>
+                            <itunes:span begin="00:40.560" end="00:40.734">wa</itunes:span>
+                            <itunes:span begin="00:40.734" end="00:41.224">kihon</itunes:span>
+                            <itunes:span begin="00:41.224" end="00:41.348">no</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L29">
+                            <itunes:span begin="00:41.377" end="00:41.552">pa</itunes:span>
+                            <itunes:span begin="00:41.726" end="00:42.106">papa</itunes:span>
+                            <itunes:span begin="00:42.226" end="00:43.015">pasupooto</itunes:span>
+                            <itunes:span begin="00:43.015" end="00:43.686">mota</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:43.699" end="00:44.030">(ha-i)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L30">
+                            <itunes:span begin="00:44.030" end="00:44.170">ki</itunes:span>
+                            <itunes:span begin="00:44.379" end="00:44.699">kiki</itunes:span>
+                            <itunes:span begin="00:44.859" end="00:45.375">kigae</itunes:span>
+                            <itunes:span begin="00:45.375" end="00:46.175">wasureta</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:46.390" end="00:46.684">(e)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L31">
+                            <itunes:span begin="00:46.684" end="00:46.910">mo</itunes:span>
+                            <itunes:span begin="00:47.045" end="00:47.705">mobairu</itunes:span>
+                            <itunes:span begin="00:47.705" end="00:47.889">ba</itunes:span>
+                            <itunes:span begin="00:48.025" end="00:48.505">terii</itunes:span>
+                            <itunes:span begin="00:48.505" end="00:49.170">mota</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="00:49.045" end="00:49.356">(ha-i)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L32">
+                            <itunes:span begin="00:49.356" end="00:49.565">ko</itunes:span>
+                            <itunes:span begin="00:49.716" end="00:50.516">kokorozashi</itunes:span>
+                            <itunes:span begin="00:50.516" end="00:50.681">wa</itunes:span>
+                            <itunes:span begin="00:50.681" end="00:51.376">mota</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L33">
+                            <itunes:span begin="00:51.376" end="00:52.056">mochiron</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L34">
+                            <itunes:span begin="00:52.191" end="00:52.716">nakama</itunes:span>
+                            <itunes:span begin="00:52.716" end="00:52.865">ga</itunes:span>
+                            <itunes:span begin="00:52.865" end="00:53.040">i</itunes:span>
+                            <itunes:span begin="00:53.040" end="00:53.376">te</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L35">
+                            <itunes:span begin="00:53.545" end="00:54.056">watakushi</itunes:span>
+                            <itunes:span begin="00:54.056" end="00:54.200">ga</itunes:span>
+                            <itunes:span begin="00:54.200" end="00:54.673">iru</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L36">
+                            <itunes:span begin="00:54.673" end="00:55.193">shikamo</itunes:span>
+                            <itunes:span begin="00:55.193" end="00:55.718">futsuu</itunes:span>
+                            <itunes:span begin="00:55.718" end="00:55.913">ja</itunes:span>
+                            <itunes:span begin="00:55.913" end="00:56.213">nai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L37">
+                            <itunes:span begin="00:56.213" end="00:56.547">dare</itunes:span>
+                            <itunes:span begin="00:56.547" end="00:56.707">no</itunes:span>
+                            <itunes:span begin="00:56.707" end="00:57.038">koto</itunes:span>
+                            <itunes:span begin="00:57.038" end="00:57.189">ka</itunes:span>
+                            <itunes:span begin="00:57.189" end="00:57.354">na</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L38">
+                            <itunes:span begin="00:57.533" end="00:57.872">boku</itunes:span>
+                            <itunes:span begin="00:57.872" end="00:58.013">ra</itunes:span>
+                            <itunes:span begin="00:58.013" end="00:58.192">ni</itunes:span>
+                            <itunes:span begin="00:58.192" end="00:58.397">wa</itunes:span>
+                            <itunes:span begin="00:58.570" end="00:58.710">fu</itunes:span>
+                            <itunes:span begin="00:58.710" end="00:59.034">kanou</itunes:span>
+                            <itunes:span begin="00:59.034" end="00:59.174">o</itunes:span>
+                            <itunes:span begin="00:59.174" end="00:59.906">kanou</itunes:span>
+                            <itunes:span begin="00:59.906" end="01:00.235">ni</itunes:span>
+                            <itunes:span begin="01:00.235" end="01:00.871">kaeru</itunes:span>
+                            <itunes:span begin="01:00.871" end="01:01.220">nan</itunes:span>
+                            <itunes:span begin="01:01.220" end="01:01.550">ka</itunes:span>
+                            <itunes:span begin="01:01.550" end="01:01.697">ga</itunes:span>
+                            <itunes:span begin="01:01.697" end="01:02.051">aru</itunes:span>
+                            <itunes:span begin="01:02.051" end="01:02.197">sa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L39">
+                            <itunes:span begin="01:02.403" end="01:03.014">nikkori</itunes:span>
+                            <itunes:span begin="01:03.014" end="01:04.014">korikorikori</itunes:span>
+                            <itunes:span begin="01:04.014" end="01:04.974">koriandaa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L40">
+                            <itunes:span begin="01:05.223" end="01:05.842">achira</itunes:span>
+                            <itunes:span begin="01:05.842" end="01:06.053">mo</itunes:span>
+                            <itunes:span begin="01:06.053" end="01:06.532">kochira</itunes:span>
+                            <itunes:span begin="01:06.532" end="01:06.709">mo</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L41">
+                            <itunes:span begin="01:06.709" end="01:07.410">senkyaku</itunes:span>
+                            <itunes:span begin="01:07.410" end="01:07.989">banrai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L42">
+                            <itunes:span begin="01:08.211" end="01:08.531">kimi</itunes:span>
+                            <itunes:span begin="01:08.531" end="01:08.699">no</itunes:span>
+                            <itunes:span begin="01:08.699" end="01:09.149">egao</itunes:span>
+                            <itunes:span begin="01:09.149" end="01:09.520">mo</itunes:span>
+                            <itunes:span begin="01:09.520" end="01:10.349">korekushon</itunes:span>
+                            <itunes:span begin="01:10.349" end="01:10.541">sa</itunes:span>
+                            <itunes:span begin="01:10.541" end="01:10.880">se</itunes:span>
+                            <itunes:span begin="01:10.880" end="01:11.659">te</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L43">
+                            <itunes:span begin="01:11.726" end="01:12.238">ii e -</itunes:span>
+                            <itunes:span begin="01:12.238" end="01:12.416">ii e</itunes:span>
+                            <itunes:span begin="01:12.416" end="01:12.856">ii e</itunes:span>
+                            <itunes:span begin="01:12.856" end="01:13.238">i</itunes:span>
+                            <itunes:span begin="01:13.238" end="01:13.646">i e</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L44">
+                            <itunes:span begin="01:13.556" end="01:13.808">otona</itunes:span>
+                            <itunes:span begin="01:13.808" end="01:14.047">mo</itunes:span>
+                            <itunes:span begin="01:14.047" end="01:14.469">kodomo</itunes:span>
+                            <itunes:span begin="01:14.469" end="01:14.716">mo</itunes:span>
+                            <itunes:span begin="01:14.716" end="01:15.379">kankei</itunes:span>
+                            <itunes:span begin="01:15.379" end="01:15.589">nee</itunes:span>
+                            <itunes:span begin="01:15.589" end="01:15.807">ze</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L45">
+                            <itunes:span begin="01:15.905" end="01:16.334">kore</itunes:span>
+                            <itunes:span begin="01:16.334" end="01:16.574">zo</itunes:span>
+                            <itunes:span begin="01:16.574" end="01:17.146">ichiryuu</itunes:span>
+                            <itunes:span begin="01:17.146" end="01:17.572">no</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L46">
+                            <itunes:span begin="01:17.426" end="01:18.095">enta</itunes:span>
+                            <itunes:span begin="01:18.095" end="01:18.544">teime n</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L47">
+                            <itunes:span begin="01:18.567" end="01:19.837">watashida tte</itunes:span>
+                            <itunes:span begin="01:19.837" end="01:20.538">itsu</itunes:span>
+                            <itunes:span begin="01:20.538" end="01:20.825">ka</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L48">
+                            <itunes:span begin="01:20.825" end="01:21.185">yume</itunes:span>
+                            <itunes:span begin="01:21.185" end="01:21.366">o</itunes:span>
+                            <itunes:span begin="01:21.366" end="01:21.897">kanae</itunes:span>
+                            <itunes:span begin="01:21.897" end="01:22.785">teyaru tte</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L49">
+                            <itunes:span begin="01:23.735" end="01:24.094">kono</itunes:span>
+                            <itunes:span begin="01:24.094" end="01:24.875">nikkori</itunes:span>
+                            <itunes:span begin="01:24.875" end="01:25.203">ni</itunes:span>
+                            <itunes:span begin="01:25.203" end="01:25.867">fure</itunes:span>
+                            <itunes:span begin="01:25.867" end="01:26.158">te</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L50">
+                            <itunes:span begin="01:26.158" end="01:26.719">motto</itunes:span>
+                            <itunes:span begin="01:26.719" end="01:27.017">mune</itunes:span>
+                            <itunes:span begin="01:27.017" end="01:27.761">fukurami ma</itunes:span>
+                            <itunes:span begin="01:27.761" end="01:28.079">shi</itunes:span>
+                            <itunes:span begin="01:28.180" end="01:28.480">ta</itunes:span>
+                            <itunes:span begin="01:28.532" end="01:28.714">to</itunes:span>
+                            <itunes:span begin="01:28.714" end="01:28.977">sa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L51">
+                            <itunes:span begin="01:39.387" end="01:39.536">hai</itunes:span>
+                            <itunes:span begin="01:39.536" end="01:39.747">chuu</itunes:span>
+                            <itunes:span begin="01:39.747" end="01:39.976">mo-</itunes:span>
+                            <itunes:span begin="01:39.976" end="01:40.117">ku</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L52">
+                            <itunes:span begin="01:40.224" end="01:40.762">nikkori</itunes:span>
+                            <itunes:span begin="01:40.762" end="01:41.122">chousa</itunes:span>
+                            <itunes:span begin="01:41.122" end="01:41.399">tai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L53">
+                            <itunes:span begin="01:41.399" end="01:41.674">daitai</itunes:span>
+                            <itunes:span begin="01:41.674" end="01:41.803">o</itunes:span>
+                            <itunes:span begin="01:41.803" end="01:42.011">chanoko</itunes:span>
+                            <itunes:span begin="01:42.011" end="01:42.274">sai</itunes:span>
+                            <itunes:span begin="01:42.274" end="01:42.598">sa</itunes:span>
+                            <itunes:span begin="01:42.598" end="01:42.722">i</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L54">
+                            <itunes:span begin="01:42.722" end="01:43.034">tamotsu</itunes:span>
+                            <itunes:span begin="01:43.034" end="01:43.265">chousa</itunes:span>
+                            <itunes:span begin="01:43.265" end="01:43.391">no</itunes:span>
+                            <itunes:span begin="01:43.391" end="01:44.039">teisai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L55">
+                            <itunes:span begin="01:44.039" end="01:44.408">imada</itunes:span>
+                            <itunes:span begin="01:44.408" end="01:44.597">waru</itunes:span>
+                            <itunes:span begin="01:44.597" end="01:44.708">o</itunes:span>
+                            <itunes:span begin="01:44.708" end="01:44.988">tekken</itunes:span>
+                            <itunes:span begin="01:44.988" end="01:45.231">seisai</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="01:45.327" end="01:45.673">(bishi)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L56">
+                            <itunes:span begin="01:45.590" end="01:46.002">chousa</itunes:span>
+                            <itunes:span begin="01:46.002" end="01:46.416">houkoku</itunes:span>
+                            <itunes:span begin="01:46.416" end="01:46.734">sono</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L57">
+                            <itunes:span begin="01:47.009" end="01:47.347">egao</itunes:span>
+                            <itunes:span begin="01:47.347" end="01:47.470">wa</itunes:span>
+                            <itunes:span begin="01:47.470" end="01:47.849">densen</itunes:span>
+                            <itunes:span begin="01:47.849" end="01:48.329">shimasu</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="01:48.329" end="01:48.519">(o</span>
+                                <span begin="01:48.519" end="01:48.694">baka</span>
+                                <span begin="01:48.694" end="01:48.819">mo</span>
+                                <span begin="01:48.819" end="01:49.203">densen</span>
+                                <span begin="01:49.203" end="01:49.618">shimasu)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L58">
+                            <itunes:span begin="01:49.694" end="01:50.030">yada</itunes:span>
+                            <itunes:span begin="01:50.030" end="01:50.350">metcha</itunes:span>
+                            <itunes:span begin="01:50.350" end="01:50.621">kowa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L59">
+                            <itunes:span begin="01:50.621" end="01:51.001">shokun</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="01:51.001" end="01:51.343">(hai)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L60">
+                            <itunes:span begin="01:51.343" end="01:51.690">taihen</itunes:span>
+                            <itunes:span begin="01:51.690" end="01:52.100">desu</itunes:span>
+                            <itunes:span begin="01:52.100" end="01:52.367">zenzen</itunes:span>
+                            <itunes:span begin="01:52.367" end="01:52.610">deeta</itunes:span>
+                            <itunes:span begin="01:52.610" end="01:52.681">ga</itunes:span>
+                            <itunes:span begin="01:52.681" end="01:52.837">tari</itunes:span>
+                            <itunes:span begin="01:52.837" end="01:52.936">te</itunes:span>
+                            <itunes:span begin="01:52.936" end="01:53.241">masen</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L61">
+                            <itunes:span begin="01:53.241" end="01:53.702">toriaezu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L62">
+                            <itunes:span begin="01:53.702" end="01:54.298">toriaezu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L63">
+                            <itunes:span begin="01:54.283" end="01:54.696">toriaezu</itunes:span>
+                            <itunes:span begin="01:54.696" end="01:54.983">mata</itunes:span>
+                            <itunes:span begin="01:54.983" end="01:55.355">chin</itunes:span>
+                            <itunes:span begin="01:55.355" end="01:56.006">douchuu</itunes:span>
+                            <itunes:span begin="01:56.006" end="01:56.204">da</itunes:span>
+                            <itunes:span begin="01:56.204" end="01:56.531">na-</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="01:56.531" end="01:57.037">(danaa)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L64">
+                            <itunes:span begin="01:57.077" end="01:57.522">o</itunes:span>
+                            <itunes:span begin="01:57.522" end="01:57.778">mae</itunes:span>
+                            <itunes:span begin="01:57.778" end="01:57.990">ga</itunes:span>
+                            <itunes:span begin="01:57.990" end="01:58.357">iu</itunes:span>
+                            <itunes:span begin="01:58.357" end="01:58.753">na</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L65">
+                            <itunes:span begin="01:58.973" end="01:59.390">suu</itunes:span>
+                            <itunes:span begin="01:59.390" end="01:59.750">jitsu</itunes:span>
+                            <itunes:span begin="01:59.750" end="02:00.020">ato</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L66">
+                            <itunes:span begin="01:59.899" end="02:00.081">jaa</itunes:span>
+                            <itunes:span begin="02:00.081" end="02:00.447">mochimono</itunes:span>
+                            <itunes:span begin="02:00.447" end="02:00.715">chekku</itunes:span>
+                            <itunes:span begin="02:00.715" end="02:00.990">hajime</itunes:span>
+                            <itunes:span begin="02:00.990" end="02:01.324">ma-</itunes:span>
+                            <itunes:span begin="02:01.324" end="02:01.499">su</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L67">
+                            <itunes:span begin="02:01.540" end="02:01.889">son</itunes:span>
+                            <itunes:span begin="02:01.889" end="02:02.079">ja</itunes:span>
+                            <itunes:span begin="02:02.079" end="02:02.399">itsu</itunes:span>
+                            <itunes:span begin="02:02.399" end="02:02.569">mo</itunes:span>
+                            <itunes:span begin="02:02.569" end="02:02.719">no</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L68">
+                            <itunes:span begin="02:02.673" end="02:02.926">pa</itunes:span>
+                            <itunes:span begin="02:03.032" end="02:03.445">papa</itunes:span>
+                            <itunes:span begin="02:03.515" end="02:04.201">pasupooto</itunes:span>
+                            <itunes:span begin="02:04.201" end="02:05.025">mota</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="02:05.050" end="02:05.410">(ha-i)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L69">
+                            <itunes:span begin="02:05.410" end="02:05.646">ki</itunes:span>
+                            <itunes:span begin="02:05.741" end="02:06.081">papa</itunes:span>
+                            <itunes:span begin="02:06.182" end="02:06.676">pantsu</itunes:span>
+                            <itunes:span begin="02:06.676" end="02:07.232">wasure</itunes:span>
+                            <itunes:span begin="02:07.232" end="02:07.882">taa u a a</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="02:07.743" end="02:08.071">(e)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L70">
+                            <itunes:span begin="02:08.071" end="02:08.332">mo</itunes:span>
+                            <itunes:span begin="02:08.404" end="02:08.975">mobairu</itunes:span>
+                            <itunes:span begin="02:08.975" end="02:09.252">ba</itunes:span>
+                            <itunes:span begin="02:09.370" end="02:09.823">terii</itunes:span>
+                            <itunes:span begin="02:09.823" end="02:10.484">mota</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="02:10.442" end="02:10.762">(ha-i)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L71">
+                            <itunes:span begin="02:10.762" end="02:11.092">ko</itunes:span>
+                            <itunes:span begin="02:11.092" end="02:11.864">kokorozashi</itunes:span>
+                            <itunes:span begin="02:11.864" end="02:12.014">wa</itunes:span>
+                            <itunes:span begin="02:12.014" end="02:12.686">mota</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L72">
+                            <itunes:span begin="02:12.686" end="02:13.344">mochiron</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L73">
+                            <itunes:span begin="02:13.565" end="02:13.754">o</itunes:span>
+                            <itunes:span begin="02:13.754" end="02:14.386">kunigara</itunes:span>
+                            <itunes:span begin="02:14.386" end="02:14.525">to</itunes:span>
+                            <itunes:span begin="02:14.525" end="02:14.725">ka</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L74">
+                            <itunes:span begin="02:14.893" end="02:15.413">rounyaku</itunes:span>
+                            <itunes:span begin="02:15.413" end="02:15.815">danjo</itunes:span>
+                            <itunes:span begin="02:15.815" end="02:16.102">wa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L75">
+                            <itunes:span begin="02:16.102" end="02:16.701">anmashi</itunes:span>
+                            <itunes:span begin="02:16.701" end="02:17.192">kankei</itunes:span>
+                            <itunes:span begin="02:17.192" end="02:17.476">nai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L76">
+                            <itunes:span begin="02:17.476" end="02:18.025">waarudo</itunes:span>
+                            <itunes:span begin="02:18.025" end="02:18.651">waidoda</itunes:span>
+                            <itunes:span begin="02:18.651" end="02:19.042">ze</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L77">
+                            <itunes:span begin="02:19.042" end="02:19.579">kotchi</itunes:span>
+                            <itunes:span begin="02:19.579" end="02:19.792">no</itunes:span>
+                            <itunes:span begin="02:19.906" end="02:20.368">sekai</itunes:span>
+                            <itunes:span begin="02:20.368" end="02:20.519">mo</itunes:span>
+                            <itunes:span begin="02:20.519" end="02:21.126">madamada</itunes:span>
+                            <itunes:span begin="02:21.126" end="02:21.895">suteta</itunes:span>
+                            <itunes:span begin="02:21.895" end="02:22.091">mon</itunes:span>
+                            <itunes:span begin="02:22.091" end="02:22.395">ja</itunes:span>
+                            <itunes:span begin="02:22.395" end="02:22.779">nai</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L78">
+                            <itunes:span begin="02:22.779" end="02:23.303">nante</itunes:span>
+                            <itunes:span begin="02:23.303" end="02:23.762">ne</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L79">
+                            <itunes:span begin="02:23.601" end="02:24.302">nikkori</itunes:span>
+                            <itunes:span begin="02:24.302" end="02:25.390">korikorikori</itunes:span>
+                            <itunes:span begin="02:25.390" end="02:25.642">o</itunes:span>
+                            <itunes:span begin="02:25.642" end="02:26.070">rikou</itunes:span>
+                            <itunes:span begin="02:26.070" end="02:26.350">san</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L80">
+                            <itunes:span begin="02:26.550" end="02:26.950">in</itunes:span>
+                            <itunes:span begin="02:26.950" end="02:27.232">kya</itunes:span>
+                            <itunes:span begin="02:27.232" end="02:27.355">mo</itunes:span>
+                            <itunes:span begin="02:27.355" end="02:27.679">you</itunes:span>
+                            <itunes:span begin="02:27.679" end="02:27.842">kya</itunes:span>
+                            <itunes:span begin="02:27.842" end="02:28.185">mo</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L81">
+                            <itunes:span begin="02:28.072" end="02:28.752">werukamu</itunes:span>
+                            <itunes:span begin="02:28.752" end="02:29.373">werukamu</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L82">
+                            <itunes:span begin="02:29.592" end="02:29.905">kimi</itunes:span>
+                            <itunes:span begin="02:29.905" end="02:30.065">no</itunes:span>
+                            <itunes:span begin="02:30.065" end="02:30.515">egao</itunes:span>
+                            <itunes:span begin="02:30.515" end="02:30.744">ga</itunes:span>
+                            <itunes:span begin="02:30.854" end="02:31.391">chousa</itunes:span>
+                            <itunes:span begin="02:31.391" end="02:32.174">taishou</itunes:span>
+                            <itunes:span begin="02:32.174" end="02:33.911">sa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L83">
+                            <itunes:span begin="02:33.047" end="02:33.549">ii e -</itunes:span>
+                            <itunes:span begin="02:33.549" end="02:33.854">ii e</itunes:span>
+                            <itunes:span begin="02:33.854" end="02:34.147">ii e</itunes:span>
+                            <itunes:span begin="02:34.147" end="02:34.489">i</itunes:span>
+                            <itunes:span begin="02:34.489" end="02:34.658">i e</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L84">
+                            <itunes:span begin="02:34.888" end="02:35.325">fijikaru</itunes:span>
+                            <itunes:span begin="02:35.325" end="02:36.035">mentaru</itunes:span>
+                            <itunes:span begin="02:36.035" end="02:36.583">tootaru</itunes:span>
+                            <itunes:span begin="02:36.583" end="02:37.037">OK</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L85">
+                            <itunes:span begin="02:37.205" end="02:37.675">kiki</itunes:span>
+                            <itunes:span begin="02:37.675" end="02:37.915">me</itunes:span>
+                            <itunes:span begin="02:37.915" end="02:38.544">batsugun</itunes:span>
+                            <itunes:span begin="02:38.544" end="02:38.685">no</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L86">
+                            <itunes:span begin="02:38.704" end="02:39.424">enta</itunes:span>
+                            <itunes:span begin="02:39.424" end="02:39.603">tei me</itunes:span>
+                            <itunes:span begin="02:39.603" end="02:39.923">n</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L87">
+                            <itunes:span begin="02:39.820" end="02:41.195">watashida tte</itunes:span>
+                            <itunes:span begin="02:41.195" end="02:41.853">itsu</itunes:span>
+                            <itunes:span begin="02:41.853" end="02:42.185">ka</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L88">
+                            <itunes:span begin="02:42.185" end="02:42.540">yume</itunes:span>
+                            <itunes:span begin="02:42.540" end="02:42.711">o</itunes:span>
+                            <itunes:span begin="02:42.711" end="02:43.210">kanae</itunes:span>
+                            <itunes:span begin="02:43.210" end="02:44.246">teyaru tte</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L89">
+                            <itunes:span begin="02:45.150" end="02:45.437">kono</itunes:span>
+                            <itunes:span begin="02:45.437" end="02:46.208">nikkori</itunes:span>
+                            <itunes:span begin="02:46.208" end="02:46.536">ni</itunes:span>
+                            <itunes:span begin="02:46.536" end="02:47.226">fure</itunes:span>
+                            <itunes:span begin="02:47.226" end="02:47.499">te</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L90">
+                            <itunes:span begin="02:47.479" end="02:48.025">motto</itunes:span>
+                            <itunes:span begin="02:48.025" end="02:48.276">mune</itunes:span>
+                            <itunes:span begin="02:48.276" end="02:49.223">fukuramima</itunes:span>
+                            <itunes:span begin="02:49.223" end="02:49.406">shi</itunes:span>
+                            <itunes:span begin="02:49.517" end="02:49.744">ta</itunes:span>
+                            <itunes:span begin="02:49.861" end="02:50.036">to</itunes:span>
+                            <itunes:span begin="02:50.036" end="02:50.366">sa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L91">
+                            <itunes:span begin="02:50.684" end="02:50.968">sono</itunes:span>
+                            <itunes:span begin="02:50.968" end="02:51.696">shonbori</itunes:span>
+                            <itunes:span begin="02:51.696" end="02:51.930">o</itunes:span>
+                            <itunes:span begin="02:51.930" end="02:52.224">ni</itunes:span>
+                            <itunes:span begin="02:52.224" end="02:52.491">kori</itunes:span>
+                            <itunes:span begin="02:52.491" end="02:52.747">ni</itunes:span>
+                            <itunes:span begin="02:52.747" end="02:53.394">henkan</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L92">
+                            <itunes:span begin="02:53.394" end="02:53.706">uchi</itunes:span>
+                            <itunes:span begin="02:53.706" end="02:53.898">ra</itunes:span>
+                            <itunes:span begin="02:53.898" end="02:54.005">ni</itunes:span>
+                            <itunes:span begin="02:54.005" end="02:54.516">makasero</itunes:span>
+                            <itunes:span begin="02:54.516" end="02:54.889">make</itunes:span>
+                            <itunes:span begin="02:54.889" end="02:55.307">your</itunes:span>
+                            <itunes:span begin="02:55.307" end="02:55.708">smile</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L93">
+                            <itunes:span begin="02:55.904" end="02:56.283">age</itunes:span>
+                            <itunes:span begin="02:56.283" end="02:56.443">no</itunes:span>
+                            <itunes:span begin="02:56.443" end="02:57.116">tokida tte</itunes:span>
+                            <itunes:span begin="02:57.116" end="02:57.533">sage</itunes:span>
+                            <itunes:span begin="02:57.533" end="02:57.723">no</itunes:span>
+                            <itunes:span begin="02:57.723" end="02:58.451">tokida tte</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L94">
+                            <itunes:span begin="02:58.451" end="02:59.293">kakimaze</itunes:span>
+                            <itunes:span begin="02:59.293" end="02:59.816">chate</itunes:span>
+                            <itunes:span begin="02:59.816" end="03:01.200">supaisuda tte</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L95">
+                            <itunes:span begin="03:01.382" end="03:02.206">kanpekida</itunes:span>
+                            <span ttm:role="x-bg">
+                                <span begin="03:02.246" end="03:02.574">(nani</span>
+                                <span begin="03:02.574" end="03:02.742">ga)</span>
+                            </span>
+                        </itunes:text>
+                        <itunes:text for="L96">
+                            <itunes:span begin="03:02.266" end="03:02.994">nikkori</itunes:span>
+                            <itunes:span begin="03:02.994" end="03:04.074">korikorikori</itunes:span>
+                            <itunes:span begin="03:04.074" end="03:04.290">o</itunes:span>
+                            <itunes:span begin="03:04.290" end="03:04.725">rikou</itunes:span>
+                            <itunes:span begin="03:04.725" end="03:05.226">chan</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L97">
+                            <itunes:span begin="03:05.226" end="03:05.885">otona</itunes:span>
+                            <itunes:span begin="03:05.885" end="03:06.037">mo</itunes:span>
+                            <itunes:span begin="03:06.037" end="03:06.565">kodomo</itunes:span>
+                            <itunes:span begin="03:06.565" end="03:06.706">mo</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L98">
+                            <itunes:span begin="03:06.706" end="03:07.405">netsuretsu</itunes:span>
+                            <itunes:span begin="03:07.405" end="03:08.066">kangei</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L99">
+                            <itunes:span begin="03:08.174" end="03:08.506">mochi</itunes:span>
+                            <itunes:span begin="03:08.506" end="03:09.238">wareware</itunes:span>
+                            <itunes:span begin="03:09.238" end="03:09.534">mo</itunes:span>
+                            <itunes:span begin="03:09.534" end="03:10.001">chousa</itunes:span>
+                            <itunes:span begin="03:10.001" end="03:12.276">taishouda</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L100">
+                            <itunes:span begin="03:11.505" end="03:11.727">Run</itunes:span>
+                            <itunes:span begin="03:11.727" end="03:12.347">away</itunes:span>
+                            <itunes:span begin="03:12.347" end="03:12.706">wei</itunes:span>
+                            <itunes:span begin="03:12.706" end="03:13.173">wei</itunes:span>
+                            <itunes:span begin="03:13.173" end="03:13.519">u e i</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L101">
+                            <itunes:span begin="03:13.212" end="03:14.543">watashida tte</itunes:span>
+                            <itunes:span begin="03:14.543" end="03:15.234">itsu</itunes:span>
+                            <itunes:span begin="03:15.234" end="03:15.524">ka</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L102">
+                            <itunes:span begin="03:15.524" end="03:15.783">yume</itunes:span>
+                            <itunes:span begin="03:15.783" end="03:16.044">o</itunes:span>
+                            <itunes:span begin="03:16.044" end="03:16.495">kanae</itunes:span>
+                            <itunes:span begin="03:16.495" end="03:17.082">teyaru</itunes:span>
+                            <itunes:span begin="03:17.318" end="03:17.620">te</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L103">
+                            <itunes:span begin="03:18.380" end="03:18.761">kono</itunes:span>
+                            <itunes:span begin="03:18.761" end="03:19.521">nikkori</itunes:span>
+                            <itunes:span begin="03:19.521" end="03:19.871">ni</itunes:span>
+                            <itunes:span begin="03:19.871" end="03:20.551">fure</itunes:span>
+                            <itunes:span begin="03:20.551" end="03:20.863">te</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L104">
+                            <itunes:span begin="03:20.863" end="03:21.357">motto</itunes:span>
+                            <itunes:span begin="03:21.357" end="03:21.680">mune</itunes:span>
+                            <itunes:span begin="03:21.680" end="03:22.499">fukurami ma</itunes:span>
+                            <itunes:span begin="03:22.499" end="03:22.726">shi</itunes:span>
+                            <itunes:span begin="03:22.844" end="03:23.087">ta</itunes:span>
+                            <itunes:span begin="03:23.211" end="03:23.375">to</itunes:span>
+                            <itunes:span begin="03:23.375" end="03:23.730">sa</itunes:span>
+                        </itunes:text>
+                        <itunes:text for="L6">/ / /</itunes:text>
+                    </itunes:transliteration>
+                </itunes:transliterations>
+                <itunes:translations>
+                    <itunes:translation type="subtitle" xml:lang="zh-CN">
+                        <itunes:text for="L1">微笑调查队</itunes:text>
+                        <itunes:text for="L2">祝你早中晚整天都好 
+                            <span ttm:role="x-bg">(how are you?)</span>
+                        </itunes:text>
+                        <itunes:text for="L3">今天也是最棒的一天啊</itunes:text>
+                        <itunes:text for="L4">Oh~Wonderhoy！</itunes:text>
+                        <itunes:text for="L5">探索！收集！探求！</itunes:text>
+                        <itunes:text for="L7">各位！ 
+                            <span ttm:role="x-bg">(在！)</span>
+                        </itunes:text>
+                        <itunes:text for="L8">我们要去调查全世界的笑容啦！</itunes:text>
+                        <itunes:text for="L9">好的队长 我有个名案 
+                            <span ttm:role="x-bg">(驳回)</span>
+                        </itunes:text>
+                        <itunes:text for="L10">喂等等我可是还什么都没有说啊？</itunes:text>
+                        <itunes:text for="L11">真是的 总—而—言—之 不是有句老话 说百蚊不如一见来着？</itunes:text>
+                        <itunes:text for="L12">啊啊 说的是百闻不如一见吧</itunes:text>
+                        <itunes:text for="L13">对对就是这个！</itunes:text>
+                        <itunes:text for="L14">这意思是要捉虫子？（恐） 
+                            <span ttm:role="x-bg">(这意思是要捉虫子？（恐)</span>
+                        </itunes:text>
+                        <itunes:text for="L15">才不是啦</itunes:text>
+                        <itunes:text for="L16">队长！</itunes:text>
+                        <itunes:text for="L17">什么什么~ 
+                            <span ttm:role="x-bg">(干什么？)</span>
+                        </itunes:text>
+                        <itunes:text for="L18">我有个提案</itunes:text>
+                        <itunes:text for="L19">这可务必说来让我们听听啊</itunes:text>
+                        <itunes:text for="L20">总之就是</itunes:text>
+                        <itunes:text for="L21">总之就是？</itunes:text>
+                        <itunes:text for="L22">总之就先出发吧 计划什么的不需要 
+                            <span ttm:role="x-bg">(嗯！)</span>
+                        </itunes:text>
+                        <itunes:text for="L23">给我等下 
+                            <span ttm:role="x-bg">(诶？)</span>
+                        </itunes:text>
+                        <itunes:text for="L24">出发前进！</itunes:text>
+                        <itunes:text for="L25">都说了等一下啦！至少行李给我准备好啊~！</itunes:text>
+                        <itunes:text for="L26">几・天・后</itunes:text>
+                        <itunes:text for="L27">那么现在 就开始检查行李啦——</itunes:text>
+                        <itunes:text for="L28">首先是最基本的！</itunes:text>
+                        <itunes:text for="L29">护！护护 护照带上了吧？ 
+                            <span ttm:role="x-bg">(带着！)</span>
+                        </itunes:text>
+                        <itunes:text for="L30">换！换换 换洗衣服被我忘啦！ 
+                            <span ttm:role="x-bg">(诶)</span>
+                        </itunes:text>
+                        <itunes:text for="L31">充！充电宝有记得带上了吧？ 
+                            <span ttm:role="x-bg">(带了~)</span>
+                        </itunes:text>
+                        <itunes:text for="L32">志！志气也随身带好了吧？</itunes:text>
+                        <itunes:text for="L33">那是当然！</itunes:text>
+                        <itunes:text for="L34">有伙伴在身边</itunes:text>
+                        <itunes:text for="L35">有自己来当先</itunes:text>
+                        <itunes:text for="L36">而且都不是平凡之辈</itunes:text>
+                        <itunes:text for="L37">这是在说谁呢？</itunes:text>
+                        <itunes:text for="L38">我们一定有什么能力可以将不可能变为可能</itunes:text>
+                        <itunes:text for="L39">nicoricoricoricori coriander</itunes:text>
+                        <itunes:text for="L40">这里那里客人都会</itunes:text>
+                        <itunes:text for="L41">接踵而来！</itunes:text>
+                        <itunes:text for="L42">你的笑容也由我来收下哦</itunes:text>
+                        <itunes:text for="L43">yeah——yeah yeah yeah~</itunes:text>
+                        <itunes:text for="L44">无所谓面前是大人还是小孩</itunes:text>
+                        <itunes:text for="L45">这才是一流的</itunes:text>
+                        <itunes:text for="L46">enter~↓tainment~↑</itunes:text>
+                        <itunes:text for="L47">总有一天 我也一定</itunes:text>
+                        <itunes:text for="L48">会让我的梦想实现 
+                            <span ttm:role="x-bg">(我们做得到！)</span>
+                        </itunes:text>
+                        <itunes:text for="L49">被这满满笑容包围的我</itunes:text>
+                        <itunes:text for="L50">也将会高高地挺起胸膛 
+                            <span ttm:role="x-bg">(好！)</span>
+                        </itunes:text>
+                        <itunes:text for="L51">好的 全体看过来——</itunes:text>
+                        <itunes:text for="L52">微笑调查队</itunes:text>
+                        <itunes:text for="L53">基本上不费吹灰之力~</itunes:text>
+                        <itunes:text for="L54">摆出调查的样子</itunes:text>
+                        <itunes:text for="L55">趁现在！邪恶就用铁拳制裁！ 
+                            <span ttm:role="x-bg">(我来！)</span>
+                        </itunes:text>
+                        <itunes:text for="L56">调查报告之一</itunes:text>
+                        <itunes:text for="L57">笑容是会传染的 
+                            <span ttm:role="x-bg">(笨蛋也是会传染的)</span>
+                        </itunes:text>
+                        <itunes:text for="L58">不要啊~听起来好可怕</itunes:text>
+                        <itunes:text for="L59">各位！ 
+                            <span ttm:role="x-bg">(怎么了？)</span>
+                        </itunes:text>
+                        <itunes:text for="L60">糟了糟了 收集的数据完全不够</itunes:text>
+                        <itunes:text for="L61">总之就是</itunes:text>
+                        <itunes:text for="L62">总之就是？</itunes:text>
+                        <itunes:text for="L63">总之就是 奇妙之旅还得继续啊—— 
+                            <span ttm:role="x-bg">(是啊——)</span>
+                        </itunes:text>
+                        <itunes:text for="L64">这话轮不到你们说~！</itunes:text>
+                        <itunes:text for="L65">几・天・后</itunes:text>
+                        <itunes:text for="L66">那么现在 就开始检查行李啦——</itunes:text>
+                        <itunes:text for="L67">那就还是老样子！</itunes:text>
+                        <itunes:text for="L68">护！护护 护照带上了吧？ 
+                            <span ttm:role="x-bg">(带着！)</span>
+                        </itunes:text>
+                        <itunes:text for="L69">换！换换 换的裤子我又给忘啦！ 
+                            <span ttm:role="x-bg">(诶~)</span>
+                        </itunes:text>
+                        <itunes:text for="L70">充！充电宝有记得带上了吧？ 
+                            <span ttm:role="x-bg">(带了~)</span>
+                        </itunes:text>
+                        <itunes:text for="L71">志！志气也随身带好了吧？</itunes:text>
+                        <itunes:text for="L72">那是当然！</itunes:text>
+                        <itunes:text for="L73">哪怕异国来宾</itunes:text>
+                        <itunes:text for="L74">无论男女老少</itunes:text>
+                        <itunes:text for="L75">一切都无关紧要</itunes:text>
+                        <itunes:text for="L76">我们可是驰骋世界哒</itunes:text>
+                        <itunes:text for="L77">这边的世界也还绝对绝对不能舍弃哦</itunes:text>
+                        <itunes:text for="L78">开玩笑的♪</itunes:text>
+                        <itunes:text for="L79">nicoricoricoricori 聪明又伶俐</itunes:text>
+                        <itunes:text for="L80">无论内向还是外向都</itunes:text>
+                        <itunes:text for="L81">welcome welcome</itunes:text>
+                        <itunes:text for="L82">你的笑容就是调查对象啊</itunes:text>
+                        <itunes:text for="L83">yeah——yeah yeah yeah~</itunes:text>
+                        <itunes:text for="L84">Physical Mental Total OK</itunes:text>
+                        <itunes:text for="L85">效果拔群的</itunes:text>
+                        <itunes:text for="L86">enter~↓tainment~↑</itunes:text>
+                        <itunes:text for="L87">总有一天 我也一定</itunes:text>
+                        <itunes:text for="L88">会让我的梦想实现 
+                            <span ttm:role="x-bg">(我们做得到！)</span>
+                        </itunes:text>
+                        <itunes:text for="L89">被这满满笑容包围的我</itunes:text>
+                        <itunes:text for="L90">也将会高高地挺起胸膛</itunes:text>
+                        <itunes:text for="L91">将所有的失落都变成开心的笑容</itunes:text>
+                        <itunes:text for="L92">尽管交给我们吧 make your smile 
+                            <span ttm:role="x-bg">(Fu~)</span>
+                        </itunes:text>
+                        <itunes:text for="L93">无论是高涨的时刻 还是低落的时刻</itunes:text>
+                        <itunes:text for="L94">都作为调味料 混在一起尽情搅拌就好啦</itunes:text>
+                        <itunes:text for="L95">简直完美 
+                            <span ttm:role="x-bg">(你指啥？)</span>
+                        </itunes:text>
+                        <itunes:text for="L96">nicoricoricoricori 聪明又伶俐</itunes:text>
+                        <itunes:text for="L97">大人小孩都</itunes:text>
+                        <itunes:text for="L98">热烈欢迎！</itunes:text>
+                        <itunes:text for="L99">我们自己当然也是调查对象哦！</itunes:text>
+                        <itunes:text for="L100">Run away way way way~</itunes:text>
+                        <itunes:text for="L101">总有一天 我也一定</itunes:text>
+                        <itunes:text for="L102">会让我的梦想实现 
+                            <span ttm:role="x-bg">(我们做得到！)</span>
+                        </itunes:text>
+                        <itunes:text for="L103">被这满满笑容包围的我</itunes:text>
+                        <itunes:text for="L104">也将会高高地挺起胸膛</itunes:text>
+                    </itunes:translation>
+                </itunes:translations>
+            </itunes:iTunesMetadata>
+        </metadata>
+    </head>
+    <body dur="03:24.230">
+        <div begin="00:02.729" end="00:19.105" itunes:songPart="Intro">
+            <p begin="00:02.729" end="00:04.497" ttm:agent="v1000" itunes:key="L1">
+                <span begin="00:02.729" end="00:03.402">にっこり</span>
+                <span begin="00:03.402" end="00:03.725">調査</span>
+                <span begin="00:03.725" end="00:04.047">隊</span>
+            </p>
+            <p begin="00:04.047" end="00:05.274" ttm:agent="v1000" itunes:key="L2">
+                <span begin="00:04.047" end="00:04.174">お</span>
+                <span begin="00:04.174" end="00:04.396">はこん</span>
+                <span begin="00:04.396" end="00:04.558">ばん</span>
+                <span begin="00:04.558" end="00:04.774">ちわ</span><space/>
+                <span ttm:role="x-bg">
+                    <span begin="00:04.774" end="00:04.900">(How </span>
+                    <span begin="00:04.900" end="00:05.074">are </span>
+                    <span begin="00:05.074" end="00:05.223">you?)</span>
+                </span>
+            </p>
+            <p begin="00:05.359" end="00:07.093" ttm:agent="v1000" itunes:key="L3">
+                <span begin="00:05.359" end="00:05.527">今日</span>
+                <span begin="00:05.527" end="00:05.708">も</span>
+                <span begin="00:05.708" end="00:05.876">今日</span>
+                <span begin="00:05.876" end="00:06.031">とて </span>
+                <span begin="00:06.031" end="00:06.389">最高</span>
+                <span begin="00:06.389" end="00:06.593">です</span>
+            </p>
+            <p begin="00:06.743" end="00:08.563" ttm:agent="v1000" itunes:key="L4">
+                <span begin="00:06.743" end="00:07.133">おぉ</span>
+                <span begin="00:07.133" end="00:07.402">~</span>
+                <span begin="00:07.402" end="00:07.745">わんだ</span>
+                <span begin="00:07.745" end="00:08.063">ほーい！</span>
+            </p>
+            <p begin="00:10.031" end="00:16.513" ttm:agent="v1000" itunes:key="L5">
+                <span begin="00:10.031" end="00:10.709">探索！</span>
+                <span begin="00:12.528" end="00:13.373">コレクション！</span>
+                <span begin="00:15.341" end="00:16.013">探求！</span>
+            </p>
+            <p begin="00:17.339" end="00:19.105" ttm:agent="v1000" itunes:key="L6">
+                <span begin="00:17.339" end="00:17.699">E・</span>
+                <span begin="00:17.699" end="00:17.874">G・</span>
+                <span begin="00:17.874" end="00:18.245">A・</span>
+                <span begin="00:18.245" end="00:18.605">O</span>
+            </p>
+        </div>
+        <div begin="00:18.718" end="00:41.827" itunes:songPart="Verse">
+            <p begin="00:18.718" end="00:19.554" ttm:agent="v1" itunes:key="L7">
+                <span begin="00:18.718" end="00:19.054">諸君！</span><space/>
+                <span ttm:role="x-bg">
+                    <span begin="00:19.051" end="00:19.219">(はい！)</span>
+                </span>
+            </p>
+            <p begin="00:19.363" end="00:21.622" ttm:agent="v1" itunes:key="L8">
+                <span begin="00:19.363" end="00:19.718">我々</span>
+                <span begin="00:19.718" end="00:19.862">は</span>
+                <span begin="00:20.030" end="00:20.230">世界</span>
+                <span begin="00:20.230" end="00:20.346">の</span>
+                <span begin="00:20.346" end="00:20.522">笑顔</span>
+                <span begin="00:20.522" end="00:20.714">を</span>
+                <span begin="00:20.714" end="00:20.995">調査</span>
+                <span begin="00:20.995" end="00:21.194">する！</span>
+            </p>
+            <p begin="00:21.172" end="00:22.970" ttm:agent="v2" itunes:key="L9">
+                <span begin="00:21.172" end="00:21.392">はい</span>
+                <span begin="00:21.392" end="00:21.730">隊長 </span>
+                <span begin="00:21.730" end="00:21.814">俺</span>
+                <span begin="00:21.814" end="00:21.979">に</span>
+                <span begin="00:21.979" end="00:22.155">名案</span>
+                <span begin="00:22.155" end="00:22.470">が</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1">
+                    <span begin="00:22.379" end="00:22.695">(却下)</span>
+                </span>
+            </p>
+            <p begin="00:22.614" end="00:24.199" ttm:agent="v2" itunes:key="L10">
+                <span begin="00:22.614" end="00:22.733">って</span>
+                <span begin="00:22.733" end="00:22.865">まだ</span>
+                <span begin="00:22.865" end="00:23.014">なに</span>
+                <span begin="00:23.014" end="00:23.207">も</span>
+                <span begin="00:23.207" end="00:23.370">いって</span>
+                <span begin="00:23.370" end="00:23.710">ないんだ</span>
+                <span begin="00:23.710" end="00:23.857">が？</span>
+            </p>
+            <p begin="00:23.749" end="00:26.705" ttm:agent="v1" itunes:key="L11">
+                <span begin="00:23.749" end="00:23.962">もー </span>
+                <span begin="00:24.076" end="00:24.238">とー</span>
+                <span begin="00:24.238" end="00:24.341">にー</span>
+                <span begin="00:24.341" end="00:24.537">かー</span>
+                <span begin="00:24.537" end="00:24.701">く </span>
+                <span begin="00:24.701" end="00:24.989">あれだ</span>
+                <span begin="00:24.989" end="00:25.258">ほら </span>
+                <span begin="00:25.341" end="00:25.717">カナブン</span>
+                <span begin="00:25.717" end="00:25.808">は</span>
+                <span begin="00:25.808" end="00:26.084">一見</span>
+                <span begin="00:26.084" end="00:26.176">に</span>
+                <span begin="00:26.176" end="00:26.388">しか</span>
+                <span begin="00:26.388" end="00:26.624">ず？</span>
+            </p>
+            <p begin="00:26.255" end="00:28.318" ttm:agent="v2" itunes:key="L12">
+                <span begin="00:26.255" end="00:26.465">あぁ </span>
+                <span begin="00:26.561" end="00:26.861">百聞</span>
+                <span begin="00:26.861" end="00:27.025">は</span>
+                <span begin="00:27.025" end="00:27.225">一見</span>
+                <span begin="00:27.225" end="00:27.330">に</span>
+                <span begin="00:27.330" end="00:27.530">如か</span>
+                <span begin="00:27.530" end="00:27.630">ずだ</span>
+                <span begin="00:27.630" end="00:27.905">ねぇ</span>
+            </p>
+            <p begin="00:27.868" end="00:28.687" ttm:agent="v1" itunes:key="L13">
+                <span begin="00:27.868" end="00:28.022">それ</span>
+                <span begin="00:28.022" end="00:28.262">それ！</span>
+            </p>
+            <p begin="00:28.237" end="00:29.278" ttm:agent="v2" itunes:key="L14">
+                <span begin="00:28.237" end="00:28.499">つまり</span>
+                <span begin="00:28.499" end="00:28.873">虫取り？</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v2000">
+                    <span begin="00:28.873" end="00:29.029">(恐)</span>
+                </span>
+            </p>
+            <p begin="00:28.828" end="00:29.833" ttm:agent="v1" itunes:key="L15">
+                <span begin="00:28.828" end="00:29.333">違うって</span>
+            </p>
+            <p begin="00:29.423" end="00:30.133" ttm:agent="v2" itunes:key="L16">
+                <span begin="00:29.423" end="00:29.633">隊長！</span>
+            </p>
+            <p begin="00:29.733" end="00:30.491" ttm:agent="v1" itunes:key="L17">
+                <span begin="00:29.733" end="00:30.283">なになに~</span><space/>
+                <span ttm:role="x-bg">
+                    <span begin="00:29.867" end="00:30.156">(なんだ？)</span>
+                </span>
+            </p>
+            <p begin="00:30.041" end="00:31.154" ttm:agent="v2" itunes:key="L18">
+                <span begin="00:30.041" end="00:30.276">提案</span>
+                <span begin="00:30.276" end="00:30.406">が</span>
+                <span begin="00:30.406" end="00:30.742">あります</span>
+            </p>
+            <p begin="00:30.704" end="00:32.317" ttm:agent="v1" itunes:key="L19">
+                <span begin="00:30.704" end="00:30.895">ぜひ</span>
+                <span begin="00:30.895" end="00:31.059">聞か</span>
+                <span begin="00:31.059" end="00:31.184">せ</span>
+                <span begin="00:31.184" end="00:31.239">て</span>
+                <span begin="00:31.239" end="00:31.435">ほしい</span>
+                <span begin="00:31.435" end="00:31.735">ものだ</span>
+                <span begin="00:31.735" end="00:31.884">な</span>
+            </p>
+            <p begin="00:31.867" end="00:32.807" ttm:agent="v2" itunes:key="L20">
+                <span begin="00:31.867" end="00:32.307">とりあえず</span>
+            </p>
+            <p begin="00:32.396" end="00:33.356" ttm:agent="v1000" itunes:key="L21">
+                <span begin="00:32.396" end="00:32.856">とりあえず？</span>
+            </p>
+            <p begin="00:32.916" end="00:35.027" ttm:agent="v2" itunes:key="L22">
+                <span begin="00:32.916" end="00:33.362">とりあえず</span>
+                <span begin="00:33.362" end="00:33.702">出発</span>
+                <span begin="00:33.702" end="00:33.952">しよう </span>
+                <span begin="00:33.952" end="00:34.135">ノー</span>
+                <span begin="00:34.135" end="00:34.527">プランで</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1">
+                    <span begin="00:34.552" end="00:34.783">(うん！)</span>
+                </span>
+            </p>
+            <p begin="00:34.698" end="00:35.747" ttm:agent="v1" itunes:key="L23">
+                <span begin="00:34.698" end="00:34.967">ちょっと</span>
+                <span begin="00:34.967" end="00:35.247">待って</span><space/>
+                <span ttm:role="x-bg">
+                    <span begin="00:35.222" end="00:35.378">(え？)</span>
+                </span>
+            </p>
+            <p begin="00:35.377" end="00:36.503" ttm:agent="v2" itunes:key="L24">
+                <span begin="00:35.377" end="00:35.632">出発</span>
+                <span begin="00:35.632" end="00:36.198">進行！</span>
+            </p>
+            <p begin="00:36.053" end="00:38.179" ttm:agent="v1" itunes:key="L25">
+                <span begin="00:36.053" end="00:36.333">ちょっと</span>
+                <span begin="00:36.333" end="00:36.557">まってって！</span>
+                <span begin="00:36.623" end="00:36.850">旅</span>
+                <span begin="00:36.850" end="00:37.118">支度</span>
+                <span begin="00:37.118" end="00:37.323">くらい</span>
+                <span begin="00:37.323" end="00:37.419">さ</span>
+                <span begin="00:37.419" end="00:37.976">せろ~！</span>
+            </p>
+            <p begin="00:37.729" end="00:38.999" ttm:agent="v2000" itunes:key="L26">
+                <span begin="00:37.729" end="00:38.033">数・</span>
+                <span begin="00:38.033" end="00:38.443">日・</span>
+                <span begin="00:38.443" end="00:38.706">後</span>
+            </p>
+            <p begin="00:38.549" end="00:40.655" ttm:agent="v1" itunes:key="L27">
+                <span begin="00:38.549" end="00:38.689">じゃあ</span>
+                <span begin="00:38.689" end="00:39.036">持ち物</span>
+                <span begin="00:39.036" end="00:39.272">チェック</span>
+                <span begin="00:39.272" end="00:39.358">を</span>
+                <span begin="00:39.358" end="00:39.620">はじめ</span>
+                <span begin="00:39.620" end="00:39.942">まー</span>
+                <span begin="00:39.942" end="00:40.169">す</span>
+            </p>
+            <p begin="00:40.205" end="00:41.827" ttm:agent="v1" itunes:key="L28">
+                <span begin="00:40.205" end="00:40.560">まず</span>
+                <span begin="00:40.560" end="00:40.734">は</span>
+                <span begin="00:40.734" end="00:41.224">基本</span>
+                <span begin="00:41.224" end="00:41.348">の！</span>
+            </p>
+        </div>
+        <div begin="00:41.377" end="00:52.556" itunes:songPart="Hook">
+            <p begin="00:41.377" end="00:44.186" ttm:agent="v1" itunes:key="L29">
+                <span begin="00:41.377" end="00:41.552">ぱ！ </span>
+                <span begin="00:41.726" end="00:42.106">ぱぱ </span>
+                <span begin="00:42.226" end="00:43.015">パスポート</span>
+                <span begin="00:43.015" end="00:43.686">持った？</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="00:43.699" end="00:44.030">(はーい！)</span>
+                </span>
+            </p>
+            <p begin="00:44.030" end="00:46.684" ttm:agent="v2" itunes:key="L30">
+                <span begin="00:44.030" end="00:44.170">き！</span>
+                <span begin="00:44.379" end="00:44.699">きき </span>
+                <span begin="00:44.859" end="00:45.375">着替え </span>
+                <span begin="00:45.375" end="00:46.175">わすれた！</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="00:46.390" end="00:46.684">(え~)</span>
+                </span>
+            </p>
+            <p begin="00:46.684" end="00:49.670" ttm:agent="v1" itunes:key="L31">
+                <span begin="00:46.684" end="00:46.910">も！</span>
+                <span begin="00:47.045" end="00:47.705">モバイル</span>
+                <span begin="00:47.705" end="00:47.889">バッ</span>
+                <span begin="00:48.025" end="00:48.505">テリー </span>
+                <span begin="00:48.505" end="00:49.170">持った？</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="00:49.045" end="00:49.356">(はーい)</span>
+                </span>
+            </p>
+            <p begin="00:49.356" end="00:51.826" ttm:agent="v2" itunes:key="L32">
+                <span begin="00:49.356" end="00:49.565">こ！</span>
+                <span begin="00:49.716" end="00:50.516">志</span>
+                <span begin="00:50.516" end="00:50.681">は</span>
+                <span begin="00:50.681" end="00:51.376">もった？</span>
+            </p>
+            <p begin="00:51.376" end="00:52.556" ttm:agent="v1000" itunes:key="L33">
+                <span begin="00:51.376" end="00:52.056">もちろん！</span>
+            </p>
+        </div>
+        <div begin="00:52.191" end="01:02.697" itunes:songPart="PreChorus">
+            <p begin="00:52.191" end="00:53.876" ttm:agent="v1" itunes:key="L34">
+                <span begin="00:52.191" end="00:52.716">仲間</span>
+                <span begin="00:52.716" end="00:52.865">が</span>
+                <span begin="00:52.865" end="00:53.040">い</span>
+                <span begin="00:53.040" end="00:53.376">て</span>
+            </p>
+            <p begin="00:53.545" end="00:55.123" ttm:agent="v1" itunes:key="L35">
+                <span begin="00:53.545" end="00:54.056">私</span>
+                <span begin="00:54.056" end="00:54.200">が</span>
+                <span begin="00:54.200" end="00:54.673">いる</span>
+            </p>
+            <p begin="00:54.673" end="00:56.663" ttm:agent="v1" itunes:key="L36">
+                <span begin="00:54.673" end="00:55.193">しかも</span>
+                <span begin="00:55.193" end="00:55.718">フツー</span>
+                <span begin="00:55.718" end="00:55.913">じゃ</span>
+                <span begin="00:55.913" end="00:56.213">ない</span>
+            </p>
+            <p begin="00:56.213" end="00:57.854" ttm:agent="v2" itunes:key="L37">
+                <span begin="00:56.213" end="00:56.547">だれ</span>
+                <span begin="00:56.547" end="00:56.707">の</span>
+                <span begin="00:56.707" end="00:57.038">こと</span>
+                <span begin="00:57.038" end="00:57.189">か</span>
+                <span begin="00:57.189" end="00:57.354">な？</span>
+            </p>
+            <p begin="00:57.533" end="01:02.697" ttm:agent="v2" itunes:key="L38">
+                <span begin="00:57.533" end="00:57.872">ぼく</span>
+                <span begin="00:57.872" end="00:58.013">ら</span>
+                <span begin="00:58.013" end="00:58.192">に</span>
+                <span begin="00:58.192" end="00:58.397">は</span>
+                <span begin="00:58.570" end="00:58.710">不</span>
+                <span begin="00:58.710" end="00:59.034">可能</span>
+                <span begin="00:59.034" end="00:59.174">を</span>
+                <span begin="00:59.174" end="00:59.906">可能</span>
+                <span begin="00:59.906" end="01:00.235">に</span>
+                <span begin="01:00.235" end="01:00.871">変える</span>
+                <span begin="01:00.871" end="01:01.220">何</span>
+                <span begin="01:01.220" end="01:01.550">か</span>
+                <span begin="01:01.550" end="01:01.697">が</span>
+                <span begin="01:01.697" end="01:02.051">ある</span>
+                <span begin="01:02.051" end="01:02.197">さ</span>
+            </p>
+        </div>
+        <div begin="01:02.403" end="01:29.477" itunes:songPart="Chorus">
+            <p begin="01:02.403" end="01:05.474" ttm:agent="v1" itunes:key="L39">
+                <span begin="01:02.403" end="01:03.014">にっこり</span>
+                <span begin="01:03.014" end="01:04.014">こりこりこり</span>
+                <span begin="01:04.014" end="01:04.974">コリアンダー</span>
+            </p>
+            <p begin="01:05.223" end="01:07.159" ttm:agent="v1" itunes:key="L40">
+                <span begin="01:05.223" end="01:05.842">あちら</span>
+                <span begin="01:05.842" end="01:06.053">も</span>
+                <span begin="01:06.053" end="01:06.532">こちら</span>
+                <span begin="01:06.532" end="01:06.709">も</span>
+            </p>
+            <p begin="01:06.709" end="01:08.489" ttm:agent="v1000" itunes:key="L41">
+                <span begin="01:06.709" end="01:07.410">千客</span>
+                <span begin="01:07.410" end="01:07.989">万来！</span>
+            </p>
+            <p begin="01:08.211" end="01:12.159" ttm:agent="v1" itunes:key="L42">
+                <span begin="01:08.211" end="01:08.531">君</span>
+                <span begin="01:08.531" end="01:08.699">の</span>
+                <span begin="01:08.699" end="01:09.149">笑顔</span>
+                <span begin="01:09.149" end="01:09.520">も</span>
+                <span begin="01:09.520" end="01:10.349">コレクション</span>
+                <span begin="01:10.349" end="01:10.541">さ</span>
+                <span begin="01:10.541" end="01:10.880">せ</span>
+                <span begin="01:10.880" end="01:11.659">て</span>
+            </p>
+            <p begin="01:11.726" end="01:14.006" ttm:agent="v1000" itunes:key="L43">
+                <span begin="01:11.726" end="01:12.238">いいぇー</span>
+                <span begin="01:12.238" end="01:12.416">いいぇ</span>
+                <span begin="01:12.416" end="01:12.856">いいぇ</span>
+                <span begin="01:12.856" end="01:13.238">い </span>
+                <span begin="01:13.238" end="01:13.646">いぇ~</span>
+            </p>
+            <p begin="01:13.556" end="01:16.307" ttm:agent="v2" itunes:key="L44">
+                <span begin="01:13.556" end="01:13.808">大人</span>
+                <span begin="01:13.808" end="01:14.047">も</span>
+                <span begin="01:14.047" end="01:14.469">子供</span>
+                <span begin="01:14.469" end="01:14.716">も</span>
+                <span begin="01:14.716" end="01:15.379">関係</span>
+                <span begin="01:15.379" end="01:15.589">ねぇ</span>
+                <span begin="01:15.589" end="01:15.807">ぜ</span>
+            </p>
+            <p begin="01:15.905" end="01:17.876" ttm:agent="v2" itunes:key="L45">
+                <span begin="01:15.905" end="01:16.334">これ</span>
+                <span begin="01:16.334" end="01:16.574">ぞ</span>
+                <span begin="01:16.574" end="01:17.146">一流</span>
+                <span begin="01:17.146" end="01:17.572">の</span>
+            </p>
+            <p begin="01:17.426" end="01:19.017" ttm:agent="v1000" itunes:key="L46">
+                <span begin="01:17.426" end="01:18.095">エンタ~</span>
+                <span begin="01:18.095" end="01:18.544">テイメ~ン</span>
+            </p>
+            <p begin="01:18.567" end="01:21.275" ttm:agent="v1" itunes:key="L47">
+                <span begin="01:18.567" end="01:19.837">わたしだって </span>
+                <span begin="01:19.837" end="01:20.538">いつ</span>
+                <span begin="01:20.538" end="01:20.825">か</span>
+            </p>
+            <p begin="01:20.825" end="01:23.735" ttm:agent="v1" itunes:key="L48">
+                <span begin="01:20.825" end="01:21.185">夢</span>
+                <span begin="01:21.185" end="01:21.366">を</span>
+                <span begin="01:21.366" end="01:21.897">叶え</span>
+                <span begin="01:21.897" end="01:22.785">てやるって</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v2">
+                    <span begin="01:22.858" end="01:23.007">(We </span>
+                    <span begin="01:23.007" end="01:23.397">can </span>
+                    <span begin="01:23.397" end="01:23.546">do </span>
+                    <span begin="01:23.546" end="01:23.735">it)</span>
+                </span>
+            </p>
+            <p begin="01:23.735" end="01:26.608" ttm:agent="v1" itunes:key="L49">
+                <span begin="01:23.735" end="01:24.094">この</span>
+                <span begin="01:24.094" end="01:24.875">ニッコリ</span>
+                <span begin="01:24.875" end="01:25.203">に</span>
+                <span begin="01:25.203" end="01:25.867">触れ</span>
+                <span begin="01:25.867" end="01:26.158">て</span>
+            </p>
+            <p begin="01:26.158" end="01:29.477" ttm:agent="v1" itunes:key="L50">
+                <span begin="01:26.158" end="01:26.719">もっと</span>
+                <span begin="01:26.719" end="01:27.017">胸</span>
+                <span begin="01:27.017" end="01:27.761">膨らみま</span>
+                <span begin="01:27.761" end="01:28.079">し</span>
+                <span begin="01:28.180" end="01:28.480">た</span>
+                <span begin="01:28.532" end="01:28.714">と</span>
+                <span begin="01:28.714" end="01:28.977">さ</span><space/>
+                <span ttm:role="x-bg">
+                    <span begin="01:29.100" end="01:29.460">(Good!)</span>
+                </span>
+            </p>
+        </div>
+        <div begin="01:39.387" end="02:13.844" itunes:songPart="Verse">
+            <p begin="01:39.387" end="01:40.617" ttm:agent="v2" itunes:key="L51">
+                <span begin="01:39.387" end="01:39.536">はい </span>
+                <span begin="01:39.536" end="01:39.747">ちゅう</span>
+                <span begin="01:39.747" end="01:39.976">もー</span>
+                <span begin="01:39.976" end="01:40.117">く</span>
+            </p>
+            <p begin="01:40.224" end="01:41.849" ttm:agent="v2" itunes:key="L52">
+                <span begin="01:40.224" end="01:40.762">にっこり</span>
+                <span begin="01:40.762" end="01:41.122">調査</span>
+                <span begin="01:41.122" end="01:41.399">隊</span>
+            </p>
+            <p begin="01:41.399" end="01:43.172" ttm:agent="v2" itunes:key="L53">
+                <span begin="01:41.399" end="01:41.674">大体</span>
+                <span begin="01:41.674" end="01:41.803">お</span>
+                <span begin="01:41.803" end="01:42.011">ちゃのこ</span>
+                <span begin="01:42.011" end="01:42.274">さい</span>
+                <span begin="01:42.274" end="01:42.598">さ~</span>
+                <span begin="01:42.598" end="01:42.722">い</span>
+            </p>
+            <p begin="01:42.722" end="01:44.489" ttm:agent="v2" itunes:key="L54">
+                <span begin="01:42.722" end="01:43.034">保つ</span>
+                <span begin="01:43.034" end="01:43.265">調査</span>
+                <span begin="01:43.265" end="01:43.391">の</span>
+                <span begin="01:43.391" end="01:44.039">体裁</span>
+            </p>
+            <p begin="01:44.039" end="01:45.731" ttm:agent="v2" itunes:key="L55">
+                <span begin="01:44.039" end="01:44.408">今だ！ </span>
+                <span begin="01:44.408" end="01:44.597">悪</span>
+                <span begin="01:44.597" end="01:44.708">を</span>
+                <span begin="01:44.708" end="01:44.988">鉄拳</span>
+                <span begin="01:44.988" end="01:45.231">制裁！</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v2000">
+                    <span begin="01:45.327" end="01:45.673">(ビシ！)</span>
+                </span>
+            </p>
+            <p begin="01:45.590" end="01:47.459" ttm:agent="v2" itunes:key="L56">
+                <span begin="01:45.590" end="01:46.002">調査</span>
+                <span begin="01:46.002" end="01:46.416">報告</span>
+                <span begin="01:46.416" end="01:46.734">その</span>
+                <span begin="01:46.734" end="01:47.009">1</span>
+            </p>
+            <p begin="01:47.009" end="01:49.618" ttm:agent="v2" itunes:key="L57">
+                <span begin="01:47.009" end="01:47.347">笑顔</span>
+                <span begin="01:47.347" end="01:47.470">は</span>
+                <span begin="01:47.470" end="01:47.849">伝染</span>
+                <span begin="01:47.849" end="01:48.329">します</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1">
+                    <span begin="01:48.329" end="01:48.519">(お</span>
+                    <span begin="01:48.519" end="01:48.694">バカ</span>
+                    <span begin="01:48.694" end="01:48.819">も</span>
+                    <span begin="01:48.819" end="01:49.203">伝染</span>
+                    <span begin="01:49.203" end="01:49.618">します)</span>
+                </span>
+            </p>
+            <p begin="01:49.694" end="01:51.071" ttm:agent="v1" itunes:key="L58">
+                <span begin="01:49.694" end="01:50.030">やだ~ </span>
+                <span begin="01:50.030" end="01:50.350">めっちゃ</span>
+                <span begin="01:50.350" end="01:50.621">こわ</span>
+            </p>
+            <p begin="01:50.621" end="01:51.501" ttm:agent="v1" itunes:key="L59">
+                <span begin="01:50.621" end="01:51.001">諸君！</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="01:51.001" end="01:51.343">(はい)</span>
+                </span>
+            </p>
+            <p begin="01:51.343" end="01:53.691" ttm:agent="v1" itunes:key="L60">
+                <span begin="01:51.343" end="01:51.690">大変</span>
+                <span begin="01:51.690" end="01:52.100">です </span>
+                <span begin="01:52.100" end="01:52.367">全然</span>
+                <span begin="01:52.367" end="01:52.610">データ</span>
+                <span begin="01:52.610" end="01:52.681">が</span>
+                <span begin="01:52.681" end="01:52.837">足り</span>
+                <span begin="01:52.837" end="01:52.936">て</span>
+                <span begin="01:52.936" end="01:53.241">ません</span>
+            </p>
+            <p begin="01:53.241" end="01:54.152" ttm:agent="v2" itunes:key="L61">
+                <span begin="01:53.241" end="01:53.702">とりあえず</span>
+            </p>
+            <p begin="01:53.702" end="01:54.733" ttm:agent="v1" itunes:key="L62">
+                <span begin="01:53.702" end="01:54.298">とりあえず？</span>
+            </p>
+            <p begin="01:54.283" end="01:57.037" ttm:agent="v2" itunes:key="L63">
+                <span begin="01:54.283" end="01:54.696">とりあえず </span>
+                <span begin="01:54.696" end="01:54.983">また</span>
+                <span begin="01:54.983" end="01:55.355">珍</span>
+                <span begin="01:55.355" end="01:56.006">道中</span>
+                <span begin="01:56.006" end="01:56.204">だ</span>
+                <span begin="01:56.204" end="01:56.531">なー</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1">
+                    <span begin="01:56.531" end="01:57.037">(ダナー)</span>
+                </span>
+            </p>
+            <p begin="01:57.077" end="01:59.253" ttm:agent="v1000" itunes:key="L64">
+                <span begin="01:57.077" end="01:57.522">お</span>
+                <span begin="01:57.522" end="01:57.778">前</span>
+                <span begin="01:57.778" end="01:57.990">が</span>
+                <span begin="01:57.990" end="01:58.357">いう</span>
+                <span begin="01:58.357" end="01:58.753">な~！</span>
+            </p>
+            <p begin="01:58.973" end="02:00.349" ttm:agent="v2000" itunes:key="L65">
+                <span begin="01:58.973" end="01:59.390">数・</span>
+                <span begin="01:59.390" end="01:59.750">日・</span>
+                <span begin="01:59.750" end="02:00.020">後</span>
+            </p>
+            <p begin="01:59.899" end="02:01.990" ttm:agent="v2" itunes:key="L66">
+                <span begin="01:59.899" end="02:00.081">じゃあ</span>
+                <span begin="02:00.081" end="02:00.447">持ち物</span>
+                <span begin="02:00.447" end="02:00.715">チェック</span>
+                <span begin="02:00.715" end="02:00.990">始め</span>
+                <span begin="02:00.990" end="02:01.324">まー</span>
+                <span begin="02:01.324" end="02:01.499">す</span>
+            </p>
+            <p begin="02:01.540" end="02:03.123" ttm:agent="v1" itunes:key="L67">
+                <span begin="02:01.540" end="02:01.889">そん</span>
+                <span begin="02:01.889" end="02:02.079">じゃ</span>
+                <span begin="02:02.079" end="02:02.399">いつ</span>
+                <span begin="02:02.399" end="02:02.569">も</span>
+                <span begin="02:02.569" end="02:02.719">の！</span>
+            </p>
+            <p begin="02:02.673" end="02:05.525" ttm:agent="v1" itunes:key="L68">
+                <span begin="02:02.673" end="02:02.926">ぱ！ </span>
+                <span begin="02:03.032" end="02:03.445">ぱぱ </span>
+                <span begin="02:03.515" end="02:04.201">パスポート</span>
+                <span begin="02:04.201" end="02:05.025">持った？</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="02:05.050" end="02:05.410">(はーい！)</span>
+                </span>
+            </p>
+            <p begin="02:05.410" end="02:08.382" ttm:agent="v2" itunes:key="L69">
+                <span begin="02:05.410" end="02:05.646">き！</span>
+                <span begin="02:05.741" end="02:06.081">ぱぱ </span>
+                <span begin="02:06.182" end="02:06.676">パンツ</span>
+                <span begin="02:06.676" end="02:07.232">忘れ</span>
+                <span begin="02:07.232" end="02:07.882">たぁぅぁぁ！</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="02:07.743" end="02:08.071">(え~)</span>
+                </span>
+            </p>
+            <p begin="02:08.071" end="02:10.984" ttm:agent="v1" itunes:key="L70">
+                <span begin="02:08.071" end="02:08.332">も！</span>
+                <span begin="02:08.404" end="02:08.975">モバイル</span>
+                <span begin="02:08.975" end="02:09.252">バッ</span>
+                <span begin="02:09.370" end="02:09.823">テリー </span>
+                <span begin="02:09.823" end="02:10.484">持った？</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1000">
+                    <span begin="02:10.442" end="02:10.762">(はーい)</span>
+                </span>
+            </p>
+            <p begin="02:10.762" end="02:13.136" ttm:agent="v2" itunes:key="L71">
+                <span begin="02:10.762" end="02:11.092">こ！</span>
+                <span begin="02:11.092" end="02:11.864">志</span>
+                <span begin="02:11.864" end="02:12.014">は</span>
+                <span begin="02:12.014" end="02:12.686">もった？</span>
+            </p>
+            <p begin="02:12.686" end="02:13.844" ttm:agent="v1000" itunes:key="L72">
+                <span begin="02:12.686" end="02:13.344">もちろん！</span>
+            </p>
+        </div>
+        <div begin="02:13.565" end="02:24.051" itunes:songPart="PreChorus">
+            <p begin="02:13.565" end="02:15.225" ttm:agent="v1" itunes:key="L73">
+                <span begin="02:13.565" end="02:13.754">お</span>
+                <span begin="02:13.754" end="02:14.386">国柄</span>
+                <span begin="02:14.386" end="02:14.525">と</span>
+                <span begin="02:14.525" end="02:14.725">か</span>
+            </p>
+            <p begin="02:14.893" end="02:16.552" ttm:agent="v2" itunes:key="L74">
+                <span begin="02:14.893" end="02:15.413">老若</span>
+                <span begin="02:15.413" end="02:15.815">男女</span>
+                <span begin="02:15.815" end="02:16.102">は</span>
+            </p>
+            <p begin="02:16.102" end="02:17.926" ttm:agent="v1" itunes:key="L75">
+                <span begin="02:16.102" end="02:16.701">あんまし</span>
+                <span begin="02:16.701" end="02:17.192">関係</span>
+                <span begin="02:17.192" end="02:17.476">ない</span>
+            </p>
+            <p begin="02:17.476" end="02:19.492" ttm:agent="v2" itunes:key="L76">
+                <span begin="02:17.476" end="02:18.025">ワールド</span>
+                <span begin="02:18.025" end="02:18.651">ワイドだ</span>
+                <span begin="02:18.651" end="02:19.042">ぜ</span>
+            </p>
+            <p begin="02:19.042" end="02:23.229" ttm:agent="v1" itunes:key="L77">
+                <span begin="02:19.042" end="02:19.579">こっち</span>
+                <span begin="02:19.579" end="02:19.792">の</span>
+                <span begin="02:19.906" end="02:20.368">世界</span>
+                <span begin="02:20.368" end="02:20.519">も</span>
+                <span begin="02:20.519" end="02:21.126">まだまだ</span>
+                <span begin="02:21.126" end="02:21.895">捨てた</span>
+                <span begin="02:21.895" end="02:22.091">もん</span>
+                <span begin="02:22.091" end="02:22.395">じゃ</span>
+                <span begin="02:22.395" end="02:22.779">ない</span>
+            </p>
+            <p begin="02:22.779" end="02:24.051" ttm:agent="v1" itunes:key="L78">
+                <span begin="02:22.779" end="02:23.303">なんて</span>
+                <span begin="02:23.303" end="02:23.762">ね</span>
+            </p>
+        </div>
+        <div begin="02:23.601" end="02:50.866" itunes:songPart="Chorus">
+            <p begin="02:23.601" end="02:26.850" ttm:agent="v2" itunes:key="L79">
+                <span begin="02:23.601" end="02:24.302">にっこり</span>
+                <span begin="02:24.302" end="02:25.390">こりこりこり</span>
+                <span begin="02:25.390" end="02:25.642">お</span>
+                <span begin="02:25.642" end="02:26.070">利口</span>
+                <span begin="02:26.070" end="02:26.350">さん</span>
+            </p>
+            <p begin="02:26.550" end="02:28.522" ttm:agent="v2" itunes:key="L80">
+                <span begin="02:26.550" end="02:26.950">陰</span>
+                <span begin="02:26.950" end="02:27.232">キャ</span>
+                <span begin="02:27.232" end="02:27.355">も</span>
+                <span begin="02:27.355" end="02:27.679">陽</span>
+                <span begin="02:27.679" end="02:27.842">キャ</span>
+                <span begin="02:27.842" end="02:28.185">も</span>
+            </p>
+            <p begin="02:28.072" end="02:29.873" ttm:agent="v1000" itunes:key="L81">
+                <span begin="02:28.072" end="02:28.752">ウェルカム </span>
+                <span begin="02:28.752" end="02:29.373">ウェルカム</span>
+            </p>
+            <p begin="02:29.592" end="02:33.911" ttm:agent="v2" itunes:key="L82">
+                <span begin="02:29.592" end="02:29.905">君</span>
+                <span begin="02:29.905" end="02:30.065">の</span>
+                <span begin="02:30.065" end="02:30.515">笑顔</span>
+                <span begin="02:30.515" end="02:30.744">が</span>
+                <span begin="02:30.854" end="02:31.391">調査</span>
+                <span begin="02:31.391" end="02:32.174">対象</span>
+                <span begin="02:32.174" end="02:33.911">さ</span>
+            </p>
+            <p begin="02:33.047" end="02:35.158" ttm:agent="v1000" itunes:key="L83">
+                <span begin="02:33.047" end="02:33.549">いいぇー</span>
+                <span begin="02:33.549" end="02:33.854">いいぇ</span>
+                <span begin="02:33.854" end="02:34.147">いいぇ</span>
+                <span begin="02:34.147" end="02:34.489">い </span>
+                <span begin="02:34.489" end="02:34.658">いぇ~</span>
+            </p>
+            <p begin="02:34.888" end="02:37.537" ttm:agent="v1" itunes:key="L84">
+                <span begin="02:34.888" end="02:35.325">フィジカル </span>
+                <span begin="02:35.325" end="02:36.035">メンタル </span>
+                <span begin="02:36.035" end="02:36.583">トータル </span>
+                <span begin="02:36.583" end="02:37.037">OK</span>
+            </p>
+            <p begin="02:37.205" end="02:39.154" ttm:agent="v1" itunes:key="L85">
+                <span begin="02:37.205" end="02:37.675">きき</span>
+                <span begin="02:37.675" end="02:37.915">め</span>
+                <span begin="02:37.915" end="02:38.544">抜群</span>
+                <span begin="02:38.544" end="02:38.685">の</span>
+            </p>
+            <p begin="02:38.704" end="02:40.270" ttm:agent="v1000" itunes:key="L86">
+                <span begin="02:38.704" end="02:39.424">エンタ~</span>
+                <span begin="02:39.424" end="02:39.603">テイメ</span>
+                <span begin="02:39.603" end="02:39.923">~ン</span>
+            </p>
+            <p begin="02:39.820" end="02:42.635" ttm:agent="v1" itunes:key="L87">
+                <span begin="02:39.820" end="02:41.195">わたしだって </span>
+                <span begin="02:41.195" end="02:41.853">いつ</span>
+                <span begin="02:41.853" end="02:42.185">か</span>
+            </p>
+            <p begin="02:42.185" end="02:45.150" ttm:agent="v1" itunes:key="L88">
+                <span begin="02:42.185" end="02:42.540">夢</span>
+                <span begin="02:42.540" end="02:42.711">を</span>
+                <span begin="02:42.711" end="02:43.210">叶え</span>
+                <span begin="02:43.210" end="02:44.246">てやるって</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v2">
+                    <span begin="02:44.215" end="02:44.386">(We </span>
+                    <span begin="02:44.386" end="02:44.756">can </span>
+                    <span begin="02:44.756" end="02:44.906">do </span>
+                    <span begin="02:44.906" end="02:45.150">it)</span>
+                </span>
+            </p>
+            <p begin="02:45.150" end="02:47.929" ttm:agent="v1" itunes:key="L89">
+                <span begin="02:45.150" end="02:45.437">この</span>
+                <span begin="02:45.437" end="02:46.208">ニッコリ</span>
+                <span begin="02:46.208" end="02:46.536">に</span>
+                <span begin="02:46.536" end="02:47.226">触れ</span>
+                <span begin="02:47.226" end="02:47.499">て</span>
+            </p>
+            <p begin="02:47.479" end="02:50.866" ttm:agent="v1" itunes:key="L90">
+                <span begin="02:47.479" end="02:48.025">もっと</span>
+                <span begin="02:48.025" end="02:48.276">胸</span>
+                <span begin="02:48.276" end="02:49.223">膨らみま</span>
+                <span begin="02:49.223" end="02:49.406">し</span>
+                <span begin="02:49.517" end="02:49.744">た</span>
+                <span begin="02:49.861" end="02:50.036">と</span>
+                <span begin="02:50.036" end="02:50.366">さ</span>
+            </p>
+        </div>
+        <div begin="02:50.684" end="03:01.700" itunes:songPart="Bridge">
+            <p begin="02:50.684" end="02:53.844" ttm:agent="v1000" itunes:key="L91">
+                <span begin="02:50.684" end="02:50.968">その</span>
+                <span begin="02:50.968" end="02:51.696">ションボリ</span>
+                <span begin="02:51.696" end="02:51.930">を</span>
+                <span begin="02:51.930" end="02:52.224">ニ</span>
+                <span begin="02:52.224" end="02:52.491">ッコリ</span>
+                <span begin="02:52.491" end="02:52.747">に</span>
+                <span begin="02:52.747" end="02:53.394">変換</span>
+            </p>
+            <p begin="02:53.394" end="02:56.208" ttm:agent="v1000" itunes:key="L92">
+                <span begin="02:53.394" end="02:53.706">うち</span>
+                <span begin="02:53.706" end="02:53.898">ら</span>
+                <span begin="02:53.898" end="02:54.005">に</span>
+                <span begin="02:54.005" end="02:54.516">任せろ </span>
+                <span begin="02:54.516" end="02:54.889">Make </span>
+                <span begin="02:54.889" end="02:55.307">your </span>
+                <span begin="02:55.307" end="02:55.708">smile</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1">
+                    <span begin="02:55.708" end="02:56.003">(Fu)</span>
+                </span>
+            </p>
+            <p begin="02:55.904" end="02:58.901" ttm:agent="v1000" itunes:key="L93">
+                <span begin="02:55.904" end="02:56.283">アゲ</span>
+                <span begin="02:56.283" end="02:56.443">の</span>
+                <span begin="02:56.443" end="02:57.116">ときだって </span>
+                <span begin="02:57.116" end="02:57.533">サゲ</span>
+                <span begin="02:57.533" end="02:57.723">の</span>
+                <span begin="02:57.723" end="02:58.451">ときだって</span>
+            </p>
+            <p begin="02:58.451" end="03:01.700" ttm:agent="v1000" itunes:key="L94">
+                <span begin="02:58.451" end="02:59.293">かき混ぜ</span>
+                <span begin="02:59.293" end="02:59.816">ちゃって </span>
+                <span begin="02:59.816" end="03:01.200">スパイスだって</span>
+            </p>
+        </div>
+        <div begin="03:01.382" end="03:02.742" itunes:songPart="PreChorus">
+            <p begin="03:01.382" end="03:02.742" ttm:agent="v2" itunes:key="L95">
+                <span begin="03:01.382" end="03:02.206">完ペキだ</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v1">
+                    <span begin="03:02.246" end="03:02.574">(なに</span>
+                    <span begin="03:02.574" end="03:02.742">が？)</span>
+                </span>
+            </p>
+        </div>
+        <div begin="03:02.266" end="03:24.230" itunes:songPart="Chorus">
+            <p begin="03:02.266" end="03:05.676" ttm:agent="v1" itunes:key="L96">
+                <span begin="03:02.266" end="03:02.994">にっこり</span>
+                <span begin="03:02.994" end="03:04.074">こりこりこり</span>
+                <span begin="03:04.074" end="03:04.290">お</span>
+                <span begin="03:04.290" end="03:04.725">利口</span>
+                <span begin="03:04.725" end="03:05.226">ちゃん</span>
+            </p>
+            <p begin="03:05.226" end="03:07.156" ttm:agent="v1" itunes:key="L97">
+                <span begin="03:05.226" end="03:05.885">大人</span>
+                <span begin="03:05.885" end="03:06.037">も</span>
+                <span begin="03:06.037" end="03:06.565">子供</span>
+                <span begin="03:06.565" end="03:06.706">も</span>
+            </p>
+            <p begin="03:06.706" end="03:08.566" ttm:agent="v1000" itunes:key="L98">
+                <span begin="03:06.706" end="03:07.405">熱烈</span>
+                <span begin="03:07.405" end="03:08.066">歓迎！</span>
+            </p>
+            <p begin="03:08.174" end="03:12.276" ttm:agent="v2" itunes:key="L99">
+                <span begin="03:08.174" end="03:08.506">もち</span>
+                <span begin="03:08.506" end="03:09.238">我々</span>
+                <span begin="03:09.238" end="03:09.534">も</span>
+                <span begin="03:09.534" end="03:10.001">調査</span>
+                <span begin="03:10.001" end="03:12.276">対象だ！</span>
+            </p>
+            <p begin="03:11.505" end="03:13.662" ttm:agent="v1000" itunes:key="L100">
+                <span begin="03:11.505" end="03:11.727">Run </span>
+                <span begin="03:11.727" end="03:12.347">away </span>
+                <span begin="03:12.347" end="03:12.706">うぇい </span>
+                <span begin="03:12.706" end="03:13.173">うぇい </span>
+                <span begin="03:13.173" end="03:13.519">うぇ~い</span>
+            </p>
+            <p begin="03:13.212" end="03:15.974" ttm:agent="v1" itunes:key="L101">
+                <span begin="03:13.212" end="03:14.543">わたしだって </span>
+                <span begin="03:14.543" end="03:15.234">いつ</span>
+                <span begin="03:15.234" end="03:15.524">か</span>
+            </p>
+            <p begin="03:15.524" end="03:18.431" ttm:agent="v1" itunes:key="L102">
+                <span begin="03:15.524" end="03:15.783">夢</span>
+                <span begin="03:15.783" end="03:16.044">を</span>
+                <span begin="03:16.044" end="03:16.495">叶え</span>
+                <span begin="03:16.495" end="03:17.082">てやるっ</span>
+                <span begin="03:17.318" end="03:17.620">て</span><space/>
+                <span ttm:role="x-bg" ttm:agent="v2">
+                    <span begin="03:17.515" end="03:17.696">(We </span>
+                    <span begin="03:17.696" end="03:18.085">can </span>
+                    <span begin="03:18.085" end="03:18.224">do </span>
+                    <span begin="03:18.224" end="03:18.431">it)</span>
+                </span>
+            </p>
+            <p begin="03:18.380" end="03:21.313" ttm:agent="v1" itunes:key="L103">
+                <span begin="03:18.380" end="03:18.761">この</span>
+                <span begin="03:18.761" end="03:19.521">ニッコリ</span>
+                <span begin="03:19.521" end="03:19.871">に</span>
+                <span begin="03:19.871" end="03:20.551">触れ</span>
+                <span begin="03:20.551" end="03:20.863">て</span>
+            </p>
+            <p begin="03:20.863" end="03:24.230" ttm:agent="v1" itunes:key="L104">
+                <span begin="03:20.863" end="03:21.357">もっと</span>
+                <span begin="03:21.357" end="03:21.680">胸</span>
+                <span begin="03:21.680" end="03:22.499">膨らみま</span>
+                <span begin="03:22.499" end="03:22.726">し</span>
+                <span begin="03:22.844" end="03:23.087">た</span>
+                <span begin="03:23.211" end="03:23.375">と</span>
+                <span begin="03:23.375" end="03:23.730">さ</span>
+            </p>
+        </div>
+    </body>
+</tt>

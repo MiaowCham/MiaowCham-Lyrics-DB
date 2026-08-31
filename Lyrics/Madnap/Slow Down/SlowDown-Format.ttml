@@ -1,0 +1,374 @@
+
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" itunes:timing="Word">
+    <head>
+        <metadata><ttm:agent type="person" xml:id="v1"/><ttm:agent type="other" xml:id="v2"/>
+        </metadata>
+    </head>
+    <body dur="03:16.491">
+        <div begin="00:08.630" end="03:16.491">
+            <p begin="00:08.630" end="00:11.396" ttm:agent="v1" itunes:key="L1">
+                <span begin="00:08.630" end="00:08.918">I </span>
+                <span begin="00:08.918" end="00:09.234">saw </span>
+                <span begin="00:09.234" end="00:09.583">the </span>
+                <span begin="00:09.583" end="00:10.009">wild</span>
+                <span begin="00:10.069" end="00:10.687">flowers </span>
+                <span begin="00:10.687" end="00:11.396">dying</span>
+            </p>
+            <p begin="00:11.416" end="00:13.873" ttm:agent="v1" itunes:key="L2">
+                <span begin="00:11.416" end="00:11.755">As </span>
+                <span begin="00:11.755" end="00:12.106">we </span>
+                <span begin="00:12.106" end="00:12.628">froze </span>
+                <span begin="00:12.698" end="00:13.022">in </span>
+                <span begin="00:13.022" end="00:13.326">the </span>
+                <span begin="00:13.326" end="00:13.873">winter</span>
+            </p>
+            <p begin="00:13.893" end="00:16.257" ttm:agent="v1" itunes:key="L3">
+                <span begin="00:13.893" end="00:14.224">Lost </span>
+                <span begin="00:14.224" end="00:14.532">my </span>
+                <span begin="00:14.532" end="00:15.071">clothes </span>
+                <span begin="00:15.081" end="00:15.441">in </span>
+                <span begin="00:15.441" end="00:15.767">the </span>
+                <span begin="00:15.767" end="00:16.257">water</span>
+            </p>
+            <p begin="00:16.257" end="00:18.704" ttm:agent="v1" itunes:key="L4">
+                <span begin="00:16.257" end="00:16.616">Feel </span>
+                <span begin="00:16.616" end="00:16.948">the </span>
+                <span begin="00:16.948" end="00:17.349">sand </span>
+                <span begin="00:17.389" end="00:17.965">between </span>
+                <span begin="00:17.965" end="00:18.203">my </span>
+                <span begin="00:18.203" end="00:18.704">toes</span>
+            </p>
+            <p begin="00:18.724" end="00:21.208" ttm:agent="v1" itunes:key="L5">
+                <span begin="00:18.724" end="00:19.057">All </span>
+                <span begin="00:19.057" end="00:19.377">these </span>
+                <span begin="00:19.377" end="00:19.897">days </span>
+                <span begin="00:19.957" end="00:20.328">we </span>
+                <span begin="00:20.328" end="00:20.620">kept </span>
+                <span begin="00:20.620" end="00:21.208">trying</span>
+            </p>
+            <p begin="00:21.228" end="00:23.647" ttm:agent="v1" itunes:key="L6">
+                <span begin="00:21.228" end="00:21.587">Put </span>
+                <span begin="00:21.587" end="00:21.886">our </span>
+                <span begin="00:21.886" end="00:22.307">hands </span>
+                <span begin="00:22.407" end="00:22.785">on </span>
+                <span begin="00:22.785" end="00:23.102">the </span>
+                <span begin="00:23.102" end="00:23.647">lions</span>
+            </p>
+            <p begin="00:23.667" end="00:26.168" ttm:agent="v1" itunes:key="L7">
+                <span begin="00:23.667" end="00:24.359">Never </span>
+                <span begin="00:24.359" end="00:24.686">thought </span>
+                <span begin="00:24.906" end="00:25.290">we'd </span>
+                <span begin="00:25.300" end="00:25.615">stop </span>
+                <span begin="00:25.615" end="00:26.168">flying</span>
+            </p>
+            <p begin="00:26.188" end="00:28.611" ttm:agent="v1" itunes:key="L8">
+                <span begin="00:26.188" end="00:26.475">Just </span>
+                <span begin="00:26.475" end="00:26.798">to </span>
+                <span begin="00:26.798" end="00:27.145">walk </span>
+                <span begin="00:27.145" end="00:27.460">this </span>
+                <span begin="00:27.460" end="00:27.745">on </span>
+                <span begin="00:27.745" end="00:28.078">our </span>
+                <span begin="00:28.078" end="00:28.611">own</span>
+            </p>
+            <p begin="00:28.611" end="00:33.169" ttm:agent="v1" itunes:key="L9">
+                <span begin="00:28.611" end="00:28.977">Oh </span>
+                <span begin="00:28.977" end="00:29.607">we </span>
+                <span begin="00:29.637" end="00:30.084">are </span>
+                <span begin="00:30.144" end="00:30.980">grow</span>
+                <span begin="00:30.872" end="00:31.322">ing </span>
+                <span begin="00:31.450" end="00:32.004">old </span>
+                <span begin="00:32.004" end="00:33.169">now</span>
+            </p>
+            <p begin="00:33.169" end="00:37.005" ttm:agent="v1" itunes:key="L10">
+                <span begin="00:33.169" end="00:33.556">Will </span>
+                <span begin="00:33.556" end="00:33.864">it </span>
+                <span begin="00:33.864" end="00:34.319">ev</span>
+                <span begin="00:34.339" end="00:35.051">er </span>
+                <span begin="00:35.051" end="00:35.656">be </span>
+                <span begin="00:35.676" end="00:36.347">the </span>
+                <span begin="00:36.347" end="00:37.005">same</span>
+            </p>
+            <p begin="00:37.943" end="00:42.571" ttm:agent="v1" itunes:key="L11">
+                <span begin="00:37.943" end="00:38.321">Since </span>
+                <span begin="00:38.321" end="00:38.647">we </span>
+                <span begin="00:38.647" end="00:39.127">slowed </span>
+                <span begin="00:39.187" end="00:39.763">down </span>
+                <span begin="00:40.813" end="00:41.157">we </span>
+                <span begin="00:41.157" end="00:41.538">slowed </span>
+                <span begin="00:41.608" end="00:42.571">down</span>
+            </p>
+            <p begin="00:43.265" end="00:47.410" ttm:agent="v1" itunes:key="L12">
+                <span begin="00:43.265" end="00:43.595">We </span>
+                <span begin="00:43.595" end="00:44.066">slow </span>
+                <span begin="00:44.116" end="00:44.783">down </span>
+                <span begin="00:45.714" end="00:46.043">we </span>
+                <span begin="00:46.043" end="00:46.508">slow </span>
+                <span begin="00:46.558" end="00:47.410">down </span>
+                <span ttm:role="x-bg" begin="00:47.279" end="00:48.322">
+                    <span begin="00:47.279" end="00:47.785">(Slow </span>
+                    <span begin="00:47.785" end="00:48.322">down)</span>
+                </span>
+            </p>
+            <p begin="00:48.005" end="00:49.308" ttm:agent="v1" itunes:key="L13">
+                <span begin="00:48.005" end="00:48.458">Slow </span>
+                <span begin="00:48.508" end="00:49.308">down</span>
+                <span ttm:role="x-bg" begin="00:49.080" end="00:50.481">
+                    <span begin="00:49.080" end="00:49.683">(Slow </span>
+                    <span begin="00:49.683" end="00:50.481">down)</span>
+                </span>
+            </p>
+            <p begin="00:50.347" end="00:52.192" ttm:agent="v1" itunes:key="L14">
+                <span begin="00:50.347" end="00:50.645">We </span>
+                <span begin="00:50.645" end="00:50.958">slowed </span>
+                <span begin="00:50.958" end="00:52.192">down </span>
+                <span ttm:role="x-bg" begin="00:51.571" end="00:53.002">
+                    <span begin="00:51.571" end="00:52.142">(Slow </span>
+                    <span begin="00:52.142" end="00:53.002">down)</span>
+                </span>
+            </p>
+            <p begin="00:52.918" end="00:54.297" ttm:agent="v1" itunes:key="L15">
+                <span begin="00:52.918" end="00:53.356">Slow </span>
+                <span begin="00:53.406" end="00:54.297">down </span>
+                <span ttm:role="x-bg" begin="00:54.307" end="00:56.319">
+                    <span begin="00:54.307" end="00:54.975">(Down </span>
+                    <span begin="00:55.475" end="00:56.319">down)</span>
+                </span>
+            </p>
+            <p begin="00:56.814" end="00:58.593" ttm:agent="v1" itunes:key="L16">
+                <span begin="00:56.814" end="00:57.116">We </span>
+                <span begin="00:57.116" end="00:57.626">slow </span>
+                <span begin="00:57.726" end="00:58.593">down</span>
+            </p>
+            <p begin="01:16.428" end="01:18.208" ttm:agent="v1" itunes:key="L17">
+                <span begin="01:16.428" end="01:16.761">We </span>
+                <span begin="01:16.761" end="01:17.267">slow </span>
+                <span begin="01:17.337" end="01:18.208">down</span>
+            </p>
+            <p begin="01:18.554" end="01:20.648" ttm:agent="v2" itunes:key="L18">
+                <span begin="01:18.554" end="01:18.876">We </span>
+                <span begin="01:18.876" end="01:19.204">slow </span>
+                <span begin="01:19.204" end="01:19.479">down </span>
+                <span begin="01:19.834" end="01:20.138">we </span>
+                <span begin="01:20.138" end="01:20.441">slow </span>
+                <span begin="01:20.441" end="01:20.648">down</span>
+            </p>
+            <p begin="01:21.038" end="01:23.095" ttm:agent="v2" itunes:key="L19">
+                <span begin="01:21.038" end="01:21.356">We </span>
+                <span begin="01:21.356" end="01:21.649">slow </span>
+                <span begin="01:21.649" end="01:21.865">down </span>
+                <span begin="01:22.307" end="01:22.623">we </span>
+                <span begin="01:22.623" end="01:22.950">slow </span>
+                <span begin="01:22.950" end="01:23.095">down</span>
+            </p>
+            <p begin="01:23.499" end="01:25.648" ttm:agent="v2" itunes:key="L20">
+                <span begin="01:23.499" end="01:23.807">We </span>
+                <span begin="01:23.807" end="01:24.115">slow </span>
+                <span begin="01:24.115" end="01:24.388">down </span>
+                <span begin="01:24.731" end="01:25.046">we </span>
+                <span begin="01:25.046" end="01:25.345">slow </span>
+                <span begin="01:25.345" end="01:25.648">down</span>
+            </p>
+            <p begin="01:24.810" end="01:28.080" ttm:agent="v1" itunes:key="L21">
+                <span begin="01:24.810" end="01:25.314">We </span>
+                <span begin="01:25.314" end="01:26.736">slow </span>
+                <span begin="01:26.736" end="01:28.080">down</span>
+            </p>
+            <p begin="01:28.388" end="01:30.497" ttm:agent="v2" itunes:key="L22">
+                <span begin="01:28.388" end="01:28.658">We </span>
+                <span begin="01:28.658" end="01:28.945">slow </span>
+                <span begin="01:28.945" end="01:29.176">down </span>
+                <span begin="01:29.633" end="01:29.923">we </span>
+                <span begin="01:29.923" end="01:30.194">slow </span>
+                <span begin="01:30.194" end="01:30.497">down</span>
+            </p>
+            <p begin="01:30.804" end="01:33.006" ttm:agent="v2" itunes:key="L23">
+                <span begin="01:30.804" end="01:31.121">We </span>
+                <span begin="01:31.121" end="01:31.417">slow </span>
+                <span begin="01:31.417" end="01:31.591">down </span>
+                <span begin="01:32.042" end="01:32.356">we </span>
+                <span begin="01:32.356" end="01:32.627">slow </span>
+                <span begin="01:32.627" end="01:33.006">down</span>
+            </p>
+            <p begin="01:33.193" end="01:36.289" ttm:agent="v2" itunes:key="L24">
+                <span begin="01:33.193" end="01:33.547">We </span>
+                <span begin="01:33.547" end="01:33.816">slow </span>
+                <span begin="01:33.816" end="01:34.055">down </span>
+                <span begin="01:34.476" end="01:34.781">we </span>
+                <span begin="01:34.781" end="01:35.069">slow </span>
+                <span begin="01:35.069" end="01:36.289">down</span>
+            </p>
+            <p begin="01:34.479" end="01:38.021" ttm:agent="v1" itunes:key="L25">
+                <span begin="01:34.479" end="01:35.086">We </span>
+                <span begin="01:35.086" end="01:36.545">slow </span>
+                <span begin="01:36.545" end="01:38.021">down</span>
+            </p>
+            <p begin="01:38.439" end="01:42.052" ttm:agent="v1" itunes:key="L26">
+                <span begin="01:38.439" end="01:38.743">And </span>
+                <span begin="01:38.743" end="01:39.314">now </span>
+                <span begin="01:39.314" end="01:39.637">we're </span>
+                <span begin="01:39.637" end="01:39.943">too </span>
+                <span begin="01:39.943" end="01:40.496">deep </span>
+                <span begin="01:40.556" end="01:41.178">in </span>
+                <span begin="01:41.178" end="01:41.514">the </span>
+                <span begin="01:41.514" end="01:42.052">water</span>
+            </p>
+            <p begin="01:42.052" end="01:45.620" ttm:agent="v1" itunes:key="L27">
+                <span begin="01:42.052" end="01:42.349">I </span>
+                <span begin="01:42.349" end="01:42.698">can't </span>
+                <span begin="01:42.698" end="01:43.315">see </span>
+                <span begin="01:43.315" end="01:43.992">you </span>
+                <span begin="01:43.992" end="01:44.732">any</span>
+                <span begin="01:44.778" end="01:45.620">more</span>
+                <span ttm:role="x-bg" begin="01:45.097" end="01:47.813">
+                    <span begin="01:45.097" end="01:45.751">(See </span>
+                    <span begin="01:45.751" end="01:46.306">you </span>
+                    <span begin="01:46.306" end="01:47.132">any</span>
+                    <span begin="01:47.132" end="01:47.813">more)</span>
+                </span>
+            </p>
+            <p begin="01:47.876" end="01:52.136" ttm:agent="v1" itunes:key="L28">
+                <span begin="01:47.876" end="01:48.197">We </span>
+                <span begin="01:48.197" end="01:48.489">slow </span>
+                <span begin="01:48.489" end="01:48.770">down </span>
+                <span begin="01:49.083" end="01:49.344">it's </span>
+                <span begin="01:49.344" end="01:49.662">too </span>
+                <span begin="01:49.662" end="01:49.949">late </span>
+                <span begin="01:50.679" end="01:50.988">to </span>
+                <span begin="01:50.988" end="01:52.136">recover</span>
+            </p>
+            <p begin="01:53.056" end="01:58.252" ttm:agent="v1" itunes:key="L29">
+                <span begin="01:53.056" end="01:53.392">I </span>
+                <span begin="01:53.392" end="01:53.912">just </span>
+                <span begin="01:53.912" end="01:54.545">can't </span>
+                <span begin="01:54.545" end="01:54.897">see </span>
+                <span begin="01:55.174" end="01:55.742">you </span>
+                <span begin="01:55.742" end="01:57.084">any</span>
+                <span begin="01:57.084" end="01:58.252">more</span>
+            </p>
+            <p begin="02:00.395" end="02:02.780" ttm:agent="v1" itunes:key="L30">
+                <span begin="02:00.395" end="02:00.689">I </span>
+                <span begin="02:00.689" end="02:01.029">can't </span>
+                <span begin="02:01.029" end="02:01.337">do </span>
+                <span begin="02:01.337" end="02:01.688">this </span>
+                <span begin="02:01.688" end="02:02.156">any</span>
+                <span begin="02:02.156" end="02:02.780">more</span>
+                <span ttm:role="x-bg" begin="02:02.873" end="02:03.602">
+                    <span begin="02:02.873" end="02:03.602">(More)</span>
+                </span>
+            </p>
+            <p begin="02:05.142" end="02:07.677" ttm:agent="v1" itunes:key="L31">
+                <span begin="02:05.142" end="02:05.375">You </span>
+                <span begin="02:05.375" end="02:05.692">can </span>
+                <span begin="02:05.692" end="02:06.094">knock </span>
+                <span begin="02:06.164" end="02:06.413">but </span>
+                <span begin="02:06.413" end="02:06.684">I'll </span>
+                <span begin="02:06.684" end="02:06.974">shut </span>
+                <span begin="02:06.974" end="02:07.326">the </span>
+                <span begin="02:07.326" end="02:07.677">door</span>
+                <span ttm:role="x-bg" begin="02:07.814" end="02:08.439">
+                    <span begin="02:07.814" end="02:08.439">(Door)</span>
+                </span>
+            </p>
+            <p begin="02:10.240" end="02:13.664" ttm:agent="v1" itunes:key="L32">
+                <span begin="02:10.240" end="02:10.514">I </span>
+                <span begin="02:10.514" end="02:10.874">don't </span>
+                <span begin="02:10.874" end="02:11.153">want </span>
+                <span begin="02:11.153" end="02:11.487">this </span>
+                <span begin="02:11.487" end="02:11.806">to </span>
+                <span begin="02:11.806" end="02:12.383">be </span>
+                <span begin="02:12.383" end="02:12.961">a </span>
+                <span begin="02:12.961" end="02:13.664">chore</span>
+            </p>
+            <p begin="02:17.700" end="02:21.773" ttm:agent="v1" itunes:key="L33">
+                <span begin="02:17.700" end="02:17.986">We </span>
+                <span begin="02:17.986" end="02:18.490">slow </span>
+                <span begin="02:18.570" end="02:19.476">down </span>
+                <span begin="02:20.002" end="02:20.316">we </span>
+                <span begin="02:20.316" end="02:20.876">slow </span>
+                <span begin="02:20.936" end="02:21.773">down</span>
+            </p>
+            <p begin="02:22.427" end="02:30.231" ttm:agent="v1" itunes:key="L34">
+                <span begin="02:22.427" end="02:22.786">We </span>
+                <span begin="02:22.786" end="02:23.390">slow </span>
+                <span begin="02:23.430" end="02:24.327">down </span>
+                <span begin="02:24.949" end="02:25.252">we </span>
+                <span begin="02:25.252" end="02:25.754">slow </span>
+                <span begin="02:25.814" end="02:30.231">down</span>
+                <span ttm:role="x-bg" begin="02:29.870" end="02:34.257">
+                    <span begin="02:29.870" end="02:30.486">(Down </span>
+                    <span begin="02:31.086" end="02:31.701">down </span>
+                    <span begin="02:32.301" end="02:32.939">down </span>
+                    <span begin="02:33.539" end="02:34.257">down)</span>
+                </span>
+            </p>
+            <p begin="02:34.817" end="02:36.559" ttm:agent="v1" itunes:key="L35">
+                <span begin="02:34.817" end="02:35.083">We </span>
+                <span begin="02:35.083" end="02:35.686">slow </span>
+                <span begin="02:35.726" end="02:36.559">down</span>
+            </p>
+            <p begin="02:54.318" end="02:56.086" ttm:agent="v1" itunes:key="L36">
+                <span begin="02:54.318" end="02:54.622">We </span>
+                <span begin="02:54.622" end="02:55.226">slow </span>
+                <span begin="02:55.286" end="02:56.086">down</span>
+            </p>
+            <p begin="02:56.492" end="02:58.833" ttm:agent="v2" itunes:key="L37">
+                <span begin="02:56.492" end="02:56.781">We </span>
+                <span begin="02:56.781" end="02:57.077">slow </span>
+                <span begin="02:57.077" end="02:57.410">down </span>
+                <span begin="02:57.723" end="02:58.142">we </span>
+                <span begin="02:58.142" end="02:58.450">slow </span>
+                <span begin="02:58.450" end="02:58.833">down</span>
+            </p>
+            <p begin="02:59.013" end="03:01.118" ttm:agent="v2" itunes:key="L38">
+                <span begin="02:59.013" end="02:59.292">We </span>
+                <span begin="02:59.292" end="02:59.624">slow </span>
+                <span begin="02:59.624" end="02:59.912">down </span>
+                <span begin="03:00.227" end="03:00.528">we </span>
+                <span begin="03:00.528" end="03:00.810">slow </span>
+                <span begin="03:00.810" end="03:01.118">down</span>
+            </p>
+            <p begin="03:01.450" end="03:04.010" ttm:agent="v2" itunes:key="L39">
+                <span begin="03:01.450" end="03:01.700">We </span>
+                <span begin="03:01.700" end="03:02.028">slow </span>
+                <span begin="03:02.028" end="03:02.320">down </span>
+                <span begin="03:02.629" end="03:02.918">we </span>
+                <span begin="03:02.918" end="03:03.235">slow </span>
+                <span begin="03:03.235" end="03:04.010">down</span>
+            </p>
+            <p begin="03:02.610" end="03:06.133" ttm:agent="v1" itunes:key="L40">
+                <span begin="03:02.610" end="03:03.149">We </span>
+                <span begin="03:03.149" end="03:04.674">slow </span>
+                <span begin="03:04.674" end="03:06.133">down</span>
+            </p>
+            <p begin="03:06.382" end="03:08.531" ttm:agent="v2" itunes:key="L41">
+                <span begin="03:06.382" end="03:06.613">We </span>
+                <span begin="03:06.613" end="03:06.885">slow </span>
+                <span begin="03:06.885" end="03:07.169">down </span>
+                <span begin="03:07.516" end="03:07.838">we </span>
+                <span begin="03:07.838" end="03:08.144">slow </span>
+                <span begin="03:08.144" end="03:08.531">down</span>
+            </p>
+            <p begin="03:08.709" end="03:10.879" ttm:agent="v2" itunes:key="L42">
+                <span begin="03:08.709" end="03:08.994">We </span>
+                <span begin="03:08.994" end="03:09.334">slow </span>
+                <span begin="03:09.334" end="03:09.642">down </span>
+                <span begin="03:09.964" end="03:10.258">we </span>
+                <span begin="03:10.258" end="03:10.568">slow </span>
+                <span begin="03:10.568" end="03:10.879">down</span>
+            </p>
+            <p begin="03:11.193" end="03:14.511" ttm:agent="v2" itunes:key="L43">
+                <span begin="03:11.193" end="03:11.481">We </span>
+                <span begin="03:11.481" end="03:11.800">slow </span>
+                <span begin="03:11.800" end="03:12.126">down </span>
+                <span begin="03:12.447" end="03:12.753">we </span>
+                <span begin="03:12.753" end="03:13.078">slow </span>
+                <span begin="03:13.078" end="03:14.511">down</span>
+            </p>
+            <p begin="03:12.437" end="03:16.491" ttm:agent="v1" itunes:key="L44">
+                <span begin="03:12.437" end="03:12.978">We </span>
+                <span begin="03:12.978" end="03:14.440">slow </span>
+                <span begin="03:14.440" end="03:16.491">down</span>
+            </p>
+        </div>
+    </body>
+</tt>
