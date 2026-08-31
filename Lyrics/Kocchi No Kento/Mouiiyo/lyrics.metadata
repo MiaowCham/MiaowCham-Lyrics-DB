@@ -22,6 +22,11 @@
   },
   "files": [
     {
+      "name": "Kocchi No Kento - Mouiiyo-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "Kocchi No Kento - Mouiiyo.lrcn",
       "format": "lrcn",
       "metadataRef": "track"

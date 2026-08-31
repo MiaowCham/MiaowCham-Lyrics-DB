@@ -24,6 +24,11 @@
   },
   "files": [
     {
+      "name": "yama - color-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "color"
+    },
+    {
       "name": "yama - color.lrcn",
       "format": "lrcn",
       "metadataRef": "color"

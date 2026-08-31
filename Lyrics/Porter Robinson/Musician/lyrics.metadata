@@ -18,6 +18,11 @@
   },
   "files": [
     {
+      "name": "Porter Robinson - Musician-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "musician"
+    },
+    {
       "name": "Porter Robinson - Musician.ttml",
       "format": "ttml",
       "metadataRef": "musician"

@@ -32,6 +32,11 @@
       "metadataRef": "slow-down"
     },
     {
+      "name": "SlowDown-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "slow-down"
+    },
+    {
       "name": "SlowDown.ttml",
       "format": "ttml",
       "metadataRef": "slow-down"

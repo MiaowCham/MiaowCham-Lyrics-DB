@@ -28,6 +28,11 @@
   },
   "files": [
     {
+      "name": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "dive-back-in-time"
+    },
+    {
       "name": "BaishaJAWS - Dive Back In Time(动画《时光代理人》片头曲).lrcn",
       "format": "lrcn",
       "metadataRef": "dive-back-in-time"

@@ -24,6 +24,11 @@
   },
   "files": [
     {
+      "name": "side quest king-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "side-quest-king-english-ver"
+    },
+    {
       "name": "side quest king.ttml",
       "format": "ttml",
       "metadataRef": "side-quest-king-english-ver"

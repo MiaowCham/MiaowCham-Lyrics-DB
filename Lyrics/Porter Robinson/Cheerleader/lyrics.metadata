@@ -15,7 +15,17 @@
   },
   "files": [
     {
+      "name": "Cheerleader-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "cheerleader"
+    },
+    {
       "name": "Cheerleader.ttml",
+      "format": "ttml",
+      "metadataRef": "cheerleader"
+    },
+    {
+      "name": "Cheerleader_converted-Format.ttml",
       "format": "ttml",
       "metadataRef": "cheerleader"
     },

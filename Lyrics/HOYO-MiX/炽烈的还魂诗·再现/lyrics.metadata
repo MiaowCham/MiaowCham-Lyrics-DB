@@ -30,7 +30,17 @@
   },
   "files": [
     {
+      "name": "HOYO-MiX - 炽烈的还魂诗·再现 (2)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "ode-of-resurrection-recapitulation"
+    },
+    {
       "name": "HOYO-MiX - 炽烈的还魂诗·再现 (2).ttml",
+      "format": "ttml",
+      "metadataRef": "ode-of-resurrection-recapitulation"
+    },
+    {
+      "name": "HOYO-MiX - 炽烈的还魂诗·再现-Format.ttml",
       "format": "ttml",
       "metadataRef": "ode-of-resurrection-recapitulation"
     },

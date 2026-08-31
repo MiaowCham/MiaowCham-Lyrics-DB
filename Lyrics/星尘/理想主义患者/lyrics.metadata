@@ -19,6 +19,11 @@
   },
   "files": [
     {
+      "name": "理想主义患者-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "理想主义患者.ttml",
       "format": "ttml",
       "metadataRef": "track"

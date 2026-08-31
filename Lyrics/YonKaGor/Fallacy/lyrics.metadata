@@ -18,6 +18,11 @@
   },
   "files": [
     {
+      "name": "YonKaGor - Fallacy-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "fallacy"
+    },
+    {
       "name": "YonKaGor - Fallacy.ttml",
       "format": "ttml",
       "metadataRef": "fallacy"

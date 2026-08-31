@@ -33,6 +33,11 @@
       "linkedFrom": "before-setting-out"
     },
     {
+      "name": "在出发之前-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "before-setting-out"
+    },
+    {
       "name": "在出发之前.ttml",
       "format": "ttml",
       "metadataRef": "before-setting-out"

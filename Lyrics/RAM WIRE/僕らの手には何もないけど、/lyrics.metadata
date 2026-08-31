@@ -40,6 +40,11 @@
   },
   "files": [
     {
+      "name": "RAM WIRE - 僕らの手には何もないけど、-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "RAM WIRE - 僕らの手には何もないけど、.lrcn",
       "format": "lrcn",
       "metadataRef": "track"

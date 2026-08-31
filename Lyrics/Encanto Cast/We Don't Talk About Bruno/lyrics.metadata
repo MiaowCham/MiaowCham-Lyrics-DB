@@ -28,6 +28,11 @@
   },
   "files": [
     {
+      "name": "We Don't Talk About Bruno-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "we-don-t-talk-about-bruno-from-encanto-soundtrack-version"
+    },
+    {
       "name": "We Don't Talk About Bruno.ttml",
       "format": "ttml",
       "metadataRef": "we-don-t-talk-about-bruno-from-encanto-soundtrack-version"

@@ -13,6 +13,11 @@
   },
   "files": [
     {
+      "name": "PRIME-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "PRIME.ttml",
       "format": "ttml",
       "metadataRef": "track"

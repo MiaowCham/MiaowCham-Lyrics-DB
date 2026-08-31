@@ -18,6 +18,11 @@
   },
   "files": [
     {
+      "name": "YonKaGor - You're Just Like Pop Music-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "you-re-just-like-pop-music"
+    },
+    {
       "name": "YonKaGor - You're Just Like Pop Music.ttml",
       "format": "ttml",
       "metadataRef": "you-re-just-like-pop-music"

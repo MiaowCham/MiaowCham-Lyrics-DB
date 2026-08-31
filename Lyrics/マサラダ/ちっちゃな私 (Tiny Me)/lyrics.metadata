@@ -64,7 +64,17 @@
   },
   "files": [
     {
+      "name": "masarada - Tiny Me-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me"
+    },
+    {
       "name": "masarada - Tiny Me.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me"
+    },
+    {
+      "name": "masarada - Tiny Me_lys-Format.ttml",
       "format": "ttml",
       "metadataRef": "tiny-me"
     },
@@ -74,9 +84,19 @@
       "metadataRef": "tiny-me"
     },
     {
+      "name": "masarada - Tiny Me_noRuby-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me"
+    },
+    {
       "name": "masarada - Tiny Me_noRuby.ttml",
       "format": "ttml",
       "metadataRef": "tiny-me"
+    },
+    {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-2"
     },
     {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - A8e.ttml",
@@ -86,6 +106,11 @@
       "linkedFrom": "tiny-me-2"
     },
     {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-3"
+    },
+    {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - C10e.ttml",
       "format": "ttml",
       "metadataRef": "tiny-me",
@@ -93,9 +118,19 @@
       "linkedFrom": "tiny-me-3"
     },
     {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-4"
+    },
+    {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私 - Ultra.ttml",
       "format": "ttml",
       "metadataRef": "tiny-me-4"
+    },
+    {
+      "name": "マサラダ - ちっちゃな私 - ちっちゃな私-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "tiny-me-5"
     },
     {
       "name": "マサラダ - ちっちゃな私 - ちっちゃな私.ttml",

@@ -22,7 +22,17 @@
   },
   "files": [
     {
+      "name": "Turbo - REINCARNA†ION!! - 激进-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "reincarnaion"
+    },
+    {
       "name": "Turbo - REINCARNA†ION!! - 激进.ttml",
+      "format": "ttml",
+      "metadataRef": "reincarnaion"
+    },
+    {
+      "name": "Turbo - REINCARNA†ION!!-Format.ttml",
       "format": "ttml",
       "metadataRef": "reincarnaion"
     },

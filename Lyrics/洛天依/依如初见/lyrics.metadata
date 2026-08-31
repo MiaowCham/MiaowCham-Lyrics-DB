@@ -53,6 +53,11 @@
   },
   "files": [
     {
+      "name": "洛天依 - I LOVE U-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "i-love-u"
+    },
+    {
       "name": "洛天依 - I LOVE U.lrcn",
       "format": "lrcn",
       "metadataRef": "i-love-u"
@@ -63,6 +68,11 @@
       "metadataRef": "i-love-u"
     },
     {
+      "name": "洛天依 - 光与影的对白-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "light-and-shadow"
+    },
+    {
       "name": "洛天依 - 光与影的对白.lrcn",
       "format": "lrcn",
       "metadataRef": "light-and-shadow"
@@ -71,6 +81,11 @@
       "name": "洛天依 - 光与影的对白.ttml",
       "format": "ttml",
       "metadataRef": "light-and-shadow"
+    },
+    {
+      "name": "洛天依 - 夏虫-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "summer-insects"
     },
     {
       "name": "洛天依 - 夏虫.lrcn",

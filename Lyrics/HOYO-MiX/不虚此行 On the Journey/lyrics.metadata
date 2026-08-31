@@ -27,6 +27,11 @@
   },
   "files": [
     {
+      "name": "HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "on-the-journey"
+    },
+    {
       "name": "HOYO-MiX, 魏晨, Nea - 不虚此行 On the Journey.ttml",
       "format": "ttml",
       "metadataRef": "on-the-journey"

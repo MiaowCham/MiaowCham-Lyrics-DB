@@ -32,6 +32,11 @@
   },
   "files": [
     {
+      "name": "Kenshi Yonezu - Loser-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "loser"
+    },
+    {
       "name": "Kenshi Yonezu - Loser.ttml",
       "format": "ttml",
       "metadataRef": "loser"

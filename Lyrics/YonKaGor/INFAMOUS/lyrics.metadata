@@ -20,6 +20,11 @@
   },
   "files": [
     {
+      "name": "YonKaGor - INFAMOUS-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "infamous"
+    },
+    {
       "name": "YonKaGor - INFAMOUS.lrcn",
       "format": "lrcn",
       "metadataRef": "infamous"

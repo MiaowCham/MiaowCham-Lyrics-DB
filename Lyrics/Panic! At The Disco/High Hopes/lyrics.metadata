@@ -19,6 +19,11 @@
   },
   "files": [
     {
+      "name": "Panic! At The Disco - High Hopes-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "high-hopes"
+    },
+    {
       "name": "Panic! At The Disco - High Hopes.ttml",
       "format": "ttml",
       "metadataRef": "high-hopes"

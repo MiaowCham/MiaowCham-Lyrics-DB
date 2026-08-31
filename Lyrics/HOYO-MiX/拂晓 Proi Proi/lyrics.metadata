@@ -45,6 +45,11 @@
   },
   "files": [
     {
+      "name": "HOYO-MiX - 拂晓-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "HOYO-MiX - 拂晓.ttml",
       "format": "ttml",
       "metadataRef": "proi-proi",
@@ -52,7 +57,17 @@
       "linkedFrom": "track"
     },
     {
+      "name": "HOYO-MiX, NIDA - 拂晓 Proi Proi (2)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "proi-proi"
+    },
+    {
       "name": "HOYO-MiX, NIDA - 拂晓 Proi Proi (2).ttml",
+      "format": "ttml",
+      "metadataRef": "proi-proi"
+    },
+    {
+      "name": "HOYO-MiX, NIDA - 拂晓 Proi Proi-Format.ttml",
       "format": "ttml",
       "metadataRef": "proi-proi"
     },

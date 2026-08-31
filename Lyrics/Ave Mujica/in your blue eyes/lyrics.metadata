@@ -20,6 +20,11 @@
   },
   "files": [
     {
+      "name": "Ave Mujica - in your blue eyes-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "in-your-blue-eyes"
+    },
+    {
       "name": "Ave Mujica - in your blue eyes.ttml",
       "format": "ttml",
       "metadataRef": "in-your-blue-eyes"

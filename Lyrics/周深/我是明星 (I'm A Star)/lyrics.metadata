@@ -12,6 +12,11 @@
   },
   "files": [
     {
+      "name": "I'm A Star-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "i-m-a-star"
+    },
+    {
       "name": "I'm A Star.ttml",
       "format": "ttml",
       "metadataRef": "i-m-a-star"

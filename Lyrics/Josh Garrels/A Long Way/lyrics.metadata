@@ -20,6 +20,11 @@
   },
   "files": [
     {
+      "name": "Josh Garrels - A Long Way-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "a-long-way"
+    },
+    {
       "name": "Josh Garrels - A Long Way.ttml",
       "format": "ttml",
       "metadataRef": "a-long-way"

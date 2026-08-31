@@ -28,6 +28,11 @@
       "metadataRef": "stars-align"
     },
     {
+      "name": "Stars Align-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "stars-align"
+    },
+    {
       "name": "Stars Align.lys",
       "format": "lys",
       "metadataRef": "stars-align"

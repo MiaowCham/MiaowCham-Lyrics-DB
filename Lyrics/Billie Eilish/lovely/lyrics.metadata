@@ -22,6 +22,11 @@
   },
   "files": [
     {
+      "name": "Billie Eilish & Khalid - lovely-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "lovely"
+    },
+    {
       "name": "Billie Eilish & Khalid - lovely.ttml",
       "format": "ttml",
       "metadataRef": "lovely"

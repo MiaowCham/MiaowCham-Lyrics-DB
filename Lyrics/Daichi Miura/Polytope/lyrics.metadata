@@ -16,6 +16,11 @@
   },
   "files": [
     {
+      "name": "Daichi Miura - Polytope-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "polytope"
+    },
+    {
       "name": "Daichi Miura - Polytope.ttml",
       "format": "ttml",
       "metadataRef": "polytope"

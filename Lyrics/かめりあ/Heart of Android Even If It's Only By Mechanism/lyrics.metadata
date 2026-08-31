@@ -19,6 +19,11 @@
   },
   "files": [
     {
+      "name": "かめりあ - Heart of Android Even If It's Only By Mechanism-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "heart-of-android-even-if-it-s-only-by-mechanism"
+    },
+    {
       "name": "かめりあ - Heart of Android Even If It's Only By Mechanism.lrcn",
       "format": "lrcn",
       "metadataRef": "heart-of-android-even-if-it-s-only-by-mechanism"

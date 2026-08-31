@@ -21,7 +21,17 @@
   },
   "files": [
     {
+      "name": "Woodkid - Minus Sixty One - A8e-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
       "name": "Woodkid - Minus Sixty One - A8e.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
+      "name": "Woodkid - Minus Sixty One - Ultra-Format.ttml",
       "format": "ttml",
       "metadataRef": "minus-sixty-one"
     },
@@ -31,7 +41,17 @@
       "metadataRef": "minus-sixty-one"
     },
     {
+      "name": "Woodkid - Minus Sixty One-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
       "name": "Woodkid - Minus Sixty One.ttml",
+      "format": "ttml",
+      "metadataRef": "minus-sixty-one"
+    },
+    {
+      "name": "Woodkid - Minus Sixty One1-Format.ttml",
       "format": "ttml",
       "metadataRef": "minus-sixty-one"
     },

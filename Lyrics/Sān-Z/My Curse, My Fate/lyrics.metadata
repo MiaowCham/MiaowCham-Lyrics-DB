@@ -37,6 +37,11 @@
   },
   "files": [
     {
+      "name": "lyric-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "my-curse-my-fate"
+    },
+    {
       "name": "lyric.ttml",
       "format": "ttml",
       "metadataRef": "my-curse-my-fate"
@@ -47,7 +52,17 @@
       "metadataRef": "my-curse"
     },
     {
+      "name": "Sān-Z, HOYO-MiX - My Curse, My Fate (2)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "my-curse"
+    },
+    {
       "name": "Sān-Z, HOYO-MiX - My Curse, My Fate (2).ttml",
+      "format": "ttml",
+      "metadataRef": "my-curse"
+    },
+    {
+      "name": "Sān-Z, HOYO-MiX - My Curse, My Fate-Format.ttml",
       "format": "ttml",
       "metadataRef": "my-curse"
     },

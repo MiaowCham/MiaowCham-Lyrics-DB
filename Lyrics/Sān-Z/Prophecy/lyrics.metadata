@@ -24,6 +24,11 @@
   },
   "files": [
     {
+      "name": "Sān-Z - Prophecy (feat. Gin Wigmore)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "prophecy"
+    },
+    {
       "name": "Sān-Z - Prophecy (feat. Gin Wigmore).lqe",
       "format": "lqe",
       "metadataRef": "prophecy"

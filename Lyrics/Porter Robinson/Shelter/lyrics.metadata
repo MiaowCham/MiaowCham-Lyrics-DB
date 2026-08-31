@@ -21,6 +21,11 @@
   },
   "files": [
     {
+      "name": "Porter Robinson & Madeon - Shelter-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "shelter"
+    },
+    {
       "name": "Porter Robinson & Madeon - Shelter.ttml",
       "format": "ttml",
       "metadataRef": "shelter"

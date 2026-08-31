@@ -17,6 +17,11 @@
   },
   "files": [
     {
+      "name": "TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary))-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "voiceless-fish-shin-kawasaki-temporary"
+    },
+    {
       "name": "TOGENASHI TOGEARI - Voiceless Fish (Shin Kawasaki (Temporary)).ttml",
       "format": "ttml",
       "metadataRef": "voiceless-fish-shin-kawasaki-temporary"

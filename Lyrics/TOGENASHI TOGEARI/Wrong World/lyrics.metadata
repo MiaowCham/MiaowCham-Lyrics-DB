@@ -26,6 +26,11 @@
   },
   "files": [
     {
+      "name": "TOGENASHI TOGEARI - Wrong World-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "wrong-world"
+    },
+    {
       "name": "TOGENASHI TOGEARI - Wrong World.ttml",
       "format": "ttml",
       "metadataRef": "wrong-world"

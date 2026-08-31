@@ -32,6 +32,11 @@
       "metadataRef": "horizon-dreamer"
     },
     {
+      "name": "applettml.Horizon Dreamer-LbVer-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "horizon-dreamer"
+    },
+    {
       "name": "applettml.Horizon Dreamer-LbVer.ttml",
       "format": "ttml",
       "metadataRef": "horizon-dreamer"

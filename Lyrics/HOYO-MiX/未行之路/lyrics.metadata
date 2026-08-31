@@ -30,6 +30,11 @@
   },
   "files": [
     {
+      "name": "HOYO-MiX - 未行之路-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "the-road-not-taken"
+    },
+    {
       "name": "HOYO-MiX - 未行之路.ttml",
       "format": "ttml",
       "metadataRef": "the-road-not-taken"

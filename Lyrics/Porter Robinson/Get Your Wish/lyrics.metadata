@@ -15,7 +15,17 @@
   },
   "files": [
     {
+      "name": "Get Your Wish-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "get-your-wish"
+    },
+    {
       "name": "Get Your Wish.ttml",
+      "format": "ttml",
+      "metadataRef": "get-your-wish"
+    },
+    {
+      "name": "Get Your Wish_converted-Format.ttml",
       "format": "ttml",
       "metadataRef": "get-your-wish"
     },

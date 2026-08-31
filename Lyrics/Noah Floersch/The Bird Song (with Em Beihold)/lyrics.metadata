@@ -12,6 +12,11 @@
   },
   "files": [
     {
+      "name": "the bird song-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "the-bird-song-with-em-beihold"
+    },
+    {
       "name": "the bird song.ttml",
       "format": "ttml",
       "metadataRef": "the-bird-song-with-em-beihold"

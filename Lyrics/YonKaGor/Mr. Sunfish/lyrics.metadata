@@ -38,7 +38,17 @@
       "metadataRef": "mr-sunfish"
     },
     {
+      "name": "Mr.Sunfish-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "mr-sunfish"
+    },
+    {
       "name": "Mr.Sunfish.ttml",
+      "format": "ttml",
+      "metadataRef": "mr-sunfish"
+    },
+    {
+      "name": "YonKaGor - Mr. Sunfish-Format.ttml",
       "format": "ttml",
       "metadataRef": "mr-sunfish"
     },

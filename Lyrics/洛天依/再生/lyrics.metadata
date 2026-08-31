@@ -17,6 +17,11 @@
   },
   "files": [
     {
+      "name": "洛天依 - 心空 feat. HYPER SLASH超级斩-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "feat-hyper-slash"
+    },
+    {
       "name": "洛天依 - 心空 feat. HYPER SLASH超级斩.lrcn",
       "format": "lrcn",
       "metadataRef": "feat-hyper-slash"

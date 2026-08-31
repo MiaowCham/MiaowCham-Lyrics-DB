@@ -18,6 +18,11 @@
   },
   "files": [
     {
+      "name": "YonKaGor - Memory Merge-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "memory-merge"
+    },
+    {
       "name": "YonKaGor - Memory Merge.ttml",
       "format": "ttml",
       "metadataRef": "memory-merge"

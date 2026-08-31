@@ -42,6 +42,11 @@
   },
   "files": [
     {
+      "name": "Aimer - Brave Shine-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "brave-shine"
+    },
+    {
       "name": "Aimer - Brave Shine.lrcn",
       "format": "lrcn",
       "metadataRef": "brave-shine"
@@ -50,6 +55,11 @@
       "name": "Aimer - Brave Shine.ttml",
       "format": "ttml",
       "metadataRef": "brave-shine"
+    },
+    {
+      "name": "Aimer - LAST STARDUST-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "last-stardust"
     },
     {
       "name": "Aimer - LAST STARDUST.lrcn",

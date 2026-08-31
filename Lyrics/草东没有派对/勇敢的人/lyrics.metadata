@@ -16,6 +16,11 @@
   },
   "files": [
     {
+      "name": "草东没有派对 - 勇敢的人-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "the-reluctant"
+    },
+    {
       "name": "草东没有派对 - 勇敢的人.ttml",
       "format": "ttml",
       "metadataRef": "the-reluctant"

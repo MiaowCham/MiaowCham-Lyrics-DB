@@ -13,12 +13,22 @@
   },
   "files": [
     {
+      "name": "Jack Wall - Cold War - 音译-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "cold-war"
+    },
+    {
       "name": "Jack Wall - Cold War - 音译.lrcn",
       "format": "lrcn",
       "metadataRef": "cold-war"
     },
     {
       "name": "Jack Wall - Cold War - 音译.ttml",
+      "format": "ttml",
+      "metadataRef": "cold-war"
+    },
+    {
+      "name": "Jack Wall - Cold War-Format.ttml",
       "format": "ttml",
       "metadataRef": "cold-war"
     },

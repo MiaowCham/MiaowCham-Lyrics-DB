@@ -19,6 +19,11 @@
   },
   "files": [
     {
+      "name": "YonKaGor - Linger in the Rain-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "linger-in-the-rain"
+    },
+    {
       "name": "YonKaGor - Linger in the Rain.ttml",
       "format": "ttml",
       "metadataRef": "linger-in-the-rain"

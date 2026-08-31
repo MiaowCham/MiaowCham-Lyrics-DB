@@ -20,6 +20,11 @@
   },
   "files": [
     {
+      "name": "Porter Robinson - Trying to Feel Alive-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "trying-to-feel-alive"
+    },
+    {
       "name": "Porter Robinson - Trying to Feel Alive.ttml",
       "format": "ttml",
       "metadataRef": "trying-to-feel-alive"

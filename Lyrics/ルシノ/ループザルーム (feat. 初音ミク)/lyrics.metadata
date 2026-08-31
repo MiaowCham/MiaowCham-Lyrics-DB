@@ -14,6 +14,11 @@
   },
   "files": [
     {
+      "name": "ルシノ - ループザルーム (feat. 初音ミク)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "feat"
+    },
+    {
       "name": "ルシノ - ループザルーム (feat. 初音ミク).ttml",
       "format": "ttml",
       "metadataRef": "feat"

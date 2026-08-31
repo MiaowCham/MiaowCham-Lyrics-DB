@@ -16,6 +16,11 @@
   },
   "files": [
     {
+      "name": "TOGENASHI TOGEARI - Against All Answers-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "against-all-answers"
+    },
+    {
       "name": "TOGENASHI TOGEARI - Against All Answers.ttml",
       "format": "ttml",
       "metadataRef": "against-all-answers"

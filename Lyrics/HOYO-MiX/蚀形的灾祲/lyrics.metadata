@@ -30,7 +30,17 @@
   },
   "files": [
     {
+      "name": "HOYO-MiX - 蚀形的灾祲 (2)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "vitas-corrodens-pestis"
+    },
+    {
       "name": "HOYO-MiX - 蚀形的灾祲 (2).ttml",
+      "format": "ttml",
+      "metadataRef": "vitas-corrodens-pestis"
+    },
+    {
+      "name": "HOYO-MiX - 蚀形的灾祲-Format.ttml",
       "format": "ttml",
       "metadataRef": "vitas-corrodens-pestis"
     },

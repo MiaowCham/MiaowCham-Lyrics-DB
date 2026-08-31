@@ -20,6 +20,11 @@
   },
   "files": [
     {
+      "name": "Tokyo Manaka - Brain Rot-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "brain-rot"
+    },
+    {
       "name": "Tokyo Manaka - Brain Rot.ttml",
       "format": "ttml",
       "metadataRef": "brain-rot"

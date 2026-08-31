@@ -21,6 +21,11 @@
   },
   "files": [
     {
+      "name": "JVKE - oh to be loved-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "oh-to-be-loved"
+    },
+    {
       "name": "JVKE - oh to be loved.ttml",
       "format": "ttml",
       "metadataRef": "oh-to-be-loved"

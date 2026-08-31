@@ -18,12 +18,27 @@
   },
   "files": [
     {
+      "name": "HoYoFair - XOXO (2)-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    },
+    {
       "name": "HoYoFair - XOXO (2).ttml",
       "format": "ttml",
       "metadataRef": "xoxo"
     },
     {
+      "name": "HoYoFair - XOXO-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    },
+    {
       "name": "HoYoFair - XOXO.ttml",
+      "format": "ttml",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "HoYoFair, Marcus Perkins Bejarano, Kim Jinhyoung - XOXO-Format.ttml",
       "format": "ttml",
       "metadataRef": "xoxo"
     },
@@ -35,6 +50,11 @@
     {
       "name": "XOXO (2).lrc",
       "format": "lrc",
+      "metadataRef": "xoxo"
+    },
+    {
+      "name": "XOXO-Format.ttml",
+      "format": "ttml",
       "metadataRef": "xoxo"
     },
     {

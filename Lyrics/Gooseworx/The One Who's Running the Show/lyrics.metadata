@@ -12,6 +12,11 @@
   },
   "files": [
     {
+      "name": "The One Who's Running the Show-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "the-one-who-s-running-the-show"
+    },
+    {
       "name": "The One Who's Running the Show.ttml",
       "format": "ttml",
       "metadataRef": "the-one-who-s-running-the-show"

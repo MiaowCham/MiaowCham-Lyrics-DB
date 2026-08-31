@@ -25,7 +25,17 @@
   },
   "files": [
     {
+      "name": "We are ( JP Edition )-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "we-are-japanese-version"
+    },
+    {
       "name": "We are ( JP Edition ).ttml",
+      "format": "ttml",
+      "metadataRef": "we-are-japanese-version"
+    },
+    {
+      "name": "We are ( JP Edition with not offset)-Format.ttml",
       "format": "ttml",
       "metadataRef": "we-are-japanese-version"
     },
@@ -33,6 +43,11 @@
       "name": "We are ( JP Edition with not offset).ttml",
       "format": "ttml",
       "metadataRef": "we-are-japanese-version"
+    },
+    {
+      "name": "We Are-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "we-are"
     },
     {
       "name": "We Are.ttml",

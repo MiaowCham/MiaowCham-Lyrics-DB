@@ -20,6 +20,11 @@
   },
   "files": [
     {
+      "name": "揽佬 - 中国人能飞-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "揽佬 - 中国人能飞.lrcn",
       "format": "lrcn",
       "metadataRef": "track"

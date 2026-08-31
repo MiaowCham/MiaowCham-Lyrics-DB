@@ -19,6 +19,11 @@
   },
   "files": [
     {
+      "name": "张卡斯, 洛天依 - 人是猫-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "track"
+    },
+    {
       "name": "张卡斯, 洛天依 - 人是猫.ttml",
       "format": "ttml",
       "metadataRef": "track"

@@ -24,6 +24,11 @@
   },
   "files": [
     {
+      "name": "HOYO-MiX - 下一站 Beyond This Station-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "beyond-this-station"
+    },
+    {
       "name": "HOYO-MiX - 下一站 Beyond This Station.ttml",
       "format": "ttml",
       "metadataRef": "beyond-this-station"

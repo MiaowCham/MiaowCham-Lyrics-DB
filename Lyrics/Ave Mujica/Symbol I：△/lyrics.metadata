@@ -17,6 +17,11 @@
   },
   "files": [
     {
+      "name": "Ave Mujica - Symbol I _ △-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "symbol-i"
+    },
+    {
       "name": "Ave Mujica - Symbol I _ △.ttml",
       "format": "ttml",
       "metadataRef": "symbol-i"

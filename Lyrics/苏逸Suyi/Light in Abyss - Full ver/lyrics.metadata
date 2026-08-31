@@ -23,6 +23,11 @@
   },
   "files": [
     {
+      "name": "amllttml.Light in Abyss - Full ver-Tutorial-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "light-in-abyss-full-ver"
+    },
+    {
       "name": "amllttml.Light in Abyss - Full ver-Tutorial.ttml",
       "format": "ttml",
       "metadataRef": "light-in-abyss-full-ver"

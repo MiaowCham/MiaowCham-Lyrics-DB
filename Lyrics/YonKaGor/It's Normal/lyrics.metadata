@@ -18,6 +18,11 @@
   },
   "files": [
     {
+      "name": "YonKaGor - It's Normal-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "it-s-normal"
+    },
+    {
       "name": "YonKaGor - It's Normal.ttml",
       "format": "ttml",
       "metadataRef": "it-s-normal"

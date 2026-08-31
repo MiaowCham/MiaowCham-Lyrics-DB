@@ -16,6 +16,11 @@
   },
   "files": [
     {
+      "name": "临风 - 【中文】音之怪Otonoke-Format.ttml",
+      "format": "ttml",
+      "metadataRef": "otonoke"
+    },
+    {
       "name": "临风 - 【中文】音之怪Otonoke.lrcn",
       "format": "lrcn",
       "metadataRef": "otonoke"
